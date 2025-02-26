@@ -4,7 +4,7 @@ import { useNavigate } from 'react-router-dom';
 function App() {
   const navigate = useNavigate();
 
-  const handleBegin = (category: string) => {
+  const handleBegin = (_category: string) => {
     // ✅ Ensure correct query format
     navigate(`/question?1
       `, { replace: false });
