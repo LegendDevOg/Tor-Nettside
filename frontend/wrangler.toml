@@ -1,4 +1,10 @@
 name = "tor-nettside"
-type = "javascript"
 account_id = "your-cloudflare-account-id"
-workers_dev = true
+compatibility_date = "2024-02-26"
+
+[vars]
+NODE_ENV = "production"
+
+[site]
+bucket = "./dist"
+pages_build_output_dir = "./dist" 
