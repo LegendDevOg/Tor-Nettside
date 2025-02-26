@@ -88,6 +88,7 @@ function SingleQuestion() {
             singleQuestion={singleQuestion}
             summary={false}
             trueAnswer={singleQuestion.correct_answer}
+            userAnswer={userAnswer?.answer || ""}
           />
         );
     }

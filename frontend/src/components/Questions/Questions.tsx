@@ -6,7 +6,7 @@ interface QuestionProps {
   singleQuestion: {
     question: string;
     correct_answer: string;
-    options: string[];
+    options?: string[];
     context?: string; // ✅ Include context for introductory text
   };
   summary: boolean;
@@ -34,7 +34,7 @@ function Question({ id, handleClick, singleQuestion, summary, trueAnswer, userAn
 
       {/* Answer Options - Ensuring Equal Size */}
       <div className="grid grid-cols-1 gap-4">
-        {options.map((opt, i) => {
+      {options && options.map((opt, i) => {
           let bgColor = "bg-gray-100"; // Default color
           let textColor = "text-gray-900";
 

@@ -1,6 +1,5 @@
 import viteLogo from './assets/LOGO.png';
-import { useState } from "react";
-import { BrowserRouter as Router, Routes, Route, useNavigate } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 
 function App() {
   const navigate = useNavigate();
