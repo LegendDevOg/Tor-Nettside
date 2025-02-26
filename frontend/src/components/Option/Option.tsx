@@ -1,6 +1,17 @@
 import { Idx } from "../../constant";
 
-function Option({ value, idx, handleClick, trueAnswer, userAnswer, summary }) {
+
+
+interface OptionProps {
+  value: string;
+  idx: number;
+  handleClick?: (value: string) => void;
+  trueAnswer: string;
+  userAnswer?: { answer: string } | null;
+  summary: boolean;
+}
+
+function Option({ value, idx, handleClick, trueAnswer, userAnswer, summary } : OptionProps) {
   return (
     <div
       style={

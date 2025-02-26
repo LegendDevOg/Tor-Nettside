@@ -43,13 +43,6 @@ type QuestionStoreState = {
 };
 
 
-interface QuestionProps {
-    id: number;
-    handleClick: (value: string) => void;
-    singleQuestion: Question;
-    summary: string;
-  }
-
   
 const useQuestionStore = create<QuestionStoreState>()(
   persist(

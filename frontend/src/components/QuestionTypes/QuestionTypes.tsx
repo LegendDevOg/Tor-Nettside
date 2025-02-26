@@ -1,7 +1,6 @@
-import React from "react";
 
 // Image Selection Component
-export function ImageQuestion({ question, options, correctAnswer, handleClick, userAnswer, summary }: {
+export function ImageQuestion({ question, options, correctAnswer, handleClick, summary }: {
   question: string;
   options: string[];
   correctAnswer: string;
@@ -28,7 +27,7 @@ export function ImageQuestion({ question, options, correctAnswer, handleClick, u
 }
 
 // Word Selection in Sentence Component
-export function WordSelectionQuestion({ question, sentence, correctWord, handleClick, userAnswer, summary }: {
+export function WordSelectionQuestion({ question, sentence, correctWord, handleClick, summary }: {
   question: string;
   sentence: string;
   correctWord: string;
@@ -55,7 +54,7 @@ export function WordSelectionQuestion({ question, sentence, correctWord, handleC
 }
 
 // Paragraph Selection Component
-export function ParagraphSelectionQuestion({ question, paragraphs, correctParagraph, handleClick, userAnswer, summary }: {
+export function ParagraphSelectionQuestion({ question, paragraphs, correctParagraph, handleClick, summary }: {
   question: string;
   paragraphs: string[];
   correctParagraph: string;
