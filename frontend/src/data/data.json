@@ -1,0 +1,51 @@
+[
+    {
+        "category": "Flervalgsoppgaver",
+        "difficulty": "A1",
+        "question": "Hvem er meldingen fra? 'Hei Lisa. Husk time til vask og klipp torsdag 15/10 klokka 14.00 hos Tom. Avbestilling må skje innen klokka 13.00 dagen før. Hilsen Karisalongen'",
+        "correct_answer": "Frisøren",
+        "incorrect_answers": ["Legen", "Læreren", "Tannlegen"]
+    },
+    {
+        "category": "Flervalgsoppgaver",
+        "difficulty": "A1",
+        "question": "Hva skal mannen kjøpe? 'Hei Tom! Det er fint hvis du handler middag i dag. Kjøp gjerne fiskekaker, det har vi ikke hatt på en stund. Vi har grønnsaker, både gulrøtter og brokkoli. Jeg er sikker på at vi også har nok poteter. Jeg må jobbe litt lenger i dag, så du og barna må bare spise før jeg kommer. Emma :-)'",
+        "correct_answer": "Fiskekaker",
+        "incorrect_answers": ["Poteter", "Brokkoli", "Gulrøtter"]
+    },
+    {
+        "category": "Flervalgsoppgaver",
+        "difficulty": "A1",
+        "question": "Hva kjøper Emilia? 'Emilia er ute for å kjøpe noen nye klær. Det hun har mest bruk for, er en jakke. Hun finner ikke jakke, men hun prøver en fin genser. Hun kjøper den, selv om den er litt dyr. Det er også flotte kjoler i butikken, men det får bli en annen gang.'",
+        "correct_answer": "Genser",
+        "incorrect_answers": ["Kåpe", "Kjole", "Jakke"]
+    },
+    {
+        "category": "Flervalgsoppgaver",
+        "difficulty": "A1",
+        "question": "Hvem skriver Omar e-post til? 'Hei Arvid. Jeg blir sen på skolen i morgen. Jeg skal følge Tanita til tannlegen klokka 8. Klokka 9 har jeg et møte på NAV. Jeg kommer til timen som begynner klokka 10. Hilsen Omar.'",
+        "correct_answer": "Læreren",
+        "incorrect_answers": ["NAV", "Tanita", "Tannlegen"]
+    },
+    {
+        "category": "Flervalgsoppgaver",
+        "difficulty": "A1",
+        "question": "Når åpner tannlegevakten på tirsdager? 'Åpningstider tannlegevakten: Mandag til onsdag: 17–20, Torsdag: 20–24, Lørdag: 10–20, Søndag: 17–24.'",
+        "correct_answer": "Klokka 17",
+        "incorrect_answers": ["Klokka 10", "Klokka 12", "Klokka 20"]
+    },
+    {
+        "category": "Flervalgsoppgaver",
+        "difficulty": "A1",
+        "question": "Når er tannlegevakten åpen om formiddagen? 'Åpningstider tannlegevakten: Mandag til onsdag: 17–20, Torsdag: 20–24, Lørdag: 10–20, Søndag: 17–24.'",
+        "correct_answer": "Lørdag",
+        "incorrect_answers": ["Mandag", "Onsdag", "Søndag"]
+    },
+    {
+        "category": "Flervalgsoppgaver",
+        "difficulty": "A1",
+        "question": "Hva vil Mia og Jan? 'GARASJESALG. Torsdag og fredag fra 17 til 20. Lørdag fra 10 til 14. Vi skal flytte og åpner garasjen. Her kan du kjøpe komfyr, fryseboks, kjøleskap, støvsuger, gryter, gardiner, tepper, kopper og kar og en del pynteting. Lave priser. Hilsen Mia og Jan.'",
+        "correct_answer": "Selge",
+        "incorrect_answers": ["Reise", "Kjøpe", "Kjøre"]
+    }
+]

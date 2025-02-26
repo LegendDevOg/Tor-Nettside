@@ -1,0 +1,64 @@
+import he from "he";
+
+interface QuestionProps {
+  id: number;
+  handleClick: (value: string) => void;
+  singleQuestion: {
+    question: string;
+    correct_answer: string;
+    options: string[];
+    context?: string; // ✅ Include context for introductory text
+  };
+  summary: boolean;
+  trueAnswer: string;
+  userAnswer: string | null;
+}
+
+function Question({ id, handleClick, singleQuestion, summary, trueAnswer, userAnswer }: QuestionProps) {
+  const { question, options, context } = singleQuestion;
+
+  return (
+    <section className="bg-white p-6 rounded-lg shadow-md max-w-3xl mx-auto">
+      {/* Context Message (if available) */}
+      {context && (
+        <div className="bg-blue-100 border-l-4 border-blue-500 p-4 mb-4 rounded-md">
+          <p className="text-gray-700 italic">{he.decode(context)}</p>
+        </div>
+      )}
+
+      {/* Question Number and Text */}
+      <div className="flex items-start space-x-3 text-base md:text-lg mb-6">
+        <h3 className="text-gray-800 font-semibold">{id}.</h3>
+        <h3 className="text-gray-900 font-semibold">{he.decode(question)}</h3>
+      </div>
+
+      {/* Answer Options - Ensuring Equal Size */}
+      <div className="grid grid-cols-1 gap-4">
+        {options.map((opt, i) => {
+          let bgColor = "bg-gray-100"; // Default color
+          let textColor = "text-gray-900";
+
+          if (summary) {
+            if (opt === trueAnswer) {
+              bgColor = "bg-green-500 text-white"; // ✅ Correct answer in green
+            } else if (opt === userAnswer && opt !== trueAnswer) {
+              bgColor = "bg-red-500 text-white"; // ❌ Wrong answer in red
+            }
+          }
+
+          return (
+            <button
+              key={i}
+              onClick={!summary ? () => handleClick(opt) : undefined} // ✅ Disable click in summary mode
+              className={`w-full min-h-[64px] flex items-center justify-center text-center px-4 py-3 rounded-lg font-medium text-lg md:text-xl ${bgColor} ${textColor} transition-all`}
+            >
+              {opt}
+            </button>
+          );
+        })}
+      </div>
+    </section>
+  );
+}
+
+export default Question;
