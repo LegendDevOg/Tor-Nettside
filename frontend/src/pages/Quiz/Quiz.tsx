@@ -11,10 +11,9 @@ function Quiz() {
   
   
   useEffect(() => {
-      if (!questionData.length) {
-        fetchQuestion(search);
-      }
-    }, [questionData]);
+      resetStore();
+      fetchQuestion(search);
+    }, [search]);
   
     if (!questionData.length) return <p>Loading...</p>;
   return (

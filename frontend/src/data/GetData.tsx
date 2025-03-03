@@ -55,15 +55,14 @@ const useQuestionStore = create<QuestionStoreState>()(
       falseAnswer: 0,
       auth: {},
       page: 1,
-      resetStore: () => set({
-        question: [],
-        userAnswer: [],
-        error: null,
-        totalTime: 60*60, // ✅ Reset timer
-        trueAnswer: 0,
-        falseAnswer: 0,
-        page: 1,
-      }),
+      resetStore: () =>
+        set({
+          question: [],
+          error: null,
+          trueAnswer: 0,
+          falseAnswer: 0,
+          page: 1,
+        }),
       fetchQuestion: async () => {
         try {
           console.log("🚀 Fetching questions from /sett1-A1.json...");
@@ -87,10 +86,17 @@ const useQuestionStore = create<QuestionStoreState>()(
       },
       authUser: (auth) => set((state) => ({ ...state, auth })),
       addAnswer: (answer) =>
-        set((state) => ({
-          ...state,
-          userAnswer: [...state.userAnswer, answer],
-        })),
+        set((state) => {
+          const existingIndex = state.userAnswer.findIndex(
+            (a) => a.question === answer.question
+          );
+          if (existingIndex !== -1) {
+            const updatedAnswers = [...state.userAnswer];
+            updatedAnswers[existingIndex] = answer;
+            return { ...state, userAnswer: updatedAnswers };
+          }
+          return { ...state, userAnswer: [...state.userAnswer, answer] };
+        }),      
       trueAction: () =>
         set((state) => ({ ...state, trueAnswer: state.trueAnswer + 1 })),
       falseAction: () =>

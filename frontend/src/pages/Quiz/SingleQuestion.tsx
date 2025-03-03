@@ -65,7 +65,6 @@ function SingleQuestion() {
             sentence={singleQuestion.sentence || ""}
             correctWord={singleQuestion.correct_answer}
             handleClick={handleClick}
-            userAnswer={userAnswer?.answer || ""}
             summary={false}
           />
         );

@@ -64,19 +64,35 @@ function Success() {
         Answers
       </h3>
       {allQuestion.map((question, i) => {
-        const userSelected = userAnswer.find((ans) => ans.question === question.question);
-        return (
-          <Question
-            key={i}
-            singleQuestion={question}
-            handleClick={() => {}} // ✅ Disable clicking in summary mode
-            id={i + 1}
-            summary={true}
-            trueAnswer={question.correct_answer}
-            userAnswer={userSelected ? userSelected.answer : null} // ✅ Pass user's selected answer
-          />
-        );
-      })}
+  const userSelected = userAnswer.find((ans) => ans.question === question.question);
+  const isWordSelection = question.type === "word-selection";
+
+  return isWordSelection ? (
+    <div key={i} className="bg-white p-4 rounded-lg shadow-md">
+      <h4 className="font-semibold">{question.question}</h4>
+      <p className="text-gray-700 mt-2">
+        <span className="font-bold">Your Answer: </span>
+        <span className={userSelected?.answer === question.correct_answer ? "text-green-600" : "text-red-600"}>
+          {userSelected?.answer || "No answer"}
+        </span>
+      </p>
+      <p className="text-gray-700">
+        <span className="font-bold">Correct Answer: </span>
+        <span className="text-green-600">{question.correct_answer}</span>
+      </p>
+    </div>
+  ) : (
+    <Question
+      key={i}
+      singleQuestion={question}
+      handleClick={() => {}} 
+      id={i + 1}
+      summary={true}
+      trueAnswer={question.correct_answer}
+      userAnswer={userSelected ? userSelected.answer : null}
+    />
+  );
+})}
     </AnimateProvider>
   );
 }
