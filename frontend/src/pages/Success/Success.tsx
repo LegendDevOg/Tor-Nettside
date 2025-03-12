@@ -66,6 +66,7 @@ function Success() {
       {allQuestion.map((question, i) => {
   const userSelected = userAnswer.find((ans) => ans.question === question.question);
   const isWordSelection = question.type === "word-selection";
+  const isImageSelection = question.type === "image";
 
   return isWordSelection ? (
     <div key={i} className="bg-white p-4 rounded-lg shadow-md">
@@ -81,6 +82,26 @@ function Success() {
         <span className="text-green-600">{question.correct_answer}</span>
       </p>
     </div>
+  ) : isImageSelection ? (
+    <div key={i} className="bg-white p-4 rounded-lg shadow-md">
+      <h4 className="font-semibold">{question.question}</h4>
+      <div className="flex flex-wrap justify-center gap-6 mt-4">
+        {(question.options ?? []).map((option, index) => { // ✅ Ensure options is always an array
+          const isCorrect = option === question.correct_answer;
+          const isUserSelected = option === userSelected?.answer;
+          
+          return (
+            <img
+              key={index}
+              src={option}
+              alt={`Option ${index}`}
+              className={`max-w-[180px] max-h-[180px] object-contain rounded-lg border-4 
+                ${isCorrect ? "border-green-500" : isUserSelected && !isCorrect ? "border-red-500" : "border-gray-300"}`}
+            />
+          );
+        })}
+      </div>
+    </div>
   ) : (
     <Question
       key={i}
@@ -93,6 +114,7 @@ function Success() {
     />
   );
 })}
+
     </AnimateProvider>
   );
 }

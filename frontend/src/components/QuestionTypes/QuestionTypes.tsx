@@ -5,30 +5,69 @@ export function ImageQuestion({
   options,
   correctAnswer,
   handleClick,
-  summary
+  summary,
+  imageSrc,
+  sentence
 }: {
   question: string;
   options: string[];
   correctAnswer: string;
   handleClick: (value: string) => void;
   summary: boolean;
+  imageSrc?: string | null;
+  sentence?: string | null;
 }) {
   return (
-    <div className="flex flex-col items-center">
-      <h3 className="text-gray-800 font-semibold mb-6 text-lg text-center">{question}</h3>
-      <div className="flex flex-wrap justify-center gap-6">
-        {options.map((option, index) => (
-          <img
-            key={index}
-            src={option}
-            alt={`Option ${index}`}
-            className={`w-40 h-40 md:w-48 md:h-48 lg:w-56 lg:h-56 rounded-lg cursor-pointer transition-all duration-200 ease-in-out
-              ${summary && correctAnswer === option ? "border-4 border-green-500" : ""}
-              hover:scale-110 hover:shadow-lg`}
-            onClick={() => !summary && handleClick(option)}
-          />
-        ))}
-      </div>
+    <div className="flex flex-col items-center text-center">
+      <div className="border border-gray-300 rounded-lg p-4 bg-white shadow-md">
+  <h3 className="text-gray-800 font-semibold text-lg">{sentence}</h3>
+</div>
+
+      <h3 className="text-gray-800 font-semibold mb-6 text-lg">{question}</h3>
+
+      {imageSrc ? (
+        <>
+          {/* Main Image - Now placed below the question */}
+          <div className="w-64 md:w-80 lg:w-32">
+            <img
+              src={imageSrc}
+              alt="Question Image"
+              className="w-full h-auto object-contain rounded-lg"
+            />
+          </div>
+          {/* Options - Now aligned below the image */}
+          <div className="grid grid-cols-1 gap-4 mt-6 w-full">
+            {options.map((option, index) => (
+              <div 
+                key={index} 
+                className="cursor-pointer border rounded-lg shadow-md transition-all duration-200 ease-in-out hover:shadow-lg overflow-hidden"
+                onClick={() => !summary && handleClick(option)}>
+                <img
+                  src={option}
+                  alt={`Option ${index}`}
+                  className="w-full h-auto object-contain rounded-lg"
+                />
+              </div>
+            ))}
+          </div>
+        </>
+      ) : (
+        /* Default Layout When No Image */
+        <div className="flex flex-wrap justify-center gap-6">
+          {options.map((option, index) => (
+            <div key={index} className="relative w-40 h-40 md:w-48 md:h-48 lg:w-56 lg:h-56">
+              <img
+                src={option}
+                alt={`Option ${index}`}
+                className={`w-full h-full max-w-full max-h-full object-contain rounded-lg cursor-pointer transition-all duration-200 ease-in-out
+                  ${summary && correctAnswer === option ? "border-4 border-green-500" : ""}
+                  hover:scale-110 hover:shadow-lg`}
+                onClick={() => !summary && handleClick(option)}
+              />
+            </div>
+          ))}
+        </div>
+      )}
     </div>
   );
 }

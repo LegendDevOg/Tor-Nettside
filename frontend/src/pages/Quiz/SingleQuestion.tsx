@@ -54,8 +54,9 @@ function SingleQuestion() {
             options={singleQuestion.options || []}
             correctAnswer={singleQuestion.correct_answer}
             handleClick={handleClick}
-            userAnswer={userAnswer?.answer || ""}
             summary={false}
+            imageSrc={singleQuestion.image || null}
+            sentence={singleQuestion.sentence || null}
           />
         );
       case "word-selection":

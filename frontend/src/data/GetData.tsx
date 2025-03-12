@@ -12,6 +12,7 @@ type Question = {
   paragraphs?: string[];
   category?: string; // ✅ Optional (not in JSON)
   difficulty?: string; // ✅ Optional (not in JSON)
+  image?: string | null; // ✅ Added image field to support image-based questions
 };
 
 type UserAnswer = {

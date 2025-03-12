@@ -655,5 +655,594 @@
     "sentence": "Etter en lang fjelltur dro familien hjem. De laget varm kakao og slappet av i sofaen.\nDet var godt å hvile etter en slitsom dag.",
     "correct_answer": "hvile",
     "difficulty": "A2"
+  },
+  {
+      "type": "image",
+      "question": "Jan skal invitere mange gjester til søndagsmiddag og vil lage en ordentlig god middag. Klikk på riktig handleliste.",
+      "options": [
+        "/images/oppg1-op1.png",
+        "/images/oppg1-op2.png",
+        "/images/oppg1-op3.png",
+        "/images/oppg1-op4.png"
+      ],
+      "correct_answer": "/images/oppg1-op1.png",
+      "difficulty": "A1"
+    },
+  {
+    "type": "image",
+    "question": "Jan skal invitere mange gjester til søndagsmiddag og vil lage en ordentlig god middag. Klikk på riktig handleliste.",
+    "options": [
+      "/images/tekst/oppg1-op1.png",
+      "/images/tekst/oppg1-op2.png",
+      "/images/tekst/oppg1-op3.png",
+      "/images/tekst/oppg1-op4.png"
+    ],
+    "correct_answer": "/images/tekst/oppg1-op1.png",
+    "difficulty": "A1"
+  },
+  {
+    "type": "image",
+    "question": "Hvem har ikke penger?",
+    "options": [
+      "/images/tekst/oppg2-op1.png",
+      "/images/tekst/oppg2-op2.png",
+      "/images/tekst/oppg2-op3.png",
+      "/images/tekst/oppg2-op4.png"
+    ],
+    "correct_answer": "/images/tekst/oppg2-op3.png",
+    "difficulty": "A1"
+  },
+  {
+    "type": "image",
+    "question": "Hvem skal besøke noen i familien sin?",
+    "options": [
+      "/images/tekst/oppg3-op1.png",
+      "/images/tekst/oppg3-op2.png",
+      "/images/tekst/oppg3-op3.png",
+      "/images/tekst/oppg3-op4.png"
+    ],
+    "correct_answer": "/images/tekst/oppg3-op2.png",
+    "difficulty": "A1"
+  },
+  {
+    "type": "image",
+    "question": "Hvilken tekst passer til bildet?",
+    "options": [
+      "/images/tekst/oppg4-op1.png",
+      "/images/tekst/oppg4-op2.png",
+      "/images/tekst/oppg4-op3.png",
+      "/images/tekst/oppg4-op4.png"
+    ],
+    "image": "/images/tekst/oppg4-image.png",
+    "correct_answer": "/images/tekst/oppg4-op3.png",
+    "difficulty": "A1"
+  },
+  {
+    "type": "image",
+    "question": "Hvilken tekst passer til bildet?",
+    "options": [
+      "/images/tekst/oppg5-op1.png",
+      "/images/tekst/oppg5-op2.png",
+      "/images/tekst/oppg5-op3.png",
+      "/images/tekst/oppg5-op4.png"
+    ],
+    "image": "/images/tekst/oppg5-image.png",
+    "correct_answer": "/images/tekst/oppg5-op4.png",
+    "difficulty": "A1"
+  },
+  {
+    "type": "image",
+    "question": "Hvilken tekst passer til bildet?",
+    "options": [
+      "/images/tekst/oppg6-op1.png",
+      "/images/tekst/oppg6-op2.png",
+      "/images/tekst/oppg6-op3.png",
+      "/images/tekst/oppg6-op4.png"
+    ],
+    "image": "/images/tekst/oppg6-image.png",
+    "correct_answer": "/images/tekst/oppg6-op4.png",
+    "difficulty": "A1"
+  },
+  {
+    "type": "image",
+    "question": "Hvilken tekst passer til bildet?",
+    "options": [
+      "/images/tekst/oppg7-op1.png",
+      "/images/tekst/oppg7-op2.png",
+      "/images/tekst/oppg7-op3.png",
+      "/images/tekst/oppg7-op4.png"
+    ],
+    "image": "/images/tekst/oppg7-image.png",
+    "correct_answer": "/images/tekst/oppg7-op2.png",
+    "difficulty": "A1"
+  },
+
+  {
+    "type": "image",
+    "question": "Klara skal ha besøk av venner og familie og vil ha noe godt og søtt til kaffen. Klikk på riktig handleliste.",
+    "options": [
+      "/images/tekst/oppg8-op1.png",
+      "/images/tekst/oppg8-op2.png",
+      "/images/tekst/oppg8-op3.png",
+      "/images/tekst/oppg8-op4.png"
+    ],
+    "correct_answer": "/images/tekst/oppg8-op2.png",
+    "difficulty": "A1"
+  },
+  {
+    "type": "image",
+    "question": "Hvem har ikke penger?",
+    "options": [
+      "/images/tekst/oppg9-op1.png",
+      "/images/tekst/oppg9-op2.png",
+      "/images/tekst/oppg9-op3.png",
+      "/images/tekst/oppg9-op4.png"
+    ],
+    "correct_answer": "/images/tekst/oppg9-op1.png",
+    "difficulty": "A1"
+  },
+  {
+    "type": "image",
+    "question": "Hvem har blitt syk?",
+    "options": [
+      "/images/tekst/oppg10-op1.png",
+      "/images/tekst/oppg10-op2.png",
+      "/images/tekst/oppg10-op3.png",
+      "/images/tekst/oppg10-op4.png"
+    ],
+    "correct_answer": "/images/tekst/oppg10-op3.png",
+    "difficulty": "A1"
+  },
+  {
+    "type": "image",
+    "question": "Hvilken tekst passer til bildet?",
+    "options": [
+      "/images/tekst/oppg11-op1.png",
+      "/images/tekst/oppg11-op2.png",
+      "/images/tekst/oppg11-op3.png",
+      "/images/tekst/oppg11-op4.png"
+    ],
+    "image": "/images/tekst/oppg11-image.png",
+    "correct_answer": "/images/tekst/oppg11-op3.png",
+    "difficulty": "A1"
+  },
+  {
+    "type": "image",
+    "question": "Hvilken tekst passer til bildet?",
+    "options": [
+      "/images/tekst/oppg12-op1.png",
+      "/images/tekst/oppg12-op2.png",
+      "/images/tekst/oppg12-op3.png",
+      "/images/tekst/oppg12-op4.png"
+    ],
+    "image": "/images/tekst/oppg12-image.png",
+    "correct_answer": "/images/tekst/oppg12-op3.png",
+    "difficulty": "A1"
+  },
+  {
+    "type": "image",
+    "question": "Hvilken tekst passer til bildet?",
+    "options": [
+      "/images/tekst/oppg13-op1.png",
+      "/images/tekst/oppg13-op2.png",
+      "/images/tekst/oppg13-op3.png",
+      "/images/tekst/oppg13-op4.png"
+    ],
+    "image": "/images/tekst/oppg13-image.png",
+    "correct_answer": "/images/tekst/oppg13-op3.png",
+    "difficulty": "A1"
+  },
+  {
+    "type": "image",
+    "question": "Hvilken tekst passer til bildet?",
+    "options": [
+      "/images/tekst/oppg14-op1.png",
+      "/images/tekst/oppg14-op2.png",
+      "/images/tekst/oppg14-op3.png",
+      "/images/tekst/oppg14-op4.png"
+    ],
+    "image": "/images/tekst/oppg14-image.png",
+    "correct_answer": "/images/tekst/oppg14-op1.png",
+    "difficulty": "A1"
+  },
+
+  {
+    "type": "image",
+    "question": "Stian må gå på butikken og handle inn middag for i dag. Klikk på riktig handleliste.",
+    "options": [
+      "/images/tekst/oppg15-op1.png",
+      "/images/tekst/oppg15-op2.png",
+      "/images/tekst/oppg15-op3.png",
+      "/images/tekst/oppg15-op4.png"
+    ],
+    "correct_answer": "/images/tekst/oppg15-op3.png",
+    "difficulty": "A1"
+  },
+  {
+    "type": "image",
+    "question": "Hvem fikk en presang av bestemoren sin?",
+    "options": [
+      "/images/tekst/oppg16-op1.png",
+      "/images/tekst/oppg16-op2.png",
+      "/images/tekst/oppg16-op3.png",
+      "/images/tekst/oppg16-op4.png"
+    ],
+    "correct_answer": "/images/tekst/oppg16-op4.png",
+    "difficulty": "A1"
+  },
+  {
+    "type": "image",
+    "question": "Hvem skal dra til utlandet?",
+    "options": [
+      "/images/tekst/oppg17-op1.png",
+      "/images/tekst/oppg17-op2.png",
+      "/images/tekst/oppg17-op3.png",
+      "/images/tekst/oppg17-op4.png"
+    ],
+    "correct_answer": "/images/tekst/oppg17-op2.png",
+    "difficulty": "A1"
+  },
+  {
+    "type": "image",
+    "question": "Hvilken tekst passer til bildet?",
+    "options": [
+      "/images/tekst/oppg18-op1.png",
+      "/images/tekst/oppg18-op2.png",
+      "/images/tekst/oppg18-op3.png",
+      "/images/tekst/oppg18-op4.png"
+    ],
+    "image": "/images/tekst/oppg18-image.png",
+    "correct_answer": "/images/tekst/oppg18-op2.png",
+    "difficulty": "A1"
+  },
+  {
+    "type": "image",
+    "question": "Hvilken tekst passer til bildet?",
+    "options": [
+      "/images/tekst/oppg19-op1.png",
+      "/images/tekst/oppg19-op2.png",
+      "/images/tekst/oppg19-op3.png",
+      "/images/tekst/oppg19-op4.png"
+    ],
+    "image": "/images/tekst/oppg19-image.png",
+    "correct_answer": "/images/tekst/oppg19-op2.png",
+    "difficulty": "A1"
+  },
+  {
+    "type": "image",
+    "question": "Hvilken tekst passer til bildet?",
+    "options": [
+      "/images/tekst/oppg20-op1.png",
+      "/images/tekst/oppg20-op2.png",
+      "/images/tekst/oppg20-op3.png",
+      "/images/tekst/oppg20-op4.png"
+    ],
+    "image": "/images/tekst/oppg20-image.png",
+    "correct_answer": "/images/tekst/oppg20-op2.png",
+    "difficulty": "A1"
+  },
+  {
+    "type": "image",
+    "question": "Hvilken tekst passer til bildet?",
+    "options": [
+      "/images/tekst/oppg21-op1.png",
+      "/images/tekst/oppg21-op2.png",
+      "/images/tekst/oppg21-op3.png",
+      "/images/tekst/oppg21-op4.png"
+    ],
+    "image": "/images/tekst/oppg21-image.png",
+    "correct_answer": "/images/tekst/oppg21-op3.png",
+    "difficulty": "A1"
+  },
+
+  {
+    "type": "image",
+    "question": "Det er kaldt i dag og Markus må pakke med seg vinterklær. Klikk på riktig liste.",
+    "options": [
+      "/images/tekst/oppg22-op1.png",
+      "/images/tekst/oppg22-op2.png",
+      "/images/tekst/oppg22-op3.png",
+      "/images/tekst/oppg22-op4.png"
+    ],
+    "correct_answer": "/images/tekst/oppg22-op1.png",
+    "difficulty": "A1"
+  },
+  {
+    "type": "image",
+    "question": "Hvem har blitt syk?",
+    "options": [
+      "/images/tekst/oppg23-op1.png",
+      "/images/tekst/oppg23-op2.png",
+      "/images/tekst/oppg23-op3.png",
+      "/images/tekst/oppg23-op4.png"
+    ],
+    "correct_answer": "/images/tekst/oppg23-op4.png",
+    "difficulty": "A1"
+  },
+  {
+    "type": "image",
+    "question": "Hvem slutter på skolen neste måned?",
+    "options": [
+      "/images/tekst/oppg24-op1.png",
+      "/images/tekst/oppg24-op2.png",
+      "/images/tekst/oppg24-op3.png",
+      "/images/tekst/oppg24-op4.png"
+    ],
+    "correct_answer": "/images/tekst/oppg24-op1.png",
+    "difficulty": "A1"
+  },
+  {
+    "type": "image",
+    "question": "Hvilken tekst passer til bildet?",
+    "options": [
+      "/images/tekst/oppg25-op1.png",
+      "/images/tekst/oppg25-op2.png",
+      "/images/tekst/oppg25-op3.png",
+      "/images/tekst/oppg25-op4.png"
+    ],
+    "image": "/images/tekst/oppg25-image.png",
+    "correct_answer": "/images/tekst/oppg25-op4.png",
+    "difficulty": "A1"
+  },
+  {
+    "type": "image",
+    "question": "Hvilken tekst passer til bildet?",
+    "options": [
+      "/images/tekst/oppg26-op1.png",
+      "/images/tekst/oppg26-op2.png",
+      "/images/tekst/oppg26-op3.png",
+      "/images/tekst/oppg26-op4.png"
+    ],
+    "image": "/images/tekst/oppg26-image.png",
+    "correct_answer": "/images/tekst/oppg26-op1.png",
+    "difficulty": "A1"
+  },
+  {
+    "type": "image",
+    "question": "Hvilken tekst passer til bildet?",
+    "options": [
+      "/images/tekst/oppg27-op1.png",
+      "/images/tekst/oppg27-op2.png",
+      "/images/tekst/oppg27-op3.png",
+      "/images/tekst/oppg27-op4.png"
+    ],
+    "image": "/images/tekst/oppg27-image.png",
+    "correct_answer": "/images/tekst/oppg27-op2.png",
+    "difficulty": "A1"
+  },
+  {
+    "type": "image",
+    "question": "Hvilken tekst passer til bildet?",
+    "options": [
+      "/images/tekst/oppg28-op1.png",
+      "/images/tekst/oppg28-op2.png",
+      "/images/tekst/oppg28-op3.png",
+      "/images/tekst/oppg28-op4.png"
+    ],
+    "image": "/images/tekst/oppg28-image.png",
+    "correct_answer": "/images/tekst/oppg28-op1.png",
+    "difficulty": "A1"
+  },
+
+  {
+    "type": "image",
+    "sentence": "Det er varmt og fint, og sola skinner. Knut går med t-skjorte og korte bukser. Han skal på fisketur.",
+    "question": "Klikk på Knut.",
+    "options": [
+      "/images/bilde/oppg1-op1.png",
+      "/images/bilde/oppg1-op2.png",
+      "/images/bilde/oppg1-op3.png",
+      "/images/bilde/oppg1-op4.png"
+    ],
+    "correct_answer": "/images/bilde/oppg1-op2.png",
+    "difficulty": "A1"
+  },
+
+  {
+    "type": "image",
+    "sentence": "Her ser du fire kvinner som går på norskkurs sammen. \nI dag har en av kvinnene på seg en blå kjole med hvite blomster. Hun smiler.",
+    "question": "Klikk på riktig kvinne.",
+    "options": [
+      "/images/bilde/oppg2-op1.png",
+      "/images/bilde/oppg2-op2.png",
+      "/images/bilde/oppg2-op3.png",
+      "/images/bilde/oppg2-op4.png"
+    ],
+    "correct_answer": "/images/bilde/oppg2-op4.png",
+    "difficulty": "A1"
+  },
+
+  {
+    "type": "image",
+    "sentence": "Per er nettopp ferdig med videregående skole. Han har sommerjobb som servitør. \nTil høsten skal han begynne å studere for å bli tannlege.\n Bestefaren til Per er bussjåfør, og faren er kokk. Men Per vil ha en jobb der han tjener godt.",
+    "question": "Hvilket yrke har bestefaren til Per?",
+    "options": [
+      "/images/bilde/oppg3-op1.png",
+      "/images/bilde/oppg3-op2.png",
+      "/images/bilde/oppg3-op3.png",
+      "/images/bilde/oppg3-op4.png"
+    ],
+    "correct_answer": "/images/bilde/oppg3-op3.png",
+    "difficulty": "A1"
+  },
+
+  {
+    "type": "image",
+    "sentence": "Per er nettopp ferdig med videregående skole. Han har sommerjobb som servitør. \nTil høsten skal han begynne å studere for å bli tannlege. \nBestefaren til Per er bussjåfør, og faren er kokk. Men Per vil ha en jobb der han tjener godt.",
+    "question": "Hvilket yrke har faren til Per?",
+    "options": [
+      "/images/bilde/oppg3-op1.png",
+      "/images/bilde/oppg3-op2.png",
+      "/images/bilde/oppg3-op3.png",
+      "/images/bilde/oppg3-op4.png"
+    ],
+    "correct_answer": "/images/bilde/oppg3-op2.png",
+    "difficulty": "A1"
+  },
+
+  {
+    "type": "image",
+    "sentence": "Det er varmt og fint vær. Det er litt skyer på himmelen. Jonas har på seg shorts.",
+    "question": "Klikk på Jonas.",
+    "options": [
+      "/images/bilde/oppg5-op1.png",
+      "/images/bilde/oppg5-op2.png",
+      "/images/bilde/oppg5-op3.png",
+      "/images/bilde/oppg5-op4.png"
+    ],
+    "correct_answer": "/images/bilde/oppg5-op1.png",
+    "difficulty": "A1"
+  },
+
+  {
+    "type": "image",
+    "sentence": "Fire personer går på norskkurs sammen. I dag har en mann på seg en hvit t-skjorte. ",
+    "question": "Klikk på mannen.",
+    "options": [
+      "/images/bilde/oppg6-op1.png",
+      "/images/bilde/oppg6-op2.png",
+      "/images/bilde/oppg6-op3.png",
+      "/images/bilde/oppg6-op4.png"
+    ],
+    "correct_answer": "/images/bilde/oppg6-op2.png",
+    "difficulty": "A1"
+  },
+
+  {
+    "type": "image",
+    "sentence": "Stine går på Universitetet. Hun studerer medisin for å bli lege. \nVennen hennes, Børre er kokk og jobber på en restaurant. \nFaren hennes er kokk, og onkelen er vasker. Men Stine ønsker seg en jobb der hun tjener mer penger.",
+    "question": "Hvilket yrke har vennen til Stine?",
+    "options": [
+      "/images/bilde/oppg7-op1.png",
+      "/images/bilde/oppg7-op2.png",
+      "/images/bilde/oppg7-op3.png",
+      "/images/bilde/oppg7-op4.png"
+    ],
+    "correct_answer": "/images/bilde/oppg7-op2.png",
+    "difficulty": "A1"
+  },
+
+  {
+    "type": "image",
+    "sentence": "Stine går på Universitetet. Hun studerer medisin for å bli lege. \nVennen hennes, Børre er kokk og jobber på en restaurant. \nFaren hennes er kokk, og onkelen er vasker. Men Stine ønsker seg en jobb der hun tjener mer penger.",
+    "question": "Hvilket yrke har onkelen til Stine?",
+    "options": [
+      "/images/bilde/oppg7-op1.png",
+      "/images/bilde/oppg7-op2.png",
+      "/images/bilde/oppg7-op3.png",
+      "/images/bilde/oppg7-op4.png"
+    ],
+    "correct_answer": "/images/bilde/oppg7-op4.png",
+    "difficulty": "A1"
+  },
+
+  {
+    "type": "image",
+    "sentence": "Det er snø ute og Vignesh går tur ute med en rød jakke.",
+    "question": "Klikk på Vignesh.",
+    "options": [
+      "/images/bilde/oppg6-op1.png",
+      "/images/bilde/oppg6-op2.png",
+      "/images/bilde/oppg6-op3.png",
+      "/images/bilde/oppg6-op4.png"
+    ],
+    "correct_answer": "/images/bilde/oppg6-op3.png",
+    "difficulty": "A1"
+  },
+
+  {
+    "type": "image",
+    "sentence": "Fire personer jobber sammen. En kvinne skal pensjonere seg i morgen.",
+    "question": "Klikke på kvinnen med hvitt hår.",
+    "options": [
+      "/images/bilde/oppg6-op1.png",
+      "/images/bilde/oppg6-op2.png",
+      "/images/bilde/oppg6-op3.png",
+      "/images/bilde/oppg6-op4.png"
+    ],
+    "correct_answer": "/images/bilde/oppg6-op4.png",
+    "difficulty": "A1"
+  },
+
+  {
+    "type": "image",
+    "sentence": "Sondre er ferdig med militæret. Han har deltidsjobb som vaktmester. \nMoren hans, Trine, jobber som lege på sykehuset. Faren hans jobber som fisker. \nSondre ønsker å studere for å bli tannlege neste år.",
+    "question": "Hvilket yrke har moren til Sondre?",
+    "options": [
+      "/images/bilde/oppg11-op1.png",
+      "/images/bilde/oppg11-op2.png",
+      "/images/bilde/oppg11-op3.png",
+      "/images/bilde/oppg11-op4.png"
+    ],
+    "correct_answer": "/images/bilde/oppg11-op3.png",
+    "difficulty": "A1"
+  },
+
+  {
+    "type": "image",
+    "sentence": "Monika jobber i kassa på matbutikken. Hun har to barn. \nVennen til Monika, Gabriel, jobber som fisker. Ektemannen til Monika er vaktmester. \nSønnen til Monika ønsker å bli lege, men han går på ungdomsskolen nå.",
+    "question": "Hvilket yrke har Gabriel?",
+    "options": [
+      "/images/bilde/oppg11-op1.png",
+      "/images/bilde/oppg11-op2.png",
+      "/images/bilde/oppg11-op3.png",
+      "/images/bilde/oppg11-op4.png"
+    ],
+    "correct_answer": "/images/bilde/oppg11-op2.png",
+    "difficulty": "A1"
+  },
+
+  {
+    "type": "image",
+    "sentence": "Det er klar himmel og Steffen går ute med en hvit t-skjorte.",
+    "question": "Klikk på Steffen.",
+    "options": [
+      "/images/bilde/oppg6-op1.png",
+      "/images/bilde/oppg6-op2.png",
+      "/images/bilde/oppg6-op3.png",
+      "/images/bilde/oppg6-op4.png"
+    ],
+    "correct_answer": "/images/bilde/oppg6-op2.png",
+    "difficulty": "A1"
+  },
+  {
+    "type": "image",
+    "sentence": "Fire personer bor på et hotell. I dag har en kvinne på seg en hvit t-skjorte.",
+    "question": "Klikk på kvinnen med mørkt hår.",
+    "options": [
+      "/images/bilde/oppg6-op1.png",
+      "/images/bilde/oppg6-op2.png",
+      "/images/bilde/oppg6-op3.png",
+      "/images/bilde/oppg6-op4.png"
+    ],
+    "correct_answer": "/images/bilde/oppg6-op3.png",
+    "difficulty": "A1"
+  },
+  
+  {
+    "type": "image",
+    "sentence": "Sondre er ferdig med militæret. Han har deltidsjobb som vaktmester. \nMoren hans, Trine, jobber som lege på sykehuset. Faren hans jobber som fisker. \nSondre ønsker å studere for å bli tannlege neste år.",
+    "question": "Hvilket yrke har Sondre?",
+    "options": [
+      "/images/bilde/oppg11-op1.png",
+      "/images/bilde/oppg11-op2.png",
+      "/images/bilde/oppg11-op3.png",
+      "/images/bilde/oppg11-op4.png"
+    ],
+    "correct_answer": "/images/bilde/oppg11-op1.png",
+    "difficulty": "A1"
+  },
+  {
+    "type": "image",
+    "sentence": "Monika jobber i kassa på matbutikken. Hun har to barn. \nVennen til Monika, Gabriel, jobber som fisker. Ektemannen til Monika er vaktmester. \nSønnen til Monika ønsker å bli lege, men han går på ungdomsskolen nå.",
+    "question": "Hva ønsker sønnen til Monika å bli i fremtiden?",
+    "options": [
+      "/images/bilde/oppg11-op1.png",
+      "/images/bilde/oppg11-op2.png",
+      "/images/bilde/oppg11-op3.png",
+      "/images/bilde/oppg11-op4.png"
+    ],
+    "correct_answer": "/images/bilde/oppg11-op3.png",
+    "difficulty": "A1"
   }
 ]
