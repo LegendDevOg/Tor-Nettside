@@ -9,7 +9,7 @@ const AccessCodeScreen = () => {
   const navigate = useNavigate();
 
   const handleSubmit = () => {
-    if (code.trim() === "HQWX4Y") { // Replace with your validation logic
+    if (code.trim() === "123") { // Replace with your validation logic
       setAccess(true); // Grant access
       navigate("/"); // Redirect to the main app
     } else {
