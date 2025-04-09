@@ -22,16 +22,16 @@
     "context": "Hei Tom!\n\nDet er fint hvis du handler middag i dag. Kjøp gjerne fiskekaker, det har vi ikke hatt på en stund. \nVi har grønnsaker, både gulrøtter og brokkoli. Jeg er sikker på at vi også har nok poteter. \nJeg må jobbe litt lenger i dag, så du og barna må bare spise før jeg kommer.\nEmma :-)",
     "question": "Hva skal mannen kjøpe?",
     "options": [
-        "Legen",
-        "Læreren",
-        "Frisøren",
-        "Tannlegen"
+        "Poteter",
+        "Brokkoli",
+        "Gulrøtter",
+        "Fiskekaker"
     ],
-    "correct_answer": "Legen",
+    "correct_answer": "Fiskekaker",
     "incorrect_answers": [
-        "Læreren",
-        "Frisøren",
-        "Tannlegen"
+        "Poteter",
+        "Brokkoli",
+        "Gulrøtter"
     ],
     "difficulty": "A1"
 },
@@ -109,8 +109,8 @@
 },
 {
     "type": "multiple",
-    "context": "Torsdag og fredag fra 17 til 20\nLørdag fra 10 til 14",
-    "question": "Vi skal flytte og åpner garasjen. Her kan du kjøpe komfyr, fryseboks, \nkjøleskap, støvsuger, gryter, gardiner, tepper, kopper og kar og en del pynteting.",
+    "context": "Torsdag og fredag fra 17 til 20 \nLørdag fra 10 til 14 \nVi skal flytte og åpner garasjen. Her kan du kjøpe komfyr, fryseboks, \nkjøleskap, støvsuger, gryter, gardiner, tepper, kopper og kar og en del pynteting.",
+    "question": "Hva vil Mia og Jan?",
     "options": [
       "Selge",
       "Reise",
