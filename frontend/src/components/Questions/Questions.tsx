@@ -1,4 +1,3 @@
-import { hover } from "framer-motion";
 import he from "he";
 
 interface QuestionProps {
