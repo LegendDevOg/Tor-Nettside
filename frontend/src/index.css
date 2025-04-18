@@ -5,5 +5,5 @@
 @tailwind utilities;
 
 body {
-  background: #fafafa;
+  background-image: url("/assets/bakgrunn.svg");
 }

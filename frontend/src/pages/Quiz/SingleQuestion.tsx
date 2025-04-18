@@ -57,6 +57,7 @@ function SingleQuestion() {
             summary={false}
             imageSrc={singleQuestion.image || null}
             sentence={singleQuestion.sentence || null}
+            difficulty={singleQuestion.difficulty || ""}
           />
         );
       case "word-selection":
@@ -67,6 +68,7 @@ function SingleQuestion() {
             correctWord={singleQuestion.correct_answer}
             handleClick={handleClick}
             summary={false}
+            difficulty={singleQuestion.difficulty || ""}
           />
         );
       case "paragraph-selection":

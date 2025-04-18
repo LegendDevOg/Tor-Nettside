@@ -1,0 +1,328 @@
+[{
+    "type": "multiple",
+    "context": "Hei Fredrik,\nEr alt bra med deg? Jeg har ikke sett deg på skolen i det siste.\nDe andre elevene er bekymret for hvordan det går med deg.\nJeg har heller ikke hørt noe fra foreldrene dine.\nHilsen Kvaløya vgs",
+    "question": "Hvem er meldinger fra?",
+    "options": [
+      "Frisøren",
+      "Læreren",
+      "Snekkeren",
+      "Tannlegen"
+  ],
+  "correct_answer": "Frisøren",
+  "incorrect_answers": ["Læreren",
+      "Frisøren",
+      "Snekkeren",
+      "Tannlegen"
+  ],
+    "difficulty": "A1-A2"
+},
+{
+    "type": "multiple",
+    "context": "Hei Kari!\n\nHar du mulighet til å handle inn noen varer? Vi mangler poteter, så gjerne kjøp dette.\nI kjøleskapet har vi allerede fisk, brokkoli og smør. Det kan hende vi mangler løk, men jeg vet ikke.\nJeg skal på trening i dag, så du og Jonas kan bare spise før jeg er hjemme.\nTrym :)",
+    "question": "Hva skal kvinnen kjøpe?",
+    "options": [
+        "Poteter",
+        "Fisk",
+        "Brokkoli",
+        "Smør"
+    ],
+    "correct_answer": "Poteter",
+    "incorrect_answers": [
+        "Fisk",
+        "Brokkoli",
+        "Smør"
+    ],
+    "difficulty": "A1-A2"
+},
+{
+    "type": "multiple",
+    "context": "Nora er på byen for å kjøpe litt utstyr.\nDet hun trenger mest, er tallerkener. Hun finner ikke tallerkener, men hun finner skåler.\nHun innså at butikken ved siden av hadde salg på skåler, så hun dro dit for å kjøpe det.\nDet var mange fine glass i butikken, men det har hun nok av.",
+    "question": "Hva kjøper Nora?",
+    "options": [
+        "Glass",
+        "Tallerkener",
+        "Skåler",
+        "Kniver"
+    ],
+    "correct_answer": "Skåler",
+    "incorrect_answers": [
+        "Tallerkener",
+        "Glass",
+        "Kniver"
+    ],
+    "difficulty": "A1-A2"
+},
+{
+    "type": "multiple",
+    "context": "Hei Katrine,\n\nJeg våknet opp med en hes stemme og rødt ansikt. Jeg må til legen for en sjekk.\nHvis alt er fint så kommer jeg på kontoret, hvis ikke må jeg holde meg hjemme.\nHilsen Daniel",
+    "question": "Hvem skriver Daniel e-post til?",
+    "options": [
+        "Læreren",
+        "Frisøren",
+        "Bilverkstedet",
+        "Sjefen"
+    ],
+    "correct_answer": "Sjefen",
+    "incorrect_answers": [
+        "Frisøren",
+        "Bilverkstedet",
+        "Læreren"
+    ],
+    "difficulty": "A1-A2"
+},
+{
+    "type": "multiple",
+    "context": "Åpningstide bakeriet \nMandag: Stengt\nTirsdag til Fredag: 16-20\nLørdag: 10-18\nSøndag: 10-16",
+    "question": "Når åpner bakeriet på onsdager?",
+    "options": [
+        "Klokka 12",
+        "Klokka 10",
+        "Stengt",
+        "Klokka 16"
+    ],
+    "correct_answer": "Klokka 16",
+    "incorrect_answers": [
+        "Klokka 10",
+        "Stengt",
+        "Klokka 12"
+    ],
+    "difficulty": "A1-A2"
+},
+{
+    "type": "multiple",
+    "context": "Mandag: Stengt\nTirsdag til Fredag: 16-20\nLørdag: 10-18\nSøndag: 10-16",
+    "question": "Når åpner bakeriet på onsdager?",
+    "options": [
+        "Klokka 12",
+        "Klokka 10",
+        "Stengt",
+        "Klokka 16"
+    ],
+    "correct_answer": "Klokka 16",
+    "incorrect_answers": [
+        "Klokka 10",
+        "Stengt",
+        "Klokka 12"
+    ],
+    "difficulty": "A1-A2"
+},
+{
+    "type": "multiple",
+    "context": "Åpningstider Bakeriet: \nMandag: Stengt\nTirsdag til Fredag: 16-20\nLørdag: 10-18\nSøndag: 10-16",
+    "question": "Hvilken dag åpner bakeriet på ettermiddagen?",
+    "options": [
+        "Mandag",
+        "Torsdag",
+        "Søndag",
+        "Lørdag"
+    ],
+    "correct_answer": "Torsdag",
+    "incorrect_answers": [
+        "Mandag",
+        "Søndag",
+        "Lørdag"
+    ],
+    "difficulty": "A1-A2"
+},
+{
+    "type": "multiple",
+    "context": "Vi har felles dugnad på søndag. Vi plukker søppel, klipper gresset og fjerner stein.\nIkke sitt og se på TV. Bli med oss! Det blir kanskje stekte vafler etterpå :)",
+    "question": "Hva må naboene gjøre?",
+    "options": [
+        "Dugnad",
+        "Se på TV",
+        "Steke vafler",
+        "Kjøpe bolig"
+    ],
+    "correct_answer": "Dugnad",
+    "incorrect_answers": [
+        "Se på TV",
+        "Steke vafler",
+        "Kjøpe bolig"
+    ],
+    "difficulty": "A1-A2"
+},
+{
+    "type": "word-selection",
+    "question": "Hva drakk han til frokost?",
+    "sentence": "I morges våknet Johan klokka åtte. Han tok en kopp kaffe.\nTil frokost spiste han en brødskive med smør og ost.\nHan glemte å ta med lunsj, derfor var han gretten resten av dagen.",
+    "correct_answer": "kaffe",
+    "difficulty": "A1-A2"
+},
+{
+    "type": "word-selection",
+    "question": "Hvilken type bolig bodde de i den første tiden i Oslo?",
+    "sentence": "Da Karl og Marta var ferdig med medisinutdanningen, jobbet de to år i Finnmark.\nDer bodde de på en hybel for ansatte på sykehuset. Så flyttet de til Oslo der de kjøpte seg en leilighet.\nDa de fikk barn, kjøpte de først et rekkehus, men så snart de fikk råd til det, flyttet de inn i en enebolig.",
+    "correct_answer": "leilighet",
+    "difficulty": "A1-A2"
+},
+{
+    "type": "word-selection",
+    "question": "Hvilket rom har ikke skader?",
+    "sentence": "Evy og Tore har kjøpt et gammelt hus i hjembygda. De vil pusse opp alle rommene.\nPå badet er det gamle rør og fukt i taket. På soverommet er det hull i gulvet.\nPå kjøkkenet har gulvet blitt bølgete etter vannlekkasje.\nI stua er det mørkt, og det er umoderne farger på alle vegger. I gangen er vinduet knust.",
+    "correct_answer": "stua",
+    "difficulty": "A1-A2"
+},
+{
+    "type": "word-selection",
+    "question": "Hvorfor er parken stengt?",
+    "sentence": "Kristparken i Oslo er stengt etter at det ble oppdaget rotter i området. Kommunen skal forsøke å bli kvitt disse dyrene med gift og andre feller. Det forventes å være fikset i 2025. Vanligvis kan småbarnsfamilier leke i parken og ha piknik. Men nå er det slutt på det. Hundeeiere er fortvilet over dette og håper at parken kan åpnes så snart som mulig.",
+    "correct_answer": "rotter",
+    "difficulty": "A1-A2"
+},
+{
+    "type": "word-selection",
+    "question": "Når kan man ta i bruk parken igjen?",
+    "sentence": "Kristparken i Oslo er stengt etter at det ble oppdaget rotter i området. Kommunen skal forsøke å bli kvitt disse dyrene med gift og andre feller. Det forventes å være fikset i 2025. Vanligvis kan småbarnsfamilier leke i parken og ha piknik. Men nå er det slutt på det. Hundeeiere er fortvilet over dette og håper at parken kan åpnes så snart som mulig.",
+    "correct_answer": "2025",
+    "difficulty": "A1-A2"
+},
+{
+    "type": "image",
+    "sentence": "Klara skal ha besøk av venner og familie og vil ha noe godt og søtt til kaffen. Klikk på riktig handleliste.",
+    "options": [
+      "/images/tekst/oppg8-op1.png",
+      "/images/tekst/oppg8-op2.png",
+      "/images/tekst/oppg8-op3.png",
+      "/images/tekst/oppg8-op4.png"
+    ],
+    "correct_answer": "/images/tekst/oppg8-op2.png",
+    "difficulty": "A1-A2"
+},
+{
+    "type": "image",
+    "sentence": "Hvem har ikke penger?",
+    "options": [
+      "/images/tekst/oppg9-op1.png",
+      "/images/tekst/oppg9-op2.png",
+      "/images/tekst/oppg9-op3.png",
+      "/images/tekst/oppg9-op4.png"
+    ],
+    "correct_answer": "/images/tekst/oppg9-op3.png",
+    "difficulty": "A1-A2"
+},
+{
+    "type": "image",
+    "sentence": "Hvem har blitt syk?",
+    "options": [
+      "/images/tekst/oppg10-op1.png",
+      "/images/tekst/oppg10-op2.png",
+      "/images/tekst/oppg10-op3.png",
+      "/images/tekst/oppg10-op4.png"
+    ],
+    "correct_answer": "/images/tekst/oppg10-op3.png",
+    "difficulty": "A1-A2"
+  },
+
+  {
+    "type": "image",
+    "sentence": "Hvilken tekst passer til bildet?",
+    "options": [
+      "/images/tekst/oppg11-op1.png",
+      "/images/tekst/oppg11-op2.png",
+      "/images/tekst/oppg11-op3.png",
+      "/images/tekst/oppg11-op4.png"
+    ],
+    "image": "/images/tekst/oppg11-image.png",
+    "correct_answer": "/images/tekst/oppg11-op3.png",
+    "difficulty": "A1-A2"
+  },
+
+  {
+    "type": "image",
+    "sentence": "Hvilken tekst passer til bildet?",
+    "options": [
+      "/images/tekst/oppg12-op1.png",
+      "/images/tekst/oppg12-op2.png",
+      "/images/tekst/oppg12-op3.png",
+      "/images/tekst/oppg12-op4.png"
+    ],
+    "image": "/images/tekst/oppg12-image.png",
+    "correct_answer": "/images/tekst/oppg12-op3.png",
+    "difficulty": "A1-A2"
+  },
+  {
+    "type": "image",
+    "sentence": "Hvilken tekst passer til bildet?",
+    "options": [
+      "/images/tekst/oppg13-op1.png",
+      "/images/tekst/oppg13-op2.png",
+      "/images/tekst/oppg13-op3.png",
+      "/images/tekst/oppg13-op4.png"
+    ],
+    "image": "/images/tekst/oppg13-image.png",
+    "correct_answer": "/images/tekst/oppg13-op3.png",
+    "difficulty": "A1-A2"
+  },
+  {
+    "type": "image",
+    "sentence": "Hvilken tekst passer til bildet?",
+    "options": [
+      "/images/tekst/oppg14-op1.png",
+      "/images/tekst/oppg14-op2.png",
+      "/images/tekst/oppg14-op3.png",
+      "/images/tekst/oppg14-op4.png"
+    ],
+    "image": "/images/tekst/oppg14-image.png",
+    "correct_answer": "/images/tekst/oppg14-op1.png",
+    "difficulty": "A1-A2"
+  },
+
+  {
+    "type": "image",
+    "sentence": "Det er varmt og fint vær. Det er litt skyer på himmelen. Jonas har på seg shorts.",
+    "question": "Klikk på Jonas.",
+    "options": [
+      "/images/bilde/oppg1-op1.png",
+      "/images/bilde/oppg1-op2.png",
+      "/images/bilde/oppg1-op3.png",
+      "/images/bilde/oppg1-op4.png"
+    ],
+    "correct_answer": "/images/bilde/oppg1-op1.png",
+    "difficulty": "A1-A2"
+  },
+
+  {
+    "type": "image",
+    "sentence": "Fire personer går på norskkurs sammen. I dag har en mann på seg en hvit t-skjorte. ",
+    "question": "Klikk på mannen.",
+    "options": [
+      "/images/bilde/oppg6-op1.png",
+      "/images/bilde/oppg6-op2.png",
+      "/images/bilde/oppg6-op3.png",
+      "/images/bilde/oppg6-op4.png"
+    ],
+    "correct_answer": "/images/bilde/oppg6-op2.png",
+    "difficulty": "A1-A2"
+  },
+
+  {
+    "type": "image",
+    "sentence": "Stine går på Universitetet. Hun studerer medisin for å bli lege. \nVennen hennes, Børre er kokk og jobber på en restaurant. \nFaren hennes er kokk, og onkelen er vasker. Men Stine ønsker seg en jobb der hun tjener mer penger.",
+    "question": "Hvilket yrke har vennen til Stine?",
+    "options": [
+      "/images/bilde/oppg7-op1.png",
+      "/images/bilde/oppg7-op2.png",
+      "/images/bilde/oppg7-op3.png",
+      "/images/bilde/oppg7-op4.png"
+    ],
+    "correct_answer": "/images/bilde/oppg7-op2.png",
+    "difficulty": "A1-A2"
+  },
+
+  {
+    "type": "image",
+    "sentence": "Stine går på Universitetet. Hun studerer medisin for å bli lege. \nVennen hennes, Børre er kokk og jobber på en restaurant. \nFaren hennes er kokk, og onkelen er vasker. Men Stine ønsker seg en jobb der hun tjener mer penger.",
+    "question": "Hvilket yrke har onkelen til Stine?",
+    "options": [
+      "/images/bilde/oppg7-op1.png",
+      "/images/bilde/oppg7-op2.png",
+      "/images/bilde/oppg7-op3.png",
+      "/images/bilde/oppg7-op4.png"
+    ],
+    "correct_answer": "/images/bilde/oppg7-op4.png",
+    "difficulty": "A1-A2"
+  }
+
+
+]

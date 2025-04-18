@@ -3,6 +3,7 @@ import { useNavigate } from "react-router-dom";
 import { useEffect } from "react";
 import AnimateProvider from "../../components/AnimateProvider/AnimateProvider";
 import Question from "../../components/Questions/Questions";
+import { text } from "framer-motion/client";
 
 function Success() {
   const {
@@ -16,8 +17,14 @@ function Success() {
 
   const navigate = useNavigate();
   const score = Math.floor((trueAnswer * 100) / allQuestion.length);
-  const indxColor = score >= 80 ? "#10b981" : score >= 60 ? "#F59E0B" : "#dc2626";
-
+  const indxColor = score >= 60 ? "#10b981" : score >= 30 ? "#F59E0B" : "#dc2626";
+  const showButton = score >= 60;
+  let text = ""
+  if(score > 60) {
+    text = "You got less than 60%. Practice sets 1, 2 and 3 for A1-A2 before moving on to A2-B1."
+  } else {
+    text = "You got more than 60%. If you want, continue to A2-B1 Level."
+  }
   useEffect(() => {
     setTimeStamp(0);
   }, []);
@@ -41,6 +48,12 @@ function Success() {
       </h1>
 
       <div className="text-xs md:text-sm text-neutral-600 font-medium flex flex-col space-y-1">
+
+      <h1
+        className="flex justify-between mb-6 text-blue-600"
+      >
+        {text}
+      </h1>
         <p className="flex justify-between">
           Correct Answers <span className="text-green-600">{trueAnswer}</span>
         </p>
@@ -52,12 +65,23 @@ function Success() {
         </p>
       </div>
 
-      <button
-        onClick={handleClick}
-        className="grid place-items-center text-neutral-50 bg-orange-500 rounded-full py-2 hover:text-neutral-50 text-sm font-semibold"
-      >
-        Continue to A2 Test
-      </button>
+      {showButton && (
+        <button
+         onClick={handleClick}
+          className="grid place-items-center text-neutral-50 bg-blue-500 rounded-full py-2 hover:text-blue-200 text-sm font-semibold"
+          >
+          Continue to A2-B1 Test
+        </button>
+      )}
+
+    {!showButton && (
+        <button
+         onClick={handleClick}
+          className="grid place-items-center text-neutral-50 bg-blue-500 rounded-full py-2 hover:text-blue-200 text-sm font-semibold"
+          >
+          Go back to A1-A2 sets
+        </button>
+      )}
 
       {/* Answer Summary */}
       <h3 className="text-center text-neutral-600 font-semibold md:text-lg pt-[100px]">

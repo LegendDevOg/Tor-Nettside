@@ -7,7 +7,8 @@ export function ImageQuestion({
   handleClick,
   summary,
   imageSrc,
-  sentence
+  sentence,
+  difficulty
 }: {
   question: string;
   options: string[];
@@ -16,14 +17,25 @@ export function ImageQuestion({
   summary: boolean;
   imageSrc?: string | null;
   sentence?: string | null;
+  difficulty: string;
 }) {
   return (
     <div className="flex flex-col items-center text-center">
+
+      <h1 className="text-4xl font-bold text-black-300 mb-6 text-center">
+        Klikk på riktig bilde
+      </h1>
+      
+      <h2 className="text-2xl font-bold text-black-300 mb-20 text-center text-decoration-line: underline">
+        {difficulty}
+      </h2>
+
       <div className="border border-gray-300 rounded-lg p-4 bg-white shadow-md">
-  <h3 className="text-gray-800 font-semibold text-lg">{sentence}</h3>
+  <h3 className="text-gray-800 mb-10 text-lg">{sentence}</h3>
+  <h3 className="text-gray-800 font-bold mb-4 text-lg">{question}</h3>
+
 </div>
 
-      <h3 className="text-gray-800 font-semibold mb-6 text-lg">{question}</h3>
 
       {imageSrc ? (
         <>
@@ -78,20 +90,31 @@ export function WordSelectionQuestion({
   correctWord,
   handleClick,
   summary,
+  difficulty
 }: {
   question: string;
   sentence: string;
   correctWord: string;
   handleClick: (value: string) => void;
   summary: boolean;
+  difficulty: string;
 }) {
-  const splitSentenceWithPunctuation = (sentence: string) => {
-    return sentence.match(/[\p{L}\d]+|[.,!?;:]/gu) || []; 
+  const splitSentenceWithPunctuation = (line: string) => {
+    return line.match(/[\p{L}\d]+|[.,!?;:]/gu) || [];
   };
 
   return (
     <div className="bg-white p-6 rounded-lg shadow-md border border-gray-300 max-w-2xl mx-auto">
+      <h1 className="text-4xl font-bold text-black-300 mb-6 text-center">
+        Klikk på svar
+      </h1>
+
+      <h2 className="text-2xl font-bold text-black-300 mb-20 text-center text-decoration-line: underline">
+        {difficulty}
+      </h2>
+
       <h3 className="text-gray-900 font-semibold mb-4 text-lg">{question}</h3>
+
       <p className="text-lg leading-relaxed whitespace-normal break-words">
         {splitSentenceWithPunctuation(sentence).map((word, index) => {
           const isPunctuation = /[.,!?;:]/.test(word);
@@ -102,7 +125,7 @@ export function WordSelectionQuestion({
           ) : (
             <span
               key={index}
-              className={`cursor-pointer transition-transform duration-150 ease-in-out px-[2px] rounded inline
+              className={`whitespace-nowrap cursor-pointer transition-transform duration-150 ease-in-out px-[2px] rounded inline-block
                 ${summary && correctWord === cleanedWord ? "bg-green-300 font-bold" : ""}
                 hover:text-blue-600 hover:scale-110`}
               onClick={() => !summary && handleClick(cleanedWord)}
@@ -115,6 +138,9 @@ export function WordSelectionQuestion({
     </div>
   );
 }
+
+
+
 
 
 

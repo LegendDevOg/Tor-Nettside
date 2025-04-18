@@ -66,8 +66,8 @@ const useQuestionStore = create<QuestionStoreState>()(
         }),
       fetchQuestion: async () => {
         try {
-          console.log("🚀 Fetching questions from /sett1-A1.json...");
-          const response = await fetch("/sett1-A1.json"); // ✅ Ensure correct file
+          console.log("🚀 Fetching questions from /nysett1-A1.json...");
+          const response = await fetch("/nysett1-A1.json"); // ✅ Ensure correct file
           const data = await response.json();
 
           console.warn("✅ Correct Fetched Questions:", data.length, "questions loaded!");

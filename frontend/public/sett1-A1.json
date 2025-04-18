@@ -1,130 +1,4 @@
 [
-  {
-    "type": "multiple",
-    "context": "Hei Lisa\nHusk time til vask og klipp torsdag 15/10 klokka 14.00 hos Tom. \nAvbestilling må skje innen klokka 13.00 dagen før. \nHilsen Karisalongen",
-    "question": "1. Hvem er meldingen fra?",
-    "options": [
-        "Legen",
-        "Læreren",
-        "Frisøren",
-        "Tannlegen"
-    ],
-    "correct_answer": "Frisøren",
-    "incorrect_answers": [
-        "Læreren",
-        "Legen",
-        "Tannlegen"
-    ],
-    "difficulty": "A1"
-},
-  {
-    "type": "multiple",
-    "context": "Hei Tom!\n\nDet er fint hvis du handler middag i dag. Kjøp gjerne fiskekaker, det har vi ikke hatt på en stund. \nVi har grønnsaker, både gulrøtter og brokkoli. Jeg er sikker på at vi også har nok poteter. \nJeg må jobbe litt lenger i dag, så du og barna må bare spise før jeg kommer.\nEmma :-)",
-    "question": "Hva skal mannen kjøpe?",
-    "options": [
-        "Poteter",
-        "Brokkoli",
-        "Gulrøtter",
-        "Fiskekaker"
-    ],
-    "correct_answer": "Fiskekaker",
-    "incorrect_answers": [
-        "Poteter",
-        "Brokkoli",
-        "Gulrøtter"
-    ],
-    "difficulty": "A1"
-},
-{
-    "type": "multiple",
-    "context": "Emilia er ute for å kjøpe noen nye klær. \nDet hun har mest bruk for, er en jakke. Hun finner ikke jakke, men hun prøver en fin genser. \nHun kjøper den, selv om den er litt dyr. Det er også flotte kjoler i butikken, men det får bli en annen gang.",
-    "question": "Hva kjøper Emilia?",
-    "options": [
-        "Kåpe",
-        "Kjole",
-        "Jakke",
-        "Genser"
-    ],
-    "correct_answer": "Jakke",
-    "incorrect_answers": [
-        "Kåpe",
-        "Kjole",
-        "Genser"
-    ],
-    "difficulty": "A1"
-},
-{
-    "type": "multiple",
-    "context": "Hei Arvid\n\nJeg blir sen på skolen i morgen. Jeg skal følge Tanita til tannlegen klokka 8. \nKlokka 9 har jeg et møte på NAV. Jeg kommer til timen som begynner klokka 10.\nHilsen Omar",
-    "question": "Hvem skriver Omar e-post til?",
-    "options": [
-        "Nav",
-        "Tanita",
-        "Læreren",
-        "Tannlegen"
-    ],
-    "correct_answer": "Læreren",
-    "incorrect_answers": [
-        "Nav",
-        "Tanita",
-        "Tannlegen"
-    ],
-    "difficulty": "A1"
-},
-{
-    "type": "multiple",
-    "context": "Mandag til onsdag: 17–20\nTorsdag: 20–24\nLørdag: 10–20\nSøndag: 17–24",
-    "question": "Når åpner tannlegevakten på tirsdager?",
-    "options": [
-        "Klokka 10",
-        "Klokka 12",
-        "Klokka 17",
-        "Klokka 20"
-    ],
-    "correct_answer": "Klokka 17",
-    "incorrect_answers": [
-        "Klokka 10",
-        "Klokka 12",
-        "Klokka 20"
-    ],
-    "difficulty": "A1"
-},
-{
-    "type": "multiple",
-    "context": "Mandag til onsdag: 17–20\nTorsdag: 20–24\nLørdag: 10–20\nSøndag: 17–24",
-    "question": "Når er tannlegevakten åpen om formiddagen?",
-    "options": [
-        "Mandag",
-        "Onsdag",
-        "Lørdag",
-        "Søndag"
-    ],
-    "correct_answer": "Lørdag",
-    "incorrect_answers": [
-        "Mandag",
-        "Onsdag",
-        "Søndag"
-    ],
-    "difficulty": "A1"
-},
-{
-    "type": "multiple",
-    "context": "Torsdag og fredag fra 17 til 20 \nLørdag fra 10 til 14 \nVi skal flytte og åpner garasjen. Her kan du kjøpe komfyr, fryseboks, \nkjøleskap, støvsuger, gryter, gardiner, tepper, kopper og kar og en del pynteting.",
-    "question": "Hva vil Mia og Jan?",
-    "options": [
-      "Selge",
-      "Reise",
-      "Kjøpe",
-      "Kjøre"
-  ],
-  "correct_answer": "Selge",
-  "incorrect_answers": [
-      "Reise",
-      "Kjøpe",
-      "Kjøre"
-  ],
-    "difficulty": "A1"
-},
 {
     "type": "multiple",
     "context": "Hei Fredrik,\nEr alt bra med deg? Jeg har ikke sett deg på skolen i det siste.\nDe andre elevene er bekymret for hvordan det går med deg.\nJeg har heller ikke hørt noe fra foreldrene dine.\nHilsen Kvaløya vgs",
@@ -560,7 +434,7 @@
   },
   {
     "type": "word-selection",
-    "question": "2. Hva drakk han til frokost?",
+    "question": "Hva drakk han til frokost?",
     "sentence": "I morges våknet Johan klokka åtte. Han tok en kopp kaffe.\nTil frokost spiste han en brødskive med smør og ost.\nHan glemte å ta med lunsj, derfor var han gretten resten av dagen.",
     "correct_answer": "kaffe",
     "difficulty": "A1"
@@ -575,7 +449,7 @@
   {
     "type": "word-selection",
     "question": "4. Hvem likte ikke snøen?",
-    "sentence": "Forrige vinter snødde det veldig mye. Det ble en snørekord!\nBilistene var ikke så fornøyde. De måtte måke snø hver dag.\nBarna derimot, de storkoste seg. Barna lekte i gatene, lagde snømenn og hadde det gøy.",
+    "sentence": "Forrige vinter snødde det veldig mye. Det ble en snørekord!\n Bilistene var ikke så fornøyde. De måtte måke snø hver dag.\nBarna derimot, de storkoste seg. Barna lekte i gatene, lagde snømenn og hadde det gøy.",
     "correct_answer": "Bilistene",
     "difficulty": "A1"
   },
@@ -692,20 +566,8 @@
     "difficulty": "A2"
   },
   {
-      "type": "image",
-      "question": "Jan skal invitere mange gjester til søndagsmiddag og vil lage en ordentlig god middag. Klikk på riktig handleliste.",
-      "options": [
-        "/images/oppg1-op1.png",
-        "/images/oppg1-op2.png",
-        "/images/oppg1-op3.png",
-        "/images/oppg1-op4.png"
-      ],
-      "correct_answer": "/images/oppg1-op1.png",
-      "difficulty": "A1"
-    },
-  {
     "type": "image",
-    "question": "Jan skal invitere mange gjester til søndagsmiddag og vil lage en ordentlig god middag. Klikk på riktig handleliste.",
+    "sentence": "Jan skal invitere mange gjester til søndagsmiddag og vil lage en ordentlig god middag. Klikk på riktig handleliste.",
     "options": [
       "/images/tekst/oppg1-op1.png",
       "/images/tekst/oppg1-op2.png",
@@ -717,7 +579,7 @@
   },
   {
     "type": "image",
-    "question": "Hvem har ikke penger?",
+    "sentence": "Hvem har ikke penger?",
     "options": [
       "/images/tekst/oppg2-op1.png",
       "/images/tekst/oppg2-op2.png",
@@ -729,7 +591,7 @@
   },
   {
     "type": "image",
-    "question": "Hvem skal besøke noen i familien sin?",
+    "sentence": "Hvem skal besøke noen i familien sin?",
     "options": [
       "/images/tekst/oppg3-op1.png",
       "/images/tekst/oppg3-op2.png",
@@ -741,7 +603,7 @@
   },
   {
     "type": "image",
-    "question": "Hvilken tekst passer til bildet?",
+    "sentence": "Hvilken tekst passer til bildet?",
     "options": [
       "/images/tekst/oppg4-op1.png",
       "/images/tekst/oppg4-op2.png",
@@ -754,7 +616,7 @@
   },
   {
     "type": "image",
-    "question": "Hvilken tekst passer til bildet?",
+    "sentence": "Hvilken tekst passer til bildet?",
     "options": [
       "/images/tekst/oppg5-op1.png",
       "/images/tekst/oppg5-op2.png",
@@ -767,7 +629,7 @@
   },
   {
     "type": "image",
-    "question": "Hvilken tekst passer til bildet?",
+    "sentence": "Hvilken tekst passer til bildet?",
     "options": [
       "/images/tekst/oppg6-op1.png",
       "/images/tekst/oppg6-op2.png",
@@ -780,7 +642,7 @@
   },
   {
     "type": "image",
-    "question": "Hvilken tekst passer til bildet?",
+    "sentence": "Hvilken tekst passer til bildet?",
     "options": [
       "/images/tekst/oppg7-op1.png",
       "/images/tekst/oppg7-op2.png",
@@ -794,7 +656,7 @@
 
   {
     "type": "image",
-    "question": "Klara skal ha besøk av venner og familie og vil ha noe godt og søtt til kaffen. Klikk på riktig handleliste.",
+    "sentence": "Klara skal ha besøk av venner og familie og vil ha noe godt og søtt til kaffen. Klikk på riktig handleliste.",
     "options": [
       "/images/tekst/oppg8-op1.png",
       "/images/tekst/oppg8-op2.png",
@@ -806,7 +668,7 @@
   },
   {
     "type": "image",
-    "question": "Hvem har ikke penger?",
+    "sentence": "Hvem har ikke penger?",
     "options": [
       "/images/tekst/oppg9-op1.png",
       "/images/tekst/oppg9-op2.png",
