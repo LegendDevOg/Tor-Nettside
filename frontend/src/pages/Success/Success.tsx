@@ -95,7 +95,6 @@ function Success() {
 
 if (isSentenceDropdown) {
   const parts = question.sentenceParts || [];
-  const dropdowns = question.dropdownOptions || [];
   const correct = question.correct_answer;
   const selected = userSelected?.answer
     ?.split("||")

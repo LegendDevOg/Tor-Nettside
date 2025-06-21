@@ -33,7 +33,7 @@ interface QuestionData {
 const QuestionForm = () => {
   const [questions, setQuestions] = useState<QuestionData[]>([]);
   const [current, setCurrent] = useState<QuestionData>({ ...defaultQuestion });
-  const [category, setCategory] = useState("A1");
+  const [category] = useState("A1");
 
   const addQuestion = () => {
     let q = { ...current };
