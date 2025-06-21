@@ -1,35 +1,41 @@
 import { useNavigate, useParams } from "react-router-dom";
-import TimeStamp from "../../components/TimeStamp/TimeStamp";
 import { useEffect } from "react";
 import AnimateProvider from "../../components/AnimateProvider/AnimateProvider";
 import useQuestionStore from "../../data/GetData";
 import Question from "../../components/Questions/Questions";
-import { ImageQuestion, WordSelectionQuestion, ParagraphSelectionQuestion } from "../../components/QuestionTypes/QuestionTypes";
+import {
+  ImageQuestion,
+  WordSelectionQuestion,
+  ParagraphSelectionQuestion,
+  SentenceDropdownQuestion
+} from "../../components/QuestionTypes/QuestionTypes";
 
 function SingleQuestion() {
   const navigate = useNavigate();
+  const { id, set } = useParams(); // Now set = "1"
+  const filename = `${id}-${set}`;
+
+  // Access Zustand store state
   const {
-    question: allQuestion,
+    question: allQuestions,
+    userAnswer: allUserAnswers,
     trueAction,
     falseAction,
     addAnswer,
     page,
     nextPage,
-    userAnswer: allUserAnswers, // ✅ Fetch user answers from the store
   } = useQuestionStore();
 
-  const { id } = useParams();
-  const singleQuestion = allQuestion?.[page - 1];
+  const singleQuestion = allQuestions?.[page - 1]; // Get the current question based on the page
 
   useEffect(() => {
-    if (Number(id) < page) {
-      navigate(`/question/${page}`);
+    if (!allQuestions.length) {
+      useQuestionStore.getState().fetchQuestion(filename);
     }
-  }, [id]);
+  }, [id, allQuestions, page, set]);
 
-  if (!singleQuestion) return <p>Loading...</p>; // Prevents undefined errors
+  if (!singleQuestion) return <p>Loading... {filename}</p>;
 
-  // ✅ Retrieve the specific answer for this question
   const userAnswer = allUserAnswers.find((ans) => ans.question === singleQuestion?.question);
 
   const handleClick = (value: string) => {
@@ -42,7 +48,7 @@ function SingleQuestion() {
     }
 
     nextPage();
-    navigate(page === allQuestion.length ? "/finish" : `/question/${Number(id) + 1}`);
+    navigate(page === allQuestions.length ? "/finish" : `/question/${id}/${set}`);
   };
 
   function renderQuestionComponent() {
@@ -82,6 +88,42 @@ function SingleQuestion() {
             summary={false}
           />
         );
+        case "sentence-dropdown":
+  if (
+    !Array.isArray(singleQuestion.sentenceParts) ||
+    !Array.isArray(singleQuestion.dropdownOptions) ||
+    !Array.isArray(singleQuestion.correct_answer)
+  ) {
+    return <p className="text-red-600">Feil: Mangler data for sentence-dropdown</p>;
+  }
+
+  return (
+    <SentenceDropdownQuestion
+      sentenceParts={singleQuestion.sentenceParts}
+      options={singleQuestion.dropdownOptions}
+      correctAnswers={singleQuestion.correct_answer}
+      userAnswer={
+        userAnswer?.answer
+          ? userAnswer.answer
+              .split("||")
+              .sort()
+              .map((a) => a.split("|")[1])
+          : []
+      }
+      handleClick={(val) =>
+        addAnswer({
+          question: singleQuestion.question,
+          answer: userAnswer?.answer
+            ? `${userAnswer.answer}||${val}`
+            : val,
+        })
+      }
+      summary={false}
+      difficulty={singleQuestion.difficulty || ""}
+    />
+  );
+
+  
       default:
         return (
           <Question
@@ -98,8 +140,19 @@ function SingleQuestion() {
 
   return (
     <AnimateProvider className="max-w-xl mx-auto">
+      {/* ✅ Progress bar */}
+      <div className="w-full bg-gray-200 rounded-full h-3 mt-6 mb-2">
+        <div
+          className="bg-blue-500 h-3 rounded-full transition-all duration-300"
+          style={{ width: `${(page / allQuestions.length) * 100}%` }}
+        ></div>
+      </div>
+      <p className="text-center text-sm text-gray-700 mb-6">
+        Spørsmål {page} av {allQuestions.length}
+      </p>
+
       <div className="flex max-w-fit flex-col ml-auto space-x-3 mb-10">
-        <TimeStamp />
+        {/* TimeStamp Component */}
       </div>
       {renderQuestionComponent()}
     </AnimateProvider>

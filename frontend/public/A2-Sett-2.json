@@ -1,0 +1,170 @@
+[
+  {
+    "type": "word-selection",
+    "question": "Klikk på ordet som her betyr omtrent det samme som \"skikkelig\"",
+    "sentence": "Som sjef i et selskap har man ansvar for mange ansatte. Det er viktig at de har det bra\nog gjør jobben sin ordentlig. Når man er sjef har man mange møter i løpet av dagen.\nDet kan hende at man må jobbe overtide i hverdagen, men det er noe man bare må\nregne med i dette yrket.",
+    "correct_answer": "ordentlig",
+    "difficulty": "A2"
+  },
+  {
+    "type": "word-selection",
+    "question": "Klikk på ordet som her betyr omtrent det samme som \"håndtert\"",
+    "sentence": "På et bilverksted utføres vedlikeholds- og reparasjonsarbeid på forskjellige typer kjøretøy.\nDet kan være både lette og tunge kjøretøy som blir behandlet på en slik plass.\nLedelsen ved bilverkstedet må være godkjent av Statens Vegvesens trafikkstasjoner.",
+    "correct_answer": "behandlet",
+    "difficulty": "A2"
+  },
+  {
+    "type": "word-selection",
+    "question": "Klikk på ordet som her betyr omtrent det samme som \"diverse\"",
+    "sentence": "På et bilverksted utføres vedlikeholds- og reparasjonsarbeid på forskjellige typer kjøretøy.\nDet kan være både lette og tunge kjøretøy som blir behandlet på en slik plass.\nLedelsen ved bilverkstedet må være godkjent av Statens Vegvesens trafikkstasjoner.",
+    "correct_answer": "forskjellige",
+    "difficulty": "A2"
+  },
+  {
+    "type": "word-selection",
+    "question": "Klikk på ordet som her betyr omtrent det samme som \"omtrent\"",
+    "sentence": "Tusenfryd er en fornøyelsespark i Ås kommune. Parken ligger bortimot 20 kilometer fra Oslo sentrum.\nHer venter minneverdige opplevelser for alle som vil. Selv om inngangsbilletten er nokså dyr, så er det\nverdt pengene for de fleste som besøker. Både småbarnsfamilier og ungdommer har dratt nytte av\ndenne fornøyelsesparken i drøssevis av år opp igjennom tidene.",
+    "correct_answer": "bortimot",
+    "difficulty": "A2"
+  },
+  {
+    "type": "word-selection",
+    "question": "Klikk på ordet som her betyr omtrent det samme som \"nokså\"",
+    "sentence": "Tusenfryd er en fornøyelsespark i Ås kommune. Parken ligger bortimot 20 kilometer fra Oslo sentrum.\nHer venter minneverdige opplevelser for alle som vil. Selv om inngangsbilletten er temmelig dyr, så er det\nverdt pengene for de fleste som besøker. Både småbarnsfamilier og ungdommer har dratt nytte av\ndenne fornøyelsesparken i drøssevis av år opp igjennom tidene.",
+    "correct_answer": "temmelig",
+    "difficulty": "A2"
+  },
+  {
+    "type": "word-selection",
+    "question": "Klikk på ordet som her betyr omtrent det samme som \"ønsker\"",
+    "sentence": "Tusenfryd er en fornøyelsespark i Ås kommune. Parken ligger bortimot 20 kilometer fra Oslo sentrum.\nHer venter minneverdige opplevelser for alle som vil. Selv om inngangsbilletten er temmelig dyr, så er det\nverdt pengene for de fleste som besøker. Både småbarnsfamilier og ungdommer har dratt nytte av\ndenne fornøyelsesparken i drøssevis av år opp igjennom tidene.",
+    "correct_answer": "vil",
+    "difficulty": "A2"
+  },
+  {
+    "type": "multiple",
+    "context": "Hei naboer!\n\nKommunen har sendt en e-post om at prisen for søppeltømming vil øke fremover i Trollringen.\nVi må betale 385 kroner hver måned per leilighet. Det er ikke lenger 3 leiligheter, nå er det 4 leiligheter, \nfra nå av må vi totalt betale 1540 kroner hver måned for dette. Derfor vil felleskostnaden øke til 2455 kr\nper måned fra og med januar neste år. Nå ligger felleskostnaden på 2249 kr.\nDet er ikke så mye å gjøre med dette. Kildesortering er helt nødvendig.\nJeg hørte med de andre 8 leilighetene i et annet nabolag (Soppsvingen), og de betalte også denne prisen.\n\nMvh,\nStyreleder Kjell",
+    "question": "Hvor mye blir den totale kostnaden hver måned fra neste år?",
+    "options": [
+      "2249 kr",
+      "385 kr",
+      "2455 kr",
+      "1540 kr"
+    ],
+    "correct_answer": "2455 kr",
+    "incorrect_answers": [
+      "385 kr",
+      "2249 kr",
+      "1540 kr"
+    ],
+    "difficulty": "A2"
+  },
+  {
+    "type": "multiple",
+    "context": "Hei naboer!\n\nKommunen har sendt en e-post om at prisen for søppeltømming vil øke fremover i Trollringen.\nVi må betale 385 kroner hver måned per leilighet. Det er ikke lenger 3 leiligheter, nå er det 4 leiligheter, \nfra nå av må vi totalt betale 1540 kroner hver måned for dette. Derfor vil felleskostnaden øke til 2455 kr\nper måned fra og med januar neste år. Nå ligger felleskostnaden på 2249 kr.\nDet er ikke så mye å gjøre med dette. Kildesortering er helt nødvendig.\nJeg hørte med de andre 8 leilighetene i et annet nabolag (Soppsvingen), og de betalte også denne prisen.\n\nMvh,\nStyreleder Kjell",
+    "question": "Hvor mange leiligheter er var det tidligere i dette Trollringen?",
+    "options": [
+      "3",
+      "5",
+      "4",
+      "8"
+    ],
+    "correct_answer": "8",
+    "incorrect_answers": [
+      "5",
+      "4",
+      "3"
+    ],
+    "difficulty": "A2"
+  },
+    {
+    "type": "multiple",
+    "context": "Karl (29) kan miste Bryggeri-jobben: – Særdeles kjipt\n\n«Som å bli sparket i leggen og stukket i ryggen samtidig», sier lageroperatøren om kuttbeskjeden som ramlet inn nylig.\n\nPå Bryggeri-fabrikken er lageroperatør Karl Johnsen (29) i full gang med dagens oppgaver på gulvet i lagerbygget. Han er en av dem som nå står i fare for å miste jobben, når Bryggeriet skal kutte i bemanningen,\ni prosessen med å gi slipp på utkjøring av varer til butikker. Fra mars neste år vil Klasko, Korpa og Hesna 1300 selv kjøre ut varene til dagligvarebutikkene.\n\nNyheten har, ifølge Johnsen, satt et dystert preg på de ansatte på Bryggeri-fabrikken, som ligger på Åkernes i Sittedal utenfor Oslo, der det finnes over 200 forskjellige merker.\n\nHan beskriver stemningen blant de ansatte som «helt stille» og «i vantro» da de fikk nyheten i forrige uke.\n\n– Man må jo være positiv uansett hvordan det går. Men det er særdeles kjipt, det er det, sier han til avisen.\n\nForeløpig vet ikke de ansatte hvem som vil måtte finne seg et nytt sted å jobbe.\n\n**Karl liker å være her**\n\nBlant Johnsens kollegaer er det flere med høy ansiennitet, som har jobbet på Bryggeriet i 30–40 år og som nå nærmer seg pensjonsalder.\n\nBlant de ansatte er det også familier som er helt avhengige av inntekten fra lagergulvet, ettersom både mor og far i familien jobber på Bryggeriet-lageret.\n\n– Det er enda hardere for dem. Når man nesten er pensjonist er det ikke like lett å få seg ny jobb. Man liker jo å være her, og å jobbe her. Og man har hørt at dette alltid har vært et trygt sted å arbeide, sier Johnsen.\n\nDet har lenge vært diskutert innad i Bryggeriet om man skal gi opp distribusjonsdelen. Allerede i 1997 kom spørsmålet opp første gang, ifølge Anna Granrud i klubben i Bryggeriet.\n\nDiskusjonen ble etter en ny runde lagt død i 2019. Det kom derfor som et lite sjokk for de ansatte da diskusjonen igjen ble tatt opp i februar i år.\n\nI februar var beskjeden at det kunne spøke for 300 arbeidsplasser.\n\nAdministrerende direktør i Bryggeriet, Marianne Karlsen, sa tirsdag i forrige uke i en e-post via kommunikasjonsavdelingen at endringene kommer av et behov for å investere for å øke kapasiteten.\n\n– Konklusjonen vår er at kjedene vil distribuere varene til lavere kostnad og med en mer effektiv vareflyt ut til butikkhyllene. Dette er også den rådende modellen i det norske dagligvaremarkedet, sa hun.\n\nBryggeriet er eid av danske Jarlsberg. Bryggeriet Norge AS hadde et resultat før skatt på 809 millioner kroner i 2021.\n\nØdemark Kippe legger til at de ansatte vil få et tilbud om å bli med i Bryggeriets omstillingsprogram etter at grossistene har tatt over jobben deres.\n\n– Her vil den enkelte få lønn mens vi sammen jobber for å finne ny jobb, sier hun.",
+    "question": "Hvorfor kuttes bemanningen på fabrikken? ",
+    "options": [
+      "For å ha bedre effektivitet",
+      "Fabrikken er ikke sentral nok",
+      "De ansatte er ikke kompetent nok",
+      "Alle er blitt pensjonister"
+    ],
+    "correct_answer": "For å ha bedre effektivitet",
+    "incorrect_answers": [
+      "Fabrikken er ikke sentral nok",
+      "De ansatte er ikke kompetent nok",
+      "Alle er blitt pensjonister"
+    ],
+    "difficulty": "A2"
+  },
+    {
+    "type": "multiple",
+    "context": "Karl (29) kan miste Bryggeri-jobben: – Særdeles kjipt\n\n«Som å bli sparket i leggen og stukket i ryggen samtidig», sier lageroperatøren om kuttbeskjeden som ramlet inn nylig.\n\nPå Bryggeri-fabrikken er lageroperatør Karl Johnsen (29) i full gang med dagens oppgaver på gulvet i lagerbygget. Han er en av dem som nå står i fare for å miste jobben, når Bryggeriet skal kutte i bemanningen,\ni prosessen med å gi slipp på utkjøring av varer til butikker. Fra mars neste år vil Klasko, Korpa og Hesna 1300 selv kjøre ut varene til dagligvarebutikkene.\n\nNyheten har, ifølge Johnsen, satt et dystert preg på de ansatte på Bryggeri-fabrikken, som ligger på Åkernes i Sittedal utenfor Oslo, der det finnes over 200 forskjellige merker.\n\nHan beskriver stemningen blant de ansatte som «helt stille» og «i vantro» da de fikk nyheten i forrige uke.\n\n– Man må jo være positiv uansett hvordan det går. Men det er særdeles kjipt, det er det, sier han til avisen.\n\nForeløpig vet ikke de ansatte hvem som vil måtte finne seg et nytt sted å jobbe.\n\n**Karl liker å være her**\n\nBlant Johnsens kollegaer er det flere med høy ansiennitet, som har jobbet på Bryggeriet i 30–40 år og som nå nærmer seg pensjonsalder.\n\nBlant de ansatte er det også familier som er helt avhengige av inntekten fra lagergulvet, ettersom både mor og far i familien jobber på Bryggeriet-lageret.\n\n– Det er enda hardere for dem. Når man nesten er pensjonist er det ikke like lett å få seg ny jobb. Man liker jo å være her, og å jobbe her. Og man har hørt at dette alltid har vært et trygt sted å arbeide, sier Johnsen.\n\nDet har lenge vært diskutert innad i Bryggeriet om man skal gi opp distribusjonsdelen. Allerede i 1997 kom spørsmålet opp første gang, ifølge Anna Granrud i klubben i Bryggeriet.\n\nDiskusjonen ble etter en ny runde lagt død i 2019. Det kom derfor som et lite sjokk for de ansatte da diskusjonen igjen ble tatt opp i februar i år.\n\nI februar var beskjeden at det kunne spøke for 300 arbeidsplasser.\n\nAdministrerende direktør i Bryggeriet, Marianne Karlsen, sa tirsdag i forrige uke i en e-post via kommunikasjonsavdelingen at endringene kommer av et behov for å investere for å øke kapasiteten.\n\n– Konklusjonen vår er at kjedene vil distribuere varene til lavere kostnad og med en mer effektiv vareflyt ut til butikkhyllene. Dette er også den rådende modellen i det norske dagligvaremarkedet, sa hun.\n\nBryggeriet er eid av danske Jarlsberg. Bryggeriet Norge AS hadde et resultat før skatt på 809 millioner kroner i 2021.\n\nØdemark Kippe legger til at de ansatte vil få et tilbud om å bli med i Bryggeriets omstillingsprogram etter at grossistene har tatt over jobben deres.\n\n– Her vil den enkelte få lønn mens vi sammen jobber for å finne ny jobb, sier hun.",
+    "question": "Hvordan er det å jobbe på Bryggeriet ifølge Karl?",
+    "options": [
+      "Det er hardt og tungt",
+      "Det er en krevende jobb",
+      "Det er en trygg jobb",
+      "Det er særdeles kjipt"
+    ],
+    "correct_answer": "Det er en trygg jobb",
+    "incorrect_answers": [
+      "Det er en krevende jobb",
+      "Det er hardt og tungt",
+      "Det er særdeles kjipt"
+    ],
+    "difficulty": "A2"
+  },
+    {
+    "type": "multiple",
+    "context": "Karl (29) kan miste Bryggeri-jobben: – Særdeles kjipt\n\n«Som å bli sparket i leggen og stukket i ryggen samtidig», sier lageroperatøren om kuttbeskjeden som ramlet inn nylig.\n\nPå Bryggeri-fabrikken er lageroperatør Karl Johnsen (29) i full gang med dagens oppgaver på gulvet i lagerbygget. Han er en av dem som nå står i fare for å miste jobben, når Bryggeriet skal kutte i bemanningen,\ni prosessen med å gi slipp på utkjøring av varer til butikker. Fra mars neste år vil Klasko, Korpa og Hesna 1300 selv kjøre ut varene til dagligvarebutikkene.\n\nNyheten har, ifølge Johnsen, satt et dystert preg på de ansatte på Bryggeri-fabrikken, som ligger på Åkernes i Sittedal utenfor Oslo, der det finnes over 200 forskjellige merker.\n\nHan beskriver stemningen blant de ansatte som «helt stille» og «i vantro» da de fikk nyheten i forrige uke.\n\n– Man må jo være positiv uansett hvordan det går. Men det er særdeles kjipt, det er det, sier han til avisen.\n\nForeløpig vet ikke de ansatte hvem som vil måtte finne seg et nytt sted å jobbe.\n\n**Karl liker å være her**\n\nBlant Johnsens kollegaer er det flere med høy ansiennitet, som har jobbet på Bryggeriet i 30–40 år og som nå nærmer seg pensjonsalder.\n\nBlant de ansatte er det også familier som er helt avhengige av inntekten fra lagergulvet, ettersom både mor og far i familien jobber på Bryggeriet-lageret.\n\n– Det er enda hardere for dem. Når man nesten er pensjonist er det ikke like lett å få seg ny jobb. Man liker jo å være her, og å jobbe her. Og man har hørt at dette alltid har vært et trygt sted å arbeide, sier Johnsen.\n\nDet har lenge vært diskutert innad i Bryggeriet om man skal gi opp distribusjonsdelen. Allerede i 1997 kom spørsmålet opp første gang, ifølge Anna Granrud i klubben i Bryggeriet.\n\nDiskusjonen ble etter en ny runde lagt død i 2019. Det kom derfor som et lite sjokk for de ansatte da diskusjonen igjen ble tatt opp i februar i år.\n\nI februar var beskjeden at det kunne spøke for 300 arbeidsplasser.\n\nAdministrerende direktør i Bryggeriet, Marianne Karlsen, sa tirsdag i forrige uke i en e-post via kommunikasjonsavdelingen at endringene kommer av et behov for å investere for å øke kapasiteten.\n\n– Konklusjonen vår er at kjedene vil distribuere varene til lavere kostnad og med en mer effektiv vareflyt ut til butikkhyllene. Dette er også den rådende modellen i det norske dagligvaremarkedet, sa hun.\n\nBryggeriet er eid av danske Jarlsberg. Bryggeriet Norge AS hadde et resultat før skatt på 809 millioner kroner i 2021.\n\nØdemark Kippe legger til at de ansatte vil få et tilbud om å bli med i Bryggeriets omstillingsprogram etter at grossistene har tatt over jobben deres.\n\n– Her vil den enkelte få lønn mens vi sammen jobber for å finne ny jobb, sier hun.",
+    "question": "Hva skjedde i 2019?",
+    "options": [
+      "De fortsatte å spekulere innad i Bryggeriet ",
+      "De sluttet å spekulere innad i Bryggeriet",
+      "De begynte å spekulere innad i Bryggeriet ",
+      "De ga opp å spekulere innad i Bryggeriet"
+    ],
+    "correct_answer": "De sluttet å spekulere innad i Bryggeriet",
+    "incorrect_answers": [
+      "De fortsatte å spekulere innad i Bryggeriet ",
+      "De begynte å spekulere innad i Bryggeriet ",
+      "De ga opp å spekulere innad i Bryggeriet"
+    ],
+    "difficulty": "A2"
+  },
+   {
+    "type": "multiple",
+  "context": "Egil kjører gods med lastebil rundt omkring Norge.\nHan har tatt masse fagbrev som både tømrer og kranfører.\nMen han innså at det han liker mest i verden, er å kjøre et stort fartøy.\nHan bor på bygda med kjæresten sin, og hjelper henne med gården.\nSofie har arbeidet for et markedsføringsfirma i seks år i Oslo.\nHun ble forfremmet tre ganger, og hadde en høy stilling til slutt.\nNå eier hun sitt eget firma. Hun har fire ansatte og en regnskapsfører.\nSofie liker å være singel og heller fokusere på selskapet sitt hundre prosent.\nHun er ikke så glad i å ta fri fra jobb.\nKevin er lærer på en barneskole i en liten bygd utenfor Trondheim.\nSelv om han er ugift, så er han veldig glad i barn.\nKevin er i god form, han sykler til jobb og går på fjellturer i helgene.\nHan tar ofte barna med ut for å leke i snøen.\nIdun er en journalist for et nyhetsbyråd.\nHun er glad i å snakke med folk og gå ut i byen.\nTidligere arbeidet hun for et annet nyhetsbyråd, men sjefen var ikke god.\nNå trives hun med den nye jobben og kjæresten hun har hjemme.",
+    "question": "Hvem kan si: 'Jeg tar sjeldent ferie. Jobb er viktigst'",
+    "options": ["Sofie", "Egil", "Kevin", "Idun"],
+    "correct_answer": "Sofie",
+    "incorrect_answers": ["Egil", "Kevin", "Idun"],
+    "difficulty": "A2"
+  },
+   {
+    "type": "multiple",
+  "context": "Egil kjører gods med lastebil rundt omkring Norge.\nHan har tatt masse fagbrev som både tømrer og kranfører.\nMen han innså at det han liker mest i verden, er å kjøre et stort fartøy.\nHan bor på bygda med kjæresten sin, og hjelper henne med gården.\nSofie har arbeidet for et markedsføringsfirma i seks år i Oslo.\nHun ble forfremmet tre ganger, og hadde en høy stilling til slutt.\nNå eier hun sitt eget firma. Hun har fire ansatte og en regnskapsfører.\nSofie liker å være singel og heller fokusere på selskapet sitt hundre prosent.\nHun er ikke så glad i å ta fri fra jobb.\nKevin er lærer på en barneskole i en liten bygd utenfor Trondheim.\nSelv om han er ugift, så er han veldig glad i barn.\nKevin er i god form, han sykler til jobb og går på fjellturer i helgene.\nHan tar ofte barna med ut for å leke i snøen.\nIdun er en journalist for et nyhetsbyråd.\nHun er glad i å snakke med folk og gå ut i byen.\nTidligere arbeidet hun for et annet nyhetsbyråd, men sjefen var ikke god.\nNå trives hun med den nye jobben og kjæresten hun har hjemme.",
+    "question": "Hvem kan si: 'Jeg tar gjerne noen intervaller på kveldene etter jobb'",
+    "options": ["Sofie", "Egil", "Kevin", "Idun"],
+    "correct_answer": "Sofie",
+    "incorrect_answers": ["Egil", "Kevin", "Idun"],
+    "difficulty": "A2"
+  },
+   {
+    "type": "multiple",
+  "context": "Egil kjører gods med lastebil rundt omkring Norge.\nHan har tatt masse fagbrev som både tømrer og kranfører.\nMen han innså at det han liker mest i verden, er å kjøre et stort fartøy.\nHan bor på bygda med kjæresten sin, og hjelper henne med gården.\nSofie har arbeidet for et markedsføringsfirma i seks år i Oslo.\nHun ble forfremmet tre ganger, og hadde en høy stilling til slutt.\nNå eier hun sitt eget firma. Hun har fire ansatte og en regnskapsfører.\nSofie liker å være singel og heller fokusere på selskapet sitt hundre prosent.\nHun er ikke så glad i å ta fri fra jobb.\nKevin er lærer på en barneskole i en liten bygd utenfor Trondheim.\nSelv om han er ugift, så er han veldig glad i barn.\nKevin er i god form, han sykler til jobb og går på fjellturer i helgene.\nHan tar ofte barna med ut for å leke i snøen.\nIdun er en journalist for et nyhetsbyråd.\nHun er glad i å snakke med folk og gå ut i byen.\nTidligere arbeidet hun for et annet nyhetsbyråd, men sjefen var ikke god.\nNå trives hun med den nye jobben og kjæresten hun har hjemme.",
+    "question": "Hvem kan si: 'Hvis ikke ledelsen duger, bytter jeg jobb'",
+    "options": ["Sofie", "Egil", "Kevin", "Idun"],
+    "correct_answer": "Idun",
+    "incorrect_answers": ["Egil", "Kevin", "Sofie"],
+    "difficulty": "A2"
+  },
+   {
+    "type": "multiple",
+  "context": "Egil kjører gods med lastebil rundt omkring Norge.\nHan har tatt masse fagbrev som både tømrer og kranfører.\nMen han innså at det han liker mest i verden, er å kjøre et stort fartøy.\nHan bor på bygda med kjæresten sin, og hjelper henne med gården.\nSofie har arbeidet for et markedsføringsfirma i seks år i Oslo.\nHun ble forfremmet tre ganger, og hadde en høy stilling til slutt.\nNå eier hun sitt eget firma. Hun har fire ansatte og en regnskapsfører.\nSofie liker å være singel og heller fokusere på selskapet sitt hundre prosent.\nHun er ikke så glad i å ta fri fra jobb.\nKevin er lærer på en barneskole i en liten bygd utenfor Trondheim.\nSelv om han er ugift, så er han veldig glad i barn.\nKevin er i god form, han sykler til jobb og går på fjellturer i helgene.\nHan tar ofte barna med ut for å leke i snøen.\nIdun er en journalist for et nyhetsbyråd.\nHun er glad i å snakke med folk og gå ut i byen.\nTidligere arbeidet hun for et annet nyhetsbyråd, men sjefen var ikke god.\nNå trives hun med den nye jobben og kjæresten hun har hjemme.",
+    "question": "Hvem kan si: 'Når jeg sitter bak rattet, føler jeg meg hjemme!'",
+    "options": ["Sofie", "Egil", "Kevin", "Idun"],
+    "correct_answer": "Egil",
+    "incorrect_answers": ["Sofie", "Kevin", "Idun"],
+    "difficulty": "A2"
+  }
+]

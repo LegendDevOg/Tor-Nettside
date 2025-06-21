@@ -1,0 +1,302 @@
+[  {
+    "type": "image",
+    "sentence": "Det er snø ute og Vignesh går tur ute med en rød jakke.",
+    "question": "Klikk på Vignesh.",
+    "options": [
+      "/images/bilde/oppg6-op1.png",
+      "/images/bilde/oppg6-op2.png",
+      "/images/bilde/oppg6-op3.png",
+      "/images/bilde/oppg6-op4.png"
+    ],
+    "correct_answer": "/images/bilde/oppg6-op3.png",
+    "difficulty": "A1"
+  },
+
+  {
+    "type": "image",
+    "sentence": "Fire personer jobber sammen. En kvinne skal pensjonere seg i morgen.",
+    "question": "Klikke på kvinnen med hvitt hår.",
+    "options": [
+      "/images/bilde/oppg6-op1.png",
+      "/images/bilde/oppg6-op2.png",
+      "/images/bilde/oppg6-op3.png",
+      "/images/bilde/oppg6-op4.png"
+    ],
+    "correct_answer": "/images/bilde/oppg6-op4.png",
+    "difficulty": "A1"
+  },
+
+  {
+    "type": "image",
+    "sentence": "Sondre er ferdig med militæret. Han har deltidsjobb som vaktmester. \nMoren hans, Trine, jobber som lege på sykehuset. Faren hans jobber som fisker. \nSondre ønsker å studere for å bli tannlege neste år.",
+    "question": "Hvilket yrke har moren til Sondre?",
+    "options": [
+      "/images/bilde/oppg11-op1.png",
+      "/images/bilde/oppg11-op2.png",
+      "/images/bilde/oppg11-op3.png",
+      "/images/bilde/oppg11-op4.png"
+    ],
+    "correct_answer": "/images/bilde/oppg11-op3.png",
+    "difficulty": "A1"
+  },
+
+  {
+    "type": "image",
+    "sentence": "Monika jobber i kassa på matbutikken. Hun har to barn. \nVennen til Monika, Gabriel, jobber som fisker. Ektemannen til Monika er vaktmester. \nSønnen til Monika ønsker å bli lege, men han går på ungdomsskolen nå.",
+    "question": "Hvilket yrke har Gabriel?",
+    "options": [
+      "/images/bilde/oppg11-op1.png",
+      "/images/bilde/oppg11-op2.png",
+      "/images/bilde/oppg11-op3.png",
+      "/images/bilde/oppg11-op4.png"
+    ],
+    "correct_answer": "/images/bilde/oppg11-op2.png",
+    "difficulty": "A1"
+  },
+  {
+    "type": "image",
+    "question": "Stian må gå på butikken og handle inn middag for i dag. Klikk på riktig handleliste.",
+    "options": [
+      "/images/tekst/oppg15-op1.png",
+      "/images/tekst/oppg15-op2.png",
+      "/images/tekst/oppg15-op3.png",
+      "/images/tekst/oppg15-op4.png"
+    ],
+    "correct_answer": "/images/tekst/oppg15-op3.png",
+    "difficulty": "A1"
+  },
+  {
+    "type": "image",
+    "question": "Hvem fikk en presang av bestemoren sin?",
+    "options": [
+      "/images/tekst/oppg16-op1.png",
+      "/images/tekst/oppg16-op2.png",
+      "/images/tekst/oppg16-op3.png",
+      "/images/tekst/oppg16-op4.png"
+    ],
+    "correct_answer": "/images/tekst/oppg16-op4.png",
+    "difficulty": "A1"
+  },
+  {
+    "type": "image",
+    "question": "Hvem skal dra til utlandet?",
+    "options": [
+      "/images/tekst/oppg17-op1.png",
+      "/images/tekst/oppg17-op2.png",
+      "/images/tekst/oppg17-op3.png",
+      "/images/tekst/oppg17-op4.png"
+    ],
+    "correct_answer": "/images/tekst/oppg17-op2.png",
+    "difficulty": "A1"
+  },
+  {
+    "type": "image",
+    "question": "Hvilken tekst passer til bildet?",
+    "options": [
+      "/images/tekst/oppg18-op1.png",
+      "/images/tekst/oppg18-op2.png",
+      "/images/tekst/oppg18-op3.png",
+      "/images/tekst/oppg18-op4.png"
+    ],
+    "image": "/images/tekst/oppg18-image.png",
+    "correct_answer": "/images/tekst/oppg18-op2.png",
+    "difficulty": "A1"
+  },
+  {
+    "type": "image",
+    "question": "Hvilken tekst passer til bildet?",
+    "options": [
+      "/images/tekst/oppg19-op1.png",
+      "/images/tekst/oppg19-op2.png",
+      "/images/tekst/oppg19-op3.png",
+      "/images/tekst/oppg19-op4.png"
+    ],
+    "image": "/images/tekst/oppg19-image.png",
+    "correct_answer": "/images/tekst/oppg19-op2.png",
+    "difficulty": "A1"
+  },
+  {
+    "type": "image",
+    "question": "Hvilken tekst passer til bildet?",
+    "options": [
+      "/images/tekst/oppg20-op1.png",
+      "/images/tekst/oppg20-op2.png",
+      "/images/tekst/oppg20-op3.png",
+      "/images/tekst/oppg20-op4.png"
+    ],
+    "image": "/images/tekst/oppg20-image.png",
+    "correct_answer": "/images/tekst/oppg20-op2.png",
+    "difficulty": "A1"
+  },
+  {
+    "type": "image",
+    "question": "Hvilken tekst passer til bildet?",
+    "options": [
+      "/images/tekst/oppg21-op1.png",
+      "/images/tekst/oppg21-op2.png",
+      "/images/tekst/oppg21-op3.png",
+      "/images/tekst/oppg21-op4.png"
+    ],
+    "image": "/images/tekst/oppg21-image.png",
+    "correct_answer": "/images/tekst/oppg21-op3.png",
+    "difficulty": "A1"
+  },
+  {
+    "type": "multiple",
+    "context": "Hei Ola,\n\nHusk din time til dekkskift fredag 1/11 klokka 11.00 hos Bilhjelp AS.\nAvbestilling må skje innen 10.00 dagen før.\nHilsen Bilhjelp AS",
+    "question": "Hvem er meldingen fra?",
+    "options": [
+        "Frisøren",
+        "Eiendomsmegler",
+        "Flyplassen",
+        "Bilverksted"
+    ],
+    "correct_answer": "Bilverksted",
+    "incorrect_answers": [
+        "Eiendomsmegler",
+        "Flyplassen",
+        "Frisøren"
+    ],
+    "difficulty": "A1"
+},
+{
+  "type": "multiple",
+  "context": "Hei Per!\n\nVi har begynt fotballtreningen, men så har vi glemt ballene!\nKunne du ha kjørt hit med ballene muligens? Uten det kan vi ikke starte treningen, så det er litt krise.\nVi har vester og kjegler her, så du trenger ikke å ta med det.\nKlemz Hanna <3",
+  "question": "Hva skal mannen ta med seg?",
+  "options": [
+      "Vester",
+      "Kjegler",
+      "Baller",
+      "Trening"
+  ],
+  "correct_answer": "Baller",
+  "incorrect_answers": [
+      "Kjegler",
+      "Vester",
+      "Trening"
+  ],
+  "difficulty": "A1"
+},
+{
+    "type": "multiple",
+    "context": "Kenneth er ute for å kjøpe nye klær.\nHan kjøper ei kul lue han liker. Men han er ubesluttsom og ber om å få pengene tilbake.\nEtterpå går han til en annen butikk og kjøper en jakke. Den beholder han og drar hjem.",
+    "question": "Hva kjøper Kenneth til slutt?",
+    "options": [
+      "En jakke",
+      "Ei lue",
+      "En genser",
+      "Ingenting"
+  ],
+  "correct_answer": "En jakke",
+  "incorrect_answers": [
+      "Ei lue",
+      "En genser",
+      "Ingenting"
+  ],
+    "difficulty": "A1"
+},
+{
+    "type": "multiple",
+    "context": "Hei Tormod,\n\nJeg har skadet foten min og klarer nesten ikke å gå.\nJeg kan dessverre ikke spille kampen i dag. Beklager dette!\nHilsen Nikolai",
+    "question": "Hvem skriver Nikolai e-post til?",
+    "options": [
+        "Treneren",
+        "Kommunen",
+        "Kollegaen",
+        "Gartneren"
+    ],
+    "correct_answer": "Treneren",
+    "incorrect_answers": [
+        "Kommunen",
+        "Kollegaen",
+        "Gartneren"
+    ],
+    "difficulty": "A1"
+},
+{
+    "type": "multiple",
+    "context": "Mandag til Onsdag: 7-20\nTorsdag: 8-21\nFredag: 10-18\nLørdag og Søndag: 12-18",
+    "question": "Når stenger svømmebassenget på torsdager?",
+    "options": [
+      "Klokka 21",
+      "Klokka 20",
+      "Klokka 7",
+      "Klokka 18"
+  ],
+  "correct_answer": "Klokka 21",
+  "incorrect_answers": [
+      "Klokka 20",
+      "Klokka 7",
+      "Klokka 18"
+  ],
+    "difficulty": "A1"
+},
+{
+    "type": "multiple",
+    "context": "Mandag til Onsdag: 7-20\nTorsdag: 8-21\nFredag: 10-18\nLørdag og Søndag: 12-18",
+    "question": "Hvilken dag åpner svømmebassenget tidligst?",
+    "options": [
+        "Fredag",
+        "Lørdag",
+        "Tirsdag",
+        "Torsdag"
+    ],
+    "correct_answer": "Tirsdag",
+    "incorrect_answers": [
+        "Lørdag",
+        "Fredag",
+        "Torsdag"
+    ],
+    "difficulty": "A1"
+},
+{
+    "type": "multiple",
+    "context": "Jaktsesong",
+    "question": "5. Hvilken dag åpner svømmebassenget tidligst?",
+    "options": [
+        "Fredag",
+        "Lørdag",
+        "Tirsdag",
+        "Torsdag"
+    ],
+    "correct_answer": "Fredag",
+    "incorrect_answers": [
+        "Lørdag",
+        "Tirsdag",
+        "Torsdag"
+    ],
+    "difficulty": "A1"
+},
+{
+    "type": "multiple",
+    "context": "Tiden er kommet for å endelig kunne jakte i skogen! Men det er viktig å vise hensyn\ntil andre turgåere. Husk at det er vill natur, og alle kan gå i området. Lykke til!\n\nHilsen Jonathan",
+    "question": "Hva sier Jonathan?",
+    "options": [
+        "Det er ikke lov til å jakte",
+        "Hvis man jakter må man være forsiktig",
+        "Bare turgåere kan gå i naturen",
+        "Området er fredet"
+    ],
+    "correct_answer": "Hvis man jakter må man være forsiktig",
+    "incorrect_answers": [
+        "Det er ikke lov til å jakte",
+        "Bare turgåere kan gå i naturen",
+        "Området er fredet"
+    ],
+    "difficulty": "A1"
+},
+  {
+    "type": "word-selection",
+    "question": "3. Hvem skadet seg?",
+    "sentence": "Barna er ute og leker i naturen. De springer rundt og fekter med pinner.\nKasper er uheldig og faller på bakken. Læreren trøster eleven og setter på plaster.\nSenere skal alle ha lunsj sammen. De setter seg ned på en benk rundt bålet.",
+    "correct_answer": "Kasper",
+    "difficulty": "A1"
+  },
+  {
+    "type": "word-selection",
+    "question": "7. Hvor arbeidet Ivar?",
+    "sentence": "Da Nelly tok masteren sin, bodde hun i Bergen sentrum. Hun likte seg godt der.\nI Bergen møtte hun Ivar som jobbet i en bar. Etter ett år flyttet de inn sammen i en enebolig.\nEtter masteren, flyttet Nelly til Ålesund i en leilighet for å jobbe. Ivar fant seg også en jobb der.\nTo år etterpå gikk de fra hverandre, og Ivar flyttet tilbake til Bergen igjen.",
+    "correct_answer": "bar",
+    "difficulty": "A2"
+  }
+]

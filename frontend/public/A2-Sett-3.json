@@ -1,0 +1,152 @@
+[
+  {
+    "type": "word-selection",
+    "question": "Klikk på ordet som her betyr omtrent det samme som \"verdifull\"",
+    "sentence": "På gården er det mye som må gjøres. Bonden som arbeider her har arbeidsoppgaver\nsom er både krevende og givende. Dyrene må pleies og mates, potetene må plukkes.\nSelv om det er mye arbeid som må gjøres, så er det likevel ikke så mye man får igjen for\ndet økonomisk. De aller fleste som velger dette yrket gjør det ikke for pengene.",
+    "correct_answer": "givende",
+    "difficulty": "A2"
+  },
+  {
+    "type": "word-selection",
+    "question": "Klikk på ordet som her betyr omtrent det samme som \"stelles\"",
+    "sentence": "På gården er det mye som må gjøres. Bonden som arbeider her har arbeidsoppgaver\nsom er både krevende og givende. Dyrene må pleies og mates, potetene må plukkes.\nSelv om det er mye arbeid som må gjøres, så er det likevel ikke så mye man får igjen for\ndet økonomisk. De aller fleste som velger dette yrket gjør det ikke for pengene.",
+    "correct_answer": "pleies",
+    "difficulty": "A2"
+  },
+  {
+    "type": "word-selection",
+    "question": "Klikk på ordet som her betyr omtrent det samme som \"klemmer\"",
+    "sentence": "Ved bussholdeplassen står forskjellige folk og venter på neste buss som kommer.\nUtenfor rushtiden er det som oftest rolig. Fuglene kvitrer og bølgene suser i horisonten.\nI rushtiden derimot, da er det så travelt som du får det. Folk presser seg inn i bussen.",
+    "correct_answer": "presser",
+    "difficulty": "A2"
+  },
+  {
+    "type": "word-selection",
+    "question": "Klikk på ordet som her betyr omtrent det samme som \"læreren\"",
+    "sentence": "På Universitetet er det både studenter og professorer som vandrer omkring.\nStudentene deltar på forelesninger, der kan de lytte til professoren.\nNår studenter deltar på seminar kan de stille spørsmål til veilederen hvis man vil.\nSom en student i Norge har man mange goder, tilbud på mat, billigere transport og andre organisasjoner man kan bli med i.",
+    "correct_answer": "professoren",
+    "difficulty": "A2"
+  },
+  {
+    "type": "word-selection",
+    "question": "Klikk på ordet som her betyr omtrent det samme som \"fordeler\"",
+    "sentence": "På Universitetet er det både studenter og professorer som vandrer omkring.\nStudentene deltar på forelesninger, der kan de lytte til professoren.\nNår studenter deltar på seminar kan de stille spørsmål til veilederen hvis man vil.\nSom en student i Norge har man mange goder, tilbud på mat, billigere transport og andre organisasjoner man kan bli med i.",
+    "correct_answer": "goder",
+    "difficulty": "A2"
+  },
+  {
+    "type": "word-selection",
+    "question": "Klikk på ordet som her betyr omtrent det samme som \"tråkker\"",
+    "sentence": "På Universitetet er det både studenter og professorer som vandrer omkring.\nStudentene deltar på forelesninger, der kan de lytte til professoren.\nNår studenter deltar på seminar kan de stille spørsmål til veilederen hvis man vil.\nSom en student i Norge har man mange goder, tilbud på mat, billigere transport og andre organisasjoner man kan bli med i.",
+    "correct_answer": "vandrer",
+    "difficulty": "A2"
+  },
+  {
+    "type": "multiple",
+    "context": "Snart klart!\n\nKjøpesenteret skal åpnes på lørdag allerede til helgen! Det blir tonnevis av butikker å velge mellom. Hele 89 butikker vil stå klare til slutt! Til å begynne med vil det være 75 butikker som åpner, men noen måneder etter vil alle de andre butikkene være åpne også! Hvis du er lei av lite utvalg i byen, så trenger du \nikke vente lenger. I Norge er det totalt 132 kjøpesentere, men byen vår vil få det aller største \nkjøpesenteret på Vestlandet! 170 000 kvadratmeter med tusenvis av parkeringsplasser både inne og ute.\nVi ses der! Vestland kjøpesenter",
+    "question": "Hvor mange butikker vil være klare på lørdag?",
+    "options": ["75", "132", "89", "hundrevis"],
+    "correct_answer": "89",
+    "incorrect_answers": ["132", "75", "hundrevis"],
+    "difficulty": "A2"
+  },
+  {
+    "type": "multiple",
+    "context": "Snart klart!\n\nKjøpesenteret skal åpnes på lørdag allerede til helgen! Det blir tonnevis av butikker å velge mellom. Hele 89 butikker vil stå klare til slutt! Til å begynne med vil det være 75 butikker som åpner, men noen måneder etter vil alle de andre butikkene være åpne også! Hvis du er lei av lite utvalg i byen, så trenger du \nikke vente lenger. I Norge er det totalt 132 kjøpesentere, men byen vår vil få det aller største \nkjøpesenteret på Vestlandet! 170 000 kvadratmeter med tusenvis av parkeringsplasser både inne og ute.\nVi ses der! Vestland kjøpesenter",
+    "question": "Hva er det folk klager på i byen?",
+    "options": [
+      "At det er få butikker å velge mellom i byen",
+      "At 132 kjøpesentere er for mye",
+      "At kjøpesentere er stengt i helgene",
+      "At det er for mange parkeringsplasser"
+    ],
+    "correct_answer": "At det er få butikker å velge mellom i byen",
+    "incorrect_answers": [
+      "At 132 kjøpesentere er for mye",
+      "At kjøpesentere er stengt i helgene",
+      "At det er for mange parkeringsplasser"
+    ],
+    "difficulty": "A2"
+  },
+  {
+    "type": "multiple",
+    "context": "NordBanken holder styringsrenten uendret\n\nSjefen Johan Jensen sier det er behov for å holde renten på dagens nivå en stund til, men at tidspunktet for rentekutt nærmer seg.\n\nNordBanken holder renten i ro på 4,5 prosent. Renten har nå vært uendret siden desember i fjor. Det var lite usikkerhet om selve rentebeslutningen på forhånd.\n\n– Trolig holder vi renten på 4,5 prosent ut året, sier sjefen Johan Jensen.\n\nNordBanken skriver at prisveksten har avtatt mye fra toppen, men at den underliggende prisveksten ikke har falt like mye. Samtidig venter NordBanken «høy vekst i bedriftenes kostnader» og at svekkelsen av kronen «vil bremse den videre nedgangen i prisveksten».\n\n– Vi mener det er behov for å holde renten på dagens nivå en stund til, men tidspunktet for å sette renten ned nærmer seg, sier sjefen.\n\n**Nedjustert rentebane**\n\nKronen styrker seg mot valutaer som euro og dollar kort tid etter rentebeslutningen.\n\n– Vi anslår at kronen styrker seg litt ved fremleggelsen av denne rapporten, siden renteprognosen her er noe høyere enn markedets renteforventninger, skriver NordBanken. Høyere rente taler isolert sett for en sterkere valuta.\n\nNordBankens prognose for renten fremover «indikerer en styringsrente som blir liggende på 4,5 prosent ut året, før den settes gradvis ned fra første kvartal neste år», skriver NordBanken. Det er lite endret fra forrige rapport, men tilsier en «noe raskere nedgang i renten neste år».\n\nNordBanken signaliserer ingen kutt i år, men tre kutt neste år, ifølge analytiker i Folkebanken, Nils Nilsen.\n\n– Vi er veldig nære fire kutt, sier han.\n\nI snitt er rentebanen nedjustert litt mindre enn ventet med syv basispunkter. Det ligger også inne en sannsynlighet på 10 til 15 prosent for kutt i desember, ifølge Nilsen.\n\nDagens rentemøte er et såkalt hovedmøte med publisering av Pengepolitisk rapport. I den legger sentralbanken frem sitt syn på den økonomiske utviklingen og utsiktene fremover.\n\n**Fortsatt beredt til å heve**\n\nPrisveksten i Norge har kommet ned, og ligger nå under sentralbankens anslag fra forrige pengepolitiske rapport. Det påpekes av NordBanken, som nedjusterer inflasjonsanslaget for i år, men likevel mener det fortsatt er «behov for en innstrammende pengepolitikk».\n\nSamtidig har den svake kronekursen vært et tilbakevendende tema, og bidratt til forventninger om at NordBanken ville holde renten høy lengre enn i andre land. De er fortsatt beredt til å heve renten hvis kronen svekker seg. Det er et tydelig signal til markedet at de først og fremst vil stabilisere kronekursen, sier sjeføkonom Brynjar i Aksjehandel AS.\n\n**Usikkerhet**\n\nI pressemeldingen påpeker NordBanken at det er «usikkerhet om den videre utviklingen i norsk økonomi». Dersom «kronen svekker seg videre eller kapasitetsutnyttingen øker, kan lønns- og prisveksten holde seg oppe lenger», heter det.\n\nDa kan det også bli behov for en høyere rente enn i dag, fremkommer det.\n\nPå den andre siden påpekes det at dersom det skulle komme til en kraftigere oppbremsing i norsk økonomi enn ventet, kan renten bli satt ned raskere enn det NordBanken nå ser for seg.",
+    "question": "Hvor mange kutt kommer i år?",
+    "options": [
+      "3 kutt",
+      "Ingen kutt",
+      "4 kutt ",
+      "10 kutt"
+    ],
+    "correct_answer": "Ingen kutt",
+    "incorrect_answers": [
+      "3 kutt",
+      "4 kutt ",
+      "10 kutt"
+    ],
+    "difficulty": "A2"
+  },
+  {
+    "type": "multiple",
+    "context": "NordBanken holder styringsrenten uendret\n\nSjefen Johan Jensen sier det er behov for å holde renten på dagens nivå en stund til, men at tidspunktet for rentekutt nærmer seg.\n\nNordBanken holder renten i ro på 4,5 prosent. Renten har nå vært uendret siden desember i fjor. Det var lite usikkerhet om selve rentebeslutningen på forhånd.\n\n– Trolig holder vi renten på 4,5 prosent ut året, sier sjefen Johan Jensen.\n\nNordBanken skriver at prisveksten har avtatt mye fra toppen, men at den underliggende prisveksten ikke har falt like mye. Samtidig venter NordBanken «høy vekst i bedriftenes kostnader» og at svekkelsen av kronen «vil bremse den videre nedgangen i prisveksten».\n\n– Vi mener det er behov for å holde renten på dagens nivå en stund til, men tidspunktet for å sette renten ned nærmer seg, sier sjefen.\n\n**Nedjustert rentebane**\n\nKronen styrker seg mot valutaer som euro og dollar kort tid etter rentebeslutningen.\n\n– Vi anslår at kronen styrker seg litt ved fremleggelsen av denne rapporten, siden renteprognosen her er noe høyere enn markedets renteforventninger, skriver NordBanken. Høyere rente taler isolert sett for en sterkere valuta.\n\nNordBankens prognose for renten fremover «indikerer en styringsrente som blir liggende på 4,5 prosent ut året, før den settes gradvis ned fra første kvartal neste år», skriver NordBanken. Det er lite endret fra forrige rapport, men tilsier en «noe raskere nedgang i renten neste år».\n\nNordBanken signaliserer ingen kutt i år, men tre kutt neste år, ifølge analytiker i Folkebanken, Nils Nilsen.\n\n– Vi er veldig nære fire kutt, sier han.\n\nI snitt er rentebanen nedjustert litt mindre enn ventet med syv basispunkter. Det ligger også inne en sannsynlighet på 10 til 15 prosent for kutt i desember, ifølge Nilsen.\n\nDagens rentemøte er et såkalt hovedmøte med publisering av Pengepolitisk rapport. I den legger sentralbanken frem sitt syn på den økonomiske utviklingen og utsiktene fremover.\n\n**Fortsatt beredt til å heve**\n\nPrisveksten i Norge har kommet ned, og ligger nå under sentralbankens anslag fra forrige pengepolitiske rapport. Det påpekes av NordBanken, som nedjusterer inflasjonsanslaget for i år, men likevel mener det fortsatt er «behov for en innstrammende pengepolitikk».\n\nSamtidig har den svake kronekursen vært et tilbakevendende tema, og bidratt til forventninger om at NordBanken ville holde renten høy lengre enn i andre land. De er fortsatt beredt til å heve renten hvis kronen svekker seg. Det er et tydelig signal til markedet at de først og fremst vil stabilisere kronekursen, sier sjeføkonom Brynjar i Aksjehandel AS.\n\n**Usikkerhet**\n\nI pressemeldingen påpeker NordBanken at det er «usikkerhet om den videre utviklingen i norsk økonomi». Dersom «kronen svekker seg videre eller kapasitetsutnyttingen øker, kan lønns- og prisveksten holde seg oppe lenger», heter det.\n\nDa kan det også bli behov for en høyere rente enn i dag, fremkommer det.\n\nPå den andre siden påpekes det at dersom det skulle komme til en kraftigere oppbremsing i norsk økonomi enn ventet, kan renten bli satt ned raskere enn det NordBanken nå ser for seg.",
+    "question": "Hva skjer hvis kronen blir enda svakere fremover?",
+    "options": ["Renten kan senkes", "Renten går ned 10 til 15 prosent", "Renten kan økes", "Renten vil aldri endres"],
+    "correct_answer": "Renten kan økes",
+    "incorrect_answers": ["Renten kan senkes", "Renten går ned 10 til 15 prosent", "Renten vil aldri endres"],
+    "difficulty": "A2"
+  },
+  {
+    "type": "multiple",
+    "context": "NordBanken holder styringsrenten uendret\n\nSjefen Johan Jensen sier det er behov for å holde renten på dagens nivå en stund til, men at tidspunktet for rentekutt nærmer seg.\n\nNordBanken holder renten i ro på 4,5 prosent. Renten har nå vært uendret siden desember i fjor. Det var lite usikkerhet om selve rentebeslutningen på forhånd.\n\n– Trolig holder vi renten på 4,5 prosent ut året, sier sjefen Johan Jensen.\n\nNordBanken skriver at prisveksten har avtatt mye fra toppen, men at den underliggende prisveksten ikke har falt like mye. Samtidig venter NordBanken «høy vekst i bedriftenes kostnader» og at svekkelsen av kronen «vil bremse den videre nedgangen i prisveksten».\n\n– Vi mener det er behov for å holde renten på dagens nivå en stund til, men tidspunktet for å sette renten ned nærmer seg, sier sjefen.\n\n**Nedjustert rentebane**\n\nKronen styrker seg mot valutaer som euro og dollar kort tid etter rentebeslutningen.\n\n– Vi anslår at kronen styrker seg litt ved fremleggelsen av denne rapporten, siden renteprognosen her er noe høyere enn markedets renteforventninger, skriver NordBanken. Høyere rente taler isolert sett for en sterkere valuta.\n\nNordBankens prognose for renten fremover «indikerer en styringsrente som blir liggende på 4,5 prosent ut året, før den settes gradvis ned fra første kvartal neste år», skriver NordBanken. Det er lite endret fra forrige rapport, men tilsier en «noe raskere nedgang i renten neste år».\n\nNordBanken signaliserer ingen kutt i år, men tre kutt neste år, ifølge analytiker i Folkebanken, Nils Nilsen.\n\n– Vi er veldig nære fire kutt, sier han.\n\nI snitt er rentebanen nedjustert litt mindre enn ventet med syv basispunkter. Det ligger også inne en sannsynlighet på 10 til 15 prosent for kutt i desember, ifølge Nilsen.\n\nDagens rentemøte er et såkalt hovedmøte med publisering av Pengepolitisk rapport. I den legger sentralbanken frem sitt syn på den økonomiske utviklingen og utsiktene fremover.\n\n**Fortsatt beredt til å heve**\n\nPrisveksten i Norge har kommet ned, og ligger nå under sentralbankens anslag fra forrige pengepolitiske rapport. Det påpekes av NordBanken, som nedjusterer inflasjonsanslaget for i år, men likevel mener det fortsatt er «behov for en innstrammende pengepolitikk».\n\nSamtidig har den svake kronekursen vært et tilbakevendende tema, og bidratt til forventninger om at NordBanken ville holde renten høy lengre enn i andre land. De er fortsatt beredt til å heve renten hvis kronen svekker seg. Det er et tydelig signal til markedet at de først og fremst vil stabilisere kronekursen, sier sjeføkonom Brynjar i Aksjehandel AS.\n\n**Usikkerhet**\n\nI pressemeldingen påpeker NordBanken at det er «usikkerhet om den videre utviklingen i norsk økonomi». Dersom «kronen svekker seg videre eller kapasitetsutnyttingen øker, kan lønns- og prisveksten holde seg oppe lenger», heter det.\n\nDa kan det også bli behov for en høyere rente enn i dag, fremkommer det.\n\nPå den andre siden påpekes det at dersom det skulle komme til en kraftigere oppbremsing i norsk økonomi enn ventet, kan renten bli satt ned raskere enn det NordBanken nå ser for seg.",
+    "question": "Hvor lenge har renten holdt seg fast på 4,5 prosent?",
+    "options": ["Siden desember i fjor", "Siden sommeren", "I et par måneder", "Siden januar"],
+    "correct_answer": "Siden desember i fjor",
+    "incorrect_answers": ["Siden sommeren", "I et par måneder", "Siden januar"],
+    "difficulty": "A2"
+  },
+  {
+    "type": "multiple",
+    "context": "NordBanken holder styringsrenten uendret\n\nSjefen Johan Jensen sier det er behov for å holde renten på dagens nivå en stund til, men at tidspunktet for rentekutt nærmer seg.\n\nNordBanken holder renten i ro på 4,5 prosent. Renten har nå vært uendret siden desember i fjor. Det var lite usikkerhet om selve rentebeslutningen på forhånd.\n\n– Trolig holder vi renten på 4,5 prosent ut året, sier sjefen Johan Jensen.\n\nNordBanken skriver at prisveksten har avtatt mye fra toppen, men at den underliggende prisveksten ikke har falt like mye. Samtidig venter NordBanken «høy vekst i bedriftenes kostnader» og at svekkelsen av kronen «vil bremse den videre nedgangen i prisveksten».\n\n– Vi mener det er behov for å holde renten på dagens nivå en stund til, men tidspunktet for å sette renten ned nærmer seg, sier sjefen.\n\n**Nedjustert rentebane**\n\nKronen styrker seg mot valutaer som euro og dollar kort tid etter rentebeslutningen.\n\n– Vi anslår at kronen styrker seg litt ved fremleggelsen av denne rapporten, siden renteprognosen her er noe høyere enn markedets renteforventninger, skriver NordBanken. Høyere rente taler isolert sett for en sterkere valuta.\n\nNordBankens prognose for renten fremover «indikerer en styringsrente som blir liggende på 4,5 prosent ut året, før den settes gradvis ned fra første kvartal neste år», skriver NordBanken. Det er lite endret fra forrige rapport, men tilsier en «noe raskere nedgang i renten neste år».\n\nNordBanken signaliserer ingen kutt i år, men tre kutt neste år, ifølge analytiker i Folkebanken, Nils Nilsen.\n\n– Vi er veldig nære fire kutt, sier han.\n\nI snitt er rentebanen nedjustert litt mindre enn ventet med syv basispunkter. Det ligger også inne en sannsynlighet på 10 til 15 prosent for kutt i desember, ifølge Nilsen.\n\nDagens rentemøte er et såkalt hovedmøte med publisering av Pengepolitisk rapport. I den legger sentralbanken frem sitt syn på den økonomiske utviklingen og utsiktene fremover.\n\n**Fortsatt beredt til å heve**\n\nPrisveksten i Norge har kommet ned, og ligger nå under sentralbankens anslag fra forrige pengepolitiske rapport. Det påpekes av NordBanken, som nedjusterer inflasjonsanslaget for i år, men likevel mener det fortsatt er «behov for en innstrammende pengepolitikk».\n\nSamtidig har den svake kronekursen vært et tilbakevendende tema, og bidratt til forventninger om at NordBanken ville holde renten høy lengre enn i andre land. De er fortsatt beredt til å heve renten hvis kronen svekker seg. Det er et tydelig signal til markedet at de først og fremst vil stabilisere kronekursen, sier sjeføkonom Brynjar i Aksjehandel AS.\n\n**Usikkerhet**\n\nI pressemeldingen påpeker NordBanken at det er «usikkerhet om den videre utviklingen i norsk økonomi». Dersom «kronen svekker seg videre eller kapasitetsutnyttingen øker, kan lønns- og prisveksten holde seg oppe lenger», heter det.\n\nDa kan det også bli behov for en høyere rente enn i dag, fremkommer det.\n\nPå den andre siden påpekes det at dersom det skulle komme til en kraftigere oppbremsing i norsk økonomi enn ventet, kan renten bli satt ned raskere enn det NordBanken nå ser for seg.",
+    "question": "Hva skjer hvis økonomien bremser opp?",
+    "options": ["Renten vil gå opp", "Renten vil være uendret", "Arbeidsledigheten øker", "Renten vil gå ned"],
+    "correct_answer": "Renten vil gå ned",
+    "incorrect_answers": ["Renten vil gå opp", "Renten vil være uendret", "Arbeidsledigheten øker"],
+    "difficulty": "A2"
+  },
+  {
+    "type": "multiple",
+  "context": "Stian er sykepleier på et sykehjem.\nDaglig passer han på pasienter og steller dem om nødvendig.\nI det siste har han hatt søvnproblemer pga. alle kveldsskiftene.\nKona hans sier at han må prioritere henne og barna, og ta seg mer fri fra jobb.\nMonika er resepsjonist på et kontorlokale ved flyplassen.\nHun tar ut av oppvaskmaskinen og booker rom til kunder som trenger det.\nHun flyttet til Norge for åtte år siden, og trives godt i Bergen.\nDattera hennes er voksen nå og bor i Portugal.\nMia er butikkmedarbeider på en dagligvarebutikk.\nHun stabler i hyllene og sitter i kassa.\nI fremtiden ønsker hun å bli lege, derfor studerer hun medisin.\nHun bor i et kollektiv med fem andre studenter i sentrum.\nRasmus jobber på et lager på en byggevarehandel.\nDet beste han vet er å kjøre rundt i truck.\nEn dag kolliderte han med en bil og skadet ryggen.\nNå har han en 50% stilling på jobb.\nDe to sønnene hans er fornøyde med å tilbringe mer tid med ham.",
+    "question": "Hvem kan si: 'Jeg kom til Norge for å få en endring i livet'",
+    "options": ["Monika", "Stian", "Mia", "Rasmus"],
+    "correct_answer": "Monika",
+    "incorrect_answers": ["Stian", "Mia", "Rasmus"],
+    "difficulty": "A2"
+  },
+  {
+    "type": "multiple",
+  "context": "Stian er sykepleier på et sykehjem.\nDaglig passer han på pasienter og steller dem om nødvendig.\nI det siste har han hatt søvnproblemer pga. alle kveldsskiftene.\nKona hans sier at han må prioritere henne og barna, og ta seg mer fri fra jobb.\nMonika er resepsjonist på et kontorlokale ved flyplassen.\nHun tar ut av oppvaskmaskinen og booker rom til kunder som trenger det.\nHun flyttet til Norge for åtte år siden, og trives godt i Bergen.\nDattera hennes er voksen nå og bor i Portugal.\nMia er butikkmedarbeider på en dagligvarebutikk.\nHun stabler i hyllene og sitter i kassa.\nI fremtiden ønsker hun å bli lege, derfor studerer hun medisin.\nHun bor i et kollektiv med fem andre studenter i sentrum.\nRasmus jobber på et lager på en byggevarehandel.\nDet beste han vet er å kjøre rundt i truck.\nEn dag kolliderte han med en bil og skadet ryggen.\nNå har han en 50% stilling på jobb.\nDe to sønnene hans er fornøyde med å tilbringe mer tid med ham.",
+    "question": "Hvem kan si: 'Jeg ligger ekstra lenge i helgene for å bli utvilt'",
+    "options": ["Monika", "Stian", "Mia", "Rasmus"],
+    "correct_answer": "Stian",
+    "incorrect_answers": ["Monika", "Mia", "Rasmus"],
+    "difficulty": "A2"
+  },
+  {
+    "type": "multiple",
+  "context": "Stian er sykepleier på et sykehjem.\nDaglig passer han på pasienter og steller dem om nødvendig.\nI det siste har han hatt søvnproblemer pga. alle kveldsskiftene.\nKona hans sier at han må prioritere henne og barna, og ta seg mer fri fra jobb.\nMonika er resepsjonist på et kontorlokale ved flyplassen.\nHun tar ut av oppvaskmaskinen og booker rom til kunder som trenger det.\nHun flyttet til Norge for åtte år siden, og trives godt i Bergen.\nDattera hennes er voksen nå og bor i Portugal.\nMia er butikkmedarbeider på en dagligvarebutikk.\nHun stabler i hyllene og sitter i kassa.\nI fremtiden ønsker hun å bli lege, derfor studerer hun medisin.\nHun bor i et kollektiv med fem andre studenter i sentrum.\nRasmus jobber på et lager på en byggevarehandel.\nDet beste han vet er å kjøre rundt i truck.\nEn dag kolliderte han med en bil og skadet ryggen.\nNå har han en 50% stilling på jobb.\nDe to sønnene hans er fornøyde med å tilbringe mer tid med ham.",
+    "question": "Hvem kan si: 'Nå er jeg ekstra forsiktig når jeg sitter kjører på veien'",
+    "options": ["Monika", "Stian", "Mia", "Rasmus"],
+    "correct_answer": "Rasmus",
+    "incorrect_answers": ["Stian", "Mia", "Monika"],
+    "difficulty": "A2"
+  },
+  {
+    "type": "multiple",
+  "context": "Stian er sykepleier på et sykehjem.\nDaglig passer han på pasienter og steller dem om nødvendig.\nI det siste har han hatt søvnproblemer pga. alle kveldsskiftene.\nKona hans sier at han må prioritere henne og barna, og ta seg mer fri fra jobb.\nMonika er resepsjonist på et kontorlokale ved flyplassen.\nHun tar ut av oppvaskmaskinen og booker rom til kunder som trenger det.\nHun flyttet til Norge for åtte år siden, og trives godt i Bergen.\nDattera hennes er voksen nå og bor i Portugal.\nMia er butikkmedarbeider på en dagligvarebutikk.\nHun stabler i hyllene og sitter i kassa.\nI fremtiden ønsker hun å bli lege, derfor studerer hun medisin.\nHun bor i et kollektiv med fem andre studenter i sentrum.\nRasmus jobber på et lager på en byggevarehandel.\nDet beste han vet er å kjøre rundt i truck.\nEn dag kolliderte han med en bil og skadet ryggen.\nNå har han en 50% stilling på jobb.\nDe to sønnene hans er fornøyde med å tilbringe mer tid med ham.",
+    "question": "Hvem kan si: 'Jeg blir litt lei av festinga i leiligheten i blant.'",
+    "options": ["Monika", "Stian", "Mia", "Rasmus"],
+    "correct_answer": "Mia",
+    "incorrect_answers": ["Stian", "Monika", "Rasmus"],
+    "difficulty": "A2"
+  }
+]

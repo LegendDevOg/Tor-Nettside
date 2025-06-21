@@ -2,6 +2,9 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import App from "./App";
 import "./index.css";
+import AdminLogin from "./pages/Admin/AdminLogin";
+import AdminDashboard from "./pages/Admin/AdminDashboard";
+import RequireAdmin from "./data/RequireAdmin";
 
 import {
   createBrowserRouter,
@@ -27,9 +30,15 @@ const router = createBrowserRouter(
       <Route element={<RequireAccessCode />}>
         <Route path="/" element={<App />} />
         <Route path="question" element={<Quiz />} />
-        <Route path="sett/:id" element={<Sett />} />
-        <Route path="question/:id" element={<SingleQuestion />} />
+        <Route path="vannskelig/:id" element={<Sett />} />
+        <Route path="question/:id/:set" element={<SingleQuestion />} />
         <Route path="finish" element={<Success />} />
+      </Route>
+
+      {/* Admin Routes */}
+      <Route path="/admin-login" element={<AdminLogin />} />
+      <Route element={<RequireAdmin />}>
+        <Route path="/admin" element={<AdminDashboard />} />
       </Route>
     </>
   )

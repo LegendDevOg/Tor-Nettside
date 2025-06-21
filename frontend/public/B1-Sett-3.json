@@ -1,0 +1,48 @@
+[
+  {
+    "type": "multiple",
+  "context": "Mann dømt til fengsel\n\nEn mann ble i går dømt til seks års fengsel.\nHan har vært i fengsel i tre år tidligere, men nå skal han altså igjen sitte bak lås og slå.\nI fjord ble vedkommede tatt av politiet for ran av en dagligvarebutikk.\n\nDet blir en lang dom for mannen, men enda lenger for sønnen på syv år som ikke vil se faren sin før han har blitt tenåring.\nDet er dessverre en økning av kriminelle handlinger nasjonalt i Norge.\nRegjeringen har innført en rekke tiltak for å sette brems på utviklingen.\nGjerningsmannen erklærer skyld i saken og godtar dommen.",
+    "question": "Hva har skjedd?",
+    "options": ["En mann ble i går dømt til tre års fengsel", "En mann skal ha slått på låsen i butikken", "En mann har blitt buret inne som følge av et ran", "Gjerningsmannen vil se sønnen igjen om syv år"],
+    "correct_answer": "En mann har blitt buret inne som følge av et ran",
+    "incorrect_answers": ["En mann ble i går dømt til tre års fengsel", "En mann skal ha slått på låsen i butikken", "Gjerningsmannen vil se sønnen igjen om syv år"],
+    "difficulty": "A2"
+  },
+  {
+    "type": "multiple",
+  "context": "Mann dømt til fengsel\n\nEn mann ble i går dømt til seks års fengsel.\nHan har vært i fengsel i tre år tidligere, men nå skal han altså igjen sitte bak lås og slå.\nI fjord ble vedkommede tatt av politiet for ran av en dagligvarebutikk.\n\nDet blir en lang dom for mannen, men enda lenger for sønnen på syv år som ikke vil se faren sin før han har blitt tenåring.\nDet er dessverre en økning av kriminelle handlinger nasjonalt i Norge.\nRegjeringen har innført en rekke tiltak for å sette brems på utviklingen.\nGjerningsmannen erklærer skyld i saken og godtar dommen.",
+    "question": "Hva er riktig?",
+    "options": ["Sønnen er også dømt til fengsel", "Politiet tok mannen på fersk gjerning i fjor", "Gjerningsmannen er feilaktig dømt til fengsel", "I fjor ble mannen dømt til seks års fengsel"],
+    "correct_answer": "Politiet tok mannen på fersk gjerning i fjor",
+    "incorrect_answers": ["Sønnen er også dømt til fengsel", "Gjerningsmannen er feilaktig dømt til fengsel", "I fjor ble mannen dømt til seks års fengsel"],
+    "difficulty": "A2"
+  },
+  {
+    "type": "multiple",
+  "context": "I underkant av 40 prosent av befolkningen skiller seg i gjennomsnitt.\nI 2022 endte 8200 ekteskap i skilsmisse.\nSom følge av dette er det i dag ikke uvanlig at barn har to hjem å forholde seg til.\nForsker Anne Vold sier at barn ikke må få skyldsfølelse for at slikt skjer.\nDet viser seg at barn kan føle på dårlig samvittighet når mamma og pappa separeres.\nVold presiserer at å prate med barn, er kritisk i etterkant av skilsmisse.",
+    "question": "Hva kan vi forstå fra teksten?",
+    "options": ["Veldig mange barn opplever vold i oppveksten", "Barn liker å forholde seg til to hjem", "Foreldrene får dårlig samvittighet av skilsmisse", "Barn er sårbare etter en skilsmisse"],
+    "correct_answer": "Barn er sårbare etter en skilsmisse",
+    "incorrect_answers": ["Veldig mange barn opplever vold i oppveksten", "Barn liker å forholde seg til to hjem", "Foreldrene får dårlig samvittighet av skilsmisse"],
+    "difficulty": "A2"
+  },
+
+  {
+    "type": "multiple",
+  "context": "Det er høyt trykk på boligmarkedet for tiden.\nDe som deltar på visning opplever at som oftest er mange interesserte.\nFor førstegangskjøpere blir det vanskeligere å komme seg inn på boligmarkedet.\nØkonom Erna Raustad sier at det forventes en prisvekst på 20-30 prosent de neste tre årene.\nEksperter hevder at det kan bli en større utfordring for folk flest å kjøpe en bolig om fire år.\nMonica som har vært på 32 visninger i år sier at det alltid har vært bud over takst.\nMen hun er optimistisk og sier at hun fortsatt er på leting og har troen.",
+    "question": "Hva forstår vi av teksten?",
+    "options": ["Det er vanlig å se høye bud i boligmarkedet", "Om fire år vil letingen over for de fleste", "Raustad har en bolig som øker 20-30 prosent i verdi", "Taksten på boligene er fornuftig i følge Monica"],
+    "correct_answer": "Det er vanlig å se høye bud i boligmarkedet",
+    "incorrect_answers": ["Om fire år vil letingen over for de fleste", "Raustad har en bolig som øker 20-30 prosent i verdi", "Taksten på boligene er fornuftig i følge Monica"],
+    "difficulty": "A2"
+  },
+  {
+    "type": "multiple",
+  "context": "Hjorteinfluensa har spredt seg til Trøndelag.\nNå har den blodsugende parasitten beveget seg nordover i landet.\nNylig ble den oppdaget i Stjørdal.\nDenne krabaten suger blod og bruker hjortedyr som verter, men kan angripe mennesker og husdyr.\nPå Østlandet er parasitten så plagsom at mange lar være å jakte, plukke sopp og bær eller gå på tur i skogen i svermingstida på høsten.\nDe som får øye på krepylet er bedt om å registrere den i Natur-appen på mobilen.",
+    "question": "Hva forstår vi av teksten?",
+    "options": ["Folk jakter på parasitten på Østlandet", "Husdyr jaktes av hjortedyr", "Parasitten har spredt seg lenger nord i landet", "Natur-appen vil løse problemene"],
+    "correct_answer": "Parasitten har spredt seg lenger nord i landet",
+    "incorrect_answers": ["Folk jakter på parasitten på Østlandet", "Husdyr jaktes av hjortedyr", "Natur-appen vil løse problemene"],
+    "difficulty": "A2"
+  }
+]

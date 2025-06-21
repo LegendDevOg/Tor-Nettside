@@ -1,3 +1,4 @@
+import React, { useState } from "react";
 
 // Image Selection Component
 export function ImageQuestion({
@@ -12,7 +13,7 @@ export function ImageQuestion({
 }: {
   question: string;
   options: string[];
-  correctAnswer: string;
+  correctAnswer:  string | string[];
   handleClick: (value: string) => void;
   summary: boolean;
   imageSrc?: string | null;
@@ -94,7 +95,7 @@ export function WordSelectionQuestion({
 }: {
   question: string;
   sentence: string;
-  correctWord: string;
+  correctWord:  string | string[];
   handleClick: (value: string) => void;
   summary: boolean;
   difficulty: string;
@@ -149,7 +150,7 @@ export function WordSelectionQuestion({
 export function ParagraphSelectionQuestion({ question, paragraphs, correctParagraph, handleClick, summary }: {
   question: string;
   paragraphs: string[];
-  correctParagraph: string;
+  correctParagraph: string | string[];
   handleClick: (value: string) => void;
   userAnswer?: string;
   summary: boolean;
@@ -172,6 +173,124 @@ export function ParagraphSelectionQuestion({ question, paragraphs, correctParagr
   );
 }
 
+
+export function SentenceDropdownQuestion({
+  sentenceParts,
+  options,
+  correctAnswers,
+  userAnswer = [],
+  handleClick,
+  summary,
+  difficulty,
+}: {
+  sentenceParts: string[]; // contains text with {0}, {1}, etc.
+  options: string[][];
+  correctAnswers: string[];
+  userAnswer?: string[];
+  handleClick: (val: string) => void;
+  summary: boolean;
+  difficulty: string;
+}) {
+  const [selected, setSelected] = useState<string[]>(userAnswer);
+
+  const onChange = (value: string, index: number) => {
+    const updated = [...selected];
+    updated[index] = value;
+    setSelected(updated);
+  };
+
+  const isCompleted =
+    selected.length === options.length && selected.every((v) => v);
+
+  const submitAnswer = () => {
+    const packed = selected.map((val, i) => `${i}|${val}`).join("||");
+    handleClick(packed);
+  };
+
+  // Join sentenceParts and split into text and placeholders
+  const sentence = sentenceParts.join("");
+  const sentenceSegments = sentence.split(/(\{\d+\})/g);
+
+  return (
+    <div className="bg-white p-6 rounded-lg shadow-md border border-gray-300 max-w-3xl mx-auto text-lg">
+      <h1 className="text-4xl font-bold text-black-700 mb-4 text-center">
+        Fyll inn ordene
+      </h1>
+
+      <h2 className="text-2xl font-bold underline text-center text-blue-700 mb-10">
+        {difficulty}
+      </h2>
+
+      {/* Sentence renderer */}
+      <div className="text-gray-800 text-[1.15rem] leading-relaxed max-w-full">
+        <p className="whitespace-pre-wrap">
+          {sentenceSegments.map((segment, i) => {
+            const match = segment.match(/\{(\d+)\}/);
+            if (match) {
+              const index = parseInt(match[1]);
+              return (
+                <span
+                  key={i}
+                  style={{
+                    display: "inline-block",
+                    verticalAlign: "baseline",
+                    margin: "0 4px",
+                  }}
+                >
+                  <select
+                    className={`appearance-none bg-white border border-gray-300 px-2 py-1 text-base rounded-md
+                      ${
+                        summary
+                          ? selected[index] === correctAnswers[index]
+                            ? "bg-green-200"
+                            : "bg-red-200"
+                          : "hover:border-blue-500"
+                      }`}
+                    value={selected[index] || ""}
+                    onChange={(e) =>
+                      !summary && onChange(e.target.value, index)
+                    }
+                    disabled={summary}
+                  >
+                    <option value="">Velg…</option>
+                    {options[index].map((opt) => (
+                      <option key={opt} value={opt}>
+                        {opt}
+                      </option>
+                    ))}
+                  </select>
+                </span>
+              );
+            } else {
+              return <span key={i}>{segment}</span>;
+            }
+          })}
+        </p>
+      </div>
+
+      {/* Submit button */}
+      {!summary && (
+        <div className="text-center mt-6">
+          <button
+            onClick={submitAnswer}
+            disabled={!isCompleted}
+            className={`px-6 py-2 rounded-full font-semibold text-white text-lg shadow-md transition ${
+              isCompleted
+                ? "bg-blue-500 hover:bg-blue-400"
+                : "bg-gray-400 cursor-not-allowed"
+            }`}
+          >
+            Fortsett
+          </button>
+        </div>
+      )}
+    </div>
+  );
+}
+
+
+
+
 // Update options handling with TypeScript
 export function getOptions(singleQuestion: { type: string; incorrect_answers?: string[]; correct_answer?: string }): string[] {
   let options: string[] = [];
@@ -181,4 +300,10 @@ export function getOptions(singleQuestion: { type: string; incorrect_answers?: s
   return options;
 }
 
-export default { ImageQuestion, WordSelectionQuestion, ParagraphSelectionQuestion, getOptions };
+export default {
+  ImageQuestion,
+  WordSelectionQuestion,
+  ParagraphSelectionQuestion,
+  SentenceDropdownQuestion,
+  getOptions
+};

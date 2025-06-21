@@ -91,6 +91,40 @@ function Success() {
   const isWordSelection = question.type === "word-selection";
   const isImageSelection = question.type === "image";
 
+  const isSentenceDropdown = question.type === "sentence-dropdown";
+
+if (isSentenceDropdown) {
+  const parts = question.sentenceParts || [];
+  const dropdowns = question.dropdownOptions || [];
+  const correct = question.correct_answer;
+  const selected = userSelected?.answer
+    ?.split("||")
+    .sort()
+    .map((a) => a.split("|")[1]);
+
+  return (
+    <div key={i} className="bg-white p-4 rounded-lg shadow-md">
+      <h4 className="font-semibold mb-2">{question.question}</h4>
+      <p className="text-gray-800 leading-relaxed text-lg">
+        {parts.map((part, idx) => (
+          <span key={idx}>
+            {part}
+            <span
+              className={`mx-1 px-2 py-1 rounded font-medium ${
+                selected?.[idx] === correct[idx]
+                  ? "bg-green-200 text-green-800"
+                  : "bg-red-200 text-red-800"
+              }`}
+            >
+              {selected?.[idx] || "–"}
+            </span>
+          </span>
+        ))}
+      </p>
+    </div>
+  );
+}
+
   return isWordSelection ? (
     <div key={i} className="bg-white p-4 rounded-lg shadow-md">
       <h4 className="font-semibold">{question.question}</h4>

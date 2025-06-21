@@ -1,0 +1,167 @@
+[
+  {
+    "type": "word-selection",
+    "question": "Klikk på ordet som her betyr omtrent det samme som \"sikker\"",
+    "sentence": "En barnehageassistent hjelper til med daglige aktiviteter og gjøremål i en barnehage.\nDu jobber tett med andre ansatte. Dere skaper sammen en trygg og positiv atmosfære for barna.\nDin jobb er å planlegge og gjennomføre leker både innendørs og utendørs.\nFor å jobbe som barnehageassistent må du legge fram gyldig politiattest.",
+    "correct_answer": "trygg",
+    "difficulty": "A2"
+  },
+  {
+    "type": "word-selection",
+    "question": "Klikk på ordet som her betyr omtrent det samme som \"spasere\"",
+    "sentence": "I Oslo sentrum er det travelt. Folk går frem og tilbake i de store gatene.\nI blant kan det være protester ved Stortinget, eller politi som rir på hestene gjennom sentrum.\nVed biblioteket er det ansatte som stabler bøker i høye hyller i salene. Det kan være en krevende jobb.",
+    "correct_answer": "går",
+    "difficulty": "A2"
+  },
+  {
+    "type": "word-selection",
+    "question": "Klikk på ordet som her betyr omtrent det samme som \"utfordrende\"",
+    "sentence": "I Oslo sentrum er det travelt. Folk går frem og tilbake i de store gatene.\nI blant kan det være protester ved Stortinget, eller politi som rir på hestene gjennom sentrum.\nVed biblioteket er det ansatte som stabler bøker i høye hyller i salen. Det kan være en krevende jobb.",
+    "correct_answer": "krevende",
+    "difficulty": "A2"
+  },
+  {
+    "type": "word-selection",
+    "question": "Klikk på ordet som her betyr omtrent det samme som \"veldig\"",
+    "sentence": "Nord-Norge er den nordligste delen av Norge. Den største byen i dette området heter Tromsø. Dette er en kystby.\nI Tromsø går reinsdyr fritt på veiene. Turister kan se utrolig vakre fjell hvor enn de kjører, noe de setter pris på.\nSelv om Tromsø er nesten sytti grader nord, så er det faktisk varmere enn deler av Sør-Norge.\nFlere reiser til Nord-Norge for å fiske og gå på tur i den ville ødemarka.",
+    "correct_answer": "utrolig",
+    "difficulty": "A2"
+  },
+  {
+    "type": "word-selection",
+    "question": "Klikk på ordet som her betyr omtrent det samme som \"naturen\"",
+    "sentence": "Nord-Norge er den nordligste delen av Norge. Den største byen i dette området heter Tromsø. Dette er en kystby.\nI Tromsø går reinsdyr fritt på veiene. Turister kan se utrolig vakre fjell hvor enn de kjører, noe de setter pris på.\nSelv om Tromsø er nesten sytti grader nord, så er det faktisk varmere enn deler av Sør-Norge.\nFlere reiser til Nord-Norge for å fiske og gå på tur i den ville ødemarka.",
+    "correct_answer": "ødemarka",
+    "difficulty": "A2"
+  },
+  {
+    "type": "word-selection",
+    "question": "Klikk på ordet som her betyr omtrent det samme som \"mange\"",
+    "sentence": "Nord-Norge er den nordligste delen av Norge. Den største byen i dette området heter Tromsø. Dette er en kystby.\nI Tromsø går reinsdyr fritt på veiene. Turister kan se utrolig vakre fjell hvor enn de kjører, noe de setter pris på.\nSelv om Tromsø er nesten sytti grader nord, så er det faktisk varmere enn deler av Sør-Norge.\nFlere reiser til Nord-Norge for å fiske og gå på tur i den ville ødemarka.",
+    "correct_answer": "Flere",
+    "difficulty": "A2"
+  },
+  [
+  {
+    "type": "multiple",
+    "context": "Salg! Nå har vi tilbud på sjømat ved bryggen.\nDu kan få krabber for rett under hundrelappen, du får torsk for 200 kr per kilo.\nDu vil kunne nyte disse flotte rabattene innen søndag neste uke.\nLøp og kjøp!",
+    "question": "Hvor mye koster krabber?",
+    "options": [
+      "Over hundre kroner",
+      "Mindre enn hundre kroner",
+      "Akkurat hundre kroner",
+      "200 kroner"
+    ],
+    "correct_answer": "Mindre enn hundre kroner",
+    "incorrect_answers": [
+      "Over hundre kroner",
+      "Akkurat hundre kroner",
+      "200 kroner"
+    ],
+    "difficulty": "A2"
+  },
+  {
+    "type": "multiple",
+    "context": "Vi søker ansatte!\n\nNå har vi utvidet vårt lokale med 4 nye avdelinger.\nVi er på jakt etter 43 ildsjeler i vårt selskap. \nOg du er kanskje den neste kandidaten! \nVårt selskap har kontorer i over 24 land, og Norge er nylig blitt en av de største aktørene. \nDu vil starte med en 6 måneders prøvetid, og deretter få en fulltidskontrakt. ",
+    "question": "Hvor mange ansatte trenger selskapet?",
+    "options": [
+      "24",
+      "4",
+      "6",
+      "43"
+    ],
+    "correct_answer": "43",
+    "incorrect_answers": [
+      "4",
+      "6",
+      "24"
+    ],
+    "difficulty": "A2"
+  },
+{
+  "type": "multiple",
+  "context": "Det siste året har Per Gundersen levd avlogget fra sosiale medier og smarttelefon.\nHan føler seg som et nytt menneske.\nJeg kjenner på en lykkefølelse som er mye større enn for ett år siden.\nNå har jeg innsett hvor utrolig mange dårlige vaner jeg hadde, sier Per Gundersen.\n\nGundersen er blant annet kjent fra TV-serien Heia Norge, men i fjor høst heiv han seg ut i et ambisiøst prosjekt.\nSiden september i fjor har han vært helt avlogget fra internett.\nDet vil si null smarttelefon, ingen apper – stort sett alt som har med skjerm å gjøre er skrelt bort fra tilværelsen.\n\n18. september har det gått nøyaktig ett år siden han logget seg av sammen med kona hans.\n\n– Det har vært et magisk år. Jeg tror det har endret meg for all fremtid.\n– På hvilken måte da?\n– Jeg har blitt mer til stede med folk rundt meg. Mer til stede i virkeligheten.\nI tillegg til at jeg har endret vanene mine.\n\nHar lest 56 bøker: Gundersen planlegger å leve uten smarttelefon også etter 18. september.\n\nJeg kommer ikke til å begynne med mobil igjen. For jeg er helt sikker på at den bare kommer til å «spise meg opp».\nPlutselig sitter jeg der og spiller sjakk og dumme spill igjen.\n\nGundersen har merket mange endringer både fysisk og psykisk etter at han koblet av:\nHan sover bedre, det er lettere å konsentrere seg og ikke minst har han fått opp lesekondisen.\n\n– Jeg hadde et mål om å lese 40 bøker, men er nå i gang med bok nummer 56.\nDet er faktisk boka «Svevende tanker» av Jonas Jansen.\n\nForsker på prosjektet:\nProsjektet til de to vil også bli brukt i forskning.\nHjerneforskere ved NTNU vil måle kroppslige endringer i løpet av året.\nDet ble brukt elektrodehetter før de startet, og det samme vil skje underveis.\n\nHjerneforsker og professor i nevropsykologi ved NTNU Audrey McNoble har tidligere sagt til NRK at testinga blant annet går ut på at de to må skrive ord og tegne for hånd.\n\n– Vi ser etter forskjeller i hjernen hos de to etter at de logget seg av.\nVi vil trolig se at de kreative delene i hjernen vil vise økt aktivitet uten smarttelefonen, sa McNoble.\n\nDe to har også fått utdelt pulsklokker, tatt spyttprøver og blodprøver.\nPer Gundersen forteller at de siste testene ble tatt denne uka.\nTrolig vil resultatene være klare allerede få uker etter at prosjektet er avslutta, ifølge Gundersen.",
+  "question": "Var det noen andre som logget av sosiale medier?",
+  "options": ["Forskere", "Kona Hans", "Jonas Jansen", "Audrey"],
+  "correct_answer": "Kona Hans",
+  "incorrect_answers": ["Forskere", "Jonas Jansen", "Audrey"],
+  "difficulty": "A2"
+},
+  {
+    "type": "multiple",
+  "context": "Det siste året har Per Gundersen levd avlogget fra sosiale medier og smarttelefon.\nHan føler seg som et nytt menneske.\nJeg kjenner på en lykkefølelse som er mye større enn for ett år siden.\nNå har jeg innsett hvor utrolig mange dårlige vaner jeg hadde, sier Per Gundersen.\n\nGundersen er blant annet kjent fra TV-serien Heia Norge, men i fjor høst heiv han seg ut i et ambisiøst prosjekt.\nSiden september i fjor har han vært helt avlogget fra internett.\nDet vil si null smarttelefon, ingen apper – stort sett alt som har med skjerm å gjøre er skrelt bort fra tilværelsen.\n\n18. september har det gått nøyaktig ett år siden han logget seg av sammen med kona hans.\n\n– Det har vært et magisk år. Jeg tror det har endret meg for all fremtid.\n– På hvilken måte da?\n– Jeg har blitt mer til stede med folk rundt meg. Mer til stede i virkeligheten.\nI tillegg til at jeg har endret vanene mine.\n\nHar lest 56 bøker: Gundersen planlegger å leve uten smarttelefon også etter 18. september.\n\nJeg kommer ikke til å begynne med mobil igjen. For jeg er helt sikker på at den bare kommer til å «spise meg opp».\nPlutselig sitter jeg der og spiller sjakk og dumme spill igjen.\n\nGundersen har merket mange endringer både fysisk og psykisk etter at han koblet av:\nHan sover bedre, det er lettere å konsentrere seg og ikke minst har han fått opp lesekondisen.\n\n– Jeg hadde et mål om å lese 40 bøker, men er nå i gang med bok nummer 56.\nDet er faktisk boka «Svevende tanker» av Jonas Jansen.\n\nForsker på prosjektet:\nProsjektet til de to vil også bli brukt i forskning.\nHjerneforskere ved NTNU vil måle kroppslige endringer i løpet av året.\nDet ble brukt elektrodehetter før de startet, og det samme vil skje underveis.\n\nHjerneforsker og professor i nevropsykologi ved NTNU Audrey McNoble har tidligere sagt til NRK at testinga blant annet går ut på at de to må skrive ord og tegne for hånd.\n\n– Vi ser etter forskjeller i hjernen hos de to etter at de logget seg av.\nVi vil trolig se at de kreative delene i hjernen vil vise økt aktivitet uten smarttelefonen, sa McNoble.\n\nDe to har også fått utdelt pulsklokker, tatt spyttprøver og blodprøver.\nPer Gundersen forteller at de siste testene ble tatt denne uka.\nTrolig vil resultatene være klare allerede få uker etter at prosjektet er avslutta, ifølge Gundersen.",
+    "question": "Hvordan følte Per seg etter å ha gjort dette eksperimentet?",
+    "options": [
+      "Han fikk dårlige vaner",
+      "Han brukte smarttelefoner",
+      "Han sover dårligere",
+      "Han fikk en lykkefølelse "
+    ],
+    "correct_answer": "Han fikk en lykkefølelse ",
+    "incorrect_answers": [
+      "Han fikk dårlige vaner",
+      "Han brukte smarttelefoner",
+      "Han sover dårligere"
+    ],
+    "difficulty": "A2"
+  },
+  {
+    "type": "multiple",
+  "context": "Det siste året har Per Gundersen levd avlogget fra sosiale medier og smarttelefon.\nHan føler seg som et nytt menneske.\nJeg kjenner på en lykkefølelse som er mye større enn for ett år siden.\nNå har jeg innsett hvor utrolig mange dårlige vaner jeg hadde, sier Per Gundersen.\n\nGundersen er blant annet kjent fra TV-serien Heia Norge, men i fjor høst heiv han seg ut i et ambisiøst prosjekt.\nSiden september i fjor har han vært helt avlogget fra internett.\nDet vil si null smarttelefon, ingen apper – stort sett alt som har med skjerm å gjøre er skrelt bort fra tilværelsen.\n\n18. september har det gått nøyaktig ett år siden han logget seg av sammen med kona hans.\n\n– Det har vært et magisk år. Jeg tror det har endret meg for all fremtid.\n– På hvilken måte da?\n– Jeg har blitt mer til stede med folk rundt meg. Mer til stede i virkeligheten.\nI tillegg til at jeg har endret vanene mine.\n\nHar lest 56 bøker: Gundersen planlegger å leve uten smarttelefon også etter 18. september.\n\nJeg kommer ikke til å begynne med mobil igjen. For jeg er helt sikker på at den bare kommer til å «spise meg opp».\nPlutselig sitter jeg der og spiller sjakk og dumme spill igjen.\n\nGundersen har merket mange endringer både fysisk og psykisk etter at han koblet av:\nHan sover bedre, det er lettere å konsentrere seg og ikke minst har han fått opp lesekondisen.\n\n– Jeg hadde et mål om å lese 40 bøker, men er nå i gang med bok nummer 56.\nDet er faktisk boka «Svevende tanker» av Jonas Jansen.\n\nForsker på prosjektet:\nProsjektet til de to vil også bli brukt i forskning.\nHjerneforskere ved NTNU vil måle kroppslige endringer i løpet av året.\nDet ble brukt elektrodehetter før de startet, og det samme vil skje underveis.\n\nHjerneforsker og professor i nevropsykologi ved NTNU Audrey McNoble har tidligere sagt til NRK at testinga blant annet går ut på at de to må skrive ord og tegne for hånd.\n\n– Vi ser etter forskjeller i hjernen hos de to etter at de logget seg av.\nVi vil trolig se at de kreative delene i hjernen vil vise økt aktivitet uten smarttelefonen, sa McNoble.\n\nDe to har også fått utdelt pulsklokker, tatt spyttprøver og blodprøver.\nPer Gundersen forteller at de siste testene ble tatt denne uka.\nTrolig vil resultatene være klare allerede få uker etter at prosjektet er avslutta, ifølge Gundersen.",
+    "question": "Hva var resultatet av mindre skjermtid?",
+    "options": ["Man ble mer kreativ", "Man ble dummere", "Man leste mindre", "Man fikk flere uvaner"],
+    "correct_answer": "Man ble mer kreativ",
+    "incorrect_answers": ["Man ble dummere", "Man leste mindre", "Man fikk flere uvaner"],
+    "difficulty": "A2"
+  },
+  {
+    "type": "multiple",
+  "context": "Det siste året har Per Gundersen levd avlogget fra sosiale medier og smarttelefon.\nHan føler seg som et nytt menneske.\nJeg kjenner på en lykkefølelse som er mye større enn for ett år siden.\nNå har jeg innsett hvor utrolig mange dårlige vaner jeg hadde, sier Per Gundersen.\n\nGundersen er blant annet kjent fra TV-serien Heia Norge, men i fjor høst heiv han seg ut i et ambisiøst prosjekt.\nSiden september i fjor har han vært helt avlogget fra internett.\nDet vil si null smarttelefon, ingen apper – stort sett alt som har med skjerm å gjøre er skrelt bort fra tilværelsen.\n\n18. september har det gått nøyaktig ett år siden han logget seg av sammen med kona hans.\n\n– Det har vært et magisk år. Jeg tror det har endret meg for all fremtid.\n– På hvilken måte da?\n– Jeg har blitt mer til stede med folk rundt meg. Mer til stede i virkeligheten.\nI tillegg til at jeg har endret vanene mine.\n\nHar lest 56 bøker: Gundersen planlegger å leve uten smarttelefon også etter 18. september.\n\nJeg kommer ikke til å begynne med mobil igjen. For jeg er helt sikker på at den bare kommer til å «spise meg opp».\nPlutselig sitter jeg der og spiller sjakk og dumme spill igjen.\n\nGundersen har merket mange endringer både fysisk og psykisk etter at han koblet av:\nHan sover bedre, det er lettere å konsentrere seg og ikke minst har han fått opp lesekondisen.\n\n– Jeg hadde et mål om å lese 40 bøker, men er nå i gang med bok nummer 56.\nDet er faktisk boka «Svevende tanker» av Jonas Jansen.\n\nForsker på prosjektet:\nProsjektet til de to vil også bli brukt i forskning.\nHjerneforskere ved NTNU vil måle kroppslige endringer i løpet av året.\nDet ble brukt elektrodehetter før de startet, og det samme vil skje underveis.\n\nHjerneforsker og professor i nevropsykologi ved NTNU Audrey McNoble har tidligere sagt til NRK at testinga blant annet går ut på at de to må skrive ord og tegne for hånd.\n\n– Vi ser etter forskjeller i hjernen hos de to etter at de logget seg av.\nVi vil trolig se at de kreative delene i hjernen vil vise økt aktivitet uten smarttelefonen, sa McNoble.\n\nDe to har også fått utdelt pulsklokker, tatt spyttprøver og blodprøver.\nPer Gundersen forteller at de siste testene ble tatt denne uka.\nTrolig vil resultatene være klare allerede få uker etter at prosjektet er avslutta, ifølge Gundersen.",
+    "question": "Hva er negativt med for mye skjermtid i følge teksten?",
+    "options": ["Man er for kreativ", "Man får bedre hukommelse", "Man får kroppslige endringer", "Man har lavere konsentrasjon"],
+    "correct_answer": "Man har lavere konsentrasjon",
+    "incorrect_answers": ["Man får kroppslige endringer", "Man får bedre hukommelse", "Man er for kreativ"],
+    "difficulty": "A2"
+  },
+
+    {
+    "type": "multiple",
+  "context": "Jonas er bilmekaniker på et bilverksted i Narvik.\nJobben hans er å reparere og ta vedlikehold av biler.\nHver dag kommer det en ny bil inn som må fikses. Han elsker jobben sin.\nUtenom arbeid har han en kjæreste og en hund som han er glad i. Han går mye på tur.\nKristian er personlig trener på Kloa Treningssenter.\nÅ bygge muskler har alltid vært en interesse, så nå jobber han med det hele tiden.\nHan foretrekker å holde seg i byen. Kristian liker ikke å fly eller ta båt.\nI helgene er han ute med venner på byen og drikker øl.\nNina er prosjektleder i et IT-selskap. Hun er ofte på farten både i Norge og i utlandet.\nJobben innebærer å ha møter med ansatte, samt kundemøter. Det kan være stressende i blant.\nHun elsker å reise. Nesten hver måned er hun innom en ny by.\nHun har ikke lyst på barn, men hun er veldig glad i ektemannen sin. De har vært gift i tre år.\nKjartan er en fisker. Han er på sjøen hver dag.\nI oppveksten hans fikk han lære alt om fisking fra faren sin. Båten er gått i arv.\nI det siste har han tenkt på å endre yrket sitt. Han ønsker å arbeide på en oljerigg i stedet.\nKanskje Kjartan skal begynne å studere fra neste år.\nSamtidig har Kjartan en stor familie på tre barn og ei kone, i tillegg til en hund.",
+    "question": "Hvem kan si: 'Jeg skal ha ferie i hjembyen min hvert år'? ",
+    "options": ["Jonas", "Kristian", "Nina", "Kjartan"],
+    "correct_answer": "Kristian",
+    "incorrect_answers": ["Jonas", "Nina", "Kjartan"],
+    "difficulty": "A2"
+  },
+
+    {
+    "type": "multiple",
+  "context": "Jonas er bilmekaniker på et bilverksted i Narvik.\nJobben hans er å reparere og ta vedlikehold av biler.\nHver dag kommer det en ny bil inn som må fikses. Han elsker jobben sin.\nUtenom arbeid har han en kjæreste og en hund som han er glad i. Han går mye på tur.\nKristian er personlig trener på Kloa Treningssenter.\nÅ bygge muskler har alltid vært en interesse, så nå jobber han med det hele tiden.\nHan foretrekker å holde seg i byen. Kristian liker ikke å fly eller ta båt.\nI helgene er han ute med venner på byen og drikker øl.\nNina er prosjektleder i et IT-selskap. Hun er ofte på farten både i Norge og i utlandet.\nJobben innebærer å ha møter med ansatte, samt kundemøter. Det kan være stressende i blant.\nHun elsker å reise. Nesten hver måned er hun innom en ny by.\nHun har ikke lyst på barn, men hun er veldig glad i ektemannen sin. De har vært gift i tre år.\nKjartan er en fisker. Han er på sjøen hver dag.\nI oppveksten hans fikk han lære alt om fisking fra faren sin. Båten er gått i arv.\nI det siste har han tenkt på å endre yrket sitt. Han ønsker å arbeide på en oljerigg i stedet.\nKanskje Kjartan skal begynne å studere fra neste år.\nSamtidig har Kjartan en stor familie på tre barn og ei kone, i tillegg til en hund.",
+    "question": "Hvem kan si: 'jeg skal gå tur med bikkjen og kona mi'? ",
+    "options": ["Jonas", "Kristian", "Nina", "Kjartan"],
+    "correct_answer": "Jonas",
+    "incorrect_answers": ["Kristian", "Nina", "Kjartan"],
+    "difficulty": "A2"
+  },
+
+    {
+    "type": "multiple",
+  "context": "Jonas er bilmekaniker på et bilverksted i Narvik.\nJobben hans er å reparere og ta vedlikehold av biler.\nHver dag kommer det en ny bil inn som må fikses. Han elsker jobben sin.\nUtenom arbeid har han en kjæreste og en hund som han er glad i. Han går mye på tur.\nKristian er personlig trener på Kloa Treningssenter.\nÅ bygge muskler har alltid vært en interesse, så nå jobber han med det hele tiden.\nHan foretrekker å holde seg i byen. Kristian liker ikke å fly eller ta båt.\nI helgene er han ute med venner på byen og drikker øl.\nNina er prosjektleder i et IT-selskap. Hun er ofte på farten både i Norge og i utlandet.\nJobben innebærer å ha møter med ansatte, samt kundemøter. Det kan være stressende i blant.\nHun elsker å reise. Nesten hver måned er hun innom en ny by.\nHun har ikke lyst på barn, men hun er veldig glad i ektemannen sin. De har vært gift i tre år.\nKjartan er en fisker. Han er på sjøen hver dag.\nI oppveksten hans fikk han lære alt om fisking fra faren sin. Båten er gått i arv.\nI det siste har han tenkt på å endre yrket sitt. Han ønsker å arbeide på en oljerigg i stedet.\nKanskje Kjartan skal begynne å studere fra neste år.\nSamtidig har Kjartan en stor familie på tre barn og ei kone, i tillegg til en hund.",
+    "question": "Hvem kan si: 'Jeg tror jeg skal bytte yrke'?",
+    "options": ["Jonas", "Kristian", "Nina", "Kjartan"],
+    "correct_answer": "Kjartan",
+    "incorrect_answers": ["Jonas", "Nina", "Kristian"],
+    "difficulty": "A2"
+  },
+
+    {
+    "type": "multiple",
+  "context": "Jonas er bilmekaniker på et bilverksted i Narvik.\nJobben hans er å reparere og ta vedlikehold av biler.\nHver dag kommer det en ny bil inn som må fikses. Han elsker jobben sin.\nUtenom arbeid har han en kjæreste og en hund som han er glad i. Han går mye på tur.\nKristian er personlig trener på Kloa Treningssenter.\nÅ bygge muskler har alltid vært en interesse, så nå jobber han med det hele tiden.\nHan foretrekker å holde seg i byen. Kristian liker ikke å fly eller ta båt.\nI helgene er han ute med venner på byen og drikker øl.\nNina er prosjektleder i et IT-selskap. Hun er ofte på farten både i Norge og i utlandet.\nJobben innebærer å ha møter med ansatte, samt kundemøter. Det kan være stressende i blant.\nHun elsker å reise. Nesten hver måned er hun innom en ny by.\nHun har ikke lyst på barn, men hun er veldig glad i ektemannen sin. De har vært gift i tre år.\nKjartan er en fisker. Han er på sjøen hver dag.\nI oppveksten hans fikk han lære alt om fisking fra faren sin. Båten er gått i arv.\nI det siste har han tenkt på å endre yrket sitt. Han ønsker å arbeide på en oljerigg i stedet.\nKanskje Kjartan skal begynne å studere fra neste år.\nSamtidig har Kjartan en stor familie på tre barn og ei kone, i tillegg til en hund.",
+    "question": "Hvem kan si: 'Jeg har lært meg mange språk på alle ferdene mine'? ",
+    "options": ["Jonas", "Kristian", "Nina", "Kjartan"],
+    "correct_answer": "Nina",
+    "incorrect_answers": ["Jonas", "Kjartan", "Kristian"],
+    "difficulty": "A2"
+  }
+]
+]

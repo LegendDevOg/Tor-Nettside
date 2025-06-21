@@ -2,17 +2,25 @@ import { create } from "zustand";
 import { persist } from "zustand/middleware";
 
 type Question = {
-  type: "multiple" | "image" | "word-selection" | "paragraph-selection";
-  context?: string; // ✅ Add context for messages before questions
+  type:
+    | "multiple"
+    | "image"
+    | "word-selection"
+    | "paragraph-selection"
+    | "sentence-dropdown";
+
+  context?: string;
   question: string;
-  correct_answer: string;
+  correct_answer: string | string[]; // ✅ string[] for sentence-dropdown
   incorrect_answers?: string[];
   options?: string[];
   sentence?: string;
   paragraphs?: string[];
-  category?: string; // ✅ Optional (not in JSON)
-  difficulty?: string; // ✅ Optional (not in JSON)
-  image?: string | null; // ✅ Added image field to support image-based questions
+  sentenceParts?: string[]; // ✅ for sentence-dropdown
+  dropdownOptions?: string[][]; // ✅ for sentence-dropdown
+  category?: string;
+  difficulty?: string;
+  image?: string | null;
 };
 
 type UserAnswer = {
@@ -64,27 +72,28 @@ const useQuestionStore = create<QuestionStoreState>()(
           falseAnswer: 0,
           page: 1,
         }),
-      fetchQuestion: async () => {
-        try {
-          console.log("🚀 Fetching questions from /nysett1-A1.json...");
-          const response = await fetch("/nysett1-A1.json"); // ✅ Ensure correct file
-          const data = await response.json();
+fetchQuestion: async (query: string) => {
+  try {
+    console.log(`🚀 Fetching questions from /${query}.json...`);
+    const response = await fetch(`/${query}.json`);
+    const data = await response.json();
 
-          console.warn("✅ Correct Fetched Questions:", data.length, "questions loaded!");
-          console.warn("First 3 questions:", data.slice(0, 3)); // 🔍 Debug first 3 questions
+    if (!Array.isArray(data)) {
+      console.error("❌ Error: JSON data is not an array!", data);
+      return;
+    }
 
-          if (!Array.isArray(data)) {
-            console.error("❌ Error: JSON data is not an array!", data);
-            return;
-          }
-
-          set(() => ({ question: [...data], error: null })); // ✅ Store correctly in Zustand
-          console.log("✅ Questions stored in Zustand successfully!");
-        } catch (error) {
-          console.warn("❌ Error fetching questions:", error);
-          set({ error: error as Error });
-        }
-      },
+    set(() => ({
+      question: [...data],
+      error: null,
+      page: 1, // ✅ Reset page!
+    }));
+    console.log("✅ Questions stored in Zustand successfully!");
+  } catch (error) {
+    console.warn("❌ Error fetching questions:", error);
+    set({ error: error as Error });
+  }
+},
       authUser: (auth) => set((state) => ({ ...state, auth })),
       addAnswer: (answer) =>
         set((state) => {

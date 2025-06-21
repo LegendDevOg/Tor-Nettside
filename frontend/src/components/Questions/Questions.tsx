@@ -5,13 +5,13 @@ interface QuestionProps {
   handleClick: (value: string) => void;
   singleQuestion: {
     question: string;
-    correct_answer: string;
+    correct_answer: string | string[];
     options?: string[];
     context?: string; // ✅ Include context for introductory text
     difficulty?: string;
   };
   summary: boolean;
-  trueAnswer: string;
+  trueAnswer: string | string[];
   userAnswer: string | null;
 }
 
@@ -33,7 +33,11 @@ function Question({ id, handleClick, singleQuestion, summary, trueAnswer, userAn
       {/* Context Message (if available) */}
       {context && (
         <div className="bg-blue-100 border-l-4 border-blue-500 p-4 mb-4 rounded-md">
-          <p className="text-gray-700 italic">{he.decode(context)}</p>
+          <div className="text-gray-700 italic space-y-1">
+  {he.decode(context).split("\n").map((line, i) =>
+    line.trim() === "" ? <div key={i} className="h-4" /> : <p key={i}>{line}</p>
+  )}
+</div>
         </div>
       )}
 

@@ -8,10 +8,11 @@ const AccessCodeScreen = () => {
   const setAccess = useAccessStore((state) => state.setAccess);
   const navigate = useNavigate();
 
-  const handleSubmit = () => {
-    if (code.trim() === "123") { // Replace with your validation logic
-      setAccess(true); // Grant access
-      navigate("/"); // Redirect to the main app
+  const handleSubmit = (e?: React.FormEvent) => {
+    if (e) e.preventDefault(); // Prevent default form behavior (reload)
+    if (code.trim() === "123") {
+      setAccess(true);
+      navigate("/");
     } else {
       setError("Invalid access code. Please try again.");
     }
@@ -20,7 +21,10 @@ const AccessCodeScreen = () => {
   return (
     <div className="min-h-screen flex flex-col items-center justify-center bg-gradient-to-r from-blue-50 to-orange-100 p-4">
       <h1 className="text-3xl font-bold text-orange-600 mb-4">Enter Access Code</h1>
-      <div className="w-full max-w-sm space-y-4">
+      <form
+        onSubmit={handleSubmit}
+        className="w-full max-w-sm space-y-4"
+      >
         <input
           type="text"
           value={code}
@@ -30,11 +34,12 @@ const AccessCodeScreen = () => {
         />
         {error && <p className="text-red-500 text-sm">{error}</p>}
         <button
-          onClick={handleSubmit}
-          className="w-full rounded-full bg-orange-500 py-3 px-6 font-semibold text-white text-lg shadow-lg hover:bg-orange-400 transition">
+          type="submit"
+          className="w-full rounded-full bg-orange-500 py-3 px-6 font-semibold text-white text-lg shadow-lg hover:bg-orange-400 transition"
+        >
           Submit
         </button>
-      </div>
+      </form>
     </div>
   );
 };

@@ -1,0 +1,112 @@
+[
+  {
+    "type": "multiple",
+  "context": "Teleoperatøren Telavitt har blitt anklaget for å ha overfakturert kunder.\nForbrukerkretsen sier at Telavitt systematisk har sendt overprisede fakturaer over en lang tid.\nDe mest ubetydelige gebyrene viser seg å ha tredobbel pris som konkurrentene har.\n\nØkonom Trond Olson sier at dette er på grensen til å være bedrageri.\nNår man må betale et behandlingsgebyr på 449 kroner så bør det ringe bjeller.\nSjefen for Telavitt, Gabriel, ønsker ikke å uttale seg om saken.\nNå etterforskes selskapet av Økopolitiet.\n\nKonkurrentene har hele 30 prosent lavere priser enn Telavitt.",
+    "question": "Hva er problemet?",
+    "options": ["Telavitt får for mange fakturaer", "Trond Olson har begått bedrageri ", "Økopolitiet har løst saken allerede", "Kunder har betalt for mye"],
+    "correct_answer": "Kunder har betalt for mye",
+    "incorrect_answers": ["Telavitt får for mange fakturaer", "Økopolitiet har løst saken allerede", "Trond Olson har begått bedrageri"],
+    "difficulty": "A2"
+  },
+  {
+    "type": "multiple",
+  "context": "Teleoperatøren Telavitt har blitt anklaget for å ha overfakturert kunder.\nForbrukerkretsen sier at Telavitt systematisk har sendt overprisede fakturaer over en lang tid.\nDe mest ubetydelige gebyrene viser seg å ha tredobbel pris som konkurrentene har.\n\nØkonom Trond Olson sier at dette er på grensen til å være bedrageri.\nNår man må betale et behandlingsgebyr på 449 kroner så bør det ringe bjeller.\nSjefen for Telavitt, Gabriel, ønsker ikke å uttale seg om saken.\nNå etterforskes selskapet av Økopolitiet.\n\nKonkurrentene har hele 30 prosent lavere priser enn Telavitt.",
+    "question": "Hva kan Økopolitiet gjøre?",
+    "options": ["Dømme selskapet for bedrageri", "Anke saken i Telavitts favør", "Sende nye fakturaer til kundene", "Arrestere Trond Olson for bedrageri"],
+    "correct_answer": "Dømme selskapet for bedrageri",
+    "incorrect_answers": ["Anke saken i Telavitts favør", "Sende nye fakturaer til kundene", "Arrestere Trond Olson for bedrageri"],
+    "difficulty": "A2"
+  },
+  {
+    "type": "multiple",
+  "context": "Til høsten innføres bompenger i Granken kommune.\nDe tre broene vil ta penger for passering begge veier.\nHele 46 kroner vil tappes fra bilistene i kommunen hver dag, minst.\nOrdføreren gjør tiltaket for å gjøre klimatiltak.\nLokalbefolkningen er rystet over dette og vurderer å gå i protester ved matbutikken.\nDet nye partiet Sosialistisk Venderst kom med denne endringen for noen dager siden.",
+    "question": "Hva skjedde for noen dager siden?",
+    "options": ["Det kom betalingsplikt for å kjøre over broene", "Sosialistisk Venderst ble bilister", "Lokalbefolkningen gikk i protester ved matbutikken", "Klimatiltak som ville fjerne alle tre broene"],
+    "correct_answer": "Det kom betalingsplikt for å kjøre over broene",
+    "incorrect_answers": ["Lokalbefolkningen gikk i protester ved matbutikken", "Sosialistisk Venderst ble bilister", "Klimatiltak som ville fjerne alle tre broene"],
+    "difficulty": "A2"
+  },
+
+  {
+    "type": "multiple",
+  "context": "Gromstind fotballag har treninger ved Fallangen kunstgressbane.\nNeste uke vil det pågå et marked på kunstgresset, og dermed blir treningene avlyst.\nTreneren sier at de er luta lei av at banen brukes av kommunen til slike formål og at en fotballbane kun skal brukes til å nemlig spille fotball.\nOrdføreren sier at fotballbanen er for alle, og at de bare må finne seg i det.\nAdvokaten Tonje Ulland sier at det i følge reglementet ikke er lov å bruke fotballbanen på kort varsel til et slikt formål.\nDermed vil treneren gå til sak mot kommunen.",
+    "question": "Hva forstår vi av teksten?",
+    "options": ["Gromstind har marked neste uke", "Fotballspillerne kan ikke trene som vanlig neste uke", "Ordføreren klager på advokaten", "Tonje finner seg i saken"],
+    "correct_answer": "Fotballspillerne kan ikke trene som vanlig neste uke",
+    "incorrect_answers": ["Gromstind har marked neste uke", "Ordføreren klager på advokaten", "Tonje finner seg i saken"],
+    "difficulty": "A2"
+  },
+  {
+    "type": "multiple",
+  "context": "Gressklipperen Kutter 2000 har tatt markedet med storm.\nDenne råtassen har en justerbar klippehøyde i to trinn (20-50 mm).\nKundeomtalene er strålende, Kevin som kjøpte den forrige uke er henrykt over opplevelsen av et slikt funn og kaller det et genitrekk.\nSesongen for å klippe plenen starter på våren, og varer til slutten av september.\nMen selve salget har allerede startet nå i mars, løp og kjøp!",
+    "question": "Hva forstår vi av teksten?",
+    "options": ["Gressklipperen fungerer kun på sommeren", "Man kan justere høyden to ganger", "Kevin er passe fornøyd", "Man kan klippe gresset hele året"],
+    "correct_answer": "Man kan justere høyden to ganger",
+    "incorrect_answers": ["Kevin er passe fornøyd", "Gressklipperen fungerer kun på sommeren", "Man kan klippe gresset hele året"],
+    "difficulty": "A2"
+  },
+  {
+    "type": "multiple",
+  "context": "Forskerne ble rørt da de oppdaget hvor \"havets torpedo\" hadde svømt.\nMakrellstørja kan svømme jorda rundt på ett år hvis den vil.\nFisken er svært populær i Japan.\nFra oktober 2020 til 2022 satte forskerne 25 satelittmerker på fiskene.\nDette er verdens største tunfisk som kan bli tre meter lang og veie 500 kilo.\nVi har aldri sett så mye av denne fisken som nå, sier skipper Hilstand.\nDen kraftige økningen i bestanden kan bli et problem.\nMan finner 20 kilo makrell og sild i magene på størjene.",
+    "question": "Hva er rett, ifølge teksten?",
+    "options": [
+      "Det er en kraftig økning av makrell og sild", 
+    "Bare i Japan blir størja 500 kilo", 
+    "Det er ikke bra at størja spiser opp all småfisken", 
+    "Da forskerne svømte ble de rørt av 'havets torpedo'"],
+    "correct_answer": "Det er ikke bra at størja spiser opp all småfisken",
+    "incorrect_answers": [
+      "Det er en kraftig økning av makrell og sild", 
+    "Bare i Japan blir størja 500 kilo", 
+    "Da forskerne svømte ble de rørt av 'havets torpedo'"],
+    "difficulty": "A2"
+  },
+  {
+    "type": "multiple",
+  "context": "Det nye statsbudsjettet som ble lagt frem forrige uke blir møtt med sterk kritikk.\nFinansministeren, Per Karlsen, lover billigere barnehage og lavere avgift på vann og avløp, det er vel og bra.\nDet folk klager på er at statsbudsjettet ikke løser i økonomien til folk flest.\nEt skattelette på kun 400 kroner gjør at man får råd til en liten handletur på nærbutikken.\nKarlsen sier at tvert imot, så vil dette budsjettet styrke handlekraften til folk fremover.\n\nVensterpartiet leder Mona Jensen kaller budsjettet en bløff og bare talljuks.\nHun mener at ved å blant annet senke avgiften på flybilletter utenlands, så vil dette gjøre at vi bruker mer penger.\nDet høres bra ut å kunne bruke penger, men det gjør at rentekuttet mest sannsynlig blir utsatt.\n\nSom følge av dette sank aksjene til Oslo Børs med hele 3 prosent på bare ei uke.\nØkonom Vegard Dagny er sterkt bekymret over budsjettet som ble lagt fram.\nHan sier at ved å bruke så himla mye penger som nå, blant annet 25 prosent fra oljefondet,\nså vil Norge ødelegge for fremtidige generasjoner ved å ha et overforbruk.\n\nJensen fortalte til slutt at de som sitter med boliglån og flytende rente er taperne i alt det her.\nDet blir tøffe tider fremover med høye renter og høyere inflasjon.",
+    "question": "Hva er hensikten med denne teksten?",
+    "options": [
+      "Å diskutere oljefondet", 
+    "Å se på pengebruken til velgerne", 
+    "Å se på hva Karlsen sine planer er", 
+    "Å forstå hvorfor Norge blir lurt med bløff"],
+    "correct_answer": "Å se på hva Karlsen sine planer er",
+    "incorrect_answers": [
+      "Å diskutere oljefondet", 
+    "Å se på pengebruken til velgerne", 
+    "Å forstå hvorfor Norge blir lurt med bløff"],
+    "difficulty": "A2"
+  },
+  {
+    "type": "multiple",
+  "context": "Det nye statsbudsjettet som ble lagt frem forrige uke blir møtt med sterk kritikk.\nFinansministeren, Per Karlsen, lover billigere barnehage og lavere avgift på vann og avløp, det er vel og bra.\nDet folk klager på er at statsbudsjettet ikke løser i økonomien til folk flest.\nEt skattelette på kun 400 kroner gjør at man får råd til en liten handletur på nærbutikken.\nKarlsen sier at tvert imot, så vil dette budsjettet styrke handlekraften til folk fremover.\n\nVensterpartiet leder Mona Jensen kaller budsjettet en bløff og bare talljuks.\nHun mener at ved å blant annet senke avgiften på flybilletter utenlands, så vil dette gjøre at vi bruker mer penger.\nDet høres bra ut å kunne bruke penger, men det gjør at rentekuttet mest sannsynlig blir utsatt.\n\nSom følge av dette sank aksjene til Oslo Børs med hele 3 prosent på bare ei uke.\nØkonom Vegard Dagny er sterkt bekymret over budsjettet som ble lagt fram.\nHan sier at ved å bruke så himla mye penger som nå, blant annet 25 prosent fra oljefondet,\nså vil Norge ødelegge for fremtidige generasjoner ved å ha et overforbruk.\n\nJensen fortalte til slutt at de som sitter med boliglån og flytende rente er taperne i alt det her.\nDet blir tøffe tider fremover med høye renter og høyere inflasjon.",
+    "question": "Hva mener Mona Jensen?",
+    "options": [
+      "At det kan bli dyrt å ha lån i banken fremover", 
+    "At et rentekutt vil koste mer penger", 
+    "At det vil koste mer penger å fly", 
+    "At Oslo Børs er i en krise"],
+    "correct_answer": "At det kan bli dyrt å ha lån i banken fremover",
+    "incorrect_answers": [
+      "At et rentekutt vil koste mer penger", 
+    "At det vil koste mer penger å fly", 
+    "At Oslo Børs er i en krise"],
+    "difficulty": "A2"
+  },
+  {
+    "type": "multiple",
+  "context": "Det nye statsbudsjettet som ble lagt frem forrige uke blir møtt med sterk kritikk.\nFinansministeren, Per Karlsen, lover billigere barnehage og lavere avgift på vann og avløp, det er vel og bra.\nDet folk klager på er at statsbudsjettet ikke løser i økonomien til folk flest.\nEt skattelette på kun 400 kroner gjør at man får råd til en liten handletur på nærbutikken.\nKarlsen sier at tvert imot, så vil dette budsjettet styrke handlekraften til folk fremover.\n\nVensterpartiet leder Mona Jensen kaller budsjettet en bløff og bare talljuks.\nHun mener at ved å blant annet senke avgiften på flybilletter utenlands, så vil dette gjøre at vi bruker mer penger.\nDet høres bra ut å kunne bruke penger, men det gjør at rentekuttet mest sannsynlig blir utsatt.\n\nSom følge av dette sank aksjene til Oslo Børs med hele 3 prosent på bare ei uke.\nØkonom Vegard Dagny er sterkt bekymret over budsjettet som ble lagt fram.\nHan sier at ved å bruke så himla mye penger som nå, blant annet 25 prosent fra oljefondet,\nså vil Norge ødelegge for fremtidige generasjoner ved å ha et overforbruk.\n\nJensen fortalte til slutt at de som sitter med boliglån og flytende rente er taperne i alt det her.\nDet blir tøffe tider fremover med høye renter og høyere inflasjon.",
+    "question": "Hvilket utsagn er sant?",
+    "options": [
+      "400 kroner er det man sitter igjen med etter skatt", 
+    "Folk flest har høyere kjøpekraft fremover", 
+    "25 prosent av oljefondet blir brukt", 
+    "Flytende rente er ikke lurt"],
+    "correct_answer": "Folk flest har høyere kjøpekraft fremover",
+    "incorrect_answers": [
+      "400 kroner er det man sitter igjen med etter skatt", 
+    "25 prosent av oljefondet blir brukt", 
+    "Flytende rente er ikke lurt"],
+    "difficulty": "A2"
+  }
+]

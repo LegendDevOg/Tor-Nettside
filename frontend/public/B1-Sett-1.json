@@ -1,0 +1,135 @@
+[
+  {
+    "type": "multiple",
+  "context": "Bedriften Konsulering AS har en hytte som deles mellom alle ansatte i firmaet.\nDet er mulig å booke hytten i maks én uke. Det er to etasjer i hytta.\nKodelåsen på inngangsdøra endres månedlig og finnes på nettsiden til bedriften.\n\nHytta bestilles gjennom kalenderen du finner inne i systemene på bedriftens hjemmeside.\nFyll ut antall personer (ett rom har dobbeltseng, to rom har køyesenger). Det er vaskemaskin inkludert.\nDet er gratis å leie hytta, så lenge du er ansatt i bedriften. Hytta kan ikke fremleies.\nVenner og familie kan overnatte.\n\nVed bruk av hyttas båt, betales bensin for 25 kroner per liter brukt.\n\nRommene forlates i samme stand som ved ankomst.",
+    "question": "Hvem er denne teksten skrevet til?",
+    "options": ["Alle som vil", "Ansatte i bedriften", "Turister", "Familie og venner"],
+    "correct_answer": "Ansatte i bedriften",
+    "incorrect_answers": ["Turister", "Alle som vil", "Familie og venner"],
+    "difficulty": "A2"
+  },
+  {
+    "type": "multiple",
+  "context": "Bedriften Konsulering AS har en hytte som deles mellom alle ansatte i firmaet.\nDet er mulig å booke hytten i maks én uke. Det er to etasjer i hytta.\nKodelåsen på inngangsdøra endres månedlig og finnes på nettsiden til bedriften.\n\nHytta bestilles gjennom kalenderen du finner inne i systemene på bedriftens hjemmeside.\nFyll ut antall personer (ett rom har dobbeltseng, to rom har køyesenger). Det er vaskemaskin inkludert.\nDet er gratis å leie hytta, så lenge du er ansatt i bedriften. Hytta kan ikke fremleies.\nVenner og familie kan overnatte.\n\nVed bruk av hyttas båt, betales bensin for 25 kroner per liter brukt.\n\nRommene forlates i samme stand som ved ankomst.",
+    "question": "Hvordan får man koden til døra?",
+    "options": ["Man ser under dørmatta", "Man finner det på nettsiden", "Man åpner kalenderen på kontoret", "På en lapp utenfor døra"],
+    "correct_answer": "Man finner det på nettsiden",
+    "incorrect_answers": ["Man åpner kalenderen på kontoret", "Man ser under dørmatta", "På en lapp utenfor døra"],
+    "difficulty": "A2"
+  },
+  {
+    "type": "multiple",
+  "context": "Kommunen lyser ut 6 stillinger som barnehagelærer.\nLønna er gjennomsnittlig med resten av jobbene i kommunen.\nMan har krav på inntil 4 uker fri i dette yrket.\nDet er få ansatte, som gjør at barnehagene er underbemannet til tider.\nFor å få flere lærere, må lønna gå opp eller så må kompetansekravene senkes for å få flere søkere.\nKommunen har slitt med å få flere innbyggere, noe som kan være årsaken til problemet.",
+    "question": "Hva forstår vi av teksten?",
+    "options": ["Kompetansen er for lav", "Avis Østland tar seg fri i 4 uker", "Det trengs flere barnehagelærere", "Lønna er veldig høy"],
+    "correct_answer": "Det trengs flere barnehagelærere",
+    "incorrect_answers": ["Avis Østland tar seg fri i 4 uker", "Kompetansen er for lav", "Lønna er veldig høy"],
+    "difficulty": "A2"
+  },
+
+  {
+    "type": "multiple",
+  "context": "Til høsten innføres bompenger i Granken kommune.\nDe tre broene vil ta penger for passering begge veier.\nHele 46 kroner vil tappes fra bilistene i kommunen hver dag, minst.\nOrdføreren gjør tiltaket for å gjøre klimatiltak.\nLokalbefolkningen er rystet over dette og vurderer å gå i protester ved matbutikken.\nDet nye partiet Sosialistisk Venderst kom med denne endringen for noen dager siden.",
+    "question": "Hvorfor er lokalbefolkningen rystet?",
+    "options": ["Broene er for gamle", "Matbutikken har økt prisene", "De ønsker klimatiltak", "Det er dyrt å passere broene"],
+    "correct_answer": "Det er dyrt å passere broene",
+    "incorrect_answers": ["Broene er for gamle", "Matbutikken har økt prisene", "De ønsker klimatiltak"],
+    "difficulty": "A2"
+  },
+  {
+    "type": "multiple",
+  "context": "Kjemikeren Karl Olsen har funnet opp et nytt stoff som vil bli kvitt trøtthet.\nDoktorgradsstudenten Siri Ulset er opprømt over denne oppfinnelsen og kaller det et gjennombrudd.\nSå mange som 43 rotter ble mye kvikkere av injeksjon av stoffet.\nNeste uke vil en student bli testet for å øke produktiviteten.\nFarmasøyten Jan Knudsen er skeptisk og mener at det kanskje ikke er trygt å teste på mennesker allerede nå.\nStudenten skal få 1000 kroner for å være prøvekanin, selv om et slikt eksperiment kan være skadelig for kroppen.",
+    "question": "Hva forstår vi av teksten?",
+    "options": ["Siri Ulset liker ikke denne oppfinnelsen", "Stoffet skal gjøre deg mindre slapp", "Det er trygt å teste mennesker med dette stoffet", "Det koster 1000 kroner å få en kanin"],
+    "correct_answer": "Stoffet skal gjøre deg mindre slapp",
+    "incorrect_answers": ["Det er trygt å teste mennesker med dette stoffet", "Siri Ulset liker ikke denne oppfinnelsen", "Det koster 1000 kroner å få en kanin"],
+    "difficulty": "A2"
+  },
+  {
+    "type": "multiple",
+  "context": "Oljeprisen har hatt en markant endring de siste årene.\nPrisen på olje minket med 20 prosent i fjor, noe som førte til et ampert år for oljeselskapene innenlands.\nNorges regjering har tatt seg godt til rette av oljepengene de siste tiårene, noe som har gjort oss sårbar.\nForsker Trym Alsåker mener at nordmenn har fått puter under armene og blitt slappe.\nNorge har det største pensjonsfondet i verden, noe som mange land misunner oss for.\nSjefsøkonom Unni Hansen sier at Norge er avhengig av å endre strategi de neste 50 årene for å kunne opprettholde en så høy levestandard.",
+    "question": "Hva er rett, ifølge teksten?",
+    "options": [
+      "Oljeprisene har steget med 20 prosent.", 
+    "Nordmenn kjøper for mange puter", 
+    "Norge er blitt mer avhengig av oljepenger de siste årene.", 
+    "Oljeprisene vil holde seg stabil de neste 50 årene."],
+    "correct_answer": "Norge er blitt mer avhengig av oljepenger de siste årene.",
+    "incorrect_answers": [
+      "Oljeprisene har steget med 20 prosent.", 
+    "Nordmenn kjøper for mange puter", 
+    "Oljeprisene vil holde seg stabil de neste 50 årene."],
+    "difficulty": "A2"
+  },
+  {
+    "type": "multiple",
+  "context": "Foreldrene i Oslos utkantstrøk er mer og mer bekymret over gjengmiljøene som utvikler seg.\nBarn og unge blir ofte fulgt til barneskolen av foresatte.\nSissel, rektoren ved Granerud skole, sier at dette er noe som har pågått de siste fem årene.\nHun har bedt kommunen om å ha klubber i sentrum, der yngre folk kan henge sammen.\nEn slik ordning vil gjøre at barn og unge kan føle seg trygge i sentrum i sikre omgivelser.\n\nStortingsrepresentant Harald Vangberg sier at dette er en smart løsning, men at det kan bli utfordrende med tanke på det lave budsjettet til de fleste kommunene i landet.\nI det siste har det vært debatter på nyhetene om akkurat dette, og folk er fortvilet.\n\nEn trebarnsmor ved navn Trine sier at hun er livredd for at hennes barn en dag vil møte på kriminelle på gata.\nHun mener at det er på sin plass at kommunen gjør noe for å hindre denne oppsiktsvekkende utviklingen.\nDe siste årene har forskjellen mellom rik og fattig blitt større og større, noe som fører til at folk tyr til andre midler for å få mat på bordet om dagene.\nEnkelte familier har så vidt råd til å betale strøm.\n\nStatsministeren sa på debatten på tirsdag at hvis vi ikke tar grep snarest, så vil Norge bli som nabolandene som også sliter med organisert kriminalitet.",
+    "question": "Hva er hensikten med denne teksten?",
+    "options": [
+      "Å informere om økende gjengkriminalitet", 
+    "Å argumentere for dårlige skoler", 
+    "Å klage på stortingsrepresentanten", 
+    "Å diskutere om klubber til barn og voksne"],
+    "correct_answer": "Å informere om økende gjengkriminalitet",
+    "incorrect_answers": [
+      "Å argumentere for dårlige skoler", 
+    "Å klage på stortingsrepresentanten", 
+    "Å diskutere om klubber til barn og voksne"],
+    "difficulty": "A2"
+  },
+  {
+    "type": "multiple",
+  "context": "Foreldrene i Oslos utkantstrøk er mer og mer bekymret over gjengmiljøene som utvikler seg.\nBarn og unge blir ofte fulgt til barneskolen av foresatte.\nSissel, rektoren ved Granerud skole, sier at dette er noe som har pågått de siste fem årene.\nHun har bedt kommunen om å ha klubber i sentrum, der yngre folk kan henge sammen.\nEn slik ordning vil gjøre at barn og unge kan føle seg trygge i sentrum i sikre omgivelser.\n\nStortingsrepresentant Harald Vangberg sier at dette er en smart løsning, men at det kan bli utfordrende med tanke på det lave budsjettet til de fleste kommunene i landet.\nI det siste har det vært debatter på nyhetene om akkurat dette, og folk er fortvilet.\n\nEn trebarnsmor ved navn Trine sier at hun er livredd for at hennes barn en dag vil møte på kriminelle på gata.\nHun mener at det er på sin plass at kommunen gjør noe for å hindre denne oppsiktsvekkende utviklingen.\nDe siste årene har forskjellen mellom rik og fattig blitt større og større, noe som fører til at folk tyr til andre midler for å få mat på bordet om dagene.\nEnkelte familier har så vidt råd til å betale strøm.\n\nStatsministeren sa på debatten på tirsdag at hvis vi ikke tar grep snarest, så vil Norge bli som nabolandene som også sliter med organisert kriminalitet.",
+    "question": "Hva sier innbyggerne i nærmiljøet?",
+    "options": [
+      "Organisert kriminalitet er løst i nabolandene", 
+    "Barn og unge trenger en trygg plass å leke", 
+    "Strøm må bli langt billigere", 
+    "Deres barn trenger får mat på bordet"],
+    "correct_answer": "Barn og unge trenger en trygg plass å leke",
+    "incorrect_answers": [
+      "Organisert kriminalitet er løst i nabolandene", 
+    "Strøm må bli langt billigere", 
+    "Deres barn trenger får mat på bordet"],
+    "difficulty": "A2"
+  },
+  {
+    "type": "multiple",
+  "context": "Foreldrene i Oslos utkantstrøk er mer og mer bekymret over gjengmiljøene som utvikler seg.\nBarn og unge blir ofte fulgt til barneskolen av foresatte.\nSissel, rektoren ved Granerud skole, sier at dette er noe som har pågått de siste fem årene.\nHun har bedt kommunen om å ha klubber i sentrum, der yngre folk kan henge sammen.\nEn slik ordning vil gjøre at barn og unge kan føle seg trygge i sentrum i sikre omgivelser.\n\nStortingsrepresentant Harald Vangberg sier at dette er en smart løsning, men at det kan bli utfordrende med tanke på det lave budsjettet til de fleste kommunene i landet.\nI det siste har det vært debatter på nyhetene om akkurat dette, og folk er fortvilet.\n\nEn trebarnsmor ved navn Trine sier at hun er livredd for at hennes barn en dag vil møte på kriminelle på gata.\nHun mener at det er på sin plass at kommunen gjør noe for å hindre denne oppsiktsvekkende utviklingen.\nDe siste årene har forskjellen mellom rik og fattig blitt større og større, noe som fører til at folk tyr til andre midler for å få mat på bordet om dagene.\nEnkelte familier har så vidt råd til å betale strøm.\n\nStatsministeren sa på debatten på tirsdag at hvis vi ikke tar grep snarest, så vil Norge bli som nabolandene som også sliter med organisert kriminalitet.",
+    "question": "Hva gjør foreldre nå?",
+    "options": [
+      "De får tak i midler til brød", 
+    "De flytter til nabolandene", 
+    "Følger deres barn til skolen", 
+    "Betaler billig strøm"],
+    "correct_answer": "Følger deres barn til skolen",
+    "incorrect_answers": [
+      "De får tak i midler til brød", 
+    "De flytter til nabolandene", 
+    "Betaler billig strøm"],
+    "difficulty": "A2"
+  },
+
+  {
+  "type": "sentence-dropdown",
+  "question": "Fyll inn ordene i teksten",
+  "sentenceParts": [
+    "Hvorfor ser vi så få eldre kvinner på treningssentre?",
+    "Gruppetrening er mer enn bare en form for aktivitet og et sentralt tiltak som kan bidra til å forbedre ",
+    "både psykisk og fysisk helse. ", 
+    "Vi lever i en tid der mennesker lever stadig lenger. Dette er utvilsomt en triumf for moderne medisin og samfunnsutvikling, ",
+    "men dette {0} også nye utfordringer. Ensomhet og sosial isolasjon blant eldre er en økende tendens. ", 
+    "Ensomhet er langt mer enn en trist tilstand; det er en tilstand som i ytterste konsekvens kan utgjøre en alvorlig helsefare. ", 
+    "Tap av fellesskap kan ha alvorlige psykiske og fysiske konsekvenser, ", 
+    "og har vist seg å ha like stor helserisiko som daglig røyking. Dette {1}",
+    "behovet for tiltak som gjør noe med utfordringene spesielt eldre kvinner har."
+
+  ],
+  "dropdownOptions": [
+    ["bringer", "forekommer", "varierer", "behandler"],
+    ["understreker", "utsetter", "overreagerer", "fraråder"]
+  ],
+  "correct_answer": ["bringer", "utsetter"],
+  "difficulty": "A2"
+}
+]
