@@ -1,4 +1,4 @@
-import { useState, useRef, useEffect } from "react";
+import { useState, useRef } from "react";
 // Image Selection Component
 export function ImageQuestion({
   question,
@@ -303,21 +303,6 @@ export function ImageClickAreaQuestion({
   difficulty: string;
 }) {
   const imgRef = useRef<HTMLImageElement>(null);
-  const [imageSize, setImageSize] = useState({ width: 1, height: 1 });
-
-  useEffect(() => {
-    const img = imgRef.current;
-    if (img) {
-      const updateSize = () =>
-        setImageSize({
-          width: img.naturalWidth,
-          height: img.naturalHeight,
-        });
-
-      if (img.complete) updateSize();
-      else img.onload = updateSize;
-    }
-  }, []);
 
   const onImageClick = (e: React.MouseEvent<HTMLImageElement>) => {
     if (summary || !imgRef.current) return;
@@ -353,19 +338,6 @@ export function ImageClickAreaQuestion({
           className="w-full h-auto object-contain rounded-lg cursor-pointer"
           alt="question"
         />
-
-        {/* ✅ Utvikler-sirkel som viser riktig klikkeområde */}
-        {!summary && (
-          <div
-            className="absolute border-2 border-blue-500 bg-blue-200 bg-opacity-30 rounded-full -translate-x-1/2 -translate-y-1/2 pointer-events-none"
-            style={{
-              top: `${(correctArea.y / imageSize.height) * 100}%`,
-              left: `${(correctArea.x / imageSize.width) * 100}%`,
-              width: `${(correctArea.radius * 2 / imageSize.width) * 100}%`,
-              height: `${(correctArea.radius * 2 / imageSize.height) * 100}%`,
-            }}
-          />
-        )}
       </div>
 
       {!summary && (
