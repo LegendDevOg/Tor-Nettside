@@ -44,5 +44,60 @@
     "correct_answer": "Parasitten har spredt seg lenger nord i landet",
     "incorrect_answers": ["Folk jakter på parasitten på Østlandet", "Husdyr jaktes av hjortedyr", "Natur-appen vil løse problemene"],
     "difficulty": "A2"
+  },
+  {
+  "type":"sentence-dropdown",
+  "question": "Fyll inn ordene i teksten",
+  "sentenceParts":[
+"Å sove litt mer i helgene kan være bra for deg. Blant britene i studien som hadde underskudd på søvn,",
+"var det {0} klart en fordel å sove et par timer ekstra i løpet av helgen.",
+"Det er ikke bra for helsa å sove for lite. Det vet de fleste av oss godt.",
+"Men det er ikke så helt lett alltid å få den søvnen som trengs. I hvert fall ikke i løpet av de hektiske ukedagene.",
+"Spørsmålet er om det er mulig å ta igjen søvnen i helgen.",
+"{1}, sove mer i helgen gjør jo mange. Men har det noen effekt?",
+"Ja, flere studier viser faktisk at det hjelper litt å sove lenge på lørdag morgen.",
+"I hvert fall når det kommer til hjerte- og karsykdommer."
+  ],
+  "dropdownOptions":[
+    ["helt", "særlig", "nemlig", "altså"],
+    ["altså", "ettersom", "vanligvis", "nok"]
+  ],
+  "correct_answer": ["helt", "altså"],
+  "difficulty": "B1"
+},
+  {
+  "type":"sentence-dropdown",
+  "question": "Fyll inn ordene i teksten",
+  "sentenceParts":[
+  "Vi har flere tusen milliarder i Oljefondet. Hvorfor betaler vi ikke mindre skatt?",
+"Forskere spør seg hvorfor alle oljepengene må brukes av staten.",
+"De siste årene har politikerne brukt nesten hele inntekten de henter fra Oljefondet hvert år på å øke de offentlige utgiftene.",
+"{0} noe har blitt brukt til å gi oss lavere skatt.",
+"Hvorfor har det blitt sånn? Forskere ved Høyskolen har sine mistanker.",
+"Det er en ganske merkelig utvikling vi har hatt, sier Karin Kleiven til avisen. Hun er postdoktor ved Høyskolen.",
+"Offentlige utgifter som andel av bruttonasjonalproduktet (BNP) {1} nå 62 prosent av fastlandsøkonomien i Norge.",
+"Sverige og Danmark bruker også mye penger på det offentlige. Men begge ligger likevel under 50 prosent.",
+"Høyresiden argumenterer gjerne for å gi skattelette.",
+"To kjente argumentet er at det stimulerer til økonomisk vekst og at det skaper arbeidsplasser. "
+  ],
+  "dropdownOptions":[
+    ["knapt", "endelig", "enda", "gjerne"],
+    ["utgjør", "gjør", "fører", "varer"]
+  ],
+  "correct_answer": ["knapt", "utgjør"],
+  "difficulty": "B1"
+},
+  {
+    "type": "multiple",
+    "context": "Det bør bli strengere parkeringsbot for verstingene i Oslo sentrum.\nGang på gang ser man biler som parkerer feil, med vilje av de samme personene.\nNå har kommunen valgt å gjøre noe med det. De vil innføre høyere bøter til personer som gjentatte ganger blir tatt i å parkere ulovlig.\nBussjåfører er lettet over denne avgjørelsen. Ukentlig opplever de at biler står i veien når de kjører.\nDette vil forhåpentligvis gjøre det bedre i byens gater for både gående og bilister.",
+    "question": "Velg riktig alternativ",
+    "options": ["Det vil komme flere bøter til alle som parkerer feil i byen.", 
+    "Bare enkelte personer vil få strengere straff for feilparkering.", 
+    "Bussjåfører samarbeider med verstingene på veiene.", 
+    "Kommunen skal gjøre det vanskeligere å parkere i gatene."],
+    "correct_answer": "Bare enkelte personer vil få strengere straff for feilparkering.",
+    "incorrect_answers": ["Det vil komme flere bøter til alle som parkerer feil i byen.", 
+    "Bussjåfører samarbeider med verstingene på veiene.", "Kommunen skal gjøre det vanskeligere å parkere i gatene."],
+    "difficulty": "B1"
   }
 ]

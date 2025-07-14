@@ -7,7 +7,8 @@ type Question = {
     | "image"
     | "word-selection"
     | "paragraph-selection"
-    | "sentence-dropdown";
+    | "sentence-dropdown"
+    | "image-click";
 
   context?: string;
   question: string;
@@ -20,7 +21,8 @@ type Question = {
   dropdownOptions?: string[][]; // ✅ for sentence-dropdown
   category?: string;
   difficulty?: string;
-  image?: string | null;
+  image?: string | "";
+  correctArea?: { x: number; y: number; radius: number };
 };
 
 type UserAnswer = {

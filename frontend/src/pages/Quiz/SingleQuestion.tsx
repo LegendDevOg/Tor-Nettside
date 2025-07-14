@@ -3,11 +3,13 @@ import { useEffect } from "react";
 import AnimateProvider from "../../components/AnimateProvider/AnimateProvider";
 import useQuestionStore from "../../data/GetData";
 import Question from "../../components/Questions/Questions";
+
 import {
   ImageQuestion,
   WordSelectionQuestion,
   ParagraphSelectionQuestion,
-  SentenceDropdownQuestion
+  SentenceDropdownQuestion,
+  ImageClickAreaQuestion
 } from "../../components/QuestionTypes/QuestionTypes";
 
 function SingleQuestion() {
@@ -53,6 +55,34 @@ function SingleQuestion() {
 
   function renderQuestionComponent() {
     switch (singleQuestion.type) {
+      case "image-click":
+          if (!singleQuestion.correctArea || !singleQuestion.image) {
+            return <p>Error: Missing image or correct area data for image-click question.</p>;
+          }
+          
+        return (
+          <ImageClickAreaQuestion
+            question={singleQuestion.question}
+            context={singleQuestion.context}
+            image={singleQuestion.image || ""}
+            correctArea={singleQuestion.correctArea}
+            handleClick={(answerString) => {
+              const [correctness] = answerString.split("|");
+
+              addAnswer({
+              question: singleQuestion.question,
+              answer: answerString, // ✅ store full "x|y|correct"
+              });
+
+            correctness === "correct" ? trueAction() : falseAction();
+
+              nextPage();
+              navigate(page === allQuestions.length ? "/finish" : `/question/${id}/${set}`);
+            }}
+            summary={false}
+            difficulty={singleQuestion.difficulty || ""}
+          />
+        );
       case "image":
         return (
           <ImageQuestion
@@ -110,14 +140,26 @@ function SingleQuestion() {
               .map((a) => a.split("|")[1])
           : []
       }
-      handleClick={(val) =>
+      handleClick={(val) => {
         addAnswer({
           question: singleQuestion.question,
-          answer: userAnswer?.answer
-            ? `${userAnswer.answer}||${val}`
-            : val,
-        })
-      }
+          answer: val,
+        });
+
+        const selectedAnswers = val
+          .split("||")
+          .map((entry) => entry.split("|")[1]);
+
+        const isCorrect = selectedAnswers.every(
+          (ans, i) => ans === singleQuestion.correct_answer[i]
+        );
+
+        isCorrect ? trueAction() : falseAction();
+
+        nextPage();
+        navigate(page === allQuestions.length ? "/finish" : `/question/${id}/${set}`);
+      }}
+
       summary={false}
       difficulty={singleQuestion.difficulty || ""}
     />

@@ -1,4 +1,45 @@
-[  {
+[  
+  {
+  "type": "image-click",
+  "question": "Klikk på Sofie.",
+  "context": "En gruppe elever ser på laptopen sammen. Sofie står til høyre for gruppen.",
+  "image": "sara-image.png",
+  "correctArea": { "x": 329, "y": 299, "radius": 100 },
+  "difficulty": "A1-A2"
+},
+  {
+  "type": "image-click",
+  "question": "Klikk på Mona.",
+  "context": "To jenter sitter og slår av en prat i sofaen. Mona holder i en rød kopp.",
+  "image": "sara-image.png",
+  "correctArea": { "x": 460, "y": 342, "radius": 60 },
+  "difficulty": "A1-A2"
+},  
+  {
+  "type": "image-click",
+  "question": "Klikk på Silje.",
+  "context": "Et par holder hender mens de går på gata. Erik har på seg en hvit skjorte. Silje har på seg en rosa genser.",
+  "image": "per-image.png",
+  "correctArea": { "x": 510, "y": 244, "radius": 40 },
+  "difficulty": "A1-A2"
+},
+  {
+  "type": "image-click",
+  "question": "Hvilken dato vil Stian begynne i den nye jobben?",
+  "context": "Første uken i oktober skal Stian begynne i en ny jobb.\nHan gleder seg mye. Han starter å jobbe onsdag.\nPå torsdag har han et møte med sjefen. På fredag er det lønningspils.",
+  "image": "kalender.png",
+  "correctArea": { "x": 353, "y": 127, "radius": 45 },
+  "difficulty": "A1-A2"
+},
+{
+  "type": "image-click",
+  "question": "Hvilken dato kjøpte Sofie den nye bilen?",
+  "context": "Tredje uken i oktober kjøpte Sofie en ny bil.\nHun prøvekjørte bilen på tirsdag. Hun måtte vente noen dager før hun slo til.\nPå torsdag gikk hun for det og kjøpte bilen. På fredag kjørte hun med noen venner.",
+  "image": "kalender.png",
+  "correctArea": { "x": 453, "y": 247, "radius": 45 },
+  "difficulty": "A1-A2"
+},
+{
     "type": "image",
     "sentence": "Det er snø ute og Vignesh går tur ute med en rød jakke.",
     "question": "Klikk på Vignesh.",

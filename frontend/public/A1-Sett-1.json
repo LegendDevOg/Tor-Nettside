@@ -1,5 +1,46 @@
 [
-  
+  {
+  "type": "image-click",
+  "question": "Klikk på Sara.",
+  "context": "Sara forsov seg og er sen til norsktimen sin. Hun løper for å komme i tide.",
+  "image": "sara-image.png",
+  "correctArea": { "x": 798, "y": 383, "radius": 100 },
+  "difficulty": "A1-A2"
+},
+  {
+  "type": "image-click",
+  "question": "Klikk på Balder.",
+  "context": "Balder er sliten etter å ha løpt mye. Han ligger og sover på gulvet.",
+  "image": "sara-image.png",
+  "correctArea": { "x": 407, "y": 496, "radius": 60 },
+  "difficulty": "A1-A2"
+},
+  {
+  "type": "image-click",
+  "question": "Klikk på Per.",
+  "context": "Per står og venter på at neste tog skal komme. Han har på seg en mørk t-skjorte.",
+  "image": "per-image.png",
+  "correctArea": { "x": 307, "y": 202, "radius": 60 },
+  "difficulty": "A1-A2"
+},
+  {
+  "type": "image-click",
+  "question": "Hvilken dato vil Gabriel og Lise dra på en fest i Tromsø sentrum?",
+  "context": "Andre helg i oktober skal Gabriel og Lise kjøre til Tromsø og treffe noen venner.\n De kjører på torsdag. På fredag skal de på en fest i Tromsø sentrum.\n På søndag kjører de hjem igjen.",
+  "image": "kalender.png",
+  "correctArea": { "x": 557, "y": 186, "radius": 45 },
+  "difficulty": "A1-A2"
+},
+{
+  "type": "image-click",
+  "question": "Hvilken dato skal Robert klippe seg?",
+  "context": "Robert bestilte en time hos frisøren første uken i oktober. Han arbeider mandag til fredag, så han drar på lørdagen for å klippe seg.",
+  "image": "kalender.png",
+  "correctArea": { "x": 650, "y": 128, "radius": 45 },
+  "difficulty": "A1-A2"
+},
+
+
   {
     "type": "image",
     "sentence": "Det er varmt og fint vær. Det er litt skyer på himmelen. Jonas har på seg shorts.",

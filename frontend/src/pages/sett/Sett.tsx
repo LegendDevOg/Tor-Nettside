@@ -22,7 +22,7 @@ function Sett() {
         </div>
 
         <h1 className="text-6xl font-bold text-black-600 mb-16 text-center">
-          {id === "lesing" ? "Leseprøven" : "Lytteprøven"}
+          {id === "lytting" ? "Lytteprøven" : "Leseprøven"}
         </h1>
 
         <div className="flex space-x-12 w-full max-w-sm">

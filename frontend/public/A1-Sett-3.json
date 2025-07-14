@@ -1,4 +1,45 @@
-[  {
+[  
+  {
+  "type": "image-click",
+  "question": "Klikk på mannen.",
+  "context": "En mann i dress prøver å rekke toget, han løper for komme tidsnok.",
+  "image": "per-image.png",
+  "correctArea": { "x": 757, "y": 310, "radius": 50 },
+  "difficulty": "A1-A2"
+},
+  {
+  "type": "image-click",
+  "question": "Klikk på måkene.",
+  "context": "To papegøyer flyr i himmelen. Flere måker flyr over toget.",
+  "image": "per-image.png",
+  "correctArea": { "x": 256, "y": 89, "radius": 70 },
+  "difficulty": "A1-A2"
+},  
+  {
+  "type": "image-click",
+  "question": "Klikk på Felix.",
+  "context": "Felix ringer til en venn for å møtes. Han ble akkurat ferdig med mattetimen.",
+  "image": "sara-image.png",
+  "correctArea": { "x": 670, "y": 360, "radius": 50 },
+  "difficulty": "A1-A2"
+},
+  {
+  "type": "image-click",
+  "question": "Hvilken dato har de hviledag?",
+  "context": "I siste uken i oktober har fotballaget trening på mandag til torsdag.\nHviledag på fredag, og på lørdag har de kamp.",
+  "image": "kalender.png",
+  "correctArea": { "x": 553, "y": 366, "radius": 45 },
+  "difficulty": "A1-A2"
+},
+{
+  "type": "image-click",
+  "question": "Hvilken dato vasker Ekteparet Olsen huset sitt?",
+  "context": "Første uken i oktober vasker ekteparet Olsen huset sitt.\nMandag til fredag har de jobb. På lørdag er de på hytta.\nMen på søndag har de tid til å vaske.",
+  "image": "kalender.png",
+  "correctArea": { "x": 745, "y": 126, "radius": 45 },
+  "difficulty": "A1-A2"
+},  
+{
     "type": "image",
     "sentence": "Det er klar himmel og Steffen går ute med en hvit t-skjorte.",
     "question": "Klikk på Steffen.",

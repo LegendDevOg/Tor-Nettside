@@ -108,5 +108,61 @@
     "25 prosent av oljefondet blir brukt", 
     "Flytende rente er ikke lurt"],
     "difficulty": "A2"
+  },
+  {
+  "type": "sentence-dropdown",
+  "question": "Fyll inn ordene i teksten",
+  "sentenceParts": [
+    "Forskere fant bakteriefest i mikrobølgeovner.",
+    "Du trodde kanskje at det var vanskelig for bakterier å overleve i mikrobølgeovnen, siden den stadig varmes opp.",
+    "Det ser ikke ut til å {0}. En tallerken med et stykke iskald lasagne settes i mikrobølgeovnen.", 
+    "Etter noen minutter kommer det ut en rykende varm lasagne på en kald tallerken. Hvordan er det mulig?",
+    "Mikrobølgeovnen bruker elektromagnetiske bølger. De får molekyler – for eksempel vannmolekyler –",
+    "til å vibrere og varme lasagnen, men ikke tallerkenen.",
+    "I utgangspunktet drepes ikke bakteriene i mikrobølgeovnen, med mindre bakteriene utsettes for høy nok temperatur.",
+    "{1} kan mikrobølgeovnen din huse en bakteriefest hvis den ikke rengjøres regelmessig."
+
+  ],
+  "dropdownOptions": [
+    ["stemme", "løse", "granske", "mangle"],
+    ["derfor", "men", "så", "såpass"]
+  ],
+  "correct_answer": ["stemme", "derfor"],
+  "difficulty": "B1"
+},
+{
+  "type":"sentence-dropdown",
+  "question": "Fyll inn ordene i teksten",
+  "sentenceParts":[
+"Hvordan påvirker influensere deg, {0}?",
+"Influensere anerkjennes for evnen til å påvirke. Men det kan være vanskelig å forstå hvordan påvirkningen faktisk foregår.",
+"I løpet av det siste tiåret har influenserindustrien utviklet seg til å bli en etablert bransje verden over,", 
+"spesielt innenfor nisjer som mote, skjønnhet og livsstil.", 
+"Helt siden de første etablerte seg og raskt ble til et anerkjent fenomen for omkring et tiår siden,", 
+"har influensere vært mest kjent for livsstilen de selger, spesielt på plattformer som Fleksigram, LabLube og FlikFlok.",
+"Selgere av «ideelle» livsstiler",
+"Tidligere forskning har pekt på at influensere er mer opptatt av å fremme livsstilen sin enn av å selge et spesifikt produkt.", 
+"Fremfor å dele detaljert produktorientert innhold, {1} influenserne ofte produkter og tjenester i sitt allerede", 
+"etablerte innhold, et innhold som ofte er basert på dagliglivet deres. "
+  ],
+  "dropdownOptions":[
+    ["egentlig", "særlig", "ganske", "gjensidig"],
+    ["innlemmer", "fører", "uteblir", "vanskeliggjør"]
+  ],
+  "correct_answer": ["egentlig", "innlemmer"],
+  "difficulty": "B1"
+},
+  {
+    "type": "multiple",
+    "context": "Nord-Norge har blitt stadig mer populær opp igjennom årene.\nTuristene strømmer inn som bare det. Det er vel og bra. Men. Nå er det et stigende behov for boplasser i kalde nord.\nVondt blir verre når nærmere en tredjedel av boligene er kortidsleid av turister.\nBåde studenter og enkeltpersoner sliter med å finne husly når de leter på markedet.\nKommunene vurderer å innføre turistskatt for å gjøre kortidsleie mindre gunstig.",
+    "question": "Velg riktig alternativ",
+    "options": ["Det er ikke nok boplasser for turister i Nord-Norge", 
+    "Kommunene får ikke tak i utleierne, og ber om hjelp", 
+    "Det er vanskelig å finne en plass å bo for enkeltpersoner", 
+    "Turistskatt vil gjøre det mindre gunstig for studenter"],
+    "correct_answer": "Det er vanskelig å finne en plass å bo for enkeltpersoner",
+    "incorrect_answers": ["Turistskatt vil gjøre det mindre gunstig for studenter", 
+    "Kommunene får ikke tak i utleierne, og ber om hjelp", "Det er ikke nok boplasser for turister i Nord-Norge"],
+    "difficulty": "B1"
   }
 ]

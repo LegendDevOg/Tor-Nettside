@@ -1,5 +1,4 @@
-import { useState } from "react";
-
+import { useState, useRef, useEffect } from "react";
 // Image Selection Component
 export function ImageQuestion({
   question,
@@ -199,8 +198,7 @@ export function SentenceDropdownQuestion({
     setSelected(updated);
   };
 
-  const isCompleted =
-    selected.length === options.length && selected.every((v) => v);
+const isCompleted = options.every((_, i) => selected[i] && selected[i].trim() !== "");
 
   const submitAnswer = () => {
     const packed = selected.map((val, i) => `${i}|${val}`).join("||");
@@ -287,6 +285,96 @@ export function SentenceDropdownQuestion({
     </div>
   );
 }
+
+export function ImageClickAreaQuestion({
+  question,
+  context,
+  image,
+  correctArea,
+  handleClick,
+  summary,
+}: {
+  question: string;
+  context?: string;
+  image: string;
+  correctArea: { x: number; y: number; radius: number };
+  handleClick: (answerString: string) => void;
+  summary: boolean;
+  difficulty: string;
+}) {
+  const imgRef = useRef<HTMLImageElement>(null);
+  const [imageSize, setImageSize] = useState({ width: 1, height: 1 });
+
+  useEffect(() => {
+    const img = imgRef.current;
+    if (img) {
+      const updateSize = () =>
+        setImageSize({
+          width: img.naturalWidth,
+          height: img.naturalHeight,
+        });
+
+      if (img.complete) updateSize();
+      else img.onload = updateSize;
+    }
+  }, []);
+
+  const onImageClick = (e: React.MouseEvent<HTMLImageElement>) => {
+    if (summary || !imgRef.current) return;
+
+    const rect = imgRef.current.getBoundingClientRect();
+    const scaleX = imgRef.current.naturalWidth / rect.width;
+    const scaleY = imgRef.current.naturalHeight / rect.height;
+
+    const clickX = (e.clientX - rect.left) * scaleX;
+    const clickY = (e.clientY - rect.top) * scaleY;
+
+    console.log(`Clicked at: x=${Math.round(clickX)}, y=${Math.round(clickY)}`);
+
+    const dx = clickX - correctArea.x;
+    const dy = clickY - correctArea.y;
+    const distance = Math.sqrt(dx * dx + dy * dy);
+
+    const correct = distance <= correctArea.radius;
+
+    // Lagre som "x|y|correct/wrong"
+    handleClick(`${Math.round(clickX)}|${Math.round(clickY)}|${correct ? "correct" : "wrong"}`);
+  };
+
+  return (
+    <div className="flex flex-col items-center gap-4">
+      <h3 className="text-lg font-semibold text-center">{question}</h3>
+      {context && <p className="text-sm text-gray-500 text-center">{context}</p>}
+      <div className="relative w-full max-w-xl">
+        <img
+          ref={imgRef}
+          src={`/images/${image}`}
+          onClick={onImageClick}
+          className="w-full h-auto object-contain rounded-lg cursor-pointer"
+          alt="question"
+        />
+
+        {/* ✅ Utvikler-sirkel som viser riktig klikkeområde */}
+        {!summary && (
+          <div
+            className="absolute border-2 border-blue-500 bg-blue-200 bg-opacity-30 rounded-full -translate-x-1/2 -translate-y-1/2 pointer-events-none"
+            style={{
+              top: `${(correctArea.y / imageSize.height) * 100}%`,
+              left: `${(correctArea.x / imageSize.width) * 100}%`,
+              width: `${(correctArea.radius * 2 / imageSize.width) * 100}%`,
+              height: `${(correctArea.radius * 2 / imageSize.height) * 100}%`,
+            }}
+          />
+        )}
+      </div>
+
+      {!summary && (
+        <p className="text-xs text-gray-500 text-center">Klikk på riktig person i bildet.</p>
+      )}
+    </div>
+  );
+}
+
 
 
 
