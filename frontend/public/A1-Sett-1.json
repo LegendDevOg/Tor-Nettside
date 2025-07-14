@@ -194,8 +194,8 @@
       "Snekkeren",
       "Tannlegen"
   ],
-  "correct_answer": "Frisøren",
-  "incorrect_answers": ["Læreren",
+  "correct_answer": "Læreren",
+  "incorrect_answers": [
       "Frisøren",
       "Snekkeren",
       "Tannlegen"
@@ -260,24 +260,6 @@
     "type": "multiple",
     "context": "Mandag: Stengt\nTirsdag til Fredag: 16-20\nLørdag: 10-18\nSøndag: 10-16",
     "question": "Når åpner bakeriet på onsdager?",
-    "options": [
-        "Klokka 12",
-        "Klokka 10",
-        "Stengt",
-        "Klokka 16"
-    ],
-    "correct_answer": "Klokka 16",
-    "incorrect_answers": [
-        "Klokka 10",
-        "Stengt",
-        "Klokka 12"
-    ],
-    "difficulty": "A1"
-},
-{
-    "type": "multiple",
-    "context": "Mandag: Stengt\nTirsdag til Fredag: 16-20\nLørdag: 10-18\nSøndag: 10-16",
-    "question": "5. Når åpner bakeriet på onsdager?",
     "options": [
         "Klokka 12",
         "Klokka 10",
