@@ -3,7 +3,7 @@
   {
     "type": "image",
     "sentence": "Det er varmt og fint vær. Det er litt skyer på himmelen. Jonas har på seg shorts.",
-    "question": "Klikk på Jonas.",
+    "question": "Klikk på Jonas!",
     "options": [
       "/images/bilde/oppg1-op1.png",
       "/images/bilde/oppg1-op2.png",

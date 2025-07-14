@@ -19,10 +19,10 @@ function Success() {
   const indxColor = score >= 60 ? "#10b981" : score >= 30 ? "#F59E0B" : "#dc2626";
   const showButton = score >= 60;
   let text = ""
-  if(score > 60) {
-    text = "You got less than 60%. Practice sets 1, 2 and 3 for A1-A2 before moving on to A2-B1."
+  if(score < 60) {
+    text = "You got less than 60%. Practice sets 1, 2 and 3 for this level before moving on to the next level."
   } else {
-    text = "You got more than 60%. If you want, continue to A2-B1 Level."
+    text = "You got more than 60%. If you want, continue to the next Level."
   }
   useEffect(() => {
     setTimeStamp(0);
