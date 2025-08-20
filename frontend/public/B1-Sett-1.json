@@ -176,9 +176,9 @@
     "Sabrina", 
     "Ahmed",
     "Sander"],
-    "correct_answer": "Sander",
+    "correct_answer": "Astrid",
     "incorrect_answers": ["Erik", 
-    "Astrid", "Sabrina", "Ahmed"],
+    "Sander", "Sabrina", "Ahmed"],
     "difficulty": "B1"
   },
   {
@@ -218,9 +218,9 @@
     "Sabrina", 
     "Ahmed",
     "Sander"],
-    "correct_answer": "Sander",
+    "correct_answer": "Ahmed",
     "incorrect_answers": ["Erik", 
-    "Astrid", "Sabrina", "Ahmed"],
+    "Astrid", "Sabrina", "Sander"],
     "difficulty": "B1"
   },
   {
@@ -232,8 +232,8 @@
     "Sabrina", 
     "Ahmed",
     "Sander"],
-    "correct_answer": "Sander",
-    "incorrect_answers": ["Erik", 
+    "correct_answer": "Erik",
+    "incorrect_answers": ["Sander", 
     "Astrid", "Sabrina", "Ahmed"],
     "difficulty": "B1"
   }
