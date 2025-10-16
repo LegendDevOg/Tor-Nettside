@@ -3,6 +3,8 @@ import { useNavigate } from "react-router-dom";
 import { useEffect, useState, useRef } from "react";
 import AnimateProvider from "../../components/AnimateProvider/AnimateProvider";
 import Question from "../../components/Questions/Questions";
+import Header from "../../components/Header/Header";
+import ScaledContent from "../../components/ScaledContent/ScaledContent";
 
 // Separate component for image-click results to avoid conditional hooks
 function ImageClickResult({ question, userSelected, actualIndex }: {
@@ -131,10 +133,13 @@ function Success() {
   };
 
   return (
-    <AnimateProvider className="flex flex-col space-y-10 md:max-w-xl md:mx-auto">
-      <h3 className="text-lg text-center text-neutral-900 font-bold md:text-xl">
-        Your Final Score
-      </h3>
+    <>
+      <Header />
+      <ScaledContent>
+        <AnimateProvider className="flex flex-col space-y-10 md:max-w-xl md:mx-auto">
+          <h3 className="text-lg text-center text-neutral-900 font-bold md:text-xl">
+            Your Final Score
+          </h3>
 
       <h1
         style={{ background: indxColor }}
@@ -375,7 +380,9 @@ if (isImageClick && question.correctArea && question.image) {
           />
         );
       })}
-    </AnimateProvider>
+        </AnimateProvider>
+      </ScaledContent>
+    </>
   );
 }
 

@@ -34,7 +34,7 @@ function Question({ id, handleClick, singleQuestion, summary, trueAnswer, userAn
       {context && (
         <div className="bg-blue-100 border-l-4 border-blue-500 p-4 mb-4 rounded-md">
           <div className="text-gray-700 italic space-y-1">
-  {he.decode(context).split("\n").map((line, i) =>
+  {context && he.decode(context).split("\n").map((line, i) =>
     line.trim() === "" ? <div key={i} className="h-4" /> : <p key={i}>{line}</p>
   )}
 </div>
@@ -50,7 +50,7 @@ function Question({ id, handleClick, singleQuestion, summary, trueAnswer, userAn
       )}
       <div className="text-gray-900 font-semibold space-y-1">
         <span className={!summary ? "font-semibold" : ""}>{!summary && `${id}. `}</span>
-        {he.decode(question).split("\n").map((line, i) => (
+        {question && he.decode(question).split("\n").map((line, i) => (
         <p key={i}>{line}</p>
         ))}
       </div>

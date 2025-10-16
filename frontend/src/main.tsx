@@ -5,6 +5,7 @@ import "./index.css";
 import AdminLogin from "./pages/Admin/AdminLogin";
 import AdminDashboard from "./pages/Admin/AdminDashboard";
 import RequireAdmin from "./data/RequireAdmin";
+import { FontSizeProvider } from "./data/FontSizeContext";
 
 import {
   createBrowserRouter,
@@ -46,6 +47,8 @@ const router = createBrowserRouter(
 
 ReactDOM.createRoot(document.getElementById("root") as HTMLElement).render(
   <React.StrictMode>
-    <RouterProvider router={router} />
+    <FontSizeProvider>
+      <RouterProvider router={router} />
+    </FontSizeProvider>
   </React.StrictMode>
 );
