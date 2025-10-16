@@ -46,8 +46,8 @@
     "context": "Snart klart!\n\nKjøpesenteret skal åpnes på lørdag allerede til helgen! Det blir tonnevis av butikker å velge mellom. Hele 89 butikker vil stå klare til slutt! Til å begynne med vil det være 75 butikker som åpner, men noen måneder etter vil alle de andre butikkene være åpne også! Hvis du er lei av lite utvalg i byen, så trenger du \nikke vente lenger. I Norge er det totalt 132 kjøpesentere, men byen vår vil få det aller største \nkjøpesenteret på Vestlandet! 170 000 kvadratmeter med tusenvis av parkeringsplasser både inne og ute.\nVi ses der! Vestland kjøpesenter",
     "question": "Hvor mange butikker vil være klare på lørdag?",
     "options": ["75", "132", "89", "hundrevis"],
-    "correct_answer": "89",
-    "incorrect_answers": ["132", "75", "hundrevis"],
+    "correct_answer": "75",
+    "incorrect_answers": ["132", "89", "hundrevis"],
     "difficulty": "A2"
   },
   {
