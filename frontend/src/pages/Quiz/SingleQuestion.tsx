@@ -26,6 +26,7 @@ function SingleQuestion() {
     addAnswer,
     page,
     nextPage,
+    prevPage,
   } = useQuestionStore();
 
   const singleQuestion = allQuestions?.[page - 1]; // Get the current question based on the page
@@ -180,6 +181,18 @@ function SingleQuestion() {
     }
   }
 
+  const handlePrevious = () => {
+    if (page > 1) {
+      prevPage();
+    }
+  };
+
+  const handleNext = () => {
+    if (page < allQuestions.length) {
+      nextPage();
+    }
+  };
+
   return (
     <AnimateProvider className="max-w-xl mx-auto">
       {/* ✅ Progress bar */}
@@ -192,6 +205,32 @@ function SingleQuestion() {
       <p className="text-center text-sm text-gray-700 mb-6">
         Spørsmål {page} av {allQuestions.length}
       </p>
+
+      {/* Navigation Buttons */}
+      <div className="flex justify-between items-center mb-6 gap-4">
+        <button
+          onClick={handlePrevious}
+          disabled={page === 1}
+          className={`px-6 py-2 rounded-lg font-semibold transition-all ${
+            page === 1
+              ? "bg-gray-300 text-gray-500 cursor-not-allowed"
+              : "bg-blue-500 text-white hover:bg-blue-600"
+          }`}
+        >
+          ← Forrige
+        </button>
+        <button
+          onClick={handleNext}
+          disabled={page === allQuestions.length}
+          className={`px-6 py-2 rounded-lg font-semibold transition-all ${
+            page === allQuestions.length
+              ? "bg-gray-300 text-gray-500 cursor-not-allowed"
+              : "bg-blue-500 text-white hover:bg-blue-600"
+          }`}
+        >
+          Neste →
+        </button>
+      </div>
 
       <div className="flex max-w-fit flex-col ml-auto space-x-3 mb-10">
         {/* TimeStamp Component */}

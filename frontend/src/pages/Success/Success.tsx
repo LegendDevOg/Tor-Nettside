@@ -14,6 +14,7 @@ function Success() {
   } = useQuestionStore();
 
   const navigate = useNavigate();
+  const [currentPage, setCurrentPage] = useState(1);
   const score = Math.floor((trueAnswer * 100) / allQuestion.length);
   const indxColor = score >= 60 ? "#10b981" : score >= 30 ? "#F59E0B" : "#dc2626";
   const showButton = score >= 60;
@@ -29,6 +30,18 @@ function Success() {
   const handleClick = () => {
     resetQuestion();
     navigate("/");
+  };
+
+  const handlePrevious = () => {
+    if (currentPage > 1) {
+      setCurrentPage(currentPage - 1);
+    }
+  };
+
+  const handleNext = () => {
+    if (currentPage < allQuestion.length) {
+      setCurrentPage(currentPage + 1);
+    }
   };
 
   return (
@@ -69,7 +82,37 @@ function Success() {
         Answers
       </h3>
 
-      {allQuestion.map((question, i) => {
+      {/* Navigation for Summary */}
+      <div className="flex justify-between items-center mb-6 gap-4">
+        <button
+          onClick={handlePrevious}
+          disabled={currentPage === 1}
+          className={`px-6 py-2 rounded-lg font-semibold transition-all ${
+            currentPage === 1
+              ? "bg-gray-300 text-gray-500 cursor-not-allowed"
+              : "bg-blue-500 text-white hover:bg-blue-600"
+          }`}
+        >
+          ← Forrige
+        </button>
+        <span className="text-sm text-gray-700 font-medium">
+          Oppgave {currentPage} av {allQuestion.length}
+        </span>
+        <button
+          onClick={handleNext}
+          disabled={currentPage === allQuestion.length}
+          className={`px-6 py-2 rounded-lg font-semibold transition-all ${
+            currentPage === allQuestion.length
+              ? "bg-gray-300 text-gray-500 cursor-not-allowed"
+              : "bg-blue-500 text-white hover:bg-blue-600"
+          }`}
+        >
+          Neste →
+        </button>
+      </div>
+
+      {allQuestion.filter((_, i) => i === currentPage - 1).map((question) => {
+        const actualIndex = currentPage - 1;
         const userSelected = userAnswer.find((ans) => ans.question === question.question);
         const isWordSelection = question.type === "word-selection";
         const isImageSelection = question.type === "image";
@@ -90,7 +133,7 @@ function Success() {
           const sentenceSegments = sentence.split(/(\{\d+\})/g); // behold {}-blokkene
 
           return (
-            <div key={i} className="bg-white p-4 rounded-lg shadow-md">
+            <div key={actualIndex} className="bg-white p-4 rounded-lg shadow-md">
               <h4 className="font-semibold mb-2">{question.question}</h4>
               <p className="text-gray-800 leading-relaxed text-lg whitespace-pre-wrap">
                 {sentenceSegments.map((segment, idx) => {
@@ -146,7 +189,7 @@ if (isImageClick && question.correctArea && question.image) {
   }, []);
 
   return (
-    <div key={i} className="bg-white p-4 rounded-lg shadow-md">
+    <div key={actualIndex} className="bg-white p-4 rounded-lg shadow-md">
       <h4 className="font-semibold mb-2">{question.question}</h4>
       <div className="relative inline-block w-full max-w-md mx-auto">
         <img
@@ -198,7 +241,7 @@ if (isImageClick && question.correctArea && question.image) {
 }
 
         return isWordSelection ? (
-          <div key={i} className="bg-white p-4 rounded-lg shadow-md">
+          <div key={actualIndex} className="bg-white p-4 rounded-lg shadow-md">
             <h4 className="font-semibold">{question.question}</h4>
             <p className="text-gray-700 mt-2">
               <span className="font-bold">Your Answer: </span>
@@ -218,7 +261,7 @@ if (isImageClick && question.correctArea && question.image) {
             </p>
           </div>
         ) : isImageSelection ? (
-          <div key={i} className="bg-white p-4 rounded-lg shadow-md">
+          <div key={actualIndex} className="bg-white p-4 rounded-lg shadow-md">
             <h4 className="font-semibold">{question.question}</h4>
             <div className="flex flex-wrap justify-center gap-6 mt-4">
               {(question.options ?? []).map((option, index) => {
@@ -245,10 +288,10 @@ if (isImageClick && question.correctArea && question.image) {
           </div>
         ) : (
           <Question
-            key={i}
+            key={actualIndex}
             singleQuestion={question}
             handleClick={() => {}}
-            id={i + 1}
+            id={actualIndex + 1}
             summary={true}
             trueAnswer={question.correct_answer}
             userAnswer={userSelected ? userSelected.answer : null}

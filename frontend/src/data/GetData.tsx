@@ -50,6 +50,7 @@ type QuestionStoreState = {
   resetQuestion: () => void;
   setTimeStamp: (time: number) => void;
   nextPage: () => void;
+  prevPage: () => void;
   resetStore: () => void;
 };
 
@@ -142,6 +143,11 @@ fetchQuestion: async (query: string) => {
         set((state) => ({
           ...state,
           page: state.page + 1,
+        })),
+      prevPage: () =>
+        set((state) => ({
+          ...state,
+          page: Math.max(1, state.page - 1),
         })),
     }),
     {
