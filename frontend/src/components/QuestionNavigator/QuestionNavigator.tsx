@@ -23,10 +23,10 @@ function QuestionNavigator() {
             className={`w-10 h-10 rounded-full font-semibold transition-all duration-200 
               ${isCurrent
                 ? answered
-                  ? "bg-success-500 text-white ring-2 ring-success-300 ring-offset-2"
+                  ? "bg-primary-500 text-white ring-2 ring-primary-300 ring-offset-2"
                   : "bg-gray-400 text-white ring-2 ring-gray-300 ring-offset-2"
                 : answered
-                  ? "bg-success-400 text-white hover:bg-success-500"
+                  ? "bg-primary-400 text-white hover:bg-primary-500"
                   : "bg-gray-300 text-gray-700 hover:bg-gray-400"
               }`}
           >

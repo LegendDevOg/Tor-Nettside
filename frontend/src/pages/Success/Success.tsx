@@ -35,12 +35,12 @@ function ImageClickResult({ question, userSelected, actualIndex }: {
   }, []);
 
   return (
-            <div className="bg-white p-4 rounded-lg shadow-md">
-              <div className="flex items-center gap-2 mb-2">
-                <span className="bg-primary-100 text-primary-800 font-bold px-3 py-1 rounded-full text-sm">
+            <div className="bg-white p-6 rounded-xl shadow-lg border border-gray-100 max-w-3xl mx-auto">
+              <div className="flex items-center gap-3 mb-4">
+                <span className="bg-primary-100 text-primary-800 font-bold px-4 py-2 rounded-full text-base">
                   #{actualIndex + 1}
                 </span>
-                <h4 className="font-semibold">{question.question}</h4>
+                <h4 className="font-semibold text-lg text-gray-800">{question.question}</h4>
               </div>
       <div className="relative inline-block w-full max-w-md mx-auto">
         <img
@@ -62,9 +62,7 @@ function ImageClickResult({ question, userSelected, actualIndex }: {
         />
 
         {/* User's click marker */}
-        {!clickedX || !clickedY ? (
-          <p className="text-xs text-warning-600 mt-2">⚠️ No click data was recorded.</p>
-        ) : (
+        {clickedX && clickedY && (
           <div
             className="absolute w-[14px] h-[14px] bg-danger-600 border-2 border-white rounded-full -translate-x-1/2 -translate-y-1/2 pointer-events-none"
             style={{
@@ -74,19 +72,23 @@ function ImageClickResult({ question, userSelected, actualIndex }: {
           />
         )}
       </div>
-      <p className="mt-2 text-sm">
-        Your click was{" "}
-        <span
-          className={
-            correctness === "correct"
-              ? "text-success-600 font-semibold"
-              : "text-danger-600 font-semibold"
-          }
-        >
-          {correctness === "correct" ? "correct" : "wrong"}
-        </span>
-        .
-      </p>
+      
+      <div className="mt-4 space-y-3">
+        <div className="flex items-center gap-2">
+          <span className="font-semibold text-gray-600">Your Answer:</span>
+          <span
+            className={`px-3 py-1 rounded-lg font-medium ${
+              !clickedX || !clickedY
+                ? "bg-danger-100 text-danger-700"
+                : correctness === "correct"
+                  ? "bg-success-100 text-success-700"
+                  : "bg-danger-100 text-danger-700"
+            }`}
+          >
+            {!clickedX || !clickedY ? "⚠ No answer" : correctness === "correct" ? "Correct" : "Wrong"}
+          </span>
+        </div>
+      </div>
     </div>
   );
 }
@@ -94,7 +96,6 @@ function ImageClickResult({ question, userSelected, actualIndex }: {
 function Success() {
   const {
     trueAnswer,
-    falseAnswer,
     resetQuestion,
     setTimeStamp,
     question: allQuestion,
@@ -136,71 +137,77 @@ function Success() {
     <>
       <Header />
       <ScaledContent>
-        <AnimateProvider className="flex flex-col space-y-10 md:max-w-xl md:mx-auto">
-          <h3 className="text-lg text-center text-neutral-900 font-bold md:text-xl">
-            Your Final Score
-          </h3>
+        <AnimateProvider className="flex flex-col space-y-8 md:max-w-2xl md:mx-auto px-4">
+          {/* Score Circle */}
+          <div className="flex flex-col items-center space-y-6 pt-8">
+            <h3 className="text-2xl text-center text-gray-800 font-bold md:text-3xl">
+              Your Final Score
+            </h3>
 
-      <h1
-        style={{ background: indxColor }}
-        className="text-5xl font-bold mx-auto p-5 rounded-full md:text-6xl text-neutral-100"
-      >
-        {score}%
-      </h1>
+            <div
+              style={{ background: indxColor }}
+              className="w-40 h-40 md:w-48 md:h-48 rounded-full flex items-center justify-center shadow-xl"
+            >
+              <span className="text-6xl md:text-7xl font-bold text-white">
+                {score}%
+              </span>
+            </div>
 
-      <div className="text-xs md:text-sm text-neutral-600 font-medium flex flex-col space-y-1">
-        <h1 className="flex justify-between mb-6 text-primary-600">{text}</h1>
-        <p className="flex justify-between">
-          Correct Answers <span className="text-success-600">{trueAnswer}</span>
-        </p>
-        <p className="flex justify-between">
-          Wrong Answers <span className="text-danger-600">{falseAnswer}</span>
-        </p>
-        <p className="flex justify-between">
-          Total Submitted <span className="text-gray-900 font-semibold">{trueAnswer + falseAnswer}</span>
-        </p>
-      </div>
+            {/* Message */}
+            <div className="bg-primary-50 border-l-4 border-primary-500 p-4 rounded-r-lg max-w-lg">
+              <p className="text-sm md:text-base text-gray-700 text-center font-medium">
+                {text}
+              </p>
+            </div>
+          </div>
 
+      {/* Action Button */}
       <button
         onClick={handleClick}
-        className="grid place-items-center text-white bg-primary-500 rounded-full py-2 hover:bg-primary-600 transition-colors text-sm font-semibold"
+        className="w-full max-w-md mx-auto text-white bg-primary-500 rounded-full py-3 px-8 hover:bg-primary-600 transition-all text-base font-semibold shadow-lg hover:shadow-xl transform hover:scale-105"
       >
         {showButton ? "Continue to A2-B1 Test" : "Go back to A1-A2 sets"}
       </button>
 
       {/* Question Overview Grid */}
-      <div className="pt-10">
-        <h3 className="text-center text-neutral-600 font-semibold md:text-lg mb-4">
-          Oversikt over oppgaver
+      <div className="pt-6 pb-4">
+        <h3 className="text-center text-gray-700 font-semibold text-lg md:text-xl mb-6">
+          Review Your Answers
         </h3>
-        <div className="grid grid-cols-5 sm:grid-cols-8 md:grid-cols-10 gap-2">
+        <div className="grid grid-cols-5 sm:grid-cols-8 md:grid-cols-10 gap-3 max-w-3xl mx-auto">
           {allQuestion.map((question, index) => {
             const userSelected = userAnswer.find((ans) => ans.question === question.question);
+            const hasAnswer = userSelected && userSelected.answer;
             let isCorrect = false;
 
             // Check if answer is correct based on question type
-            if (question.type === "sentence-dropdown") {
-              const selected = userSelected?.answer
-                ?.split("||")
-                .map((a) => a.split("|")[1]);
-              isCorrect = selected?.every((ans, i) => ans === question.correct_answer[i]) || false;
-            } else if (question.type === "image-click") {
-              const [, , correctness] = (userSelected?.answer || "").split("|");
-              isCorrect = correctness === "correct";
-            } else {
-              isCorrect = userSelected?.answer === question.correct_answer;
+            if (hasAnswer) {
+              if (question.type === "sentence-dropdown") {
+                const selected = userSelected?.answer
+                  ?.split("||")
+                  .map((a) => a.split("|")[1]);
+                isCorrect = selected?.every((ans, i) => ans === question.correct_answer[i]) || false;
+              } else if (question.type === "image-click") {
+                const [, , correctness] = (userSelected?.answer || "").split("|");
+                isCorrect = correctness === "correct";
+              } else {
+                isCorrect = userSelected?.answer === question.correct_answer;
+              }
             }
 
             return (
               <button
                 key={index}
                 onClick={() => setCurrentPage(index + 1)}
-                className={`aspect-square rounded-lg font-bold text-sm transition-all
-                  ${currentPage === index + 1 ? "ring-4 ring-primary-300 scale-110" : ""}
-                  ${isCorrect 
-                    ? "bg-success-500 text-white hover:bg-success-600" 
-                    : "bg-danger-500 text-white hover:bg-danger-600"
+                className={`aspect-square rounded-lg font-bold text-base transition-all shadow-md hover:shadow-lg flex items-center justify-center
+                  ${currentPage === index + 1 ? "ring-4 ring-primary-400 scale-110 z-10" : ""}
+                  ${!hasAnswer
+                    ? "bg-danger-500 text-white hover:bg-danger-600"
+                    : isCorrect 
+                      ? "bg-success-500 text-white hover:bg-success-600" 
+                      : "bg-danger-500 text-white hover:bg-danger-600"
                   }`}
+                title={!hasAnswer ? "No answer provided" : isCorrect ? "Correct" : "Incorrect"}
               >
                 {index + 1}
               </button>
@@ -209,38 +216,33 @@ function Success() {
         </div>
       </div>
 
-      {/* Answer Summary */}
-      <h3 className="text-center text-neutral-600 font-semibold md:text-lg pt-[50px]">
-        Svar på oppgave {currentPage}
-      </h3>
-
-      {/* Navigation for Summary */}
-      <div className="flex justify-between items-center mb-6 gap-4">
-        <button
-          onClick={handlePrevious}
-          disabled={currentPage === 1}
-          className={`px-6 py-2 rounded-lg font-semibold transition-all ${
-            currentPage === 1
-              ? "bg-gray-300 text-gray-500 cursor-not-allowed"
-              : "bg-primary-500 text-white hover:bg-primary-600"
-          }`}
-        >
-          ← Forrige
-        </button>
-        <span className="text-sm text-gray-700 font-medium">
-          Oppgave {currentPage} av {allQuestion.length}
-        </span>
-        <button
-          onClick={handleNext}
-          disabled={currentPage === allQuestion.length}
-          className={`px-6 py-2 rounded-lg font-semibold transition-all ${
-            currentPage === allQuestion.length
-              ? "bg-gray-300 text-gray-500 cursor-not-allowed"
-              : "bg-primary-500 text-white hover:bg-primary-600"
-          }`}
-        >
-          Neste →
-        </button>
+      {/* Answer Details Section */}
+      <div className="pt-8 border-t border-gray-200">
+        {/* Navigation for Summary */}
+        <div className="flex justify-between items-center mb-8 gap-4 max-w-2xl mx-auto">
+          <button
+            onClick={handlePrevious}
+            disabled={currentPage === 1}
+            className={`flex-1 max-w-[200px] px-5 py-2.5 rounded-lg font-semibold transition-all shadow-md ${
+              currentPage === 1
+                ? "bg-gray-200 text-gray-400 cursor-not-allowed"
+                : "bg-primary-500 text-white hover:bg-primary-600 hover:shadow-lg"
+            }`}
+          >
+            ← Previous
+          </button>
+          <button
+            onClick={handleNext}
+            disabled={currentPage === allQuestion.length}
+            className={`flex-1 max-w-[200px] px-5 py-2.5 rounded-lg font-semibold transition-all shadow-md ${
+              currentPage === allQuestion.length
+                ? "bg-gray-200 text-gray-400 cursor-not-allowed"
+                : "bg-primary-500 text-white hover:bg-primary-600 hover:shadow-lg"
+            }`}
+          >
+            Next →
+          </button>
+        </div>
       </div>
 
       {allQuestion.filter((_, i) => i === currentPage - 1).map((question) => {
@@ -265,13 +267,14 @@ function Success() {
           const sentenceSegments = sentence.split(/(\{\d+\})/g); // behold {}-blokkene
 
           return (
-            <div key={actualIndex} className="bg-white p-4 rounded-lg shadow-md">
-              <div className="flex items-center gap-2 mb-2">
-                <span className="bg-primary-100 text-primary-800 font-bold px-3 py-1 rounded-full text-sm">
+            <div key={actualIndex} className="bg-white p-6 rounded-xl shadow-lg border border-gray-100 max-w-3xl mx-auto">
+              <div className="flex items-center gap-3 mb-4">
+                <span className="bg-primary-100 text-primary-800 font-bold px-4 py-2 rounded-full text-base">
                   #{actualIndex + 1}
                 </span>
-                <h4 className="font-semibold">{question.question}</h4>
+                <h4 className="font-semibold text-lg text-gray-800">{question.question}</h4>
               </div>
+              
               <p className="text-gray-800 leading-relaxed text-lg whitespace-pre-wrap">
                 {sentenceSegments.map((segment, idx) => {
                   const match = segment.match(/\{(\d+)\}/);
@@ -284,12 +287,14 @@ function Success() {
                       <span
                         key={idx}
                         className={`mx-1 px-2 py-1 rounded font-medium ${
-                          isCorrect
-                            ? "bg-success-100 text-success-700"
-                            : "bg-danger-100 text-danger-700"
+                          !userVal
+                            ? "bg-danger-100 text-danger-700"
+                            : isCorrect
+                              ? "bg-success-100 text-success-700"
+                              : "bg-danger-100 text-danger-700"
                         }`}
                       >
-                        {userVal || "–"}
+                        {userVal || "⚠"}
                       </span>
                     );
                   } else {
@@ -297,6 +302,17 @@ function Success() {
                   }
                 })}
               </p>
+              
+              {!userSelected?.answer && (
+                <div className="mt-4 space-y-3">
+                  <div className="flex items-center gap-2">
+                    <span className="font-semibold text-gray-600">Status:</span>
+                    <span className="px-3 py-1 rounded-lg font-medium bg-danger-100 text-danger-700">
+                      ⚠ No answer provided
+                    </span>
+                  </div>
+                </div>
+              )}
             </div>
           );
         }
@@ -313,38 +329,44 @@ if (isImageClick && question.correctArea && question.image) {
 }
 
         return isWordSelection ? (
-          <div key={actualIndex} className="bg-white p-4 rounded-lg shadow-md">
-            <div className="flex items-center gap-2 mb-2">
-              <span className="bg-primary-100 text-primary-800 font-bold px-3 py-1 rounded-full text-sm">
+          <div key={actualIndex} className="bg-white p-6 rounded-xl shadow-lg border border-gray-100 max-w-3xl mx-auto">
+            <div className="flex items-center gap-3 mb-4">
+              <span className="bg-primary-100 text-primary-800 font-bold px-4 py-2 rounded-full text-base">
                 #{actualIndex + 1}
               </span>
-              <h4 className="font-semibold">{question.question}</h4>
+              <h4 className="font-semibold text-lg text-gray-800">{question.question}</h4>
             </div>
-            <p className="text-gray-700 mt-2">
-              <span className="font-bold">Your Answer: </span>
-              <span
-                className={
-                  userSelected?.answer === question.correct_answer
-                    ? "text-success-600"
-                    : "text-danger-600"
-                }
-              >
-                {userSelected?.answer || "No answer"}
-              </span>
-            </p>
-            <p className="text-gray-700">
-              <span className="font-bold">Correct Answer: </span>
-              <span className="text-success-600">{question.correct_answer}</span>
-            </p>
+            
+            <div className="mt-4 space-y-3">
+              <div className="flex items-center gap-2">
+                <span className="font-semibold text-gray-600">Your Answer:</span>
+                <span
+                  className={`px-3 py-1 rounded-lg font-medium ${
+                    userSelected?.answer === question.correct_answer
+                      ? "bg-success-100 text-success-700"
+                      : "bg-danger-100 text-danger-700"
+                  }`}
+                >
+                  {userSelected?.answer || "⚠ No answer"}
+                </span>
+              </div>
+              <div className="flex items-center gap-2">
+                <span className="font-semibold text-gray-600">Correct Answer:</span>
+                <span className="px-3 py-1 rounded-lg font-medium bg-success-100 text-success-700">
+                  {question.correct_answer}
+                </span>
+              </div>
+            </div>
           </div>
         ) : isImageSelection ? (
-          <div key={actualIndex} className="bg-white p-4 rounded-lg shadow-md">
-            <div className="flex items-center gap-2 mb-2">
-              <span className="bg-primary-100 text-primary-800 font-bold px-3 py-1 rounded-full text-sm">
+          <div key={actualIndex} className="bg-white p-6 rounded-xl shadow-lg border border-gray-100 max-w-3xl mx-auto">
+            <div className="flex items-center gap-3 mb-4">
+              <span className="bg-primary-100 text-primary-800 font-bold px-4 py-2 rounded-full text-base">
                 #{actualIndex + 1}
               </span>
-              <h4 className="font-semibold">{question.question}</h4>
+              <h4 className="font-semibold text-lg text-gray-800">{question.question}</h4>
             </div>
+            
             <div className="flex flex-wrap justify-center gap-6 mt-4">
               {(question.options ?? []).map((option, index) => {
                 const isCorrect = option === question.correct_answer;
@@ -366,6 +388,23 @@ if (isImageClick && question.correctArea && question.image) {
                   />
                 );
               })}
+            </div>
+            
+            <div className="mt-4 space-y-3">
+              <div className="flex items-center gap-2">
+                <span className="font-semibold text-gray-600">Your Answer:</span>
+                <span
+                  className={`px-3 py-1 rounded-lg font-medium ${
+                    !userSelected?.answer
+                      ? "bg-danger-100 text-danger-700"
+                      : userSelected?.answer === question.correct_answer
+                        ? "bg-success-100 text-success-700"
+                        : "bg-danger-100 text-danger-700"
+                  }`}
+                >
+                  {!userSelected?.answer ? "⚠ No answer" : userSelected?.answer === question.correct_answer ? "Correct" : "Wrong"}
+                </span>
+              </div>
             </div>
           </div>
         ) : (

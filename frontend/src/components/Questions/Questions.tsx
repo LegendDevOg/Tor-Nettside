@@ -83,6 +83,26 @@ function Question({ id, handleClick, singleQuestion, summary, trueAnswer, userAn
           );
         })}
       </div>
+      
+      {/* Show answer status in summary mode */}
+      {summary && (
+        <div className="mt-6 space-y-3">
+          <div className="flex items-center gap-2">
+            <span className="font-semibold text-gray-600">Your Answer:</span>
+            <span
+              className={`px-3 py-1 rounded-lg font-medium ${
+                !userAnswer
+                  ? "bg-danger-100 text-danger-700"
+                  : userAnswer === trueAnswer
+                    ? "bg-success-100 text-success-700"
+                    : "bg-danger-100 text-danger-700"
+              }`}
+            >
+              {!userAnswer ? "⚠ No answer" : userAnswer === trueAnswer ? "Correct" : "Wrong"}
+            </span>
+          </div>
+        </div>
+      )}
     </section>
   );
 }
