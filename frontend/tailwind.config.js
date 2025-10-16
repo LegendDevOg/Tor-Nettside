@@ -10,16 +10,16 @@ module.exports = {
       colors: {
         // Professional, cohesive color palette
         primary: {
-          50: '#eff6ff',
-          100: '#dbeafe',
-          200: '#bfdbfe',
-          300: '#93c5fd',
-          400: '#60a5fa',
-          500: '#3b82f6', // Main blue
-          600: '#2563eb',
-          700: '#1d4ed8',
-          800: '#1e40af',
-          900: '#1e3a8a',
+          50: '#eef2ff',
+          100: '#dce3ff',
+          200: '#c1ccff',
+          300: '#9baeff',
+          400: '#3d5dc4',
+          500: '#2b4ba8', // Main blue - custom color (default state)
+          600: '#3d5dc4', // Lighter blue for hover
+          700: '#1d3073',
+          800: '#16245a',
+          900: '#0f1840',
         },
         success: {
           50: '#f0fdf4',
