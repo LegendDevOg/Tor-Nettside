@@ -42,9 +42,14 @@ function Question({ id, handleClick, singleQuestion, summary, trueAnswer, userAn
       )}
 
       {/* Question Number and Text */}
-      <div className="flex items-start space-x-3 text-base md:text-lg mb-6">
-      <h3 className="text-gray-800 font-semibold">{id}.</h3>
+      <div className="flex items-start gap-3 text-base md:text-lg mb-6">
+      {summary && (
+        <span className="bg-blue-100 text-blue-800 font-bold px-3 py-1 rounded-full text-sm whitespace-nowrap">
+          #{id}
+        </span>
+      )}
       <div className="text-gray-900 font-semibold space-y-1">
+        <span className={!summary ? "font-semibold" : ""}>{!summary && `${id}. `}</span>
         {he.decode(question).split("\n").map((line, i) => (
         <p key={i}>{line}</p>
         ))}

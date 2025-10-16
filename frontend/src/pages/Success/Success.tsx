@@ -3,6 +3,92 @@ import { useNavigate } from "react-router-dom";
 import { useEffect, useState, useRef } from "react";
 import AnimateProvider from "../../components/AnimateProvider/AnimateProvider";
 import Question from "../../components/Questions/Questions";
+
+// Separate component for image-click results to avoid conditional hooks
+function ImageClickResult({ question, userSelected, actualIndex }: {
+  question: any;
+  userSelected: any;
+  actualIndex: number;
+}) {
+  const [clickedX, clickedY, correctness] = (userSelected?.answer || "").split("|");
+  const correctX = question.correctArea.x;
+  const correctY = question.correctArea.y;
+  const radius = question.correctArea.radius;
+
+  const imgRef = useRef<HTMLImageElement>(null);
+  const [imageSize, setImageSize] = useState({ width: 1, height: 1 });
+
+  useEffect(() => {
+    const img = imgRef.current;
+    if (img) {
+      const updateSize = () =>
+        setImageSize({
+          width: img.naturalWidth,
+          height: img.naturalHeight,
+        });
+
+      if (img.complete) updateSize();
+      else img.onload = updateSize;
+    }
+  }, []);
+
+  return (
+    <div className="bg-white p-4 rounded-lg shadow-md">
+      <div className="flex items-center gap-2 mb-2">
+        <span className="bg-blue-100 text-blue-800 font-bold px-3 py-1 rounded-full text-sm">
+          #{actualIndex + 1}
+        </span>
+        <h4 className="font-semibold">{question.question}</h4>
+      </div>
+      <div className="relative inline-block w-full max-w-md mx-auto">
+        <img
+          ref={imgRef}
+          src={`/images/${question.image}`}
+          alt="result"
+          className="rounded-lg w-full h-auto object-contain"
+        />
+
+        {/* Correct clickable area */}
+        <div
+          className="absolute border-2 border-green-500 bg-green-200 bg-opacity-40 rounded-full -translate-x-1/2 -translate-y-1/2 pointer-events-none"
+          style={{
+            top: `${(correctY / imageSize.height) * 100}%`,
+            left: `${(correctX / imageSize.width) * 100}%`,
+            width: `${(radius * 2 / imageSize.width) * 100}%`,
+            height: `${(radius * 2 / imageSize.height) * 100}%`,
+          }}
+        />
+
+        {/* User's click marker */}
+        {!clickedX || !clickedY ? (
+          <p className="text-xs text-yellow-600 mt-2">⚠️ No click data was recorded.</p>
+        ) : (
+          <div
+            className="absolute w-[14px] h-[14px] bg-red-600 border-2 border-white rounded-full -translate-x-1/2 -translate-y-1/2 pointer-events-none"
+            style={{
+              top: `${(parseFloat(clickedY) / imageSize.height) * 100}%`,
+              left: `${(parseFloat(clickedX) / imageSize.width) * 100}%`,
+            }}
+          />
+        )}
+      </div>
+      <p className="mt-2 text-sm">
+        Your click was{" "}
+        <span
+          className={
+            correctness === "correct"
+              ? "text-green-600 font-semibold"
+              : "text-red-600 font-semibold"
+          }
+        >
+          {correctness === "correct" ? "correct" : "wrong"}
+        </span>
+        .
+      </p>
+    </div>
+  );
+}
+
 function Success() {
   const {
     trueAnswer,
@@ -77,9 +163,50 @@ function Success() {
         {showButton ? "Continue to A2-B1 Test" : "Go back to A1-A2 sets"}
       </button>
 
+      {/* Question Overview Grid */}
+      <div className="pt-10">
+        <h3 className="text-center text-neutral-600 font-semibold md:text-lg mb-4">
+          Oversikt over oppgaver
+        </h3>
+        <div className="grid grid-cols-5 sm:grid-cols-8 md:grid-cols-10 gap-2">
+          {allQuestion.map((question, index) => {
+            const userSelected = userAnswer.find((ans) => ans.question === question.question);
+            let isCorrect = false;
+
+            // Check if answer is correct based on question type
+            if (question.type === "sentence-dropdown") {
+              const selected = userSelected?.answer
+                ?.split("||")
+                .map((a) => a.split("|")[1]);
+              isCorrect = selected?.every((ans, i) => ans === question.correct_answer[i]) || false;
+            } else if (question.type === "image-click") {
+              const [, , correctness] = (userSelected?.answer || "").split("|");
+              isCorrect = correctness === "correct";
+            } else {
+              isCorrect = userSelected?.answer === question.correct_answer;
+            }
+
+            return (
+              <button
+                key={index}
+                onClick={() => setCurrentPage(index + 1)}
+                className={`aspect-square rounded-lg font-bold text-sm transition-all
+                  ${currentPage === index + 1 ? "ring-4 ring-blue-400 scale-110" : ""}
+                  ${isCorrect 
+                    ? "bg-green-500 text-white hover:bg-green-600" 
+                    : "bg-red-500 text-white hover:bg-red-600"
+                  }`}
+              >
+                {index + 1}
+              </button>
+            );
+          })}
+        </div>
+      </div>
+
       {/* Answer Summary */}
-      <h3 className="text-center text-neutral-600 font-semibold md:text-lg pt-[100px]">
-        Answers
+      <h3 className="text-center text-neutral-600 font-semibold md:text-lg pt-[50px]">
+        Svar på oppgave {currentPage}
       </h3>
 
       {/* Navigation for Summary */}
@@ -134,7 +261,12 @@ function Success() {
 
           return (
             <div key={actualIndex} className="bg-white p-4 rounded-lg shadow-md">
-              <h4 className="font-semibold mb-2">{question.question}</h4>
+              <div className="flex items-center gap-2 mb-2">
+                <span className="bg-blue-100 text-blue-800 font-bold px-3 py-1 rounded-full text-sm">
+                  #{actualIndex + 1}
+                </span>
+                <h4 className="font-semibold">{question.question}</h4>
+              </div>
               <p className="text-gray-800 leading-relaxed text-lg whitespace-pre-wrap">
                 {sentenceSegments.map((segment, idx) => {
                   const match = segment.match(/\{(\d+)\}/);
@@ -165,84 +297,24 @@ function Success() {
         }
 
 if (isImageClick && question.correctArea && question.image) {
-  const [clickedX, clickedY, correctness] = (userSelected?.answer || "").split("|");
-  const correctX = question.correctArea.x;
-  const correctY = question.correctArea.y;
-  const radius = question.correctArea.radius;
-
-  // 🔧 Add ref and state for natural image size
-  const imgRef = useRef<HTMLImageElement>(null);
-  const [imageSize, setImageSize] = useState({ width: 1, height: 1 });
-
-  useEffect(() => {
-    const img = imgRef.current;
-    if (img) {
-      const updateSize = () =>
-        setImageSize({
-          width: img.naturalWidth,
-          height: img.naturalHeight,
-        });
-
-      if (img.complete) updateSize();
-      else img.onload = updateSize;
-    }
-  }, []);
-
   return (
-    <div key={actualIndex} className="bg-white p-4 rounded-lg shadow-md">
-      <h4 className="font-semibold mb-2">{question.question}</h4>
-      <div className="relative inline-block w-full max-w-md mx-auto">
-        <img
-          ref={imgRef}
-          src={`/images/${question.image}`}
-          alt="result"
-          className="rounded-lg w-full h-auto object-contain"
-        />
-
-        {/* ✅ Correct clickable area */}
-        <div
-          className="absolute border-2 border-green-500 bg-green-200 bg-opacity-40 rounded-full -translate-x-1/2 -translate-y-1/2 pointer-events-none"
-          style={{
-            top: `${(correctY / imageSize.height) * 100}%`,
-            left: `${(correctX / imageSize.width) * 100}%`,
-            width: `${(radius * 2 / imageSize.width) * 100}%`,
-            height: `${(radius * 2 / imageSize.height) * 100}%`,
-          }}
-        />
-
-        {/* ✅ User's click marker */}
-{!clickedX || !clickedY ? (
-  <p className="text-xs text-yellow-600 mt-2">⚠️ No click data was recorded.</p>
-) : (
-  <div
-    className="absolute w-[14px] h-[14px] bg-red-600 border-2 border-white rounded-full -translate-x-1/2 -translate-y-1/2 pointer-events-none"
-    style={{
-      top: `${(parseFloat(clickedY) / imageSize.height) * 100}%`,
-      left: `${(parseFloat(clickedX) / imageSize.width) * 100}%`,
-    }}
-  />
-)}
-      </div>
-      <p className="mt-2 text-sm">
-        Your click was{" "}
-        <span
-          className={
-            correctness === "correct"
-              ? "text-green-600 font-semibold"
-              : "text-red-600 font-semibold"
-          }
-        >
-          {correctness === "correct" ? "correct" : "wrong"}
-        </span>
-        .
-      </p>
-    </div>
+    <ImageClickResult
+      key={actualIndex}
+      question={question}
+      userSelected={userSelected}
+      actualIndex={actualIndex}
+    />
   );
 }
 
         return isWordSelection ? (
           <div key={actualIndex} className="bg-white p-4 rounded-lg shadow-md">
-            <h4 className="font-semibold">{question.question}</h4>
+            <div className="flex items-center gap-2 mb-2">
+              <span className="bg-blue-100 text-blue-800 font-bold px-3 py-1 rounded-full text-sm">
+                #{actualIndex + 1}
+              </span>
+              <h4 className="font-semibold">{question.question}</h4>
+            </div>
             <p className="text-gray-700 mt-2">
               <span className="font-bold">Your Answer: </span>
               <span
@@ -262,7 +334,12 @@ if (isImageClick && question.correctArea && question.image) {
           </div>
         ) : isImageSelection ? (
           <div key={actualIndex} className="bg-white p-4 rounded-lg shadow-md">
-            <h4 className="font-semibold">{question.question}</h4>
+            <div className="flex items-center gap-2 mb-2">
+              <span className="bg-blue-100 text-blue-800 font-bold px-3 py-1 rounded-full text-sm">
+                #{actualIndex + 1}
+              </span>
+              <h4 className="font-semibold">{question.question}</h4>
+            </div>
             <div className="flex flex-wrap justify-center gap-6 mt-4">
               {(question.options ?? []).map((option, index) => {
                 const isCorrect = option === question.correct_answer;
