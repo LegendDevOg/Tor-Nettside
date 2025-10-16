@@ -17,7 +17,7 @@ function Quiz() {
       <Header />
       <ScaledContent>
         <AnimateProvider className="">
-          <div className="min-h-screen flex flex-col items-center justify-center bg-gradient-to-r from-blue-50 to-orange-100 p-4">
+          <div className="min-h-screen flex flex-col items-center justify-center p-4">
             {/* Logo Section */}
             <div className="mb-6">
               <img src={viteLogo} className="h-40 w-auto mx-auto" alt="Tor logo" />

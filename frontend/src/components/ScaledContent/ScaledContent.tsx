@@ -11,11 +11,17 @@ function ScaledContent({ children, className = '' }: ScaledContentProps) {
 
   return (
     <div
+      className="bg-gradient-to-r from-blue-50 to-orange-100"
       style={{
         display: 'flex',
         justifyContent: 'center',
         minHeight: '100vh',
         paddingTop: '60px', // Space for header buttons
+        width: '100%',
+        position: 'fixed',
+        top: 0,
+        left: 0,
+        overflow: 'auto',
       }}
     >
       <div
