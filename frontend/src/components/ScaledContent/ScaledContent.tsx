@@ -10,32 +10,38 @@ function ScaledContent({ children, className = '' }: ScaledContentProps) {
   const { scale } = useFontSize();
 
   return (
-    <div
-      className="bg-gradient-to-r from-blue-50 to-orange-100"
-      style={{
-        display: 'flex',
-        justifyContent: 'center',
-        minHeight: '100vh',
-        paddingTop: '60px', // Space for header buttons
-        width: '100%',
-        position: 'fixed',
-        top: 0,
-        left: 0,
-        overflow: 'auto',
-      }}
-    >
+    <>
+      {/* Fixed background that covers entire viewport */}
+      <div 
+        className="fixed inset-0 bg-gradient-to-r from-blue-50 to-orange-100 -z-10"
+        style={{ minHeight: '100vh' }}
+      />
+      
+      {/* Scrollable content area */}
       <div
-        className={className}
         style={{
-          transform: `scale(${scale})`,
-          transformOrigin: 'top center',
-          width: `${100 / scale}%`,
-          maxWidth: `${100 / scale}%`,
+          display: 'flex',
+          justifyContent: 'center',
+          minHeight: '100vh',
+          paddingTop: '60px', // Space for header buttons
+          paddingBottom: '40px',
+          width: '100%',
         }}
       >
-        {children}
+        <div
+          className={className}
+          style={{
+            transform: `scale(${scale})`,
+            transformOrigin: 'top center',
+            width: `${100 / scale}%`,
+            maxWidth: `${100 / scale}%`,
+            marginBottom: `${(scale - 1) * 100}vh`, // Extra space for scaled content
+          }}
+        >
+          {children}
+        </div>
       </div>
-    </div>
+    </>
   );
 }
 
