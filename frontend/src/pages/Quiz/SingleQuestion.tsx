@@ -128,7 +128,7 @@ function SingleQuestion() {
     !Array.isArray(singleQuestion.dropdownOptions) ||
     !Array.isArray(singleQuestion.correct_answer)
   ) {
-    return <p className="text-red-600">Feil: Mangler data for sentence-dropdown</p>;
+    return <p className="text-danger-600">Feil: Mangler data for sentence-dropdown</p>;
   }
 
   return (

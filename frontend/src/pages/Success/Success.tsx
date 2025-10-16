@@ -267,7 +267,7 @@ function Success() {
           return (
             <div key={actualIndex} className="bg-white p-4 rounded-lg shadow-md">
               <div className="flex items-center gap-2 mb-2">
-                <span className="bg-blue-100 text-blue-800 font-bold px-3 py-1 rounded-full text-sm">
+                <span className="bg-primary-100 text-primary-800 font-bold px-3 py-1 rounded-full text-sm">
                   #{actualIndex + 1}
                 </span>
                 <h4 className="font-semibold">{question.question}</h4>
