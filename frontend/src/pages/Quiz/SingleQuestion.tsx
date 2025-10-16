@@ -3,6 +3,7 @@ import { useEffect } from "react";
 import AnimateProvider from "../../components/AnimateProvider/AnimateProvider";
 import useQuestionStore from "../../data/GetData";
 import Question from "../../components/Questions/Questions";
+import QuestionNavigator from "../../components/QuestionNavigator/QuestionNavigator";
 
 import {
   ImageQuestion,
@@ -205,6 +206,9 @@ function SingleQuestion() {
       <p className="text-center text-sm text-gray-700 mb-6">
         Spørsmål {page} av {allQuestions.length}
       </p>
+
+      {/* Question Navigator */}
+      <QuestionNavigator />
 
       {/* Navigation Buttons */}
       <div className="flex justify-between items-center mb-6 gap-4">

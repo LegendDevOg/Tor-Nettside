@@ -51,6 +51,7 @@ type QuestionStoreState = {
   setTimeStamp: (time: number) => void;
   nextPage: () => void;
   prevPage: () => void;
+  setPage: (page: number) => void;
   resetStore: () => void;
 };
 
@@ -88,7 +89,10 @@ fetchQuestion: async (query: string) => {
 
     set(() => ({
       question: [...data],
+      userAnswer: [], // ✅ Clear previous answers!
       error: null,
+      trueAnswer: 0, // ✅ Reset score!
+      falseAnswer: 0, // ✅ Reset score!
       page: 1, // ✅ Reset page!
     }));
     console.log("✅ Questions stored in Zustand successfully!");
@@ -148,6 +152,11 @@ fetchQuestion: async (query: string) => {
         set((state) => ({
           ...state,
           page: Math.max(1, state.page - 1),
+        })),
+      setPage: (page) =>
+        set((state) => ({
+          ...state,
+          page: page,
         })),
     }),
     {
