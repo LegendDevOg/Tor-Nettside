@@ -41,7 +41,6 @@
     "correct_answer": "Flere",
     "difficulty": "A2"
   },
-  [
   {
     "type": "multiple",
     "context": "Salg! Nå har vi tilbud på sjømat ved bryggen.\nDu kan få krabber for rett under hundrelappen, du får torsk for 200 kr per kilo.\nDu vil kunne nyte disse flotte rabattene innen søndag neste uke.\nLøp og kjøp!",
@@ -163,5 +162,4 @@
     "incorrect_answers": ["Jonas", "Kjartan", "Kristian"],
     "difficulty": "A2"
   }
-]
 ]
