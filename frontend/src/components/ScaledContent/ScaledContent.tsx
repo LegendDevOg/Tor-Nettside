@@ -11,29 +11,22 @@ function ScaledContent({ children, className = '' }: ScaledContentProps) {
 
   return (
     <div
-      className={className}
       style={{
-        fontSize: `${scale}rem`,
-        lineHeight: '1.5',
+        display: 'flex',
+        justifyContent: 'center',
+        minHeight: '100vh',
+        paddingTop: '60px', // Space for header buttons
       }}
     >
-      <style>
-        {`
-          /* Scale images proportionally while maintaining layout */
-          [data-scaled-content] img {
-            width: ${scale * 100}%;
-            height: auto;
-            max-width: 100%;
-            object-fit: contain;
-          }
-          
-          /* Keep logo images at a reasonable size */
-          [data-scaled-content] .h-40 {
-            height: ${10 * scale}rem;
-          }
-        `}
-      </style>
-      <div data-scaled-content>
+      <div
+        className={className}
+        style={{
+          transform: `scale(${scale})`,
+          transformOrigin: 'top center',
+          width: `${100 / scale}%`,
+          maxWidth: `${100 / scale}%`,
+        }}
+      >
         {children}
       </div>
     </div>

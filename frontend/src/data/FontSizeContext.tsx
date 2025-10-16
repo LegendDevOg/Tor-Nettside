@@ -9,7 +9,7 @@ interface FontSizeContextType {
 
 const FontSizeContext = createContext<FontSizeContextType | undefined>(undefined);
 
-const MIN_SCALE = 0.85;
+const MIN_SCALE = 0.5;
 const MAX_SCALE = 1.45;
 const STEP = 0.15;
 const DEFAULT_SCALE = 1;
