@@ -20,20 +20,19 @@ export function ImageQuestion({
   difficulty: string;
 }) {
   return (
-    <div className="flex flex-col items-center text-center">
+    <div className="flex flex-col items-center text-center w-full px-4">
 
       <h1 className="text-4xl font-bold text-black-300 mb-6 text-center">
         Klikk på riktig bilde
       </h1>
       
-      <h2 className="text-2xl font-bold text-black-300 mb-20 text-center text-decoration-line: underline">
+      <h2 className="text-2xl font-bold text-black-300 mb-8 text-center text-decoration-line: underline">
         {difficulty}
       </h2>
 
-      <div className="border border-gray-300 rounded-lg p-4 bg-white shadow-md">
-  <h3 className="text-gray-800 mb-10 text-lg">{sentence}</h3>
-  <h3 className="text-gray-800 font-bold mb-4 text-lg">{question}</h3>
-
+      <div className="border-2 border-gray-300 rounded-xl p-6 bg-white shadow-lg mb-8 max-w-3xl w-full">
+  {sentence && <h3 className="text-gray-800 mb-4 text-lg leading-relaxed">{sentence}</h3>}
+  <h3 className="text-gray-900 font-bold text-xl">{question}</h3>
 </div>
 
 
@@ -64,16 +63,16 @@ export function ImageQuestion({
           </div>
         </>
       ) : (
-        /* Default Layout When No Image */
-        <div className="flex flex-wrap justify-center gap-6">
+        /* Default Layout When No Image - 4 images in a row on larger screens */
+        <div className="grid grid-cols-2 lg:grid-cols-4 gap-6 w-full px-2">
           {options.map((option, index) => (
-            <div key={index} className="relative w-40 h-40 md:w-48 md:h-48 lg:w-56 lg:h-56">
+            <div key={index} className="relative">
               <img
                 src={option}
                 alt={`Option ${index}`}
-                className={`w-full h-full max-w-full max-h-full object-contain rounded-lg cursor-pointer transition-all duration-200 ease-in-out
-                  ${summary && correctAnswer === option ? "border-4 border-green-500" : ""}
-                  hover:scale-110 hover:shadow-lg`}
+                className={`w-full h-auto object-contain rounded-lg cursor-pointer transition-all duration-200 ease-in-out shadow-md
+                  ${summary && correctAnswer === option ? "border-4 border-green-500" : "border-2 border-gray-200"}
+                  hover:scale-105 hover:shadow-xl`}
                 onClick={() => !summary && handleClick(option)}
               />
             </div>

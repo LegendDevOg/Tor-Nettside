@@ -194,7 +194,7 @@ function SingleQuestion() {
   };
 
   return (
-    <AnimateProvider className="max-w-xl mx-auto">
+    <AnimateProvider className="max-w-[65vw] mx-auto">
       {/* ✅ Progress bar */}
       <div className="w-full bg-gray-200 rounded-full h-3 mt-6 mb-2">
         <div
