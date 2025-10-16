@@ -178,7 +178,7 @@ const QuestionForm = () => {
             {current.image && (
               <img src={current.image} alt="Preview" className="mt-2 max-h-40 rounded shadow" />
             )}
-            <p className="text-xs text-red-500 mt-2">
+            <p className="text-xs text-danger-500 mt-2">
               ⚠️ Husk å manuelt legge bildet i <code>/public/images/</code>!
             </p>
           </>
@@ -186,14 +186,14 @@ const QuestionForm = () => {
 
         <button
           onClick={addQuestion}
-          className="bg-green-600 hover:bg-green-500 text-white px-4 py-2 rounded"
+          className="bg-success-600 hover:bg-success-500 text-white px-4 py-2 rounded"
         >
           ➕ Legg til spørsmål
         </button>
 
         <button
           onClick={saveToFile}
-          className="ml-4 bg-blue-600 hover:bg-blue-500 text-white px-4 py-2 rounded"
+          className="ml-4 bg-primary-600 hover:bg-primary-500 text-white px-4 py-2 rounded"
         >
           💾 Lagre JSON
         </button>

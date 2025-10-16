@@ -24,7 +24,7 @@ const AdminLogin = () => {
         className="border px-3 py-2 w-full"
         placeholder="Enter password"
       />
-      <button onClick={handleLogin} className="mt-4 bg-blue-500 text-white py-2 px-4 rounded">
+      <button onClick={handleLogin} className="mt-4 bg-primary-500 hover:bg-primary-600 text-white py-2 px-4 rounded transition-colors">
         Login
       </button>
     </div>

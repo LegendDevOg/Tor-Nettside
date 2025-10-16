@@ -32,7 +32,7 @@ function Question({ id, handleClick, singleQuestion, summary, trueAnswer, userAn
 
       {/* Context Message (if available) */}
       {context && (
-        <div className="bg-blue-100 border-l-4 border-blue-500 p-4 mb-4 rounded-md">
+        <div className="bg-primary-50 border-l-4 border-primary-500 p-4 mb-4 rounded-md">
           <div className="text-gray-700 italic space-y-1">
   {context && he.decode(context).split("\n").map((line, i) =>
     line.trim() === "" ? <div key={i} className="h-4" /> : <p key={i}>{line}</p>
@@ -44,7 +44,7 @@ function Question({ id, handleClick, singleQuestion, summary, trueAnswer, userAn
       {/* Question Number and Text */}
       <div className="flex items-start gap-3 text-base md:text-lg mb-6">
       {summary && (
-        <span className="bg-blue-100 text-blue-800 font-bold px-3 py-1 rounded-full text-sm whitespace-nowrap">
+        <span className="bg-primary-100 text-primary-800 font-bold px-3 py-1 rounded-full text-sm whitespace-nowrap">
           #{id}
         </span>
       )}
@@ -64,12 +64,12 @@ function Question({ id, handleClick, singleQuestion, summary, trueAnswer, userAn
           let hover = ""
           if (summary) {
             if (opt === trueAnswer) {
-              bgColor = "bg-green-500 text-white"; // ✅ Correct answer in green
+              bgColor = "bg-success-500 text-white"; // ✅ Correct answer in green
             } else if (opt === userAnswer && opt !== trueAnswer) {
-              bgColor = "bg-red-500 text-white"; // ❌ Wrong answer in red
+              bgColor = "bg-danger-500 text-white"; // ❌ Wrong answer in red
             }
           } else {
-            hover = "hover:bg-blue-400 transition"
+            hover = "hover:bg-primary-100 transition"
           }
 
           return (

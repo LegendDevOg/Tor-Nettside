@@ -35,13 +35,13 @@ function ImageClickResult({ question, userSelected, actualIndex }: {
   }, []);
 
   return (
-    <div className="bg-white p-4 rounded-lg shadow-md">
-      <div className="flex items-center gap-2 mb-2">
-        <span className="bg-blue-100 text-blue-800 font-bold px-3 py-1 rounded-full text-sm">
-          #{actualIndex + 1}
-        </span>
-        <h4 className="font-semibold">{question.question}</h4>
-      </div>
+            <div className="bg-white p-4 rounded-lg shadow-md">
+              <div className="flex items-center gap-2 mb-2">
+                <span className="bg-primary-100 text-primary-800 font-bold px-3 py-1 rounded-full text-sm">
+                  #{actualIndex + 1}
+                </span>
+                <h4 className="font-semibold">{question.question}</h4>
+              </div>
       <div className="relative inline-block w-full max-w-md mx-auto">
         <img
           ref={imgRef}
@@ -52,7 +52,7 @@ function ImageClickResult({ question, userSelected, actualIndex }: {
 
         {/* Correct clickable area */}
         <div
-          className="absolute border-2 border-green-500 bg-green-200 bg-opacity-40 rounded-full -translate-x-1/2 -translate-y-1/2 pointer-events-none"
+          className="absolute border-2 border-success-500 bg-success-200 bg-opacity-40 rounded-full -translate-x-1/2 -translate-y-1/2 pointer-events-none"
           style={{
             top: `${(correctY / imageSize.height) * 100}%`,
             left: `${(correctX / imageSize.width) * 100}%`,
@@ -63,10 +63,10 @@ function ImageClickResult({ question, userSelected, actualIndex }: {
 
         {/* User's click marker */}
         {!clickedX || !clickedY ? (
-          <p className="text-xs text-yellow-600 mt-2">⚠️ No click data was recorded.</p>
+          <p className="text-xs text-warning-600 mt-2">⚠️ No click data was recorded.</p>
         ) : (
           <div
-            className="absolute w-[14px] h-[14px] bg-red-600 border-2 border-white rounded-full -translate-x-1/2 -translate-y-1/2 pointer-events-none"
+            className="absolute w-[14px] h-[14px] bg-danger-600 border-2 border-white rounded-full -translate-x-1/2 -translate-y-1/2 pointer-events-none"
             style={{
               top: `${(parseFloat(clickedY) / imageSize.height) * 100}%`,
               left: `${(parseFloat(clickedX) / imageSize.width) * 100}%`,
@@ -79,8 +79,8 @@ function ImageClickResult({ question, userSelected, actualIndex }: {
         <span
           className={
             correctness === "correct"
-              ? "text-green-600 font-semibold"
-              : "text-red-600 font-semibold"
+              ? "text-success-600 font-semibold"
+              : "text-danger-600 font-semibold"
           }
         >
           {correctness === "correct" ? "correct" : "wrong"}
@@ -104,7 +104,7 @@ function Success() {
   const navigate = useNavigate();
   const [currentPage, setCurrentPage] = useState(1);
   const score = Math.floor((trueAnswer * 100) / allQuestion.length);
-  const indxColor = score >= 60 ? "#10b981" : score >= 30 ? "#F59E0B" : "#dc2626";
+  const indxColor = score >= 60 ? "#22c55e" : score >= 30 ? "#f59e0b" : "#de5858";
   const showButton = score >= 60;
   const text =
     score < 60
@@ -149,21 +149,21 @@ function Success() {
       </h1>
 
       <div className="text-xs md:text-sm text-neutral-600 font-medium flex flex-col space-y-1">
-        <h1 className="flex justify-between mb-6 text-blue-600">{text}</h1>
+        <h1 className="flex justify-between mb-6 text-primary-600">{text}</h1>
         <p className="flex justify-between">
-          Correct Answers <span className="text-green-600">{trueAnswer}</span>
+          Correct Answers <span className="text-success-600">{trueAnswer}</span>
         </p>
         <p className="flex justify-between">
-          Wrong Answers <span className="text-red-600">{falseAnswer}</span>
+          Wrong Answers <span className="text-danger-600">{falseAnswer}</span>
         </p>
         <p className="flex justify-between">
-          Total Submitted <span className="text-purple-600">{trueAnswer + falseAnswer}</span>
+          Total Submitted <span className="text-gray-900 font-semibold">{trueAnswer + falseAnswer}</span>
         </p>
       </div>
 
       <button
         onClick={handleClick}
-        className="grid place-items-center text-neutral-50 bg-blue-500 rounded-full py-2 hover:text-blue-200 text-sm font-semibold"
+        className="grid place-items-center text-white bg-primary-500 rounded-full py-2 hover:bg-primary-600 transition-colors text-sm font-semibold"
       >
         {showButton ? "Continue to A2-B1 Test" : "Go back to A1-A2 sets"}
       </button>
@@ -196,10 +196,10 @@ function Success() {
                 key={index}
                 onClick={() => setCurrentPage(index + 1)}
                 className={`aspect-square rounded-lg font-bold text-sm transition-all
-                  ${currentPage === index + 1 ? "ring-4 ring-blue-400 scale-110" : ""}
+                  ${currentPage === index + 1 ? "ring-4 ring-primary-300 scale-110" : ""}
                   ${isCorrect 
-                    ? "bg-green-500 text-white hover:bg-green-600" 
-                    : "bg-red-500 text-white hover:bg-red-600"
+                    ? "bg-success-500 text-white hover:bg-success-600" 
+                    : "bg-danger-500 text-white hover:bg-danger-600"
                   }`}
               >
                 {index + 1}
@@ -222,7 +222,7 @@ function Success() {
           className={`px-6 py-2 rounded-lg font-semibold transition-all ${
             currentPage === 1
               ? "bg-gray-300 text-gray-500 cursor-not-allowed"
-              : "bg-blue-500 text-white hover:bg-blue-600"
+              : "bg-primary-500 text-white hover:bg-primary-600"
           }`}
         >
           ← Forrige
@@ -236,7 +236,7 @@ function Success() {
           className={`px-6 py-2 rounded-lg font-semibold transition-all ${
             currentPage === allQuestion.length
               ? "bg-gray-300 text-gray-500 cursor-not-allowed"
-              : "bg-blue-500 text-white hover:bg-blue-600"
+              : "bg-primary-500 text-white hover:bg-primary-600"
           }`}
         >
           Neste →
@@ -285,8 +285,8 @@ function Success() {
                         key={idx}
                         className={`mx-1 px-2 py-1 rounded font-medium ${
                           isCorrect
-                            ? "bg-green-200 text-green-800"
-                            : "bg-red-200 text-red-800"
+                            ? "bg-success-100 text-success-700"
+                            : "bg-danger-100 text-danger-700"
                         }`}
                       >
                         {userVal || "–"}
@@ -315,7 +315,7 @@ if (isImageClick && question.correctArea && question.image) {
         return isWordSelection ? (
           <div key={actualIndex} className="bg-white p-4 rounded-lg shadow-md">
             <div className="flex items-center gap-2 mb-2">
-              <span className="bg-blue-100 text-blue-800 font-bold px-3 py-1 rounded-full text-sm">
+              <span className="bg-primary-100 text-primary-800 font-bold px-3 py-1 rounded-full text-sm">
                 #{actualIndex + 1}
               </span>
               <h4 className="font-semibold">{question.question}</h4>
@@ -325,8 +325,8 @@ if (isImageClick && question.correctArea && question.image) {
               <span
                 className={
                   userSelected?.answer === question.correct_answer
-                    ? "text-green-600"
-                    : "text-red-600"
+                    ? "text-success-600"
+                    : "text-danger-600"
                 }
               >
                 {userSelected?.answer || "No answer"}
@@ -334,13 +334,13 @@ if (isImageClick && question.correctArea && question.image) {
             </p>
             <p className="text-gray-700">
               <span className="font-bold">Correct Answer: </span>
-              <span className="text-green-600">{question.correct_answer}</span>
+              <span className="text-success-600">{question.correct_answer}</span>
             </p>
           </div>
         ) : isImageSelection ? (
           <div key={actualIndex} className="bg-white p-4 rounded-lg shadow-md">
             <div className="flex items-center gap-2 mb-2">
-              <span className="bg-blue-100 text-blue-800 font-bold px-3 py-1 rounded-full text-sm">
+              <span className="bg-primary-100 text-primary-800 font-bold px-3 py-1 rounded-full text-sm">
                 #{actualIndex + 1}
               </span>
               <h4 className="font-semibold">{question.question}</h4>
@@ -358,9 +358,9 @@ if (isImageClick && question.correctArea && question.image) {
                     className={`max-w-[180px] max-h-[180px] object-contain rounded-lg border-4 
                       ${
                         isCorrect
-                          ? "border-green-500"
+                          ? "border-success-500"
                           : isUserSelected && !isCorrect
-                          ? "border-red-500"
+                          ? "border-danger-500"
                           : "border-gray-300"
                       }`}
                   />

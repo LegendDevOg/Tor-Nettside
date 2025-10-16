@@ -71,7 +71,7 @@ export function ImageQuestion({
                 src={option}
                 alt={`Option ${index}`}
                 className={`w-full h-auto object-contain rounded-lg cursor-pointer transition-all duration-200 ease-in-out shadow-md
-                  ${summary && correctAnswer === option ? "border-4 border-green-500" : "border-2 border-gray-200"}
+                  ${summary && correctAnswer === option ? "border-4 border-success-500" : "border-2 border-gray-200"}
                   hover:scale-105 hover:shadow-xl`}
                 onClick={() => !summary && handleClick(option)}
               />
@@ -125,8 +125,8 @@ export function WordSelectionQuestion({
             <span
               key={index}
               className={`whitespace-nowrap cursor-pointer transition-transform duration-150 ease-in-out px-[2px] rounded inline-block
-                ${summary && correctWord === cleanedWord ? "bg-green-300 font-bold" : ""}
-                hover:text-blue-600 hover:scale-110`}
+                ${summary && correctWord === cleanedWord ? "bg-success-200 font-bold" : ""}
+                hover:text-primary-600 hover:scale-110`}
               onClick={() => !summary && handleClick(cleanedWord)}
             >
               {word}
@@ -160,7 +160,7 @@ export function ParagraphSelectionQuestion({ question, paragraphs, correctParagr
         {paragraphs.map((paragraph, index) => (
           <p
             key={index}
-            className={`cursor-pointer p-2 rounded-lg ${summary && correctParagraph === paragraph ? "bg-green-300" : ""}`}
+            className={`cursor-pointer p-2 rounded-lg ${summary && correctParagraph === paragraph ? "bg-success-200" : ""}`}
             onClick={() => !summary && handleClick(paragraph)}
           >
             {paragraph}
@@ -214,7 +214,7 @@ const isCompleted = options.every((_, i) => selected[i] && selected[i].trim() !=
         Fyll inn ordene
       </h1>
 
-      <h2 className="text-2xl font-bold underline text-center text-blue-700 mb-10">
+      <h2 className="text-2xl font-bold underline text-center text-primary-700 mb-10">
         {difficulty}
       </h2>
 
@@ -239,9 +239,9 @@ const isCompleted = options.every((_, i) => selected[i] && selected[i].trim() !=
                       ${
                         summary
                           ? selected[index] === correctAnswers[index]
-                            ? "bg-green-200"
-                            : "bg-red-200"
-                          : "hover:border-blue-500"
+                            ? "bg-success-100"
+                            : "bg-danger-100"
+                          : "hover:border-primary-500"
                       }`}
                     value={selected[index] || ""}
                     onChange={(e) =>
@@ -273,7 +273,7 @@ const isCompleted = options.every((_, i) => selected[i] && selected[i].trim() !=
             disabled={!isCompleted}
             className={`px-6 py-2 rounded-full font-semibold text-white text-lg shadow-md transition ${
               isCompleted
-                ? "bg-blue-500 hover:bg-blue-400"
+                ? "bg-primary-500 hover:bg-primary-600"
                 : "bg-gray-400 cursor-not-allowed"
             }`}
           >

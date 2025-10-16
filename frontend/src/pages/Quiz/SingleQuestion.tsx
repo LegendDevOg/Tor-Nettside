@@ -204,7 +204,7 @@ function SingleQuestion() {
           {/* ✅ Progress bar */}
           <div className="w-full bg-gray-200 rounded-full h-3 mt-6 mb-2">
             <div
-              className="bg-blue-500 h-3 rounded-full transition-all duration-300"
+              className="bg-primary-500 h-3 rounded-full transition-all duration-300"
               style={{ width: `${(page / allQuestions.length) * 100}%` }}
             ></div>
           </div>
@@ -223,7 +223,7 @@ function SingleQuestion() {
               className={`px-6 py-2 rounded-lg font-semibold transition-all ${
                 page === 1
                   ? "bg-gray-300 text-gray-500 cursor-not-allowed"
-                  : "bg-blue-500 text-white hover:bg-blue-600"
+                  : "bg-primary-500 text-white hover:bg-primary-600"
               }`}
             >
               ← Forrige
@@ -234,7 +234,7 @@ function SingleQuestion() {
               className={`px-6 py-2 rounded-lg font-semibold transition-all ${
                 page === allQuestions.length
                   ? "bg-gray-300 text-gray-500 cursor-not-allowed"
-                  : "bg-blue-500 text-white hover:bg-blue-600"
+                  : "bg-primary-500 text-white hover:bg-primary-600"
               }`}
             >
               Neste →
