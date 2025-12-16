@@ -31,10 +31,10 @@ function Question({ id, handleClick, singleQuestion, summary, trueAnswer, userAn
     </h2>
 
       {/* Context Message (if available) */}
-      {context && (
+      {context && context.trim() !== "" && (
         <div className="bg-primary-50 border-l-4 border-primary-500 p-4 mb-4 rounded-md">
           <div className="text-gray-700 italic space-y-1">
-  {context && he.decode(context).split("\n").map((line, i) =>
+  {he.decode(context).split("\n").map((line, i) =>
     line.trim() === "" ? <div key={i} className="h-4" /> : <p key={i}>{line}</p>
   )}
 </div>
@@ -42,19 +42,21 @@ function Question({ id, handleClick, singleQuestion, summary, trueAnswer, userAn
       )}
 
       {/* Question Number and Text */}
-      <div className="flex items-start gap-3 text-base md:text-lg mb-6">
-      {summary && (
-        <span className="bg-primary-100 text-primary-800 font-bold px-3 py-1 rounded-full text-sm whitespace-nowrap">
-          #{id}
-        </span>
+      {question && question.trim() !== "" && (
+        <div className="flex items-start gap-3 text-base md:text-lg mb-6">
+          {summary && (
+            <span className="bg-primary-100 text-primary-800 font-bold px-3 py-1 rounded-full text-sm whitespace-nowrap">
+              #{id}
+            </span>
+          )}
+          <div className="text-gray-900 font-semibold space-y-1">
+            <span className={!summary ? "font-semibold" : ""}>{!summary && `${id}. `}</span>
+            {he.decode(question).split("\n").map((line, i) => (
+              <p key={i}>{line}</p>
+            ))}
+          </div>
+        </div>
       )}
-      <div className="text-gray-900 font-semibold space-y-1">
-        <span className={!summary ? "font-semibold" : ""}>{!summary && `${id}. `}</span>
-        {question && he.decode(question).split("\n").map((line, i) => (
-        <p key={i}>{line}</p>
-        ))}
-      </div>
-</div>
 
       {/* Answer Options - Ensuring Equal Size */}
       <div className="grid grid-cols-1 gap-4">

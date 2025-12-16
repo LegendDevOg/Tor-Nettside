@@ -23,6 +23,7 @@ type Question = {
   difficulty?: string;
   image?: string | "";
   correctArea?: { x: number; y: number; radius: number };
+  sound?: string; // ✅ for lytting questions
 };
 
 type UserAnswer = {

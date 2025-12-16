@@ -1,0 +1,150 @@
+[
+    {
+        "type": "multiple",
+        "question": "",
+        "context": "",
+        "options": [
+            "A: 99 prosent",
+            "B: 1 prosent",
+            "C: 85 prosent",
+            "D: 10 prosent"
+        ],
+        "correct_answer": "C: 85 prosent",
+        "difficulty": "A2",
+        "sound": "/sound/1_A2-B1_flervalgsoppgaver/Sett2/1_A2-B1_flerv_sett2.mp3"
+    },
+    {
+        "type": "multiple",
+        "question": "",
+        "context": "",
+        "options": [
+            "A: 60 milliarder kroner",
+            "B: 30 milliarder kroner",
+            "C: 9 milliarder kroner",
+            "D: 51 milliarder kroner"
+        ],
+        "correct_answer": "C: 9 milliarder kroner",
+        "difficulty": "A2",
+        "sound": "/sound/1_A2-B1_flervalgsoppgaver/Sett2/2_A2-B1_flerv_sett2.mp3"
+    },
+    {
+        "type": "multiple",
+        "question": "",
+        "context": "",
+        "options": [
+            "A: Barn låter fulle foreldre",
+            "B: Man må ivareta barnas behov",
+            "C: Foreldre må skulle å drikke i jula",
+            "D: Gjester kan ikke inviteres i jula"
+        ],
+        "correct_answer": "B: Man må ivareta barnas behov",
+        "difficulty": "A2",
+        "sound": "/sound/1_A2-B1_flervalgsoppgaver/Sett2/3_A2-B1_flerv_sett2.mp3"
+    },
+    {
+        "type": "multiple",
+        "question": "",
+        "context": "",
+        "options": [
+            "A: På landet",
+            "B: I byen",
+            "C: To steder",
+            "D: På sjøen"
+        ],
+        "correct_answer": "B: I byen",
+        "difficulty": "A2",
+        "sound": "/sound/1_A2-B1_flervalgsoppgaver/Sett2/4_A2-B1_flerv_sett2.mp3"
+    },
+    {
+        "type": "multiple",
+        "question": "",
+        "context": "",
+        "options": [
+            "A: På landet",
+            "B: I byen",
+            "C: To steder",
+            "D: På sjøen"
+        ],
+        "correct_answer": "A: På landet",
+        "difficulty": "A2",
+        "sound": "/sound/1_A2-B1_flervalgsoppgaver/Sett2/5_A2-B1_flerv_sett2.mp3"
+    },
+    {
+        "type": "multiple",
+        "question": "",
+        "context": "",
+        "options": [
+            "A: På landet",
+            "B: I byen",
+            "C: To steder",
+            "D: På sjøen"
+        ],
+        "correct_answer": "D: På sjøen",
+        "difficulty": "A2",
+        "sound": "/sound/1_A2-B1_flervalgsoppgaver/Sett2/6_A2-B1_flerv_sett2.mp3"
+    },
+    {
+        "type": "multiple",
+        "question": "",
+        "context": "",
+        "options": [
+            "Lønnen",
+            "arbeidsmiljøet",
+            "beliggenheten",
+            "arbeidsoppgavene",
+            "kontoret",
+            "sjøfen"
+        ],
+        "correct_answer": "Lønnen",
+        "difficulty": "A2",
+        "sound": "/sound/1_A2-B1_tema-serier/Sett2/6_A2-B1_flerv_sett2.mp3"
+    },
+    {
+        "type": "multiple",
+        "question": "",
+        "context": "",
+        "options": [
+            "Lønnen",
+            "arbeidsmiljøet",
+            "beliggenheten",
+            "arbeidsoppgavene",
+            "kontoret",
+            "sjøfen"
+        ],
+        "correct_answer": "arbeidsmiljøet",
+        "difficulty": "A2",
+        "sound": "/sound/1_A2-B1_tema-serier/Sett2/6_A2-B1_flerv_sett2.mp3"
+    },
+    {
+        "type": "multiple",
+        "question": "",
+        "context": "",
+        "options": [
+            "Lønnen",
+            "arbeidsmiljøet",
+            "beliggenheten",
+            "arbeidsoppgavene",
+            "kontoret",
+            "sjøfen"
+        ],
+        "correct_answer": "kontoret",
+        "difficulty": "A2",
+        "sound": "/sound/1_A2-B1_tema-serier/Sett2/6_A2-B1_flerv_sett2.mp3"
+    },
+    {
+        "type": "multiple",
+        "question": "",
+        "context": "",
+        "options": [
+            "Lønnen",
+            "arbeidsmiljøet",
+            "beliggenheten",
+            "arbeidsoppgavene",
+            "kontoret",
+            "sjøfen"
+        ],
+        "correct_answer": "arbeidsoppgavene",
+        "difficulty": "A2",
+        "sound": "/sound/1_A2-B1_tema-serier/Sett2/6_A2-B1_flerv_sett2.mp3"
+    }
+]

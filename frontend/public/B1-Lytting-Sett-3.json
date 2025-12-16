@@ -1,0 +1,142 @@
+[
+    {
+        "type": "multiple",
+        "question": "",
+        "context": "",
+        "options": [
+            "A: 1",
+            "B: 2",
+            "C: 3",
+            "D: 4"
+        ],
+        "correct_answer": "C: 3",
+        "difficulty": "B1",
+        "sound": "/sound/1-B1-flervalgsoppgaver/Sett3/1_B1_flervalgsoppgaver_sett3.mp3"
+    },
+    {
+        "type": "multiple",
+        "question": "",
+        "context": "",
+        "options": [
+            "A: 11",
+            "B: 6",
+            "C: 5",
+            "D: 4"
+        ],
+        "correct_answer": "B: 6",
+        "difficulty": "B1",
+        "sound": "/sound/1-B1-flervalgsoppgaver/Sett3/3_B1_flervalgsoppgaver_sett3.mp3"
+    },
+    {
+        "type": "multiple",
+        "question": "",
+        "context": "",
+        "options": [
+            "A: Gjennom arbeid",
+            "B: På teater",
+            "C: På en bar",
+            "D: I Japan"
+        ],
+        "correct_answer": "C: På en bar",
+        "difficulty": "B1",
+        "sound": "/sound/1-B1-flervalgsoppgaver/Sett3/3_B1_flervalgsoppgaver_sett3.mp3"
+    },
+    {
+        "type": "multiple",
+        "question": "",
+        "context": "",
+        "options": [
+            "A: Fjerne avgift for import og eksport",
+            "B: Å gå fra seg Nordsjøen",
+            "C: Det fantes ikke gitt",
+            "D: Handel av billig strøm"
+        ],
+        "correct_answer": "D: Handel av billig strøm",
+        "difficulty": "B1",
+        "sound": "/sound/1-B1-flervalgsoppgaver/Sett3/4_B1_flervalgsoppgaver_sett3.mp3"
+    },
+    {
+        "type": "multiple",
+        "question": "",
+        "context": "",
+        "options": [
+            "A: Hun ville ha Tom i selskapst",
+            "B: Hun følte seg forrådt",
+            "C: Hun savnet Tom",
+            "D: Hun ville ha om unskylding"
+        ],
+        "correct_answer": "B: Hun følte seg forrådt",
+        "difficulty": "B1",
+        "sound": "/sound/1-B1-flervalgsoppgaver/Sett3/5_B1_flervalgsoppgaver_sett3.mp3"
+    },
+    {
+        "type": "multiple",
+        "question": "",
+        "context": "",
+        "options": [
+            "A: Mus og skadedyr i leiligheten",
+            "B: Renovering av leiligheten",
+            "C: Å selge boligen",
+            "D: Å investere penger"
+        ],
+        "correct_answer": "C: Å selge boligen",
+        "difficulty": "B1",
+        "sound": "/sound/1-B1-flervalgsoppgaver/Sett3/6_B1_flervalgsoppgaver_sett3.mp3"
+    },
+    {
+        "type": "multiple",
+        "question": "",
+        "context": "",
+        "options": [
+            "A: Gatelysene",
+            "B: Kjøkksnel",
+            "C: Krypkjelleren",
+            "D: Taksten på boligen"
+        ],
+        "correct_answer": "C: Krypkjelleren",
+        "difficulty": "B1",
+        "sound": "/sound/1-B1-flervalgsoppgaver/Sett3/7_B1_flervalgsoppgaver_sett3.mp3"
+    },
+    {
+        "type": "multiple",
+        "question": "",
+        "context": "",
+        "options": [
+            "A: Dummy svar 1",
+            "B: Dummy svar 2",
+            "C: Dummy svar 3",
+            "D: Dummy svar 4"
+        ],
+        "correct_answer": "A: Dummy svar 1",
+        "difficulty": "B1",
+        "sound": "/sound/1-B1-flervalgsoppgaver/Sett3/7_B1_flervalgsoppgaver_sett3.mp3"
+    },
+    {
+        "type": "multiple",
+        "question": "",
+        "context": "",
+        "options": [
+            "A: Dummy svar 1",
+            "B: Dummy svar 2",
+            "C: Dummy svar 3",
+            "D: Dummy svar 4"
+        ],
+        "correct_answer": "B: Dummy svar 2",
+        "difficulty": "B1",
+        "sound": "/sound/1-B1-flervalgsoppgaver/Sett3/7_B1_flervalgsoppgaver_sett3.mp3"
+    },
+    {
+        "type": "multiple",
+        "question": "",
+        "context": "",
+        "options": [
+            "A: Dummy svar 1",
+            "B: Dummy svar 2",
+            "C: Dummy svar 3",
+            "D: Dummy svar 4"
+        ],
+        "correct_answer": "C: Dummy svar 3",
+        "difficulty": "B1",
+        "sound": "/sound/1-B1-flervalgsoppgaver/Sett3/7_B1_flervalgsoppgaver_sett3.mp3"
+    }
+]

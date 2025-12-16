@@ -1,0 +1,142 @@
+[
+    {
+        "type": "multiple",
+        "question": "",
+        "context": "",
+        "options": [
+            "A: 1",
+            "B: 2",
+            "C: 3",
+            "D: 4"
+        ],
+        "correct_answer": "C: 3",
+        "difficulty": "B1",
+        "sound": "/sound/1-B1-flervalgsoppgaver/Sett1/1_B1_flervalgsoppgaver_sett1.mp3"
+    },
+    {
+        "type": "multiple",
+        "question": "",
+        "context": "",
+        "options": [
+            "A: 9",
+            "B: 20",
+            "C: 12",
+            "D: 41"
+        ],
+        "correct_answer": "B: 20",
+        "difficulty": "B1",
+        "sound": "/sound/1-B1-flervalgsoppgaver/Sett1/2_B1_flervalgsoppgaver_sett1.mp3"
+    },
+    {
+        "type": "multiple",
+        "question": "",
+        "context": "",
+        "options": [
+            "A: Gjennom trening",
+            "B: Gjennom studiet",
+            "C: Gjennom reising",
+            "D: Gjennom internett"
+        ],
+        "correct_answer": "D: Gjennom internett",
+        "difficulty": "B1",
+        "sound": "/sound/1-B1-flervalgsoppgaver/Sett1/3_B1_flervalgsoppgaver_sett1.mp3"
+    },
+    {
+        "type": "multiple",
+        "question": "",
+        "context": "",
+        "options": [
+            "A: På seminar",
+            "B: Ved en butikk",
+            "C: I parken",
+            "D: I Regnskap AS"
+        ],
+        "correct_answer": "B: Ved en butikk",
+        "difficulty": "B1",
+        "sound": "/sound/1-B1-flervalgsoppgaver/Sett1/4_B1_flervalgsoppgaver_sett1.mp3"
+    },
+    {
+        "type": "multiple",
+        "question": "",
+        "context": "",
+        "options": [
+            "A: I Oslo",
+            "B: I Finnenes",
+            "C: I Stavanger",
+            "D: I Ålesund"
+        ],
+        "correct_answer": "D: I Ålesund",
+        "difficulty": "B1",
+        "sound": "/sound/1-B1-flervalgsoppgaver/Sett1/5_B1_flervalgsoppgaver_sett1.mp3"
+    },
+    {
+        "type": "multiple",
+        "question": "",
+        "context": "",
+        "options": [
+            "A: Dyre leiepriser",
+            "B: Forlenket deres",
+            "C: Miljøet i nærområdet",
+            "D: Forholdet til naboene"
+        ],
+        "correct_answer": "C: Miljøet i nærområdet",
+        "difficulty": "B1",
+        "sound": "/sound/1-B1-flervalgsoppgaver/Sett1/6_B1_flervalgsoppgaver_sett1.mp3"
+    },
+    {
+        "type": "multiple",
+        "question": "",
+        "context": "",
+        "options": [
+            "A: De flytter ut",
+            "B: De kontakter skolen",
+            "C: De reiser mindre",
+            "D: De kontakter avisen"
+        ],
+        "correct_answer": "A: De flytter ut",
+        "difficulty": "B1",
+        "sound": "/sound/1-B1-flervalgsoppgaver/Sett1/7_B1_flervalgsoppgaver_sett1.mp3"
+    },
+    {
+        "type": "multiple",
+        "question": "",
+        "context": "",
+        "options": [
+            "A: Dummy svar 1",
+            "B: Dummy svar 2",
+            "C: Dummy svar 3",
+            "D: Dummy svar 4"
+        ],
+        "correct_answer": "A: Dummy svar 1",
+        "difficulty": "B1",
+        "sound": "/sound/1-B1-flervalgsoppgaver/Sett1/7_B1_flervalgsoppgaver_sett1.mp3"
+    },
+    {
+        "type": "multiple",
+        "question": "",
+        "context": "",
+        "options": [
+            "A: Dummy svar 1",
+            "B: Dummy svar 2",
+            "C: Dummy svar 3",
+            "D: Dummy svar 4"
+        ],
+        "correct_answer": "B: Dummy svar 2",
+        "difficulty": "B1",
+        "sound": "/sound/1-B1-flervalgsoppgaver/Sett1/7_B1_flervalgsoppgaver_sett1.mp3"
+    },
+    {
+        "type": "multiple",
+        "question": "",
+        "context": "",
+        "options": [
+            "A: Dummy svar 1",
+            "B: Dummy svar 2",
+            "C: Dummy svar 3",
+            "D: Dummy svar 4"
+        ],
+        "correct_answer": "C: Dummy svar 3",
+        "difficulty": "B1",
+        "sound": "/sound/1-B1-flervalgsoppgaver/Sett1/7_B1_flervalgsoppgaver_sett1.mp3"
+    }
+]

@@ -30,9 +30,9 @@ const router = createBrowserRouter(
       {/* Protected Routes */}
       <Route element={<RequireAccessCode />}>
         <Route path="/" element={<App />} />
-        <Route path="question" element={<Quiz />} />
-        <Route path="vannskelig/:id" element={<Sett />} />
-        <Route path="question/:id/:set" element={<SingleQuestion />} />
+        <Route path="question/:category" element={<Quiz />} />
+        <Route path="vannskelig/:category/:id" element={<Sett />} />
+        <Route path="question/:category/:id/:set" element={<SingleQuestion />} />
         <Route path="finish" element={<Success />} />
       </Route>
 

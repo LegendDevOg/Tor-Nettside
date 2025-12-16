@@ -1,0 +1,466 @@
+[
+    {
+        "type": "image-click",
+        "question": "",
+        "context": "",
+        "image": "/images/lytting/hus.png",
+        "correctArea": {
+            "x": 1335,
+            "y": 797,
+            "radius": 80
+        },
+        "difficulty": "A1",
+        "sound": "/sound/1-A1-A2klikkibildeogkalender/sett1/1_A1-A2_sett1.mp3"
+    },
+    {
+        "type": "image-click",
+        "question": "",
+        "context": "",
+        "image": "/images/lytting/hus.png",
+        "correctArea": {
+            "x": 637,
+            "y": 207,
+            "radius": 80
+        },
+        "difficulty": "A1",
+        "sound": "/sound/1-A1-A2klikkibildeogkalender/sett1/2_A1-A2_sett1.mp3"
+    },
+    {
+        "type": "image-click",
+        "question": "",
+        "context": "",
+        "image": "/images/lytting/hus.png",
+        "correctArea": {
+            "x": 873,
+            "y": 488,
+            "radius": 80
+        },
+        "difficulty": "A1",
+        "sound": "/sound/1-A1-A2klikkibildeogkalender/sett1/3_A1-A2_sett1.mp3"
+    },
+    {
+        "type": "image-click",
+        "question": "",
+        "context": "",
+        "image": "/images/lytting/hus.png",
+        "correctArea": {
+            "x": 1092,
+            "y": 235,
+            "radius": 80
+        },
+        "difficulty": "A1",
+        "sound": "/sound/1-A1-A2klikkibildeogkalender/sett1/4_A1-A2_sett1.mp3"
+    },
+    {
+        "type": "image-click",
+        "question": "",
+        "context": "",
+        "image": "/images/lytting/uke-kalender.png",
+        "correctArea": {
+            "x": 1300,
+            "y": 540,
+            "radius": 80
+        },
+        "difficulty": "A1",
+        "sound": "/sound/1-A1-A2klikkibildeogkalender/sett1/5_A1-A2_sett1.mp3"
+    },
+    {
+        "type": "image-click",
+        "question": "",
+        "context": "",
+        "image": "/images/lytting/calendar.png",
+        "correctArea": {
+            "x": 981,
+            "y": 703,
+            "radius": 60
+        },
+        "difficulty": "A1",
+        "sound": "/sound/1-A1-A2klikkibildeogkalender/sett1/6_A1-A2_sett1.mp3"
+    },
+    {
+        "type": "image",
+        "question": "",
+        "options": [
+            "/images/lytting/A1-S1-oppg1-op1.png",
+            "/images/lytting/A1-S1-oppg1-op2.png",
+            "/images/lytting/A1-S1-oppg1-op3.png",
+            "/images/lytting/A1-S1-oppg1-op4.png"
+        ],
+        "correct_answer": "/images/lytting/A1-S1-oppg1-op4.png",
+        "difficulty": "A1",
+        "sound": "/sound/2-A1-A2velgRiktigBilde/sett1/1_A1-A2_sett1.mp3"
+    },
+    {
+        "type": "image",
+        "question": "",
+        "options": [
+            "/images/lytting/A1-S1-oppg2-op1.png",
+            "/images/lytting/A1-S1-oppg2-op2.png",
+            "/images/lytting/A1-S1-oppg2-op3.png",
+            "/images/lytting/A1-S1-oppg2-op4.png"
+        ],
+        "correct_answer": "/images/lytting/A1-S1-oppg2-op3.png",
+        "difficulty": "A1",
+        "sound": "/sound/2-A1-A2velgRiktigBilde/sett1/2_A1-A2_sett1.mp3"
+    },
+    {
+        "type": "image",
+        "question": "",
+        "options": [
+            "/images/lytting/A1-S1-oppg3-op1.png",
+            "/images/lytting/A1-S1-oppg3-op2.png",
+            "/images/lytting/A1-S1-oppg3-op3.png",
+            "/images/lytting/A1-S1-oppg3-op4.png"
+        ],
+        "correct_answer": "/images/lytting/A1-S1-oppg3-op1.png",
+        "difficulty": "A1",
+        "sound": "/sound/2-A1-A2velgRiktigBilde/sett1/3_A1-A2_sett1.mp3"
+    },
+    {
+        "type": "image",
+        "question": "",
+        "options": [
+            "/images/lytting/A1-S1-oppg4-op1.png",
+            "/images/lytting/A1-S1-oppg4-op2.png",
+            "/images/lytting/A1-S1-oppg4-op3.png",
+            "/images/lytting/A1-S1-oppg4-op4.png"
+        ],
+        "correct_answer": "/images/lytting/A1-S1-oppg4-op2.png",
+        "difficulty": "A1",
+        "sound": "/sound/2-A1-A2velgRiktigBilde/sett1/4_A1-A2_sett1.mp3"
+    },
+    {
+        "type": "image",
+        "question": "",
+        "options": [
+            "/images/lytting/A1-S1-oppg5-op1.png",
+            "/images/lytting/A1-S1-oppg5-op2.png",
+            "/images/lytting/A1-S1-oppg5-op3.png",
+            "/images/lytting/A1-S1-oppg5-op4.png"
+        ],
+        "correct_answer": "/images/lytting/A1-S1-oppg5-op3.png",
+        "difficulty": "A1",
+        "sound": "/sound/2-A1-A2velgRiktigBilde/sett1/5_A1-A2_sett1.mp3"
+    },
+    {
+        "type": "image",
+        "question": "",
+        "options": [
+            "/images/lytting/A1-S1-oppg6-op1.png",
+            "/images/lytting/A1-S1-oppg6-op2.png",
+            "/images/lytting/A1-S1-oppg6-op3.png",
+            "/images/lytting/A1-S1-oppg6-op4.png"
+        ],
+        "correct_answer": "/images/lytting/A1-S1-oppg6-op4.png",
+        "difficulty": "A1",
+        "sound": "/sound/2-A1-A2velgRiktigBilde/sett1/6_A1-A2_sett1.mp3"
+    },
+    {
+        "type": "image",
+        "question": "",
+        "options": [
+            "/images/lytting/A1-S1-oppg7-op1.png",
+            "/images/lytting/A1-S1-oppg7-op2.png",
+            "/images/lytting/A1-S1-oppg7-op3.png",
+            "/images/lytting/A1-S1-oppg7-op4.png"
+        ],
+        "correct_answer": "/images/lytting/A1-S1-oppg7-op1.png",
+        "difficulty": "A1",
+        "sound": "/sound/2-A1-A2velgRiktigBilde/sett1/7_A1-A2_sett1.mp3"
+    },
+    {
+        "type": "multiple",
+        "question": "",
+        "context": "",
+        "options": [
+            "A: 4769 kroner",
+            "B: 3799 kroner",
+            "C: 2999 kroner",
+            "D: 5999 kroner"
+        ],
+        "correct_answer": "C: 2999 kroner",
+        "difficulty": "A1",
+        "sound": "/sound/3-A1-A2flervalgsoppgaver/sett1/1_A1-A2_flerv_sett1.mp3"
+    },
+    {
+        "type": "multiple",
+        "question": "",
+        "context": "",
+        "options": [
+            "A: Klokka 16:00",
+            "B: Klokka 16:30",
+            "C: Klokka 17:00",
+            "D: Klokka 17:30"
+        ],
+        "correct_answer": "B: Klokka 16:30",
+        "difficulty": "A1",
+        "sound": "/sound/3-A1-A2flervalgsoppgaver/sett1/2_A1-A2_flerv_sett1.mp3"
+    },
+    {
+        "type": "multiple",
+        "question": "",
+        "context": "",
+        "options": [
+            "A: Hos vegvesenet",
+            "B: Hos frisøren",
+            "C: Hos legen",
+            "D: På skolen"
+        ],
+        "correct_answer": "A: Hos vegvesenet",
+        "difficulty": "A1",
+        "sound": "/sound/3-A1-A2flervalgsoppgaver/sett1/3_A1-A2_flerv_sett1.mp3"
+    },
+    {
+        "type": "multiple",
+        "question": "",
+        "context": "",
+        "options": [
+            "A: 129 000 kroner",
+            "B: 110 000 kroner",
+            "C: 115 000 kroner",
+            "D: 120 000 kroner"
+        ],
+        "correct_answer": "D: 120 000 kroner",
+        "difficulty": "A1",
+        "sound": "/sound/3-A1-A2flervalgsoppgaver/sett1/4_A1-A2_flerv_sett1.mp3"
+    },
+    {
+        "type": "multiple",
+        "question": "",
+        "context": "",
+        "options": [
+            "A: Starter i jobb",
+            "B: Drar på ferie",
+            "C: Studerer",
+            "D: Går i militæret"
+        ],
+        "correct_answer": "B: Drar på ferie",
+        "difficulty": "A1",
+        "sound": "/sound/3-A1-A2flervalgsoppgaver/sett1/5_A1-A2_flerv_sett1.mp3"
+    },
+    {
+        "type": "multiple",
+        "question": "",
+        "context": "",
+        "options": [
+            "A: Dårlige ansatte",
+            "B: Dårlig økonomi",
+            "C: Smittelsesring",
+            "D: Konkurs"
+        ],
+        "correct_answer": "B: Dårlig økonomi",
+        "difficulty": "A1",
+        "sound": "/sound/3-A1-A2flervalgsoppgaver/sett1/6_A1-A2_flerv_sett1.mp3"
+    },
+    {
+        "type": "multiple",
+        "question": "",
+        "context": "",
+        "options": [
+            "A: 1 pose",
+            "B: 3 poser",
+            "C: 4 poser",
+            "D: 5 poser"
+        ],
+        "correct_answer": "C: 4 poser",
+        "difficulty": "A1",
+        "sound": "/sound/3-A1-A2flervalgsoppgaver/sett1/7_A1-A2_flerv_sett1.mp3"
+    },
+    {
+        "type": "multiple",
+        "question": "",
+        "context": "",
+        "options": [
+            "A: 1 barn",
+            "B: 2 barn",
+            "C: 3 barn",
+            "D: 4 barn"
+        ],
+        "correct_answer": "B: 2 barn",
+        "difficulty": "A1",
+        "sound": "/sound/3-A1-A2flervalgsoppgaver/sett1/8_A1-A2_flerv_sett1.mp3"
+    },
+    {
+        "type": "multiple",
+        "question": "",
+        "context": "",
+        "options": [
+            "A: 1 katt",
+            "B: 2 katter",
+            "C: 3 katter",
+            "D: 5 katter"
+        ],
+        "correct_answer": "C: 3 katter",
+        "difficulty": "A1",
+        "sound": "/sound/3-A1-A2flervalgsoppgaver/sett1/9_A1-A2_flerv_sett1.mp3"
+    },
+    {
+        "type": "image-click",
+        "question": "",
+        "context": "",
+        "image": "/images/lytting/daycare.png",
+        "correctArea": {
+            "x": 1562,
+            "y": 773,
+            "radius": 80
+        },
+        "difficulty": "A1",
+        "sound": "/sound/4-A2-klikkibilde/sett1/1_A2_klikk_sett1.mp3"
+    },
+    {
+        "type": "image-click",
+        "question": "",
+        "context": "",
+        "image": "/images/lytting/daycare.png",
+        "correctArea": {
+            "x": 1145,
+            "y": 528,
+            "radius": 80
+        },
+        "difficulty": "A1",
+        "sound": "/sound/4-A2-klikkibilde/sett1/2_A2_klikk_sett1.mp3"
+    },
+    {
+        "type": "image-click",
+        "question": "",
+        "context": "",
+        "image": "/images/lytting/street.png",
+        "correctArea": {
+            "x": 1191,
+            "y": 710,
+            "radius": 80
+        },
+        "difficulty": "A1",
+        "sound": "/sound/4-A2-klikkibilde/sett1/3_A2_klikk_sett1.mp3"
+    },
+    {
+        "type": "image-click",
+        "question": "",
+        "context": "",
+        "image": "/images/lytting/picnic.png",
+        "correctArea": {
+            "x": 1309,
+            "y": 464,
+            "radius": 80
+        },
+        "difficulty": "A1",
+        "sound": "/sound/4-A2-klikkibilde/sett1/4_A2_klikk_sett1.mp3"
+    },
+    {
+        "type": "image-click",
+        "question": "",
+        "context": "",
+        "image": "/images/lytting/classroom.png",
+        "correctArea": {
+            "x": 517,
+            "y": 575,
+            "radius": 80
+        },
+        "difficulty": "A1",
+        "sound": "/sound/4-A2-klikkibilde/sett1/5_A2_klikk_sett1.mp3"
+    },
+    {
+        "type": "image-click",
+        "question": "",
+        "context": "",
+        "image": "/images/lytting/calendar.png",
+        "correctArea": {
+            "x": 604,
+            "y": 190,
+            "radius": 60
+        },
+        "difficulty": "A1",
+        "sound": "/sound/4-A2-klikkibilde/sett1/6_A2_klikk_sett1.mp3"
+    },
+    {
+        "type": "image-click",
+        "question": "",
+        "context": "",
+        "image": "/images/lytting/calendar.png",
+        "correctArea": {
+            "x": 1003,
+            "y": 457,
+            "radius": 60
+        },
+        "difficulty": "A1",
+        "sound": "/sound/4-A2-klikkibilde/sett1/7_A2_klikk_sett1.mp3"
+    },
+    {
+        "type": "image",
+        "question": "",
+        "options": [
+            "/images/lytting/A1-S1-oppg8-op1.png",
+            "/images/lytting/A1-S1-oppg8-op2.png",
+            "/images/lytting/A1-S1-oppg8-op3.png",
+            "/images/lytting/A1-S1-oppg8-op4.png"
+        ],
+        "correct_answer": "/images/lytting/A1-S1-oppg8-op3.png",
+        "difficulty": "A1",
+        "sound": "/sound/5-A2_VelgRiktigBilde/sett1/1_A2_velg_riktig_bilde_sett1.mp3"
+    },
+    {
+        "type": "image",
+        "question": "",
+        "options": [
+            "/images/lytting/A1-S1-oppg9-op1.png",
+            "/images/lytting/A1-S1-oppg9-op2.png",
+            "/images/lytting/A1-S1-oppg9-op3.png",
+            "/images/lytting/A1-S1-oppg9-op4.png"
+        ],
+        "correct_answer": "/images/lytting/A1-S1-oppg9-op4.png",
+        "difficulty": "A1",
+        "sound": "/sound/5-A2_VelgRiktigBilde/sett1/2_A2_velg_riktig_bilde_sett1.mp3"
+    },
+    {
+        "type": "image",
+        "question": "",
+        "options": [
+            "/images/lytting/A1-S1-oppg10-op1.png",
+            "/images/lytting/A1-S1-oppg10-op2.png",
+            "/images/lytting/A1-S1-oppg10-op3.png",
+            "/images/lytting/A1-S1-oppg10-op4.png"
+        ],
+        "correct_answer": "/images/lytting/A1-S1-oppg10-op1.png",
+        "difficulty": "A1",
+        "sound": "/sound/5-A2_VelgRiktigBilde/sett1/3_A2_velg_riktig_bilde_sett1.mp3"
+    },
+    {
+        "type": "image",
+        "question": "",
+        "options": [
+            "/images/lytting/A1-S1-oppg11-op1.png",
+            "/images/lytting/A1-S1-oppg11-op2.png",
+            "/images/lytting/A1-S1-oppg11-op3.png",
+            "/images/lytting/A1-S1-oppg11-op4.png"
+        ],
+        "correct_answer": "/images/lytting/A1-S1-oppg11-op2.png",
+        "difficulty": "A1",
+        "sound": "/sound/5-A2_VelgRiktigBilde/sett1/4_A2_velg_riktig_bilde_sett1.mp3"
+    },
+    {
+        "type": "image",
+        "question": "",
+        "options": [
+            "/images/lytting/A1-S1-oppg12-op1.png",
+            "/images/lytting/A1-S1-oppg12-op2.png",
+            "/images/lytting/A1-S1-oppg12-op3.png",
+            "/images/lytting/A1-S1-oppg12-op4.png"
+        ],
+        "correct_answer": "/images/lytting/A1-S1-oppg12-op3.png",
+        "difficulty": "A1",
+        "sound": "/sound/5-A2_VelgRiktigBilde/sett1/5_A2_velg_riktig_bilde_sett1.mp3"
+    },
+    {
+        "type": "image",
+        "question": "",
+        "options": [
+            "/images/lytting/A1-S1-oppg13-op1.png",
+            "/images/lytting/A1-S1-oppg13-op2.png",
+            "/images/lytting/A1-S1-oppg13-op3.png",
+            "/images/lytting/A1-S1-oppg13-op4.png"
+        ],
+        "correct_answer": "/images/lytting/A1-S1-oppg13-op3.png",
+        "difficulty": "A1",
+        "sound": "/sound/5-A2_VelgRiktigBilde/sett1/6_A2_velg_riktig_bilde_sett1.mp3"
+    }
+]

@@ -1,0 +1,142 @@
+[
+    {
+        "type": "multiple",
+        "question": "",
+        "context": "",
+        "options": [
+            "A: 1",
+            "B: 2",
+            "C: 3",
+            "D: 4"
+        ],
+        "correct_answer": "C: 3",
+        "difficulty": "B1",
+        "sound": "/sound/1-B1-flervalgsoppgaver/Sett2/1_B1_flervalgsoppgaver_sett2.mp3"
+    },
+    {
+        "type": "multiple",
+        "question": "",
+        "context": "",
+        "options": [
+            "A: 1",
+            "B: 2",
+            "C: 3",
+            "D: 4"
+        ],
+        "correct_answer": "C: 3",
+        "difficulty": "B1",
+        "sound": "/sound/1-B1-flervalgsoppgaver/Sett2/2_B1_flervalgsoppgaver_sett2.mp3"
+    },
+    {
+        "type": "multiple",
+        "question": "",
+        "context": "",
+        "options": [
+            "A: Hun leverte sekunder for hånd",
+            "B: Hun fant jobben på internett",
+            "C: Hun dro på seminar",
+            "D: Hun fikk et bra nettverk"
+        ],
+        "correct_answer": "A: Hun leverte sekunder for hånd",
+        "difficulty": "B1",
+        "sound": "/sound/1-B1-flervalgsoppgaver/Sett2/3_B1_flervalgsoppgaver_sett2.mp3"
+    },
+    {
+        "type": "multiple",
+        "question": "",
+        "context": "",
+        "options": [
+            "A: Gjennom gokart",
+            "B: Gjennom fridtaksløfeter",
+            "C: Gjennom venninna",
+            "D: Gjennom skolen"
+        ],
+        "correct_answer": "C: Gjennom venninna",
+        "difficulty": "B1",
+        "sound": "/sound/1-B1-flervalgsoppgaver/Sett2/4_B1_flervalgsoppgaver_sett2.mp3"
+    },
+    {
+        "type": "multiple",
+        "question": "",
+        "context": "",
+        "options": [
+            "A: Gjennom kjærasten",
+            "B: Gjennom surfing på havet",
+            "C: Gjennom reising",
+            "D: Gjennom internett"
+        ],
+        "correct_answer": "D: Gjennom internett",
+        "difficulty": "B1",
+        "sound": "/sound/1-B1-flervalgsoppgaver/Sett2/5_B1_flervalgsoppgaver_sett2.mp3"
+    },
+    {
+        "type": "multiple",
+        "question": "",
+        "context": "",
+        "options": [
+            "A: Fremkomstmiddel",
+            "B: Veto av barnehage",
+            "C: Mangel av penger",
+            "D: Miljøet i området"
+        ],
+        "correct_answer": "A: Fremkomstmiddel",
+        "difficulty": "B1",
+        "sound": "/sound/1-B1-flervalgsoppgaver/Sett2/6_B1_flervalgsoppgaver_sett2.mp3"
+    },
+    {
+        "type": "multiple",
+        "question": "",
+        "context": "",
+        "options": [
+            "A: Bytte barnehage",
+            "B: Spare tid og penger",
+            "C: Flytte nærmere barnehagen",
+            "D: Ikke bytte barnehage"
+        ],
+        "correct_answer": "D: Ikke bytte barnehage",
+        "difficulty": "B1",
+        "sound": "/sound/1-B1-flervalgsoppgaver/Sett2/7_B1_flervalgsoppgaver_sett2.mp3"
+    },
+    {
+        "type": "multiple",
+        "question": "",
+        "context": "",
+        "options": [
+            "A: Dummy svar 1",
+            "B: Dummy svar 2",
+            "C: Dummy svar 3",
+            "D: Dummy svar 4"
+        ],
+        "correct_answer": "A: Dummy svar 1",
+        "difficulty": "B1",
+        "sound": "/sound/1-B1-flervalgsoppgaver/Sett2/7_B1_flervalgsoppgaver_sett2.mp3"
+    },
+    {
+        "type": "multiple",
+        "question": "",
+        "context": "",
+        "options": [
+            "A: Dummy svar 1",
+            "B: Dummy svar 2",
+            "C: Dummy svar 3",
+            "D: Dummy svar 4"
+        ],
+        "correct_answer": "B: Dummy svar 2",
+        "difficulty": "B1",
+        "sound": "/sound/1-B1-flervalgsoppgaver/Sett2/7_B1_flervalgsoppgaver_sett2.mp3"
+    },
+    {
+        "type": "multiple",
+        "question": "",
+        "context": "",
+        "options": [
+            "A: Dummy svar 1",
+            "B: Dummy svar 2",
+            "C: Dummy svar 3",
+            "D: Dummy svar 4"
+        ],
+        "correct_answer": "C: Dummy svar 3",
+        "difficulty": "B1",
+        "sound": "/sound/1-B1-flervalgsoppgaver/Sett2/7_B1_flervalgsoppgaver_sett2.mp3"
+    }
+]

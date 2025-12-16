@@ -1,5 +1,5 @@
 import { useNavigate, useParams } from "react-router-dom";
-import { useEffect } from "react";
+import { useEffect, useRef, useState } from "react";
 import AnimateProvider from "../../components/AnimateProvider/AnimateProvider";
 import useQuestionStore from "../../data/GetData";
 import Question from "../../components/Questions/Questions";
@@ -17,8 +17,12 @@ import {
 
 function SingleQuestion() {
   const navigate = useNavigate();
-  const { id, set } = useParams(); // Now set = "1"
-  const filename = `${id}-${set}`;
+  const { category, id, set } = useParams(); // Get category (lesing/lytting), difficulty, and set
+  const isLytting = category === "lytting"; // Detect if this is a listening quiz
+  const filename = `${id}-${isLytting ? "Lytting-" : ""}${set}`;
+  const audioRef = useRef<HTMLAudioElement | null>(null);
+  const playPromiseRef = useRef<Promise<void> | null>(null);
+  const [audioProgress, setAudioProgress] = useState(0); // Track audio progress (0-100)
 
   // Access Zustand store state
   const {
@@ -40,6 +44,67 @@ function SingleQuestion() {
     }
   }, [id, allQuestions, page, set]);
 
+  // Auto-play sound for lytting questions
+  useEffect(() => {
+    if (isLytting && singleQuestion?.sound) {
+      // Create audio element if it doesn't exist
+      if (!audioRef.current) {
+        audioRef.current = new Audio();
+      }
+
+      const audio = audioRef.current;
+
+      // Reset progress when new audio loads
+      setAudioProgress(0);
+
+      // Update progress as audio plays
+      const handleTimeUpdate = () => {
+        if (audio.duration) {
+          const progress = (audio.currentTime / audio.duration) * 100;
+          setAudioProgress(progress);
+        }
+      };
+
+      // Auto-advance when audio ends (regardless of whether user answered or not)
+      const handleAudioEnd = () => {
+        setAudioProgress(100); // Ensure it shows 100% at the end
+        if (page < allQuestions.length) {
+          nextPage();
+          navigate(`/question/${category}/${id}/${set}`);
+        } else if (page === allQuestions.length) {
+          navigate("/finish");
+        }
+      };
+
+      audio.addEventListener("timeupdate", handleTimeUpdate);
+      audio.addEventListener("ended", handleAudioEnd);
+
+      // Set source and load, then play
+      audio.src = singleQuestion.sound;
+      audio.load(); // Important: load the new source
+
+      // Play the audio and store the promise
+      playPromiseRef.current = audio.play().catch((error) => {
+        // Ignore AbortError which happens when play is interrupted by pause
+        if (error.name !== 'AbortError') {
+          console.error("Error playing audio:", error);
+        }
+      });
+
+      // Cleanup
+      return () => {
+        audio.removeEventListener("timeupdate", handleTimeUpdate);
+        audio.removeEventListener("ended", handleAudioEnd);
+
+        // Pause immediately without waiting
+        audio.pause();
+        audio.currentTime = 0;
+        playPromiseRef.current = null;
+        setAudioProgress(0);
+      };
+    }
+  }, [page, singleQuestion, isLytting]);
+
   if (!singleQuestion) return <p>Loading... {filename}</p>;
 
   const userAnswer = allUserAnswers.find((ans) => ans.question === singleQuestion?.question);
@@ -53,35 +118,43 @@ function SingleQuestion() {
       falseAction();
     }
 
-    nextPage();
-    navigate(page === allQuestions.length ? "/finish" : `/question/${id}/${set}`);
+    // For lytting mode, don't auto-advance here - wait for audio to end
+    // For lesing mode, advance immediately
+    if (!isLytting) {
+      nextPage();
+      navigate(page === allQuestions.length ? "/finish" : `/question/${category}/${id}/${set}`);
+    }
   };
 
   function renderQuestionComponent() {
     switch (singleQuestion.type) {
       case "image-click":
-          if (!singleQuestion.correctArea || !singleQuestion.image) {
-            return <p>Error: Missing image or correct area data for image-click question.</p>;
-          }
-          
+        if (!singleQuestion.correctArea || !singleQuestion.image) {
+          return <p>Error: Missing image or correct area data for image-click question.</p>;
+        }
+
         return (
           <ImageClickAreaQuestion
-            question={singleQuestion.question}
-            context={singleQuestion.context}
+            question={isLytting ? "" : singleQuestion.question}
+            context={isLytting ? "" : singleQuestion.context}
             image={singleQuestion.image || ""}
             correctArea={singleQuestion.correctArea}
             handleClick={(answerString) => {
               const [correctness] = answerString.split("|");
 
               addAnswer({
-              question: singleQuestion.question,
-              answer: answerString, // ✅ store full "x|y|correct"
+                question: singleQuestion.question,
+                answer: answerString, // ✅ store full "x|y|correct"
               });
 
-            correctness === "correct" ? trueAction() : falseAction();
+              correctness === "correct" ? trueAction() : falseAction();
 
-              nextPage();
-              navigate(page === allQuestions.length ? "/finish" : `/question/${id}/${set}`);
+              // For lytting mode, don't auto-advance - wait for audio to end
+              // For lesing mode, advance immediately
+              if (!isLytting) {
+                nextPage();
+                navigate(page === allQuestions.length ? "/finish" : `/question/${category}/${id}/${set}`);
+              }
             }}
             summary={false}
             difficulty={singleQuestion.difficulty || ""}
@@ -90,20 +163,20 @@ function SingleQuestion() {
       case "image":
         return (
           <ImageQuestion
-            question={singleQuestion.question}
+            question={isLytting ? "" : singleQuestion.question}
             options={singleQuestion.options || []}
             correctAnswer={singleQuestion.correct_answer}
             handleClick={handleClick}
             summary={false}
             imageSrc={singleQuestion.image || null}
-            sentence={singleQuestion.sentence || null}
+            sentence={isLytting ? null : (singleQuestion.sentence || null)}
             difficulty={singleQuestion.difficulty || ""}
           />
         );
       case "word-selection":
         return (
           <WordSelectionQuestion
-            question={singleQuestion.question}
+            question={isLytting ? "" : singleQuestion.question}
             sentence={singleQuestion.sentence || ""}
             correctWord={singleQuestion.correct_answer}
             handleClick={handleClick}
@@ -114,7 +187,7 @@ function SingleQuestion() {
       case "paragraph-selection":
         return (
           <ParagraphSelectionQuestion
-            question={singleQuestion.question}
+            question={isLytting ? "" : singleQuestion.question}
             paragraphs={singleQuestion.paragraphs || []}
             correctParagraph={singleQuestion.correct_answer}
             handleClick={handleClick}
@@ -122,60 +195,68 @@ function SingleQuestion() {
             summary={false}
           />
         );
-        case "sentence-dropdown":
-  if (
-    !Array.isArray(singleQuestion.sentenceParts) ||
-    !Array.isArray(singleQuestion.dropdownOptions) ||
-    !Array.isArray(singleQuestion.correct_answer)
-  ) {
-    return <p className="text-danger-600">Feil: Mangler data for sentence-dropdown</p>;
-  }
+      case "sentence-dropdown":
+        if (
+          !Array.isArray(singleQuestion.sentenceParts) ||
+          !Array.isArray(singleQuestion.dropdownOptions) ||
+          !Array.isArray(singleQuestion.correct_answer)
+        ) {
+          return <p className="text-danger-600">Feil: Mangler data for sentence-dropdown</p>;
+        }
 
-  return (
-    <SentenceDropdownQuestion
-      sentenceParts={singleQuestion.sentenceParts}
-      options={singleQuestion.dropdownOptions}
-      correctAnswers={singleQuestion.correct_answer}
-      userAnswer={
-        userAnswer?.answer
-          ? userAnswer.answer
-              .split("||")
-              .sort()
-              .map((a) => a.split("|")[1])
-          : []
-      }
-      handleClick={(val) => {
-        addAnswer({
-          question: singleQuestion.question,
-          answer: val,
-        });
+        return (
+          <SentenceDropdownQuestion
+            sentenceParts={singleQuestion.sentenceParts}
+            options={singleQuestion.dropdownOptions}
+            correctAnswers={singleQuestion.correct_answer}
+            userAnswer={
+              userAnswer?.answer
+                ? userAnswer.answer
+                  .split("||")
+                  .sort()
+                  .map((a) => a.split("|")[1])
+                : []
+            }
+            handleClick={(val) => {
+              addAnswer({
+                question: singleQuestion.question,
+                answer: val,
+              });
 
-        const selectedAnswers = val
-          .split("||")
-          .map((entry) => entry.split("|")[1]);
+              const selectedAnswers = val
+                .split("||")
+                .map((entry) => entry.split("|")[1]);
 
-        const isCorrect = selectedAnswers.every(
-          (ans, i) => ans === singleQuestion.correct_answer[i]
+              const isCorrect = selectedAnswers.every(
+                (ans, i) => ans === singleQuestion.correct_answer[i]
+              );
+
+              isCorrect ? trueAction() : falseAction();
+
+              // For lytting mode, don't auto-advance - wait for audio to end
+              // For lesing mode, advance immediately
+              if (!isLytting) {
+                nextPage();
+                navigate(page === allQuestions.length ? "/finish" : `/question/${category}/${id}/${set}`);
+              }
+            }}
+
+            summary={false}
+            difficulty={singleQuestion.difficulty || ""}
+          />
         );
 
-        isCorrect ? trueAction() : falseAction();
 
-        nextPage();
-        navigate(page === allQuestions.length ? "/finish" : `/question/${id}/${set}`);
-      }}
-
-      summary={false}
-      difficulty={singleQuestion.difficulty || ""}
-    />
-  );
-
-  
       default:
         return (
           <Question
             id={page}
             handleClick={handleClick}
-            singleQuestion={singleQuestion}
+            singleQuestion={{
+              ...singleQuestion,
+              question: isLytting ? "" : singleQuestion.question,
+              context: isLytting ? "" : singleQuestion.context,
+            }}
             summary={false}
             trueAnswer={singleQuestion.correct_answer}
             userAnswer={userAnswer?.answer || ""}
@@ -200,7 +281,7 @@ function SingleQuestion() {
     <>
       <Header />
       <ScaledContent>
-        <AnimateProvider className="max-w-[65vw] mx-auto">
+        <AnimateProvider className={`max-w-[65vw] mx-auto ${isLytting ? 'pb-24' : ''}`}>
           {/* ✅ Progress bar */}
           <div className="w-full bg-gray-200 rounded-full h-3 mt-6 mb-2">
             <div
@@ -212,39 +293,55 @@ function SingleQuestion() {
             Spørsmål {page} av {allQuestions.length}
           </p>
 
-          {/* Question Navigator */}
-          <QuestionNavigator />
+          {/* Question Navigator - Hide for lytting mode */}
+          {!isLytting && <QuestionNavigator />}
 
-          {/* Navigation Buttons */}
-          <div className="flex justify-between items-center mb-6 gap-4">
-            <button
-              onClick={handlePrevious}
-              disabled={page === 1}
-              className={`px-6 py-2 rounded-lg font-semibold transition-all ${
-                page === 1
+          {/* Navigation Buttons - Hide for lytting mode */}
+          {!isLytting && (
+            <div className="flex justify-between items-center mb-6 gap-4">
+              <button
+                onClick={handlePrevious}
+                disabled={page === 1}
+                className={`px-6 py-2 rounded-lg font-semibold transition-all ${page === 1
                   ? "bg-gray-300 text-gray-500 cursor-not-allowed"
                   : "bg-primary-500 text-white hover:bg-primary-600"
-              }`}
-            >
-              ← Forrige
-            </button>
-            <button
-              onClick={handleNext}
-              disabled={page === allQuestions.length}
-              className={`px-6 py-2 rounded-lg font-semibold transition-all ${
-                page === allQuestions.length
+                  }`}
+              >
+                ← Forrige
+              </button>
+              <button
+                onClick={handleNext}
+                disabled={page === allQuestions.length}
+                className={`px-6 py-2 rounded-lg font-semibold transition-all ${page === allQuestions.length
                   ? "bg-gray-300 text-gray-500 cursor-not-allowed"
                   : "bg-primary-500 text-white hover:bg-primary-600"
-              }`}
-            >
-              Neste →
-            </button>
-          </div>
+                  }`}
+              >
+                Neste →
+              </button>
+            </div>
+          )}
 
           <div className="flex max-w-fit flex-col ml-auto space-x-3 mb-10">
             {/* TimeStamp Component */}
           </div>
           {renderQuestionComponent()}
+
+          {/* Audio Progress Bar - Only for lytting mode */}
+          {isLytting && (
+            <div className="fixed bottom-0 left-0 right-0 bg-white shadow-lg border-t border-gray-200 p-4">
+              <div className="max-w-4xl mx-auto">
+                <div className="flex items-center gap-3">
+                  <div className="flex-1 bg-gray-200 rounded-full h-3 overflow-hidden">
+                    <div
+                      className="bg-primary-500 h-full rounded-full transition-all duration-300 ease-linear"
+                      style={{ width: `${audioProgress}%` }}
+                    ></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          )}
         </AnimateProvider>
       </ScaledContent>
     </>

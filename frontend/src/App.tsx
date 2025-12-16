@@ -4,9 +4,9 @@ import { useNavigate } from 'react-router-dom';
 function App() {
   const navigate = useNavigate();
 
-  const handleBegin = (_category: string) => {
-    // Navigate to the Quiz page first, then they will choose difficulty there
-    navigate(`/question`, { replace: false }); // Navigating to /question for quiz
+  const handleBegin = (category: string) => {
+    // Navigate to the Quiz page with category (lesing or lytting)
+    navigate(`/question/${category}`, { replace: false });
   };
 
   return (

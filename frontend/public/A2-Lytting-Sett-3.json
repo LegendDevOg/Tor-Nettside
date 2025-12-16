@@ -1,0 +1,150 @@
+[
+    {
+        "type": "multiple",
+        "question": "",
+        "context": "",
+        "options": [
+            "A: Ina Undstad",
+            "B: Teodor Albrigsten",
+            "C: Aksel Kristiansen",
+            "D: Fredrik Øisnes"
+        ],
+        "correct_answer": "C: Aksel Kristiansen",
+        "difficulty": "A2",
+        "sound": "/sound/1_A2-B1_flervalgsoppgaver/Sett3/1_A2-B1_flerv_sett3.mp3"
+    },
+    {
+        "type": "multiple",
+        "question": "",
+        "context": "",
+        "options": [
+            "A: 5",
+            "B: 1",
+            "C: 3",
+            "D: 4"
+        ],
+        "correct_answer": "D: 4",
+        "difficulty": "A2",
+        "sound": "/sound/1_A2-B1_flervalgsoppgaver/Sett3/2_A2-B1_flerv_sett3.mp3"
+    },
+    {
+        "type": "multiple",
+        "question": "",
+        "context": "",
+        "options": [
+            "A: Hun liker ikke tiltaket",
+            "B: Det er på tide å kjøre bil",
+            "C: Hun har dårlig tid",
+            "D: Hun synes det er et bra tiltak"
+        ],
+        "correct_answer": "D: Hun synes det er et bra tiltak",
+        "difficulty": "A2",
+        "sound": "/sound/1_A2-B1_flervalgsoppgaver/Sett3/3_A2-B1_flerv_sett3.mp3"
+    },
+    {
+        "type": "multiple",
+        "question": "",
+        "context": "",
+        "options": [
+            "A: Sparsom",
+            "B: Selskin",
+            "C: Fattig",
+            "D: Økonomisk uansvarlig"
+        ],
+        "correct_answer": "D: Økonomisk uansvarlig",
+        "difficulty": "A2",
+        "sound": "/sound/1_A2-B1_flervalgsoppgaver/Sett3/4_A2-B1_flerv_sett3.mp3"
+    },
+    {
+        "type": "multiple",
+        "question": "",
+        "context": "",
+        "options": [
+            "A: Sparsom",
+            "B: Selskin",
+            "C: Fattig",
+            "D: Økonomisk uansvarlig"
+        ],
+        "correct_answer": "A: Sparsom",
+        "difficulty": "A2",
+        "sound": "/sound/1_A2-B1_flervalgsoppgaver/Sett3/4_A2-B1_flerv_sett3.mp3"
+    },
+    {
+        "type": "multiple",
+        "question": "",
+        "context": "",
+        "options": [
+            "A: Sparsom",
+            "B: Selskin",
+            "C: Fattig",
+            "D: Økonomisk uansvarlig"
+        ],
+        "correct_answer": "C: Fattig",
+        "difficulty": "A2",
+        "sound": "/sound/1_A2-B1_flervalgsoppgaver/Sett3/5_A2-B1_flerv_sett3.mp3"
+    },
+    {
+        "type": "multiple",
+        "question": "",
+        "context": "",
+        "options": [
+            "Været",
+            "prisene",
+            "kulturen",
+            "oppholdet",
+            "maten",
+            "flyturen"
+        ],
+        "correct_answer": "oppholdet",
+        "difficulty": "A2",
+        "sound": "/sound/1_A2-B1_flervalgsoppgaver/Sett3/6_A2-B1_flerv_sett3.mp3"
+    },
+    {
+        "type": "multiple",
+        "question": "",
+        "context": "",
+        "options": [
+            "Været",
+            "prisene",
+            "kulturen",
+            "oppholdet",
+            "maten",
+            "flyturen"
+        ],
+        "correct_answer": "kulturen",
+        "difficulty": "A2",
+        "sound": "/sound/2_A2-B1_tema-serier/Sett3/6_A2-B1_flerv_sett3.mp3"
+    },
+    {
+        "type": "multiple",
+        "question": "",
+        "context": "",
+        "options": [
+            "Været",
+            "prisene",
+            "kulturen",
+            "oppholdet",
+            "maten",
+            "flyturen"
+        ],
+        "correct_answer": "prisene",
+        "difficulty": "A2",
+        "sound": "/sound/2_A2-B1_tema-serier/Sett3/6_A2-B1_flerv_sett3.mp3"
+    },
+    {
+        "type": "multiple",
+        "question": "",
+        "context": "",
+        "options": [
+            "Været",
+            "prisene",
+            "kulturen",
+            "oppholdet",
+            "maten",
+            "flyturen"
+        ],
+        "correct_answer": "flyturen",
+        "difficulty": "A2",
+        "sound": "/sound/2_A2-B1_tema-serier/Sett3/6_A2-B1_flerv_sett3.mp3"
+    }
+]

@@ -1,0 +1,150 @@
+[
+    {
+        "type": "multiple",
+        "question": "",
+        "context": "",
+        "options": [
+            "A: 2 prosent",
+            "B: 4 prosent",
+            "C: 6 prosent",
+            "D: 5 prosent"
+        ],
+        "correct_answer": "C: 6 prosent",
+        "difficulty": "A2",
+        "sound": "/sound/1_A2-B1_flervalgsoppgaver/Sett1/1_A2-B1_flerv_sett1.mp3"
+    },
+    {
+        "type": "multiple",
+        "question": "",
+        "context": "",
+        "options": [
+            "A: 10 prosent",
+            "B: 5 prosent",
+            "C: 15 prosent",
+            "D: 12 prosent"
+        ],
+        "correct_answer": "C: 15 prosent",
+        "difficulty": "A2",
+        "sound": "/sound/1_A2-B1_flervalgsoppgaver/Sett1/2_A2-B1_flerv_sett1.mp3"
+    },
+    {
+        "type": "multiple",
+        "question": "",
+        "context": "",
+        "options": [
+            "A: Kristiansand",
+            "B: Kautokeino",
+            "C: Tromsø",
+            "D: Oslo"
+        ],
+        "correct_answer": "B: Kautokeino",
+        "difficulty": "A2",
+        "sound": "/sound/1_A2-B1_flervalgsoppgaver/Sett1/3_A2-B1_flerv_sett1.mp3"
+    },
+    {
+        "type": "multiple",
+        "question": "",
+        "context": "",
+        "options": [
+            "A: Lege",
+            "B: Tanner",
+            "C: Lærer",
+            "D: Advokat"
+        ],
+        "correct_answer": "B: Tanner",
+        "difficulty": "A2",
+        "sound": "/sound/1_A2-B1_flervalgsoppgaver/Sett1/4_A2-B1_flerv_sett1.mp3"
+    },
+    {
+        "type": "multiple",
+        "question": "",
+        "context": "",
+        "options": [
+            "A: Lege",
+            "B: Tanner",
+            "C: Lærer",
+            "D: Advokat"
+        ],
+        "correct_answer": "C: Lærer",
+        "difficulty": "A2",
+        "sound": "/sound/1_A2-B1_flervalgsoppgaver/Sett1/4_A2-B1_flerv_sett1.mp3"
+    },
+    {
+        "type": "multiple",
+        "question": "",
+        "context": "",
+        "options": [
+            "A: Lege",
+            "B: Tanner",
+            "C: Lærer",
+            "D: Advokat"
+        ],
+        "correct_answer": "D: Advokat",
+        "difficulty": "A2",
+        "sound": "/sound/1_A2-B1_flervalgsoppgaver/Sett1/4_A2-B1_flerv_sett1.mp3"
+    },
+    {
+        "type": "multiple",
+        "question": "",
+        "context": "",
+        "options": [
+            "Leiligheten",
+            "maten",
+            "været",
+            "naturen",
+            "kulturlivet",
+            "vennskap"
+        ],
+        "correct_answer": "naturen",
+        "difficulty": "A2",
+        "sound": "/sound/1_A2-B1_flervalgsoppgaver/Sett 1/6_A2-B1_flerv_sett1.mp3"
+    },
+    {
+        "type": "multiple",
+        "question": "",
+        "context": "",
+        "options": [
+            "Leiligheten",
+            "maten",
+            "været",
+            "naturen",
+            "kulturlivet",
+            "vennskap"
+        ],
+        "correct_answer": "vennskap",
+        "difficulty": "A2",
+        "sound": "/sound/1_A2-B1_flervalgsoppgaver/Sett 1/6_A2-B1_flerv_sett1.mp3"
+    },
+    {
+        "type": "multiple",
+        "question": "",
+        "context": "",
+        "options": [
+            "Leiligheten",
+            "maten",
+            "været",
+            "naturen",
+            "kulturlivet",
+            "vennskap"
+        ],
+        "correct_answer": "Leiligheten",
+        "difficulty": "A2",
+        "sound": "/sound/1_A2-B1_flervalgsoppgaver/Sett 1/6_A2-B1_flerv_sett1.mp3"
+    },
+    {
+        "type": "multiple",
+        "question": "",
+        "context": "",
+        "options": [
+            "Leiligheten",
+            "maten",
+            "været",
+            "naturen",
+            "kulturlivet",
+            "vennskap"
+        ],
+        "correct_answer": "naturen",
+        "difficulty": "A2",
+        "sound": "/sound/1_A2-B1_flervalgsoppgaver/Sett 1/6_A2-B1_flerv_sett1.mp3"
+    }
+]

@@ -1,4 +1,4 @@
-import { useNavigate } from "react-router-dom";
+import { useNavigate, useParams } from "react-router-dom";
 import AnimateProvider from "../../components/AnimateProvider/AnimateProvider";
 import viteLogo from './../../assets/logo.svg';
 import Header from "../../components/Header/Header";
@@ -6,10 +6,11 @@ import ScaledContent from "../../components/ScaledContent/ScaledContent";
 
 function Quiz() {
   const navigate = useNavigate();
+  const { category } = useParams(); // Get category from URL (lesing or lytting)
 
-  const handleBegin = (_category: string) => {
-    // Navigate to the difficulty selection page (vannskelig) for the selected category (lesing or lytting)
-    navigate(`/vannskelig/${_category}`, { replace: false });
+  const handleBegin = (difficulty: string) => {
+    // Navigate to the set selection page with category and difficulty
+    navigate(`/vannskelig/${category}/${difficulty}`, { replace: false });
   };
 
   return (
@@ -25,7 +26,7 @@ function Quiz() {
 
             {/* Title Section */}
             <h1 className="text-6xl font-bold text-black-600 mb-16 text-center">
-              Leseprøven <span className="text-gray-800"></span>
+              {category === "lytting" ? "Lytteprøven" : "Leseprøven"} <span className="text-gray-800"></span>
             </h1>
 
             {/* Buttons Section */}

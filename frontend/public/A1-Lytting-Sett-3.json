@@ -1,0 +1,466 @@
+[
+    {
+        "type": "image-click",
+        "question": "",
+        "context": "",
+        "image": "/images/lytting/parken.png",
+        "correctArea": {
+            "x": 672,
+            "y": 655,
+            "radius": 80
+        },
+        "difficulty": "A1",
+        "sound": "/sound/1-A1-A2klikkibildeogkalender/sett3/1_A1-A2_sett3.mp3"
+    },
+    {
+        "type": "image-click",
+        "question": "",
+        "context": "",
+        "image": "/images/lytting/parken.png",
+        "correctArea": {
+            "x": 1543,
+            "y": 325,
+            "radius": 80
+        },
+        "difficulty": "A1",
+        "sound": "/sound/1-A1-A2klikkibildeogkalender/sett3/2_A1-A2_sett3.mp3"
+    },
+    {
+        "type": "image-click",
+        "question": "",
+        "context": "",
+        "image": "/images/lytting/parken.png",
+        "correctArea": {
+            "x": 672,
+            "y": 655,
+            "radius": 80
+        },
+        "difficulty": "A1",
+        "sound": "/sound/1-A1-A2klikkibildeogkalender/sett3/3_A1-A2_sett3.mp3"
+    },
+    {
+        "type": "image-click",
+        "question": "",
+        "context": "",
+        "image": "/images/lytting/parken.png",
+        "correctArea": {
+            "x": 946,
+            "y": 554,
+            "radius": 80
+        },
+        "difficulty": "A1",
+        "sound": "/sound/1-A1-A2klikkibildeogkalender/sett3/4_A1-A2_sett3.mp3"
+    },
+    {
+        "type": "image-click",
+        "question": "",
+        "context": "",
+        "image": "/images/lytting/uke-kalender.png",
+        "correctArea": {
+            "x": 1293,
+            "y": 537,
+            "radius": 80
+        },
+        "difficulty": "A1",
+        "sound": "/sound/1-A1-A2klikkibildeogkalender/sett3/5_A1-A2_sett3.mp3"
+    },
+    {
+        "type": "image-click",
+        "question": "",
+        "context": "",
+        "image": "/images/lytting/calendar.png",
+        "correctArea": {
+            "x": 599,
+            "y": 443,
+            "radius": 60
+        },
+        "difficulty": "A1",
+        "sound": "/sound/1-A1-A2klikkibildeogkalender/sett3/6_A1-A2_sett3.mp3"
+    },
+    {
+        "type": "image",
+        "question": "",
+        "options": [
+            "/images/lytting/A1-S3-oppg1-op1.png",
+            "/images/lytting/A1-S3-oppg1-op2.png",
+            "/images/lytting/A1-S3-oppg1-op3.png",
+            "/images/lytting/A1-S3-oppg1-op4.png"
+        ],
+        "correct_answer": "/images/lytting/A1-S3-oppg1-op2.png",
+        "difficulty": "A1",
+        "sound": "/sound/2-A1-A2velgRiktigBilde/sett3/1_A1-A2_sett3.mp3"
+    },
+    {
+        "type": "image",
+        "question": "",
+        "options": [
+            "/images/lytting/A1-S3-oppg2-op1.png",
+            "/images/lytting/A1-S3-oppg2-op2.png",
+            "/images/lytting/A1-S3-oppg2-op3.png",
+            "/images/lytting/A1-S3-oppg2-op4.png"
+        ],
+        "correct_answer": "/images/lytting/A1-S3-oppg2-op3.png",
+        "difficulty": "A1",
+        "sound": "/sound/2-A1-A2velgRiktigBilde/sett3/2_A1-A2_sett3.mp3"
+    },
+    {
+        "type": "image",
+        "question": "",
+        "options": [
+            "/images/lytting/A1-S3-oppg3-op1.png",
+            "/images/lytting/A1-S3-oppg3-op2.png",
+            "/images/lytting/A1-S3-oppg3-op3.png",
+            "/images/lytting/A1-S3-oppg3-op4.png"
+        ],
+        "correct_answer": "/images/lytting/A1-S3-oppg3-op1.png",
+        "difficulty": "A1",
+        "sound": "/sound/2-A1-A2velgRiktigBilde/sett3/3_A1-A2_sett3.mp3"
+    },
+    {
+        "type": "image",
+        "question": "",
+        "options": [
+            "/images/lytting/A1-S3-oppg4-op1.png",
+            "/images/lytting/A1-S3-oppg4-op2.png",
+            "/images/lytting/A1-S3-oppg4-op3.png",
+            "/images/lytting/A1-S3-oppg4-op4.png"
+        ],
+        "correct_answer": "/images/lytting/A1-S3-oppg4-op4.png",
+        "difficulty": "A1",
+        "sound": "/sound/2-A1-A2velgRiktigBilde/sett3/4_A1-A2_sett3.mp3"
+    },
+    {
+        "type": "image",
+        "question": "",
+        "options": [
+            "/images/lytting/A1-S3-oppg5-op1.png",
+            "/images/lytting/A1-S3-oppg5-op2.png",
+            "/images/lytting/A1-S3-oppg5-op3.png",
+            "/images/lytting/A1-S3-oppg5-op4.png"
+        ],
+        "correct_answer": "/images/lytting/A1-S3-oppg5-op1.png",
+        "difficulty": "A1",
+        "sound": "/sound/2-A1-A2velgRiktigBilde/sett3/5_A1-A2_sett3.mp3"
+    },
+    {
+        "type": "image",
+        "question": "",
+        "options": [
+            "/images/lytting/A1-S3-oppg6-op1.png",
+            "/images/lytting/A1-S3-oppg6-op2.png",
+            "/images/lytting/A1-S3-oppg6-op3.png",
+            "/images/lytting/A1-S3-oppg6-op4.png"
+        ],
+        "correct_answer": "/images/lytting/A1-S3-oppg6-op1.png",
+        "difficulty": "A1",
+        "sound": "/sound/2-A1-A2velgRiktigBilde/sett3/6_A1-A2_sett3.mp3"
+    },
+    {
+        "type": "image",
+        "question": "",
+        "options": [
+            "/images/lytting/A1-S3-oppg7-op1.png",
+            "/images/lytting/A1-S3-oppg7-op2.png",
+            "/images/lytting/A1-S3-oppg7-op3.png",
+            "/images/lytting/A1-S3-oppg7-op4.png"
+        ],
+        "correct_answer": "/images/lytting/A1-S3-oppg7-op3.png",
+        "difficulty": "A1",
+        "sound": "/sound/2-A1-A2velgRiktigBilde/sett3/7_A1-A2_sett3.mp3"
+    },
+    {
+        "type": "multiple",
+        "question": "",
+        "context": "",
+        "options": [
+            "A: 30 kroner",
+            "B: 15 kroner",
+            "C: 50 kroner",
+            "D: 3 kroner"
+        ],
+        "correct_answer": "B: 15 kroner",
+        "difficulty": "A1",
+        "sound": "/sound/3-A1-A2flervalgsoppgaver/sett3/1_A1-A2_flerv_sett3.mp3"
+    },
+    {
+        "type": "multiple",
+        "question": "",
+        "context": "",
+        "options": [
+            "A: Hei, kan jeg bestille en pizza?",
+            "B: For yrkesbåt er det stengd",
+            "C: På torsdag er det en helligdag, me",
+            "D: På helligdag"
+        ],
+        "correct_answer": "C: På torsdag er det en helligdag, me",
+        "difficulty": "A1",
+        "sound": "/sound/3-A1-A2flervalgsoppgaver/sett3/2_A1-A2_flerv_sett3.mp3"
+    },
+    {
+        "type": "multiple",
+        "question": "",
+        "context": "",
+        "options": [
+            "A: På byggetorget",
+            "B: På nata",
+            "C: Hos tannlegen",
+            "D: Hos legen"
+        ],
+        "correct_answer": "C: Hos tannlegen",
+        "difficulty": "A1",
+        "sound": "/sound/3-A1-A2flervalgsoppgaver/sett3/3_A1-A2_flerv_sett3.mp3"
+    },
+    {
+        "type": "multiple",
+        "question": "",
+        "context": "",
+        "options": [
+            "A: Duken",
+            "B: Julenesyret",
+            "C: Julenissen",
+            "D: Fatøne"
+        ],
+        "correct_answer": "D: Fatøne",
+        "difficulty": "A1",
+        "sound": "/sound/3-A1-A2flervalgsoppgaver/sett3/4_A1-A2_flerv_sett3.mp3"
+    },
+    {
+        "type": "multiple",
+        "question": "",
+        "context": "",
+        "options": [
+            "A: Gå med i valgt",
+            "B: Være sunnere",
+            "C: Spare penger",
+            "D: Lese mer"
+        ],
+        "correct_answer": "B: Være sunnere",
+        "difficulty": "A1",
+        "sound": "/sound/3-A1-A2flervalgsoppgaver/sett3/5_A1-A2_flerv_sett3.mp3"
+    },
+    {
+        "type": "multiple",
+        "question": "",
+        "context": "",
+        "options": [
+            "A: 240 000 kroner",
+            "B: 70 millioner kroner",
+            "C: 65 millioner kroner",
+            "D: 60 millioner kroner"
+        ],
+        "correct_answer": "C: 65 millioner kroner",
+        "difficulty": "A1",
+        "sound": "/sound/3-A1-A2flervalgsoppgaver/sett3/6_A1-A2_flerv_sett3.mp3"
+    },
+    {
+        "type": "multiple",
+        "question": "",
+        "context": "",
+        "options": [
+            "A: To baker",
+            "B: Fire baker",
+            "C: Seks baker",
+            "D: Fem baker"
+        ],
+        "correct_answer": "D: Fem baker",
+        "difficulty": "A1",
+        "sound": "/sound/3-A1-A2flervalgsoppgaver/sett3/7_A1-A2_flerv_sett3.mp3"
+    },
+    {
+        "type": "multiple",
+        "question": "",
+        "context": "",
+        "options": [
+            "A: 3 søsken",
+            "B: 7 søsken",
+            "C: 6 søsken",
+            "D: 4 søsken"
+        ],
+        "correct_answer": "A: 3 søsken",
+        "difficulty": "A1",
+        "sound": "/sound/3-A1-A2flervalgsoppgaver/sett3/8_A1-A2_flerv_sett3.mp3"
+    },
+    {
+        "type": "multiple",
+        "question": "",
+        "context": "",
+        "options": [
+            "A: 5 medaljer",
+            "B: 6 medaljer",
+            "C: 10 medaljer",
+            "D: 8 medaljer"
+        ],
+        "correct_answer": "B: 6 medaljer",
+        "difficulty": "A1",
+        "sound": "/sound/3-A1-A2flervalgsoppgaver/sett3/1_A1-A2_flerv_sett3.mp3"
+    },
+    {
+        "type": "image-click",
+        "question": "",
+        "context": "",
+        "image": "/images/lytting/livingroom.png",
+        "correctArea": {
+            "x": 946,
+            "y": 427,
+            "radius": 80
+        },
+        "difficulty": "A1",
+        "sound": "/sound/4-A2-klikkibilde/sett3/1_A2_klikk_sett3.mp3"
+    },
+    {
+        "type": "image-click",
+        "question": "",
+        "context": "",
+        "image": "/images/lytting/livingroom.png",
+        "correctArea": {
+            "x": 1219,
+            "y": 382,
+            "radius": 80
+        },
+        "difficulty": "A1",
+        "sound": "/sound/4-A2-klikkibilde/sett3/2_A2_klikk_sett3.mp3"
+    },
+    {
+        "type": "image-click",
+        "question": "",
+        "context": "",
+        "image": "/images/lytting/station.png",
+        "correctArea": {
+            "x": 959,
+            "y": 251,
+            "radius": 80
+        },
+        "difficulty": "A1",
+        "sound": "/sound/4-A2-klikkibilde/sett3/3_A2_klikk_sett3.mp3"
+    },
+    {
+        "type": "image-click",
+        "question": "",
+        "context": "",
+        "image": "/images/lytting/beach.png",
+        "correctArea": {
+            "x": 917,
+            "y": 700,
+            "radius": 80
+        },
+        "difficulty": "A1",
+        "sound": "/sound/4-A2-klikkibilde/sett3/4_A2_klikk_sett3.mp3"
+    },
+    {
+        "type": "image-click",
+        "question": "",
+        "context": "",
+        "image": "/images/lytting/park.png",
+        "correctArea": {
+            "x": 894,
+            "y": 578,
+            "radius": 80
+        },
+        "difficulty": "A1",
+        "sound": "/sound/4-A2-klikkibilde/sett3/5_A2_klikk_sett3.mp3"
+    },
+    {
+        "type": "image-click",
+        "question": "",
+        "context": "",
+        "image": "/images/lytting/calendar.png",
+        "correctArea": {
+            "x": 599,
+            "y": 187,
+            "radius": 60
+        },
+        "difficulty": "A1",
+        "sound": "/sound/4-A2-klikkibilde/sett3/6_A2_klikk_sett3.mp3"
+    },
+    {
+        "type": "image-click",
+        "question": "",
+        "context": "",
+        "image": "/images/lytting/calendar.png",
+        "correctArea": {
+            "x": 1388,
+            "y": 758,
+            "radius": 60
+        },
+        "difficulty": "A1",
+        "sound": "/sound/4-A2-klikkibilde/sett3/7_A2_klikk_sett3.mp3"
+    },
+    {
+        "type": "image",
+        "question": "",
+        "options": [
+            "/images/lytting/A1-S3-oppg8-op1.png",
+            "/images/lytting/A1-S3-oppg8-op2.png",
+            "/images/lytting/A1-S3-oppg8-op3.png",
+            "/images/lytting/A1-S3-oppg8-op4.png"
+        ],
+        "correct_answer": "/images/lytting/A1-S3-oppg8-op1.png",
+        "difficulty": "A1",
+        "sound": "/sound/5-A2_VelgRiktigBilde/sett3/2_A2_velg_riktig_bilde_sett3.mp3"
+    },
+    {
+        "type": "image",
+        "question": "",
+        "options": [
+            "/images/lytting/A1-S3-oppg9-op1.png",
+            "/images/lytting/A1-S3-oppg9-op2.png",
+            "/images/lytting/A1-S3-oppg9-op3.png",
+            "/images/lytting/A1-S3-oppg9-op4.png"
+        ],
+        "correct_answer": "/images/lytting/A1-S3-oppg9-op3.png",
+        "difficulty": "A1",
+        "sound": "/sound/5-A2_VelgRiktigBilde/sett3/3_A2_velg_riktig_bilde_sett3.mp3"
+    },
+    {
+        "type": "image",
+        "question": "",
+        "options": [
+            "/images/lytting/A1-S3-oppg10-op1.png",
+            "/images/lytting/A1-S3-oppg10-op2.png",
+            "/images/lytting/A1-S3-oppg10-op3.png",
+            "/images/lytting/A1-S3-oppg10-op4.png"
+        ],
+        "correct_answer": "/images/lytting/A1-S3-oppg10-op2.png",
+        "difficulty": "A1",
+        "sound": "/sound/5-A2_VelgRiktigBilde/sett3/4_A2_velg_riktig_bilde_sett3.mp3"
+    },
+    {
+        "type": "image",
+        "question": "",
+        "options": [
+            "/images/lytting/A1-S3-oppg11-op1.png",
+            "/images/lytting/A1-S3-oppg11-op2.png",
+            "/images/lytting/A1-S3-oppg11-op3.png",
+            "/images/lytting/A1-S3-oppg11-op4.png"
+        ],
+        "correct_answer": "/images/lytting/A1-S3-oppg11-op1.png",
+        "difficulty": "A1",
+        "sound": "/sound/5-A2_VelgRiktigBilde/sett3/5_A2_velg_riktig_bilde_sett3.mp3"
+    },
+    {
+        "type": "image",
+        "question": "",
+        "options": [
+            "/images/lytting/A1-S3-oppg12-op1.png",
+            "/images/lytting/A1-S3-oppg12-op2.png",
+            "/images/lytting/A1-S3-oppg12-op3.png",
+            "/images/lytting/A1-S3-oppg12-op4.png"
+        ],
+        "correct_answer": "/images/lytting/A1-S3-oppg12-op2.png",
+        "difficulty": "A1",
+        "sound": "/sound/5-A2_VelgRiktigBilde/sett3/6_A2_velg_riktig_bilde_sett3.mp3"
+    },
+    {
+        "type": "image",
+        "question": "",
+        "options": [
+            "/images/lytting/A1-S3-oppg13-op1.png",
+            "/images/lytting/A1-S3-oppg13-op2.png",
+            "/images/lytting/A1-S3-oppg13-op3.png",
+            "/images/lytting/A1-S3-oppg13-op4.png"
+        ],
+        "correct_answer": "/images/lytting/A1-S3-oppg13-op4.png",
+        "difficulty": "A1",
+        "sound": "/sound/5-A2_VelgRiktigBilde/sett3/7_A2_velg_riktig_bilde_sett3.mp3"
+    }
+]

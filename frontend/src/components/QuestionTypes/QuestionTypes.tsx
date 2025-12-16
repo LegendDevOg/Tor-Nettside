@@ -30,10 +30,12 @@ export function ImageQuestion({
         {difficulty}
       </h2>
 
-      <div className="border-2 border-gray-300 rounded-xl p-6 bg-white shadow-lg mb-8 max-w-3xl w-full">
-  {sentence && <h3 className="text-gray-800 mb-4 text-lg leading-relaxed">{sentence}</h3>}
-  <h3 className="text-gray-900 font-bold text-xl">{question}</h3>
-</div>
+      {(sentence || question) && (
+        <div className="border-2 border-gray-300 rounded-xl p-6 bg-white shadow-lg mb-8 max-w-3xl w-full">
+          {sentence && <h3 className="text-gray-800 mb-4 text-lg leading-relaxed">{sentence}</h3>}
+          {question && <h3 className="text-gray-900 font-bold text-xl">{question}</h3>}
+        </div>
+      )}
 
 
       {imageSrc ? (
@@ -112,7 +114,7 @@ export function WordSelectionQuestion({
         {difficulty}
       </h2>
 
-      <h3 className="text-gray-900 font-semibold mb-4 text-lg">{question}</h3>
+      {question && <h3 className="text-gray-900 font-semibold mb-4 text-lg">{question}</h3>}
 
       <p className="text-lg leading-relaxed whitespace-normal break-words">
         {splitSentenceWithPunctuation(sentence).map((word, index) => {
@@ -155,7 +157,7 @@ export function ParagraphSelectionQuestion({ question, paragraphs, correctParagr
 }) {
   return (
     <div>
-      <h3 className="text-gray-800 font-semibold mb-4">{question}</h3>
+      {question && <h3 className="text-gray-800 font-semibold mb-4">{question}</h3>}
       <div className="space-y-4">
         {paragraphs.map((paragraph, index) => (
           <p
@@ -327,19 +329,19 @@ export function ImageClickAreaQuestion({
 
   return (
     <div className="flex flex-col items-center gap-4">
-      <h3 className="text-lg font-semibold text-center">{question}</h3>
+      {question && <h3 className="text-lg font-semibold text-center">{question}</h3>}
       {context && <p className="text-sm text-gray-500 text-center">{context}</p>}
       <div className="relative w-full max-w-xl">
         <img
           ref={imgRef}
-          src={`/images/${image}`}
+          src={image.startsWith('/') ? image : `/images/${image}`}
           onClick={onImageClick}
           className="w-full h-auto object-contain rounded-lg cursor-pointer"
           alt="question"
         />
       </div>
 
-      {!summary && (
+      {!summary && question && (
         <p className="text-xs text-gray-500 text-center">Klikk på riktig person i bildet.</p>
       )}
     </div>
