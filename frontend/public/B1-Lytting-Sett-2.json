@@ -102,41 +102,183 @@
         "question": "",
         "context": "",
         "options": [
-            "A: Dummy svar 1",
-            "B: Dummy svar 2",
-            "C: Dummy svar 3",
-            "D: Dummy svar 4"
+            "A: AM Bank holdte på å gå konkurs",
+            "B: Olsvik kritiserer oppkjøpet av AM Bank",
+            "C: Gravis Bank blir skjølt ut for tiden",
+            "D: Politiet har alltid vært misfornøyd med AM Bank"
         ],
-        "correct_answer": "A: Dummy svar 1",
-        "difficulty": "B1",
-        "sound": "/sound/1-B1-flervalgsoppgaver/Sett2/7_B1_flervalgsoppgaver_sett2.mp3"
+        "correct_answer": "C: Gravis Bank blir skjølt ut for tiden",
+        "difficulty": "B2",
+        "sound": "/sound/B2-flervalgsoppgaver_en-avspilling/Sett2/1_B2_flervalgs_en_avspilling_sett2.mp3"
     },
     {
         "type": "multiple",
         "question": "",
         "context": "",
         "options": [
-            "A: Dummy svar 1",
-            "B: Dummy svar 2",
-            "C: Dummy svar 3",
-            "D: Dummy svar 4"
+            "A: Veid å gå i kjelleren for å hente melkesyre, blir man utsatt",
+            "B: Det er riktig å presse kroppen til det ytterste",
+            "C: Stan har ingen viljestyrke",
+            "D: Med ekte holdning, vil man klare seg fint"
         ],
-        "correct_answer": "B: Dummy svar 2",
-        "difficulty": "B1",
-        "sound": "/sound/1-B1-flervalgsoppgaver/Sett2/7_B1_flervalgsoppgaver_sett2.mp3"
+        "correct_answer": "D: Med ekte holdning, vil man klare seg fint",
+        "difficulty": "B2",
+        "sound": "/sound/B2-flervalgsoppgaver_en-avspilling/Sett2/2_B2_flervalgs_en_avspilling_sett2.mp3"
     },
     {
         "type": "multiple",
         "question": "",
         "context": "",
         "options": [
-            "A: Dummy svar 1",
-            "B: Dummy svar 2",
-            "C: Dummy svar 3",
-            "D: Dummy svar 4"
+            "A: Sykefraværet vil bare øke fremover",
+            "B: Sykemelding løser ikke problemet",
+            "C: Sykefraværet bøørt de eldre koster mest",
+            "D: De beste medisinen er å være hjemme"
         ],
-        "correct_answer": "C: Dummy svar 3",
+        "correct_answer": "B: Sykemelding løser ikke problemet",
+        "difficulty": "B2",
+        "sound": "/sound/B2-flervalgsoppgaver_en-avspilling/Sett2/3_B2_flervalgs_en_avspilling_sett2.mp3"
+    },
+    {
+        "type": "multiple",
+        "question": "",
+        "context": "",
+        "options": [
+            "A: Nedbemanningen fører til overarbeid",
+            "B: Fjerne asylsøkere kommer seg til Norge",
+            "C: Behandling av saker blir nedprioritert",
+            "D: Køigene fører til missnøye i UDI"
+        ],
+        "correct_answer": "A: Nedbemanning fører til overarbeid",
+        "difficulty": "B2",
+        "sound": "/sound/B2-flervalgsoppgaver_en-avspilling/Sett2/4_B2_flervalgs_en_avspilling_sett2.mp3"
+    },
+    {
+        "type": "multiple",
+        "question": "",
+        "context": "",
+        "options": [
+            "A: Uteplommen for flere unge slasser et på øl",
+            "B: Det vil antageligvis være færre fritidstilbud for unge fremover",
+            "C: Ungdomsklubber legges ned som følge av løvndres forslelle",
+            "D: Det er en økning av vold blant politiet"
+        ],
+        "correct_answer": "B: Det vil antageligvis være færre fritidstilbud for unge fremover",
+        "difficulty": "B2",
+        "sound": "/sound/B2-flervalgsoppgaver_en-avspilling/Sett2/5_B2_flervalgs_en_avspilling_sett2.mp3"
+    },
+    {
+        "type": "multiple",
+        "question": "",
+        "context": "",
+        "options": [
+            "A: Ønsker å vite mer",
+            "B: Ønsker å innføre ordningen",
+            "C: Er negativ til ordningen",
+            "D: Foreslår andre løsninger"
+        ],
+        "correct_answer": "B: Ønsker å innføre ordningen",
+        "difficulty": "B2",
+        "sound": "/sound/B2-flervalgsoppgaver_en-avspilling/Sett2/6_B2_flervalgs_en_avspilling_sett2.mp3"
+    },
+    {
+        "type": "multiple",
+        "question": "",
+        "context": "",
+        "options": [
+            "A: Ønsker å vite mer",
+            "B: Ønsker å innføre ordningen",
+            "C: Er negativ til ordningen",
+            "D: Foreslår andre løsninger"
+        ],
+        "correct_answer": "D: Foreslår andre løsninger",
+        "difficulty": "B2",
+        "sound": "/sound/B2-flervalgsoppgaver_en-avspilling/Sett2/7_B2_flervalgs_en_avspilling_sett2.mp3"
+    },
+    {
+        "type": "multiple",
+        "question": "",
+        "context": "",
+        "options": [
+            "A: Ønsker å vite mer",
+            "B: Ønsker å innføre ordningen",
+            "C: Er negativ til ordningen",
+            "D: Foreslår andre løsninger"
+        ],
+        "correct_answer": "B: Ønsker å innføre ordningen",
+        "difficulty": "B2",
+        "sound": "/sound/B2-flervalgsoppgaver_en-avspilling/Sett2/8_B2_flervalgs_en_avspilling_sett2.mp3"
+    },
+    {
+        "type": "multiple",
+        "question": "",
+        "context": "",
+        "options": [
+            "A: Ønsker å vite mer",
+            "B: Ønsker å innføre ordningen",
+            "C: Er negativ til ordningen",
+            "D: Foreslår andre løsninger"
+        ],
+        "correct_answer": "A: Ønsker å vite mer",
+        "difficulty": "B2",
+        "sound": "/sound/B2-flervalgsoppgaver_en-avspilling/Sett2/9_B2_flervalgs_en_avspilling_sett2.mp3"
+    },
+    {
+        "type": "dual_dropdown",
+        "context": "I denne oppgaven får du høre fire personer snakke om samme tema. Du får høre hver person én gang. Du skal svare på to spørsmål om hver person: \"Hvem er personen?\" og \"Hva uttrykker personen?\" Svar på oppgavene mens du lytter. Klikk på pilene for å få opp svaralternativene. Du får først litt tid til å se på oppgaven.",
+        "questions": [
+            "Hvem er personen?",
+            "Hva uttrykker personen?"
+        ],
+        "optionSets": [
+            [
+                "Fisker",
+                "Ordfører",
+                "Flyvertinne",
+                "Butikkmedarbeider",
+                "Revisor",
+                "Frisør"
+            ],
+            [
+                "Er ikke så opptatt av trening",
+                "Tar seg fri fra jobben for å trene",
+                "Har ikke mulighet til å trene på lik linje med andre",
+                "Synes at kropp og sinn er viktig å ta vare på",
+                "Mener at flere må trene i samfunnet",
+                "Åpen for å ta av seg noen kilo og trene"
+            ]
+        ],
+        "subQuestions": [
+            {
+                "label": "Person 1",
+                "correct_answers": [
+                    "Fisker",
+                    "Er ikke så opptatt av trening"
+                ]
+            },
+            {
+                "label": "Person 2",
+                "correct_answers": [
+                    "Ordfører",
+                    "Tar seg fri fra jobben for å trene"
+                ]
+            },
+            {
+                "label": "Person 3",
+                "correct_answers": [
+                    "Flyvertinne",
+                    "Har ikke mulighet til å trene på lik linje med andre"
+                ]
+            },
+            {
+                "label": "Person 4",
+                "correct_answers": [
+                    "Revisor",
+                    "Synes at kropp og sinn er viktig å ta vare på"
+                ]
+            }
+        ],
         "difficulty": "B1",
-        "sound": "/sound/1-B1-flervalgsoppgaver/Sett2/7_B1_flervalgsoppgaver_sett2.mp3"
+        "sound": "/sound/2-B1-tema-serier/Sett2/1_B1_tema-serier-sett2.mp3"
     }
 ]

@@ -9,7 +9,7 @@
             "C: 85 prosent",
             "D: 10 prosent"
         ],
-        "correct_answer": "C: 85 prosent",
+        "correct_answer": "A: 99 prosent",
         "difficulty": "A2",
         "sound": "/sound/1_A2-B1_flervalgsoppgaver/Sett2/1_A2-B1_flerv_sett2.mp3"
     },
@@ -32,9 +32,9 @@
         "question": "",
         "context": "",
         "options": [
-            "A: Barn låter fulle foreldre",
+            "A: Barn tåler fulle foreldre",
             "B: Man må ivareta barnas behov",
-            "C: Foreldre må skulle å drikke i jula",
+            "C: Foreldre må slutte å drikke i jula",
             "D: Gjester kan ikke inviteres i jula"
         ],
         "correct_answer": "B: Man må ivareta barnas behov",
@@ -65,86 +65,55 @@
             "C: To steder",
             "D: På sjøen"
         ],
-        "correct_answer": "A: På landet",
+        "correct_answer": "D: På sjøen",
         "difficulty": "A2",
         "sound": "/sound/1_A2-B1_flervalgsoppgaver/Sett2/5_A2-B1_flerv_sett2.mp3"
     },
     {
         "type": "multiple",
-        "question": "",
         "context": "",
+        "question": "",
         "options": [
             "A: På landet",
             "B: I byen",
             "C: To steder",
             "D: På sjøen"
         ],
-        "correct_answer": "D: På sjøen",
+        "correct_answer": "C: To steder",
         "difficulty": "A2",
         "sound": "/sound/1_A2-B1_flervalgsoppgaver/Sett2/6_A2-B1_flerv_sett2.mp3"
     },
     {
-        "type": "multiple",
-        "question": "",
-        "context": "",
+        "type": "multi_dropdown",
+        "question": "Hva likte personen best med jobben?",
+        "context": "Du får nå høre fire personer som snakker om jobber de har hatt. For hver person, skal du svare på spørsmålet \"Hva likte personen best med jobben?\" Du svarer ved å klikke på pilen og velge riktig svar. Svaralternativene kan brukes flere ganger. Du får først litt tid til å se på svaralternativene.",
         "options": [
             "Lønnen",
             "arbeidsmiljøet",
             "beliggenheten",
             "arbeidsoppgavene",
             "kontoret",
-            "sjøfen"
+            "sjefen"
         ],
-        "correct_answer": "Lønnen",
-        "difficulty": "A2",
-        "sound": "/sound/1_A2-B1_tema-serier/Sett2/6_A2-B1_flerv_sett2.mp3"
-    },
-    {
-        "type": "multiple",
-        "question": "",
-        "context": "",
-        "options": [
-            "Lønnen",
-            "arbeidsmiljøet",
-            "beliggenheten",
-            "arbeidsoppgavene",
-            "kontoret",
-            "sjøfen"
+        "subQuestions": [
+            {
+                "label": "Jobb 1:",
+                "correct_answer": "Lønnen"
+            },
+            {
+                "label": "Jobb 2:",
+                "correct_answer": "arbeidsmiljøet"
+            },
+            {
+                "label": "Jobb 3:",
+                "correct_answer": "kontoret"
+            },
+            {
+                "label": "Jobb 4:",
+                "correct_answer": "arbeidsoppgavene"
+            }
         ],
-        "correct_answer": "arbeidsmiljøet",
         "difficulty": "A2",
-        "sound": "/sound/1_A2-B1_tema-serier/Sett2/6_A2-B1_flerv_sett2.mp3"
-    },
-    {
-        "type": "multiple",
-        "question": "",
-        "context": "",
-        "options": [
-            "Lønnen",
-            "arbeidsmiljøet",
-            "beliggenheten",
-            "arbeidsoppgavene",
-            "kontoret",
-            "sjøfen"
-        ],
-        "correct_answer": "kontoret",
-        "difficulty": "A2",
-        "sound": "/sound/1_A2-B1_tema-serier/Sett2/6_A2-B1_flerv_sett2.mp3"
-    },
-    {
-        "type": "multiple",
-        "question": "",
-        "context": "",
-        "options": [
-            "Lønnen",
-            "arbeidsmiljøet",
-            "beliggenheten",
-            "arbeidsoppgavene",
-            "kontoret",
-            "sjøfen"
-        ],
-        "correct_answer": "arbeidsoppgavene",
-        "difficulty": "A2",
-        "sound": "/sound/1_A2-B1_tema-serier/Sett2/6_A2-B1_flerv_sett2.mp3"
+        "sound": "/sound/2_A2-B1_tema-serier/Sett2/1_A2-B1_tema-serier-sett2.mp3"
     }
 ]

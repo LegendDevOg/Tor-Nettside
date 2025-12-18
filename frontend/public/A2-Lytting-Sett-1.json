@@ -47,11 +47,11 @@
         "context": "",
         "options": [
             "A: Lege",
-            "B: Tanner",
+            "B: Tømrer",
             "C: Lærer",
             "D: Advokat"
         ],
-        "correct_answer": "B: Tanner",
+        "correct_answer": "B: Tømrer",
         "difficulty": "A2",
         "sound": "/sound/1_A2-B1_flervalgsoppgaver/Sett1/4_A2-B1_flerv_sett1.mp3"
     },
@@ -61,13 +61,13 @@
         "context": "",
         "options": [
             "A: Lege",
-            "B: Tanner",
+            "B: Tømrer",
             "C: Lærer",
             "D: Advokat"
         ],
-        "correct_answer": "C: Lærer",
+        "correct_answer": "A: Lege",
         "difficulty": "A2",
-        "sound": "/sound/1_A2-B1_flervalgsoppgaver/Sett1/4_A2-B1_flerv_sett1.mp3"
+        "sound": "/sound/1_A2-B1_flervalgsoppgaver/Sett1/5_A2-B1_flerv_sett1.mp3"
     },
     {
         "type": "multiple",
@@ -75,18 +75,18 @@
         "context": "",
         "options": [
             "A: Lege",
-            "B: Tanner",
+            "B: Tømrer",
             "C: Lærer",
             "D: Advokat"
         ],
-        "correct_answer": "D: Advokat",
+        "correct_answer": "A: Advokat",
         "difficulty": "A2",
-        "sound": "/sound/1_A2-B1_flervalgsoppgaver/Sett1/4_A2-B1_flerv_sett1.mp3"
+        "sound": "/sound/1_A2-B1_flervalgsoppgaver/Sett1/6_A2-B1_flerv_sett1.mp3"
     },
     {
-        "type": "multiple",
-        "question": "",
-        "context": "",
+        "type": "multi_dropdown",
+        "question": "Hva likte personen mest?",
+        "context": "Du får nå høre en kvinne som snakker om fire reiser hun har vært på. For hver reise, skal du svare på spørsmålet \"Hva likte kvinnen best?\" Du svarer ved å klikke på pilen og velge riktig svar. Svaralternativene kan brukes flere ganger. Du får først litt tid til å se på svaralternativene.",
         "options": [
             "Leiligheten",
             "maten",
@@ -95,56 +95,25 @@
             "kulturlivet",
             "vennskap"
         ],
-        "correct_answer": "naturen",
-        "difficulty": "A2",
-        "sound": "/sound/1_A2-B1_flervalgsoppgaver/Sett 1/6_A2-B1_flerv_sett1.mp3"
-    },
-    {
-        "type": "multiple",
-        "question": "",
-        "context": "",
-        "options": [
-            "Leiligheten",
-            "maten",
-            "været",
-            "naturen",
-            "kulturlivet",
-            "vennskap"
+        "subQuestions": [
+            {
+                "label": "Person 1:",
+                "correct_answer": "naturen"
+            },
+            {
+                "label": "Person 2:",
+                "correct_answer": "vennskap"
+            },
+            {
+                "label": "Person 3:",
+                "correct_answer": "Leiligheten"
+            },
+            {
+                "label": "Person 4:",
+                "correct_answer": "naturen"
+            }
         ],
-        "correct_answer": "vennskap",
         "difficulty": "A2",
-        "sound": "/sound/1_A2-B1_flervalgsoppgaver/Sett 1/6_A2-B1_flerv_sett1.mp3"
-    },
-    {
-        "type": "multiple",
-        "question": "",
-        "context": "",
-        "options": [
-            "Leiligheten",
-            "maten",
-            "været",
-            "naturen",
-            "kulturlivet",
-            "vennskap"
-        ],
-        "correct_answer": "Leiligheten",
-        "difficulty": "A2",
-        "sound": "/sound/1_A2-B1_flervalgsoppgaver/Sett 1/6_A2-B1_flerv_sett1.mp3"
-    },
-    {
-        "type": "multiple",
-        "question": "",
-        "context": "",
-        "options": [
-            "Leiligheten",
-            "maten",
-            "været",
-            "naturen",
-            "kulturlivet",
-            "vennskap"
-        ],
-        "correct_answer": "naturen",
-        "difficulty": "A2",
-        "sound": "/sound/1_A2-B1_flervalgsoppgaver/Sett 1/6_A2-B1_flerv_sett1.mp3"
+        "sound": "/sound/2_A2-B1_tema-serier/Sett1/1_A2-B1_tema-serier-sett1.mp3"
     }
 ]

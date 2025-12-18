@@ -7,9 +7,9 @@
             "A: Ina Undstad",
             "B: Teodor Albrigsten",
             "C: Aksel Kristiansen",
-            "D: Fredrik Øisnes"
+            "D: Fredrik Østnes"
         ],
-        "correct_answer": "C: Aksel Kristiansen",
+        "correct_answer": "A: Ina Undstad",
         "difficulty": "A2",
         "sound": "/sound/1_A2-B1_flervalgsoppgaver/Sett3/1_A2-B1_flerv_sett3.mp3"
     },
@@ -47,21 +47,7 @@
         "context": "",
         "options": [
             "A: Sparsom",
-            "B: Selskin",
-            "C: Fattig",
-            "D: Økonomisk uansvarlig"
-        ],
-        "correct_answer": "D: Økonomisk uansvarlig",
-        "difficulty": "A2",
-        "sound": "/sound/1_A2-B1_flervalgsoppgaver/Sett3/4_A2-B1_flerv_sett3.mp3"
-    },
-    {
-        "type": "multiple",
-        "question": "",
-        "context": "",
-        "options": [
-            "A: Sparsom",
-            "B: Selskin",
+            "B: Søkkrik",
             "C: Fattig",
             "D: Økonomisk uansvarlig"
         ],
@@ -75,7 +61,7 @@
         "context": "",
         "options": [
             "A: Sparsom",
-            "B: Selskin",
+            "B: Søkkrik",
             "C: Fattig",
             "D: Økonomisk uansvarlig"
         ],
@@ -88,63 +74,46 @@
         "question": "",
         "context": "",
         "options": [
-            "Været",
-            "prisene",
-            "kulturen",
-            "oppholdet",
-            "maten",
-            "flyturen"
+            "A: Sparsom",
+            "B: Søkkrik",
+            "C: Fattig",
+            "D: Økonomisk uansvarlig"
         ],
-        "correct_answer": "oppholdet",
+        "correct_answer": "A: Sparsom",
         "difficulty": "A2",
         "sound": "/sound/1_A2-B1_flervalgsoppgaver/Sett3/6_A2-B1_flerv_sett3.mp3"
     },
     {
-        "type": "multiple",
-        "question": "",
-        "context": "",
+        "type": "multi_dropdown",
+        "question": "Hva likte personen best med reisen?",
+        "context": "Du får nå høre fire personer som snakker om fire reiser de har vært på. For hver reise, skal du svare på spørsmålet \"Hva likte personen best med reisen?\" Du svarer ved å klikke på pilen og velge riktig svar. Svaralternativene kan brukes flere ganger. Du får først litt tid til å se på svaralternativene.",
         "options": [
             "Været",
             "prisene",
             "kulturen",
             "oppholdet",
             "maten",
-            "flyturen"
+            "flyet"
         ],
-        "correct_answer": "kulturen",
-        "difficulty": "A2",
-        "sound": "/sound/2_A2-B1_tema-serier/Sett3/6_A2-B1_flerv_sett3.mp3"
-    },
-    {
-        "type": "multiple",
-        "question": "",
-        "context": "",
-        "options": [
-            "Været",
-            "prisene",
-            "kulturen",
-            "oppholdet",
-            "maten",
-            "flyturen"
+        "subQuestions": [
+            {
+                "label": "Reise 1:",
+                "correct_answer": "oppholdet"
+            },
+            {
+                "label": "Reise 2:",
+                "correct_answer": "kulturen"
+            },
+            {
+                "label": "Reise 3:",
+                "correct_answer": "prisene"
+            },
+            {
+                "label": "Reise 4:",
+                "correct_answer": "flyet"
+            }
         ],
-        "correct_answer": "prisene",
         "difficulty": "A2",
-        "sound": "/sound/2_A2-B1_tema-serier/Sett3/6_A2-B1_flerv_sett3.mp3"
-    },
-    {
-        "type": "multiple",
-        "question": "",
-        "context": "",
-        "options": [
-            "Været",
-            "prisene",
-            "kulturen",
-            "oppholdet",
-            "maten",
-            "flyturen"
-        ],
-        "correct_answer": "flyturen",
-        "difficulty": "A2",
-        "sound": "/sound/2_A2-B1_tema-serier/Sett3/6_A2-B1_flerv_sett3.mp3"
+        "sound": "/sound/2_A2-B1_tema-serier/Sett3/1_A2-B1_tema-serier-sett3.mp3"
     }
 ]

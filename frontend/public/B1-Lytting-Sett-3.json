@@ -102,41 +102,183 @@
         "question": "",
         "context": "",
         "options": [
-            "A: Dummy svar 1",
-            "B: Dummy svar 2",
-            "C: Dummy svar 3",
-            "D: Dummy svar 4"
+            "A: Byggebransjen kan få nytte av regjeringens enringer",
+            "B: Byggebransjen trener på høye renter",
+            "C: Byggebransjen kan forvente svak kronekurs fremover",
+            "D: Boligbygging vil bare øke fremover"
         ],
-        "correct_answer": "A: Dummy svar 1",
-        "difficulty": "B1",
-        "sound": "/sound/1-B1-flervalgsoppgaver/Sett3/7_B1_flervalgsoppgaver_sett3.mp3"
+        "correct_answer": "A: Byggebransjen kan få nytte av regjeringens enringer",
+        "difficulty": "B2",
+        "sound": "/sound/B2-flervalgsoppgaver_en-avspilling/Sett3/1_B2_flervalgs_en_avspilling_sett3.mp3"
     },
     {
         "type": "multiple",
         "question": "",
         "context": "",
         "options": [
-            "A: Dummy svar 1",
-            "B: Dummy svar 2",
-            "C: Dummy svar 3",
-            "D: Dummy svar 4"
+            "A: Langt flere statter monarkist i dag",
+            "B: Kongefamilien får refs for interne problemer",
+            "C: 36% av befolkningen statter kongehuset",
+            "D: Truls Nordmann får kongehuset på beina igjen"
         ],
-        "correct_answer": "B: Dummy svar 2",
-        "difficulty": "B1",
-        "sound": "/sound/1-B1-flervalgsoppgaver/Sett3/7_B1_flervalgsoppgaver_sett3.mp3"
+        "correct_answer": "B: Kongefamilien får refs for interne problemer",
+        "difficulty": "B2",
+        "sound": "/sound/B2-flervalgsoppgaver_en-avspilling/Sett3/2_B2_flervalgs_en_avspilling_sett3.mp3"
     },
     {
         "type": "multiple",
         "question": "",
         "context": "",
         "options": [
-            "A: Dummy svar 1",
-            "B: Dummy svar 2",
-            "C: Dummy svar 3",
-            "D: Dummy svar 4"
+            "A: Kommunene har ikke kontroll over inngrepene",
+            "B: Naturvernforbundet var klar over omfanget av ødeleggelsene hele tiden",
+            "C: Inngrep er nødvendig for den overordnede planen",
+            "D: Reimo var ikke fornøyd med inngrepene"
         ],
-        "correct_answer": "C: Dummy svar 3",
+        "correct_answer": "D: Reimo var ikke fornøyd med inngrepene",
+        "difficulty": "B2",
+        "sound": "/sound/B2-flervalgsoppgaver_en-avspilling/Sett3/3_B2_flervalgs_en_avspilling_sett3.mp3"
+    },
+    {
+        "type": "multiple",
+        "question": "",
+        "context": "",
+        "options": [
+            "A: Eldre personer er nedt til å gå på forbudt",
+            "B: Det er for farlig å gå for folk",
+            "C: Eldre personer er nedt til å gå på velene",
+            "D: Gårdssten må ta betalag for å ha for mye snø ute velene"
+        ],
+        "correct_answer": "C: Eldre personer er nedt til å gå på velene",
+        "difficulty": "B2",
+        "sound": "/sound/B2-flervalgsoppgaver_en-avspilling/Sett3/4_B2_flervalgs_en_avspilling_sett3.mp3"
+    },
+    {
+        "type": "multiple",
+        "question": "",
+        "context": "",
+        "options": [
+            "A: Det kostet inngenting å ta fergen",
+            "B: Nordland har fått en gave fra regjeringen",
+            "C: Nordland har fått et dyrevne å ta fergen",
+            "D: Alarmen går av på fergene etter innføringen"
+        ],
+        "correct_answer": "A: Det koster ingenting å ta fergen",
+        "difficulty": "B2",
+        "sound": "/sound/B2-flervalgsoppgaver_en-avspilling/Sett3/5_B2_flervalgs_en_avspilling_sett3.mp3"
+    },
+    {
+        "type": "multiple",
+        "question": "",
+        "context": "",
+        "options": [
+            "A: Ønsker å vite mer",
+            "B: Ønsker å innføre forsaget",
+            "C: Er negativ til forsaget",
+            "D: Foreslår andre løsninger"
+        ],
+        "correct_answer": "C: Er negativ til forsaget",
+        "difficulty": "B2",
+        "sound": "/sound/B2-flervalgsoppgaver_en-avspilling/Sett3/6_B2_flervalgs_en_avspilling_sett3.mp3"
+    },
+    {
+        "type": "multiple",
+        "question": "",
+        "context": "",
+        "options": [
+            "A: Ønsker å vite mer",
+            "B: Ønsker å innføre forsaget",
+            "C: Er negativ til forsaget",
+            "D: Foreslår andre løsninger"
+        ],
+        "correct_answer": "A: Ønsker å vite mer",
+        "difficulty": "B2",
+        "sound": "/sound/B2-flervalgsoppgaver_en-avspilling/Sett3/7_B2_flervalgs_en_avspilling_sett3.mp3"
+    },
+    {
+        "type": "multiple",
+        "question": "",
+        "context": "",
+        "options": [
+            "A: Ønsker å vite mer",
+            "B: Ønsker å innføre forsaget",
+            "C: Er negativ til forsaget",
+            "D: Foreslår andre løsninger"
+        ],
+        "correct_answer": "B: Ønsker å innføre forslaget",
+        "difficulty": "B2",
+        "sound": "/sound/B2-flervalgsoppgaver_en-avspilling/Sett3/8_B2_flervalgs_en_avspilling_sett3.mp3"
+    },
+    {
+        "type": "multiple",
+        "question": "",
+        "context": "",
+        "options": [
+            "A: Ønsker å vite mer",
+            "B: Ønsker å innføre forsaget",
+            "C: Er negativ til forsaget",
+            "D: Foreslår andre løsninger"
+        ],
+        "correct_answer": "B: Ønsker å innføre forslaget",
+        "difficulty": "B2",
+        "sound": "/sound/B2-flervalgsoppgaver_en-avspilling/Sett3/9_B2_flervalgs_en_avspilling_sett3.mp3"
+    },
+    {
+        "type": "dual_dropdown",
+        "context": "I denne oppgaven får du høre fire personer snakke om samme tema. Du får høre hver person én gang. Du skal svare på to spørsmål om hver person: \"Hvem er personen?\" og \"Hva uttrykker personen?\" Svar på oppgavene mens du lytter. Klikk på pilene for å få opp svaralternativene. Du får først litt tid til å se på oppgaven.",
+        "questions": [
+            "Hvem er personen?",
+            "Hva uttrykker personen?"
+        ],
+        "optionSets": [
+            [
+                "Tannlege",
+                "Bilselger",
+                "Lege",
+                "Forfatter",
+                "Personlig trener",
+                "Snekker"
+            ],
+            [
+                "Jobber for seg selv og kan gjerne bli kjent med flere",
+                "Ønsker å bli kjent med folk med like interesser",
+                "Blir ikke kjent med klienter, men utenfor jobb er det fritt fram",
+                "Har nok venner allerede, trenger ikke flere",
+                "Dårlig til å bli kjent med folk på jobb",
+                "Foretrekke å holde seg for seg selv"
+            ]
+        ],
+        "subQuestions": [
+            {
+                "label": "Person 1",
+                "correct_answers": [
+                    "Tannlege",
+                    "Jobber for seg selv og kan gjerne bli kjent med flere"
+                ]
+            },
+            {
+                "label": "Person 2",
+                "correct_answers": [
+                    "Bilselger",
+                    "Ønsker å bli kjent med folk med like interesser"
+                ]
+            },
+            {
+                "label": "Person 3",
+                "correct_answers": [
+                    "Lege",
+                    "Blir ikke kjent med klienter, men utenfor jobb er det fritt fram"
+                ]
+            },
+            {
+                "label": "Person 4",
+                "correct_answers": [
+                    "Forfatter",
+                    "Dårlig til å bli kjent med folk på jobb"
+                ]
+            }
+        ],
         "difficulty": "B1",
-        "sound": "/sound/1-B1-flervalgsoppgaver/Sett3/7_B1_flervalgsoppgaver_sett3.mp3"
+        "sound": "/sound/2-B1-tema-serier/Sett3/1_B1_tema-serier-sett3.mp3"
     }
 ]

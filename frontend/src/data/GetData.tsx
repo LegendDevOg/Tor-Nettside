@@ -1,14 +1,16 @@
 import { create } from "zustand";
 import { persist } from "zustand/middleware";
 
-type Question = {
+export type Question = {
   type:
-    | "multiple"
-    | "image"
-    | "word-selection"
-    | "paragraph-selection"
-    | "sentence-dropdown"
-    | "image-click";
+  | "multiple"
+  | "image"
+  | "word-selection"
+  | "paragraph-selection"
+  | "sentence-dropdown"
+  | "image-click"
+  | "multi_dropdown"
+  | "dual_dropdown";
 
   context?: string;
   question: string;
@@ -19,6 +21,13 @@ type Question = {
   paragraphs?: string[];
   sentenceParts?: string[]; // ✅ for sentence-dropdown
   dropdownOptions?: string[][]; // ✅ for sentence-dropdown
+  subQuestions?: Array<{
+    label: string;
+    correct_answer?: string; // ✅ for multi_dropdown
+    correct_answers?: [string, string]; // ✅ for dual_dropdown
+  }>;
+  questions?: [string, string]; // ✅ for dual_dropdown
+  optionSets?: [string[], string[]]; // ✅ for dual_dropdown
   category?: string;
   difficulty?: string;
   image?: string | "";
@@ -57,7 +66,7 @@ type QuestionStoreState = {
 };
 
 
-  
+
 const useQuestionStore = create<QuestionStoreState>()(
   persist(
     (set) => ({
@@ -77,31 +86,31 @@ const useQuestionStore = create<QuestionStoreState>()(
           falseAnswer: 0,
           page: 1,
         }),
-fetchQuestion: async (query: string) => {
-  try {
-    console.log(`🚀 Fetching questions from /${query}.json...`);
-    const response = await fetch(`/${query}.json`);
-    const data = await response.json();
+      fetchQuestion: async (query: string) => {
+        try {
+          console.log(`🚀 Fetching questions from /${query}.json...`);
+          const response = await fetch(`/${query}.json`);
+          const data = await response.json();
 
-    if (!Array.isArray(data)) {
-      console.error("❌ Error: JSON data is not an array!", data);
-      return;
-    }
+          if (!Array.isArray(data)) {
+            console.error("❌ Error: JSON data is not an array!", data);
+            return;
+          }
 
-    set(() => ({
-      question: [...data],
-      userAnswer: [], // ✅ Clear previous answers!
-      error: null,
-      trueAnswer: 0, // ✅ Reset score!
-      falseAnswer: 0, // ✅ Reset score!
-      page: 1, // ✅ Reset page!
-    }));
-    console.log("✅ Questions stored in Zustand successfully!");
-  } catch (error) {
-    console.warn("❌ Error fetching questions:", error);
-    set({ error: error as Error });
-  }
-},
+          set(() => ({
+            question: [...data],
+            userAnswer: [], // ✅ Clear previous answers!
+            error: null,
+            trueAnswer: 0, // ✅ Reset score!
+            falseAnswer: 0, // ✅ Reset score!
+            page: 1, // ✅ Reset page!
+          }));
+          console.log("✅ Questions stored in Zustand successfully!");
+        } catch (error) {
+          console.warn("❌ Error fetching questions:", error);
+          set({ error: error as Error });
+        }
+      },
       authUser: (auth) => set((state) => ({ ...state, auth })),
       addAnswer: (answer) =>
         set((state) => {
@@ -114,7 +123,7 @@ fetchQuestion: async (query: string) => {
             return { ...state, userAnswer: updatedAnswers };
           }
           return { ...state, userAnswer: [...state.userAnswer, answer] };
-        }),      
+        }),
       trueAction: () =>
         set((state) => ({ ...state, trueAnswer: state.trueAnswer + 1 })),
       falseAction: () =>

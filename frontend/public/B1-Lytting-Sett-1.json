@@ -102,41 +102,183 @@
         "question": "",
         "context": "",
         "options": [
-            "A: Dummy svar 1",
-            "B: Dummy svar 2",
-            "C: Dummy svar 3",
-            "D: Dummy svar 4"
+            "A: Norge er blitt et inkluderingssamfunn",
+            "B: Norge er blitt et informasjonssamfunn",
+            "C: Overvåkning er et problem i Norge",
+            "D: Det er mange kameraer i naboland"
         ],
-        "correct_answer": "A: Dummy svar 1",
-        "difficulty": "B1",
-        "sound": "/sound/1-B1-flervalgsoppgaver/Sett1/7_B1_flervalgsoppgaver_sett1.mp3"
+        "correct_answer": "B: Norge er blitt et informasjonssamfunn",
+        "difficulty": "B2",
+        "sound": "/sound/B2-flervalgsoppgaver_en-avspilling/Sett1/1_B2_flervalgs_en_avspilling_sett1.mp3"
     },
     {
         "type": "multiple",
         "question": "",
         "context": "",
         "options": [
-            "A: Dummy svar 1",
-            "B: Dummy svar 2",
-            "C: Dummy svar 3",
-            "D: Dummy svar 4"
+            "A: Sverige har mye av skyden for skadene",
+            "B: Konsekvensen av ordningen er minimale",
+            "C: Ordningen kan svekke økosystemene",
+            "D: Ubruket naturområde oppveier ordningen"
         ],
-        "correct_answer": "B: Dummy svar 2",
-        "difficulty": "B1",
-        "sound": "/sound/1-B1-flervalgsoppgaver/Sett1/7_B1_flervalgsoppgaver_sett1.mp3"
+        "correct_answer": "C: Ordningen kan svekke økosystemene",
+        "difficulty": "B2",
+        "sound": "/sound/B2-flervalgsoppgaver_en-avspilling/Sett1/2_B2_flervalgs_en_avspilling_sett1.mp3"
     },
     {
         "type": "multiple",
         "question": "",
         "context": "",
         "options": [
-            "A: Dummy svar 1",
-            "B: Dummy svar 2",
-            "C: Dummy svar 3",
-            "D: Dummy svar 4"
+            "A: Foresatte sliter med å skaffe riktige klær til barna",
+            "B: Ungdommen nøyer seg med billige klær",
+            "C: Ungdommen er siste skrik",
+            "D: Økonomien til foreldre påvirker barn mest problemet"
         ],
-        "correct_answer": "C: Dummy svar 3",
+        "correct_answer": "D: Økonomien til foreldre påvirker barn mest problemet",
+        "difficulty": "B2",
+        "sound": "/sound/B2-flervalgsoppgaver_en-avspilling/Sett1/3_B2_flervalgs_en_avspilling_sett1.mp3"
+    },
+    {
+        "type": "multiple",
+        "question": "",
+        "context": "",
+        "options": [
+            "A: Om vinteren",
+            "B: Om våren",
+            "C: Mellom november og mars",
+            "D: Om sommeren"
+        ],
+        "correct_answer": "C: Mellom november og mars",
+        "difficulty": "B2",
+        "sound": "/sound/B2-flervalgsoppgaver_en-avspilling/Sett1/4_B2_flervalgs_en_avspilling_sett1.mp3"
+    },
+    {
+        "type": "multiple",
+        "question": "",
+        "context": "",
+        "options": [
+            "A: Elever på skolen ble skadet ut",
+            "B: Hvordan å unngå at skoler legges ned",
+            "C: Å sende barn i bygdene",
+            "D: Hvordan man unngår mistrust av skuledirektomat"
+        ],
+        "correct_answer": "B: Hvordan å unngå at skoler legges ned",
+        "difficulty": "B2",
+        "sound": "/sound/B2-flervalgsoppgaver_en-avspilling/Sett1/5_B2_flervalgs_en_avspilling_sett1.mp3"
+    },
+    {
+        "type": "multiple",
+        "question": "",
+        "context": "",
+        "options": [
+            "A: Ønsker å vite mer",
+            "B: Det er positivt",
+            "C: Det er negativt",
+            "D: Foreslår andre løsninger"
+        ],
+        "correct_answer": "C: Det er negativt",
+        "difficulty": "B2",
+        "sound": "/sound/B2-flervalgsoppgaver_en-avspilling/Sett1/6_B2_flervalgs_en_avspilling_sett1.mp3"
+    },
+    {
+        "type": "multiple",
+        "question": "",
+        "context": "",
+        "options": [
+            "A: Ønsker å vite mer",
+            "B: Det er positivt",
+            "C: Det er negativt",
+            "D: Foreslår andre løsninger"
+        ],
+        "correct_answer": "B: Det er positivt",
+        "difficulty": "B2",
+        "sound": "/sound/B2-flervalgsoppgaver_en-avspilling/Sett1/7_B2_flervalgs_en_avspilling_sett1.mp3"
+    },
+    {
+        "type": "multiple",
+        "question": "",
+        "context": "",
+        "options": [
+            "A: Ønsker å vite mer",
+            "B: Det er positivt",
+            "C: Det er negativt",
+            "D: Foreslår andre løsninger"
+        ],
+        "correct_answer": "A: Ønsker å vite mer",
+        "difficulty": "B2",
+        "sound": "/sound/B2-flervalgsoppgaver_en-avspilling/Sett1/8_B2_flervalgs_en_avspilling_sett1.mp3"
+    },
+    {
+        "type": "multiple",
+        "question": "",
+        "context": "",
+        "options": [
+            "A: Ønsker å vite mer",
+            "B: Det er positivt",
+            "C: Det er negativt",
+            "D: Foreslår andre løsninger"
+        ],
+        "correct_answer": "C: Det er negativt",
+        "difficulty": "B2",
+        "sound": "/sound/B2-flervalgsoppgaver_en-avspilling/Sett1/9_B2_flervalgs_en_avspilling_sett1.mp3"
+    },
+    {
+        "type": "dual_dropdown",
+        "context": "I denne oppgaven får du høre fire personer snakke om samme tema. Du får høre hver person én gang. Du skal svare på to spørsmål om hver person: \"Hvem er personen?\" og \"Hva uttrykker personen?\" Svar på oppgavene mens du lytter. Klikk på pilene for å få opp svaralternativene. Du får først litt tid til å se på oppgaven.",
+        "questions": [
+            "Hvem er personen?",
+            "Hva uttrykker personen?"
+        ],
+        "optionSets": [
+            [
+                "Hotellmedarbeider",
+                "Bussjåfør",
+                "Gartner",
+                "Ufør",
+                "Sykepleier",
+                "Lærer"
+            ],
+            [
+                "Fortvilet for at pengene ikke strekker til",
+                "Irritert for å ikke ha tid til å spise lunsj",
+                "Handler gjerne mat på jobb",
+                "Lettet over å kunne få gratis mat på jobb",
+                "Kan gjerne hoppe over lunsj med tom mage",
+                "Kan hende at matpakken blir glemt i blant"
+            ]
+        ],
+        "subQuestions": [
+            {
+                "label": "Person 1",
+                "correct_answers": [
+                    "Hotellmedarbeider",
+                    "Fortvilet for at pengene ikke strekker til"
+                ]
+            },
+            {
+                "label": "Person 2",
+                "correct_answers": [
+                    "Bussjåfør",
+                    "Handler gjerne mat på jobb"
+                ]
+            },
+            {
+                "label": "Person 3",
+                "correct_answers": [
+                    "Ufør",
+                    "Lettet over å kunne få gratis mat på jobb"
+                ]
+            },
+            {
+                "label": "Person 4",
+                "correct_answers": [
+                    "Sykepleier",
+                    "Kan hende at matpakken blir glemt i blant"
+                ]
+            }
+        ],
         "difficulty": "B1",
-        "sound": "/sound/1-B1-flervalgsoppgaver/Sett1/7_B1_flervalgsoppgaver_sett1.mp3"
+        "sound": "/sound/2-B1-B2-lukeoppgaver_en_avspilling/Sett1/1_B1-B2_lukeoppgaver_en_avspilling_sett1.mp3"
     }
 ]

@@ -12,7 +12,9 @@ import {
   WordSelectionQuestion,
   ParagraphSelectionQuestion,
   SentenceDropdownQuestion,
-  ImageClickAreaQuestion
+  ImageClickAreaQuestion,
+  MultiDropdownQuestion,
+  DualDropdownQuestion
 } from "../../components/QuestionTypes/QuestionTypes";
 
 function SingleQuestion() {
@@ -107,10 +109,13 @@ function SingleQuestion() {
 
   if (!singleQuestion) return <p>Loading... {filename}</p>;
 
-  const userAnswer = allUserAnswers.find((ans) => ans.question === singleQuestion?.question);
+  // Use page number as identifier for listening mode (questions have empty text)
+  // For reading mode, use question text as before
+  const questionIdentifier = isLytting ? `question_${page}` : singleQuestion.question;
+  const userAnswer = allUserAnswers.find((ans) => ans.question === questionIdentifier);
 
   const handleClick = (value: string) => {
-    addAnswer({ question: singleQuestion.question, answer: value });
+    addAnswer({ question: questionIdentifier, answer: value });
 
     if (value === singleQuestion.correct_answer) {
       trueAction();
@@ -140,10 +145,10 @@ function SingleQuestion() {
             image={singleQuestion.image || ""}
             correctArea={singleQuestion.correctArea}
             handleClick={(answerString) => {
-              const [correctness] = answerString.split("|");
+              const [, , correctness] = answerString.split("|");
 
               addAnswer({
-                question: singleQuestion.question,
+                question: questionIdentifier,
                 answer: answerString, // ✅ store full "x|y|correct"
               });
 
@@ -158,6 +163,8 @@ function SingleQuestion() {
             }}
             summary={false}
             difficulty={singleQuestion.difficulty || ""}
+            userAnswer={userAnswer?.answer}
+            questionId={page}
           />
         );
       case "image":
@@ -171,6 +178,9 @@ function SingleQuestion() {
             imageSrc={singleQuestion.image || null}
             sentence={isLytting ? null : (singleQuestion.sentence || null)}
             difficulty={singleQuestion.difficulty || ""}
+            showFeedback={isLytting}
+            userAnswer={userAnswer?.answer}
+            questionId={page}
           />
         );
       case "word-selection":
@@ -182,6 +192,9 @@ function SingleQuestion() {
             handleClick={handleClick}
             summary={false}
             difficulty={singleQuestion.difficulty || ""}
+            showFeedback={isLytting}
+            userAnswer={userAnswer?.answer}
+            questionId={page}
           />
         );
       case "paragraph-selection":
@@ -219,7 +232,7 @@ function SingleQuestion() {
             }
             handleClick={(val) => {
               addAnswer({
-                question: singleQuestion.question,
+                question: questionIdentifier,
                 answer: val,
               });
 
@@ -243,9 +256,120 @@ function SingleQuestion() {
 
             summary={false}
             difficulty={singleQuestion.difficulty || ""}
+            showFeedback={isLytting}
+            questionId={page}
           />
         );
 
+      case "multi_dropdown":
+        if (
+          !Array.isArray(singleQuestion.options) ||
+          !Array.isArray(singleQuestion.subQuestions)
+        ) {
+          return <p className="text-danger-600">Feil: Mangler data for multi_dropdown</p>;
+        }
+
+        return (
+          <MultiDropdownQuestion
+            question={isLytting ? "" : singleQuestion.question}
+            context={isLytting ? "" : singleQuestion.context}
+            options={singleQuestion.options}
+            subQuestions={singleQuestion.subQuestions as Array<{ label: string; correct_answer: string }>}
+            userAnswer={
+              userAnswer?.answer
+                ? userAnswer.answer
+                  .split("||")
+                  .sort()
+                  .map((a) => a.split("|")[1])
+                : []
+            }
+            handleClick={(val) => {
+              addAnswer({
+                question: questionIdentifier,
+                answer: val,
+              });
+
+              const selectedAnswers = val
+                .split("||")
+                .map((entry) => entry.split("|")[1]);
+
+              const isCorrect = Array.isArray(singleQuestion.subQuestions) &&
+                selectedAnswers.every(
+                  (ans, i) => ans === singleQuestion.subQuestions?.[i]?.correct_answer
+                );
+
+              isCorrect ? trueAction() : falseAction();
+
+
+              // For lytting mode, don't auto-advance - wait for audio to end
+              // For lesing mode, advance immediately
+              if (!isLytting) {
+                nextPage();
+                navigate(page === allQuestions.length ? "/finish" : `/question/${category}/${id}/${set}`);
+              }
+            }}
+            summary={false}
+            difficulty={singleQuestion.difficulty || ""}
+            showFeedback={isLytting}
+            questionId={page}
+          />
+        );
+
+      case "dual_dropdown":
+        if (
+          !Array.isArray((singleQuestion as any).questions) ||
+          !Array.isArray((singleQuestion as any).optionSets) ||
+          !Array.isArray(singleQuestion.subQuestions)
+        ) {
+          return <p className="text-danger-600">Feil: Mangler data for dual_dropdown</p>;
+        }
+
+        return (
+          <DualDropdownQuestion
+            context={isLytting ? "" : (singleQuestion.context || "")}
+            questions={(singleQuestion as any).questions}
+            optionSets={(singleQuestion as any).optionSets}
+            subQuestions={singleQuestion.subQuestions as any}
+            userAnswer={
+              userAnswer?.answer
+                ? userAnswer.answer
+                  .split("||")
+                  .sort()
+                  .map((a) => a.split("|")[1])
+                : []
+            }
+            handleClick={(val) => {
+              addAnswer({
+                question: questionIdentifier,
+                answer: val,
+              });
+
+              const selectedAnswers = val
+                .split("||")
+                .map((entry) => entry.split("|")[1]);
+
+              const isCorrect = Array.isArray(singleQuestion.subQuestions) &&
+                selectedAnswers.every((ans, i) => {
+                  const personIndex = Math.floor(i / 2);
+                  const questionIndex = i % 2;
+                  return ans === (singleQuestion.subQuestions as any)?.[personIndex]?.correct_answers?.[questionIndex];
+                });
+
+              isCorrect ? trueAction() : falseAction();
+
+              // For lytting mode, don't auto-advance - wait for audio to end
+              // For lesing mode, advance immediately
+              if (!isLytting) {
+                nextPage();
+                navigate(page === allQuestions.length ? "/finish" : `/question/${category}/${id}/${set}`);
+              }
+            }}
+            summary={false}
+            difficulty={singleQuestion.difficulty || ""}
+            showFeedback={isLytting}
+            questionId={page}
+          />
+        );
 
       default:
         return (
@@ -260,6 +384,7 @@ function SingleQuestion() {
             summary={false}
             trueAnswer={singleQuestion.correct_answer}
             userAnswer={userAnswer?.answer || ""}
+            showFeedback={isLytting}
           />
         );
     }
@@ -274,6 +399,32 @@ function SingleQuestion() {
   const handleNext = () => {
     if (page < allQuestions.length) {
       nextPage();
+    }
+  };
+
+  // Navigation handlers for lytting mode
+  const handleLyttingPrevious = () => {
+    if (page > 1) {
+      // Stop current audio
+      if (audioRef.current) {
+        audioRef.current.pause();
+        audioRef.current.currentTime = 0;
+      }
+      prevPage();
+    }
+  };
+
+  const handleLyttingNext = () => {
+    if (page < allQuestions.length) {
+      // Stop current audio
+      if (audioRef.current) {
+        audioRef.current.pause();
+        audioRef.current.currentTime = 0;
+      }
+      nextPage();
+    } else if (page === allQuestions.length) {
+      // If on last question, go to finish
+      navigate("/finish");
     }
   };
 
@@ -325,19 +476,43 @@ function SingleQuestion() {
           <div className="flex max-w-fit flex-col ml-auto space-x-3 mb-10">
             {/* TimeStamp Component */}
           </div>
-          {renderQuestionComponent()}
+          <div key={page}>
+            {renderQuestionComponent()}
+          </div>
 
           {/* Audio Progress Bar - Only for lytting mode */}
           {isLytting && (
             <div className="fixed bottom-0 left-0 right-0 bg-white shadow-lg border-t border-gray-200 p-4">
               <div className="max-w-4xl mx-auto">
-                <div className="flex items-center gap-3">
+                <div className="flex items-center gap-3 mb-3">
                   <div className="flex-1 bg-gray-200 rounded-full h-3 overflow-hidden">
                     <div
                       className="bg-primary-500 h-full rounded-full transition-all duration-300 ease-linear"
                       style={{ width: `${audioProgress}%` }}
                     ></div>
                   </div>
+                </div>
+                {/* Navigation buttons for lytting mode */}
+                <div className="flex justify-between items-center gap-4">
+                  <button
+                    onClick={handleLyttingPrevious}
+                    disabled={page === 1}
+                    className={`px-6 py-2 rounded-lg font-semibold transition-all ${page === 1
+                      ? "bg-gray-300 text-gray-500 cursor-not-allowed"
+                      : "bg-primary-500 text-white hover:bg-primary-600"
+                      }`}
+                  >
+                    ← Forrige
+                  </button>
+                  <span className="text-sm text-gray-600">
+                    {page} / {allQuestions.length}
+                  </span>
+                  <button
+                    onClick={handleLyttingNext}
+                    className="px-6 py-2 rounded-lg font-semibold bg-primary-500 text-white hover:bg-primary-600 transition-all"
+                  >
+                    {page === allQuestions.length ? "Fullfør" : "Hopp over →"}
+                  </button>
                 </div>
               </div>
             </div>
