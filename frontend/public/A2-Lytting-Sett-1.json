@@ -11,7 +11,8 @@
         ],
         "correct_answer": "C: 6 prosent",
         "difficulty": "A2",
-        "sound": "/sound/1_A2-B1_flervalgsoppgaver/Sett1/1_A2-B1_flerv_sett1.mp3"
+        "sound": "/sound/1_A2-B1_flervalgsoppgaver/Sett1/1_A2-B1_flerv_sett1.mp3",
+        "instruction": "Klikk på riktig svar"
     },
     {
         "type": "multiple",
@@ -25,7 +26,8 @@
         ],
         "correct_answer": "C: 15 prosent",
         "difficulty": "A2",
-        "sound": "/sound/1_A2-B1_flervalgsoppgaver/Sett1/2_A2-B1_flerv_sett1.mp3"
+        "sound": "/sound/1_A2-B1_flervalgsoppgaver/Sett1/2_A2-B1_flerv_sett1.mp3",
+        "instruction": "Klikk på riktig svar"
     },
     {
         "type": "multiple",
@@ -39,7 +41,8 @@
         ],
         "correct_answer": "B: Kautokeino",
         "difficulty": "A2",
-        "sound": "/sound/1_A2-B1_flervalgsoppgaver/Sett1/3_A2-B1_flerv_sett1.mp3"
+        "sound": "/sound/1_A2-B1_flervalgsoppgaver/Sett1/3_A2-B1_flerv_sett1.mp3",
+        "instruction": "Klikk på riktig svar"
     },
     {
         "type": "multiple",
@@ -53,7 +56,8 @@
         ],
         "correct_answer": "B: Tømrer",
         "difficulty": "A2",
-        "sound": "/sound/1_A2-B1_flervalgsoppgaver/Sett1/4_A2-B1_flerv_sett1.mp3"
+        "sound": "/sound/1_A2-B1_flervalgsoppgaver/Sett1/4_A2-B1_flerv_sett1.mp3",
+        "instruction": "Klikk på riktig svar"
     },
     {
         "type": "multiple",
@@ -67,7 +71,8 @@
         ],
         "correct_answer": "A: Lege",
         "difficulty": "A2",
-        "sound": "/sound/1_A2-B1_flervalgsoppgaver/Sett1/5_A2-B1_flerv_sett1.mp3"
+        "sound": "/sound/1_A2-B1_flervalgsoppgaver/Sett1/5_A2-B1_flerv_sett1.mp3",
+        "instruction": "Klikk på riktig svar"
     },
     {
         "type": "multiple",
@@ -79,9 +84,10 @@
             "C: Lærer",
             "D: Advokat"
         ],
-        "correct_answer": "A: Advokat",
+        "correct_answer": "C: Lærer",
         "difficulty": "A2",
-        "sound": "/sound/1_A2-B1_flervalgsoppgaver/Sett1/6_A2-B1_flerv_sett1.mp3"
+        "sound": "/sound/1_A2-B1_flervalgsoppgaver/Sett1/6_A2-B1_flerv_sett1.mp3",
+        "instruction": "Klikk på riktig svar"
     },
     {
         "type": "multi_dropdown",
@@ -114,6 +120,7 @@
             }
         ],
         "difficulty": "A2",
-        "sound": "/sound/2_A2-B1_tema-serier/Sett1/1_A2-B1_tema-serier-sett1.mp3"
+        "sound": "/sound/2_A2-B1_tema-serier/Sett1/1_A2-B1_tema-serier_sett1.mp3",
+        "instruction": "Fyll inn svarene"
     }
 ]

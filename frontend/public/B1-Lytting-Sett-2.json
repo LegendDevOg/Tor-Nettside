@@ -11,7 +11,8 @@
         ],
         "correct_answer": "C: 3",
         "difficulty": "B1",
-        "sound": "/sound/1-B1-flervalgsoppgaver/Sett2/1_B1_flervalgsoppgaver_sett2.mp3"
+        "sound": "/sound/1-B1-flervalgsoppgaver/Sett2/1_B1_flervalgsoppgaver_sett2.mp3",
+        "instruction": "Klikk på riktig svar"
     },
     {
         "type": "multiple",
@@ -25,7 +26,8 @@
         ],
         "correct_answer": "C: 3",
         "difficulty": "B1",
-        "sound": "/sound/1-B1-flervalgsoppgaver/Sett2/2_B1_flervalgsoppgaver_sett2.mp3"
+        "sound": "/sound/1-B1-flervalgsoppgaver/Sett2/2_B1_flervalgsoppgaver_sett2.mp3",
+        "instruction": "Klikk på riktig svar"
     },
     {
         "type": "multiple",
@@ -39,7 +41,8 @@
         ],
         "correct_answer": "A: Hun leverte sekunder for hånd",
         "difficulty": "B1",
-        "sound": "/sound/1-B1-flervalgsoppgaver/Sett2/3_B1_flervalgsoppgaver_sett2.mp3"
+        "sound": "/sound/1-B1-flervalgsoppgaver/Sett2/3_B1_flervalgsoppgaver_sett2.mp3",
+        "instruction": "Klikk på riktig svar"
     },
     {
         "type": "multiple",
@@ -53,21 +56,23 @@
         ],
         "correct_answer": "C: Gjennom venninna",
         "difficulty": "B1",
-        "sound": "/sound/1-B1-flervalgsoppgaver/Sett2/4_B1_flervalgsoppgaver_sett2.mp3"
+        "sound": "/sound/1-B1-flervalgsoppgaver/Sett2/4_B1_flervalgsoppgaver_sett2.mp3",
+        "instruction": "Klikk på riktig svar"
     },
     {
         "type": "multiple",
         "question": "",
         "context": "",
         "options": [
-            "A: Gjennom kjærasten",
+            "A: Gjennom kjæresten",
             "B: Gjennom surfing på havet",
             "C: Gjennom reising",
             "D: Gjennom internett"
         ],
         "correct_answer": "D: Gjennom internett",
         "difficulty": "B1",
-        "sound": "/sound/1-B1-flervalgsoppgaver/Sett2/5_B1_flervalgsoppgaver_sett2.mp3"
+        "sound": "/sound/1-B1-flervalgsoppgaver/Sett2/5_B1_flervalgsoppgaver_sett2.mp3",
+        "instruction": "Klikk på riktig svar"
     },
     {
         "type": "multiple",
@@ -81,7 +86,8 @@
         ],
         "correct_answer": "A: Fremkomstmiddel",
         "difficulty": "B1",
-        "sound": "/sound/1-B1-flervalgsoppgaver/Sett2/6_B1_flervalgsoppgaver_sett2.mp3"
+        "sound": "/sound/1-B1-flervalgsoppgaver/Sett2/6_B1_flervalgsoppgaver_sett2.mp3",
+        "instruction": "Klikk på riktig svar"
     },
     {
         "type": "multiple",
@@ -95,7 +101,8 @@
         ],
         "correct_answer": "D: Ikke bytte barnehage",
         "difficulty": "B1",
-        "sound": "/sound/1-B1-flervalgsoppgaver/Sett2/7_B1_flervalgsoppgaver_sett2.mp3"
+        "sound": "/sound/1-B1-flervalgsoppgaver/Sett2/7_B1_flervalgsoppgaver_sett2.mp3",
+        "instruction": "Klikk på riktig svar"
     },
     {
         "type": "multiple",
@@ -109,7 +116,8 @@
         ],
         "correct_answer": "C: Gravis Bank blir skjølt ut for tiden",
         "difficulty": "B2",
-        "sound": "/sound/B2-flervalgsoppgaver_en-avspilling/Sett2/1_B2_flervalgs_en_avspilling_sett2.mp3"
+        "sound": "/sound/3-B2-flervalgsoppgaver_en-avspilling/Sett2/1_B2_flervalgs_en_avspilling_sett2.mp3",
+        "instruction": "Klikk på riktig svar"
     },
     {
         "type": "multiple",
@@ -123,7 +131,8 @@
         ],
         "correct_answer": "D: Med ekte holdning, vil man klare seg fint",
         "difficulty": "B2",
-        "sound": "/sound/B2-flervalgsoppgaver_en-avspilling/Sett2/2_B2_flervalgs_en_avspilling_sett2.mp3"
+        "sound": "/sound/3-B2-flervalgsoppgaver_en-avspilling/Sett2/2_B2_flervalgs_en_avspilling_sett2.mp3",
+        "instruction": "Klikk på riktig svar"
     },
     {
         "type": "multiple",
@@ -137,7 +146,8 @@
         ],
         "correct_answer": "B: Sykemelding løser ikke problemet",
         "difficulty": "B2",
-        "sound": "/sound/B2-flervalgsoppgaver_en-avspilling/Sett2/3_B2_flervalgs_en_avspilling_sett2.mp3"
+        "sound": "/sound/3-B2-flervalgsoppgaver_en-avspilling/Sett2/3_B2_flervalgs_en_avspilling_sett2.mp3",
+        "instruction": "Klikk på riktig svar"
     },
     {
         "type": "multiple",
@@ -151,7 +161,8 @@
         ],
         "correct_answer": "A: Nedbemanning fører til overarbeid",
         "difficulty": "B2",
-        "sound": "/sound/B2-flervalgsoppgaver_en-avspilling/Sett2/4_B2_flervalgs_en_avspilling_sett2.mp3"
+        "sound": "/sound/3-B2-flervalgsoppgaver_en-avspilling/Sett2/4_B2_flervalgs_en_avspilling_sett2.mp3",
+        "instruction": "Klikk på riktig svar"
     },
     {
         "type": "multiple",
@@ -165,7 +176,8 @@
         ],
         "correct_answer": "B: Det vil antageligvis være færre fritidstilbud for unge fremover",
         "difficulty": "B2",
-        "sound": "/sound/B2-flervalgsoppgaver_en-avspilling/Sett2/5_B2_flervalgs_en_avspilling_sett2.mp3"
+        "sound": "/sound/3-B2-flervalgsoppgaver_en-avspilling/Sett2/5_B2_flervalgs_en_avspilling_sett2.mp3",
+        "instruction": "Klikk på riktig svar"
     },
     {
         "type": "multiple",
@@ -179,7 +191,8 @@
         ],
         "correct_answer": "B: Ønsker å innføre ordningen",
         "difficulty": "B2",
-        "sound": "/sound/B2-flervalgsoppgaver_en-avspilling/Sett2/6_B2_flervalgs_en_avspilling_sett2.mp3"
+        "sound": "/sound/3-B2-flervalgsoppgaver_en-avspilling/Sett2/6_B2_flervalgs_en_avspilling_sett2.mp3",
+        "instruction": "Klikk på riktig svar"
     },
     {
         "type": "multiple",
@@ -193,7 +206,8 @@
         ],
         "correct_answer": "D: Foreslår andre løsninger",
         "difficulty": "B2",
-        "sound": "/sound/B2-flervalgsoppgaver_en-avspilling/Sett2/7_B2_flervalgs_en_avspilling_sett2.mp3"
+        "sound": "/sound/3-B2-flervalgsoppgaver_en-avspilling/Sett2/7_B2_flervalgs_en_avspilling_sett2.mp3",
+        "instruction": "Klikk på riktig svar"
     },
     {
         "type": "multiple",
@@ -207,7 +221,8 @@
         ],
         "correct_answer": "B: Ønsker å innføre ordningen",
         "difficulty": "B2",
-        "sound": "/sound/B2-flervalgsoppgaver_en-avspilling/Sett2/8_B2_flervalgs_en_avspilling_sett2.mp3"
+        "sound": "/sound/3-B2-flervalgsoppgaver_en-avspilling/Sett2/8_B2_flervalgs_en_avspilling_sett2.mp3",
+        "instruction": "Klikk på riktig svar"
     },
     {
         "type": "multiple",
@@ -221,7 +236,8 @@
         ],
         "correct_answer": "A: Ønsker å vite mer",
         "difficulty": "B2",
-        "sound": "/sound/B2-flervalgsoppgaver_en-avspilling/Sett2/9_B2_flervalgs_en_avspilling_sett2.mp3"
+        "sound": "/sound/3-B2-flervalgsoppgaver_en-avspilling/Sett2/9_B2_flervalgs_en_avspilling_sett2.mp3",
+        "instruction": "Klikk på riktig svar"
     },
     {
         "type": "dual_dropdown",
@@ -279,6 +295,7 @@
             }
         ],
         "difficulty": "B1",
-        "sound": "/sound/2-B1-tema-serier/Sett2/1_B1_tema-serier-sett2.mp3"
+        "sound": "/sound/2-B1-tema-serier/Sett2/1_B1_tema-serier-sett2.mp3",
+        "instruction": "Fyll inn svarene"
     }
 ]

@@ -11,7 +11,8 @@
         ],
         "correct_answer": "A: 99 prosent",
         "difficulty": "A2",
-        "sound": "/sound/1_A2-B1_flervalgsoppgaver/Sett2/1_A2-B1_flerv_sett2.mp3"
+        "sound": "/sound/1_A2-B1_flervalgsoppgaver/Sett2/1_A2-B1_flerv_sett2.mp3",
+        "instruction": "Klikk på riktig svar"
     },
     {
         "type": "multiple",
@@ -25,7 +26,8 @@
         ],
         "correct_answer": "C: 9 milliarder kroner",
         "difficulty": "A2",
-        "sound": "/sound/1_A2-B1_flervalgsoppgaver/Sett2/2_A2-B1_flerv_sett2.mp3"
+        "sound": "/sound/1_A2-B1_flervalgsoppgaver/Sett2/2_A2-B1_flerv_sett2.mp3",
+        "instruction": "Klikk på riktig svar"
     },
     {
         "type": "multiple",
@@ -39,7 +41,8 @@
         ],
         "correct_answer": "B: Man må ivareta barnas behov",
         "difficulty": "A2",
-        "sound": "/sound/1_A2-B1_flervalgsoppgaver/Sett2/3_A2-B1_flerv_sett2.mp3"
+        "sound": "/sound/1_A2-B1_flervalgsoppgaver/Sett2/3_A2-B1_flerv_sett2.mp3",
+        "instruction": "Klikk på riktig svar"
     },
     {
         "type": "multiple",
@@ -53,7 +56,8 @@
         ],
         "correct_answer": "B: I byen",
         "difficulty": "A2",
-        "sound": "/sound/1_A2-B1_flervalgsoppgaver/Sett2/4_A2-B1_flerv_sett2.mp3"
+        "sound": "/sound/1_A2-B1_flervalgsoppgaver/Sett2/4_A2-B1_flerv_sett2.mp3",
+        "instruction": "Klikk på riktig svar"
     },
     {
         "type": "multiple",
@@ -67,7 +71,8 @@
         ],
         "correct_answer": "D: På sjøen",
         "difficulty": "A2",
-        "sound": "/sound/1_A2-B1_flervalgsoppgaver/Sett2/5_A2-B1_flerv_sett2.mp3"
+        "sound": "/sound/1_A2-B1_flervalgsoppgaver/Sett2/5_A2-B1_flerv_sett2.mp3",
+        "instruction": "Klikk på riktig svar"
     },
     {
         "type": "multiple",
@@ -81,7 +86,8 @@
         ],
         "correct_answer": "C: To steder",
         "difficulty": "A2",
-        "sound": "/sound/1_A2-B1_flervalgsoppgaver/Sett2/6_A2-B1_flerv_sett2.mp3"
+        "sound": "/sound/1_A2-B1_flervalgsoppgaver/Sett2/6_A2-B1_flerv_sett2.mp3",
+        "instruction": "Klikk på riktig svar"
     },
     {
         "type": "multi_dropdown",
@@ -114,6 +120,7 @@
             }
         ],
         "difficulty": "A2",
-        "sound": "/sound/2_A2-B1_tema-serier/Sett2/1_A2-B1_tema-serier-sett2.mp3"
+        "sound": "/sound/2_A2-B1_tema-serier/Sett2/1_A2-B1_tema-serier_sett2.mp3",
+        "instruction": "Fyll inn svarene"
     }
 ]

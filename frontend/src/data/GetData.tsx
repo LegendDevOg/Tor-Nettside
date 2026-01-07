@@ -33,6 +33,7 @@ export type Question = {
   image?: string | "";
   correctArea?: { x: number; y: number; radius: number };
   sound?: string; // ✅ for lytting questions
+  instruction?: string; // ✅ for lytting questions - describes what the user should do
 };
 
 type UserAnswer = {

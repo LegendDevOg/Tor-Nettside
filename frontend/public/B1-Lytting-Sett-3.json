@@ -11,7 +11,8 @@
         ],
         "correct_answer": "C: 3",
         "difficulty": "B1",
-        "sound": "/sound/1-B1-flervalgsoppgaver/Sett3/1_B1_flervalgsoppgaver_sett3.mp3"
+        "sound": "/sound/1-B1-flervalgsoppgaver/Sett3/1_B1_flervalgsoppgaver_sett3.mp3",
+        "instruction": "Klikk på riktig svar"
     },
     {
         "type": "multiple",
@@ -25,7 +26,8 @@
         ],
         "correct_answer": "B: 6",
         "difficulty": "B1",
-        "sound": "/sound/1-B1-flervalgsoppgaver/Sett3/3_B1_flervalgsoppgaver_sett3.mp3"
+        "sound": "/sound/1-B1-flervalgsoppgaver/Sett3/2_B1_flervalgsoppgaver_sett3.mp3",
+        "instruction": "Klikk på riktig svar"
     },
     {
         "type": "multiple",
@@ -39,7 +41,8 @@
         ],
         "correct_answer": "C: På en bar",
         "difficulty": "B1",
-        "sound": "/sound/1-B1-flervalgsoppgaver/Sett3/3_B1_flervalgsoppgaver_sett3.mp3"
+        "sound": "/sound/1-B1-flervalgsoppgaver/Sett3/3_B1_flervalgsoppgaver_sett3.mp3",
+        "instruction": "Klikk på riktig svar"
     },
     {
         "type": "multiple",
@@ -47,13 +50,14 @@
         "context": "",
         "options": [
             "A: Fjerne avgift for import og eksport",
-            "B: Å gå fra seg Nordsjøen",
+            "B: Å gi fra seg Nordsjøen",
             "C: Det fantes ikke gitt",
             "D: Handel av billig strøm"
         ],
         "correct_answer": "D: Handel av billig strøm",
         "difficulty": "B1",
-        "sound": "/sound/1-B1-flervalgsoppgaver/Sett3/4_B1_flervalgsoppgaver_sett3.mp3"
+        "sound": "/sound/1-B1-flervalgsoppgaver/Sett3/4_B1_flervalgsoppgaver_sett3.mp3",
+        "instruction": "Klikk på riktig svar"
     },
     {
         "type": "multiple",
@@ -67,7 +71,8 @@
         ],
         "correct_answer": "B: Hun følte seg forrådt",
         "difficulty": "B1",
-        "sound": "/sound/1-B1-flervalgsoppgaver/Sett3/5_B1_flervalgsoppgaver_sett3.mp3"
+        "sound": "/sound/1-B1-flervalgsoppgaver/Sett3/5_B1_flervalgsoppgaver_sett3.mp3",
+        "instruction": "Klikk på riktig svar"
     },
     {
         "type": "multiple",
@@ -81,7 +86,8 @@
         ],
         "correct_answer": "C: Å selge boligen",
         "difficulty": "B1",
-        "sound": "/sound/1-B1-flervalgsoppgaver/Sett3/6_B1_flervalgsoppgaver_sett3.mp3"
+        "sound": "/sound/1-B1-flervalgsoppgaver/Sett3/6_B1_flervalgsoppgaver_sett3.mp3",
+        "instruction": "Klikk på riktig svar"
     },
     {
         "type": "multiple",
@@ -89,13 +95,14 @@
         "context": "",
         "options": [
             "A: Gatelysene",
-            "B: Kjøkksnel",
+            "B: kjøkkenet",
             "C: Krypkjelleren",
             "D: Taksten på boligen"
         ],
         "correct_answer": "C: Krypkjelleren",
         "difficulty": "B1",
-        "sound": "/sound/1-B1-flervalgsoppgaver/Sett3/7_B1_flervalgsoppgaver_sett3.mp3"
+        "sound": "/sound/1-B1-flervalgsoppgaver/Sett3/7_B1_flervalgsoppgaver_sett3.mp3",
+        "instruction": "Klikk på riktig svar"
     },
     {
         "type": "multiple",
@@ -109,7 +116,8 @@
         ],
         "correct_answer": "A: Byggebransjen kan få nytte av regjeringens enringer",
         "difficulty": "B2",
-        "sound": "/sound/B2-flervalgsoppgaver_en-avspilling/Sett3/1_B2_flervalgs_en_avspilling_sett3.mp3"
+        "sound": "/sound/3-B2-flervalgsoppgaver_en-avspilling/Sett3/1_B2_flervalgs_en_avspilling_sett3.mp3",
+        "instruction": "Klikk på riktig svar"
     },
     {
         "type": "multiple",
@@ -123,7 +131,8 @@
         ],
         "correct_answer": "B: Kongefamilien får refs for interne problemer",
         "difficulty": "B2",
-        "sound": "/sound/B2-flervalgsoppgaver_en-avspilling/Sett3/2_B2_flervalgs_en_avspilling_sett3.mp3"
+        "sound": "/sound/3-B2-flervalgsoppgaver_en-avspilling/Sett3/2_B2_flervalgs_en_avspilling_sett3.mp3",
+        "instruction": "Klikk på riktig svar"
     },
     {
         "type": "multiple",
@@ -137,7 +146,8 @@
         ],
         "correct_answer": "D: Reimo var ikke fornøyd med inngrepene",
         "difficulty": "B2",
-        "sound": "/sound/B2-flervalgsoppgaver_en-avspilling/Sett3/3_B2_flervalgs_en_avspilling_sett3.mp3"
+        "sound": "/sound/3-B2-flervalgsoppgaver_en-avspilling/Sett3/3_B2_flervalgs_en_avspilling_sett3.mp3",
+        "instruction": "Klikk på riktig svar"
     },
     {
         "type": "multiple",
@@ -151,7 +161,8 @@
         ],
         "correct_answer": "C: Eldre personer er nedt til å gå på velene",
         "difficulty": "B2",
-        "sound": "/sound/B2-flervalgsoppgaver_en-avspilling/Sett3/4_B2_flervalgs_en_avspilling_sett3.mp3"
+        "sound": "/sound/3-B2-flervalgsoppgaver_en-avspilling/Sett3/4_B2_flervalgs_en_avspilling_sett3.mp3",
+        "instruction": "Klikk på riktig svar"
     },
     {
         "type": "multiple",
@@ -165,7 +176,8 @@
         ],
         "correct_answer": "A: Det koster ingenting å ta fergen",
         "difficulty": "B2",
-        "sound": "/sound/B2-flervalgsoppgaver_en-avspilling/Sett3/5_B2_flervalgs_en_avspilling_sett3.mp3"
+        "sound": "/sound/3-B2-flervalgsoppgaver_en-avspilling/Sett3/5_B2_flervalgs_en_avspilling_sett3.mp3",
+        "instruction": "Klikk på riktig svar"
     },
     {
         "type": "multiple",
@@ -179,7 +191,8 @@
         ],
         "correct_answer": "C: Er negativ til forsaget",
         "difficulty": "B2",
-        "sound": "/sound/B2-flervalgsoppgaver_en-avspilling/Sett3/6_B2_flervalgs_en_avspilling_sett3.mp3"
+        "sound": "/sound/3-B2-flervalgsoppgaver_en-avspilling/Sett3/6_B2_flervalgs_en_avspilling_sett3.mp3",
+        "instruction": "Klikk på riktig svar"
     },
     {
         "type": "multiple",
@@ -193,7 +206,8 @@
         ],
         "correct_answer": "A: Ønsker å vite mer",
         "difficulty": "B2",
-        "sound": "/sound/B2-flervalgsoppgaver_en-avspilling/Sett3/7_B2_flervalgs_en_avspilling_sett3.mp3"
+        "sound": "/sound/3-B2-flervalgsoppgaver_en-avspilling/Sett3/7_B2_flervalgs_en_avspilling_sett3.mp3",
+        "instruction": "Klikk på riktig svar"
     },
     {
         "type": "multiple",
@@ -207,7 +221,8 @@
         ],
         "correct_answer": "B: Ønsker å innføre forslaget",
         "difficulty": "B2",
-        "sound": "/sound/B2-flervalgsoppgaver_en-avspilling/Sett3/8_B2_flervalgs_en_avspilling_sett3.mp3"
+        "sound": "/sound/3-B2-flervalgsoppgaver_en-avspilling/Sett3/8_B2_flervalgs_en_avspilling_sett3.mp3",
+        "instruction": "Klikk på riktig svar"
     },
     {
         "type": "multiple",
@@ -221,7 +236,8 @@
         ],
         "correct_answer": "B: Ønsker å innføre forslaget",
         "difficulty": "B2",
-        "sound": "/sound/B2-flervalgsoppgaver_en-avspilling/Sett3/9_B2_flervalgs_en_avspilling_sett3.mp3"
+        "sound": "/sound/3-B2-flervalgsoppgaver_en-avspilling/Sett3/9_B2_flervalgs_en_avspilling_sett3.mp3",
+        "instruction": "Klikk på riktig svar"
     },
     {
         "type": "dual_dropdown",
@@ -279,6 +295,7 @@
             }
         ],
         "difficulty": "B1",
-        "sound": "/sound/2-B1-tema-serier/Sett3/1_B1_tema-serier-sett3.mp3"
+        "sound": "/sound/2-B1-tema-serier/Sett3/1_B1_tema-serier-sett3.mp3",
+        "instruction": "Fyll inn svarene"
     }
 ]

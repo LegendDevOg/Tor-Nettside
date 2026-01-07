@@ -45,7 +45,7 @@ function ImageClickResult({ question, userSelected, actualIndex }: {
       <div className="relative inline-block w-full max-w-md mx-auto">
         <img
           ref={imgRef}
-          src={`/images/${question.image}`}
+          src={question.image.startsWith('/') ? question.image : `/images/${question.image}`}
           alt="result"
           className="rounded-lg w-full h-auto object-contain"
         />

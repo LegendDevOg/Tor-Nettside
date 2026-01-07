@@ -11,7 +11,8 @@
         ],
         "correct_answer": "C: 3",
         "difficulty": "B1",
-        "sound": "/sound/1-B1-flervalgsoppgaver/Sett1/1_B1_flervalgsoppgaver_sett1.mp3"
+        "sound": "/sound/1-B1-flervalgsoppgaver/Sett1/1_B1_flervalgsoppgaver_sett1.mp3",
+        "instruction": "Klikk på riktig svar"
     },
     {
         "type": "multiple",
@@ -25,7 +26,8 @@
         ],
         "correct_answer": "B: 20",
         "difficulty": "B1",
-        "sound": "/sound/1-B1-flervalgsoppgaver/Sett1/2_B1_flervalgsoppgaver_sett1.mp3"
+        "sound": "/sound/1-B1-flervalgsoppgaver/Sett1/2_B1_flervalgsoppgaver_sett1.mp3",
+        "instruction": "Klikk på riktig svar"
     },
     {
         "type": "multiple",
@@ -39,7 +41,8 @@
         ],
         "correct_answer": "D: Gjennom internett",
         "difficulty": "B1",
-        "sound": "/sound/1-B1-flervalgsoppgaver/Sett1/3_B1_flervalgsoppgaver_sett1.mp3"
+        "sound": "/sound/1-B1-flervalgsoppgaver/Sett1/3_B1_flervalgsoppgaver_sett1.mp3",
+        "instruction": "Klikk på riktig svar"
     },
     {
         "type": "multiple",
@@ -53,7 +56,8 @@
         ],
         "correct_answer": "B: Ved en butikk",
         "difficulty": "B1",
-        "sound": "/sound/1-B1-flervalgsoppgaver/Sett1/4_B1_flervalgsoppgaver_sett1.mp3"
+        "sound": "/sound/1-B1-flervalgsoppgaver/Sett1/4_B1_flervalgsoppgaver_sett1.mp3",
+        "instruction": "Klikk på riktig svar"
     },
     {
         "type": "multiple",
@@ -61,13 +65,14 @@
         "context": "",
         "options": [
             "A: I Oslo",
-            "B: I Finnenes",
+            "B: I Finnsnes",
             "C: I Stavanger",
             "D: I Ålesund"
         ],
         "correct_answer": "D: I Ålesund",
         "difficulty": "B1",
-        "sound": "/sound/1-B1-flervalgsoppgaver/Sett1/5_B1_flervalgsoppgaver_sett1.mp3"
+        "sound": "/sound/1-B1-flervalgsoppgaver/Sett1/5_B1_flervalgsoppgaver_sett1.mp3",
+        "instruction": "Klikk på riktig svar"
     },
     {
         "type": "multiple",
@@ -81,7 +86,8 @@
         ],
         "correct_answer": "C: Miljøet i nærområdet",
         "difficulty": "B1",
-        "sound": "/sound/1-B1-flervalgsoppgaver/Sett1/6_B1_flervalgsoppgaver_sett1.mp3"
+        "sound": "/sound/1-B1-flervalgsoppgaver/Sett1/6_B1_flervalgsoppgaver_sett1.mp3",
+        "instruction": "Klikk på riktig svar"
     },
     {
         "type": "multiple",
@@ -95,7 +101,8 @@
         ],
         "correct_answer": "A: De flytter ut",
         "difficulty": "B1",
-        "sound": "/sound/1-B1-flervalgsoppgaver/Sett1/7_B1_flervalgsoppgaver_sett1.mp3"
+        "sound": "/sound/1-B1-flervalgsoppgaver/Sett1/7_B1_flervalgsoppgaver_sett1.mp3",
+        "instruction": "Klikk på riktig svar"
     },
     {
         "type": "multiple",
@@ -109,7 +116,8 @@
         ],
         "correct_answer": "B: Norge er blitt et informasjonssamfunn",
         "difficulty": "B2",
-        "sound": "/sound/B2-flervalgsoppgaver_en-avspilling/Sett1/1_B2_flervalgs_en_avspilling_sett1.mp3"
+        "sound": "/sound/3-B2-flervalgsoppgaver_en-avspilling/Sett1/1_B2_flervalgs_en_avspilling_sett1.mp3",
+        "instruction": "Klikk på riktig svar"
     },
     {
         "type": "multiple",
@@ -123,7 +131,8 @@
         ],
         "correct_answer": "C: Ordningen kan svekke økosystemene",
         "difficulty": "B2",
-        "sound": "/sound/B2-flervalgsoppgaver_en-avspilling/Sett1/2_B2_flervalgs_en_avspilling_sett1.mp3"
+        "sound": "/sound/3-B2-flervalgsoppgaver_en-avspilling/Sett1/2_B2_flervalgs_en_avspilling_sett1.mp3",
+        "instruction": "Klikk på riktig svar"
     },
     {
         "type": "multiple",
@@ -137,7 +146,8 @@
         ],
         "correct_answer": "D: Økonomien til foreldre påvirker barn mest problemet",
         "difficulty": "B2",
-        "sound": "/sound/B2-flervalgsoppgaver_en-avspilling/Sett1/3_B2_flervalgs_en_avspilling_sett1.mp3"
+        "sound": "/sound/3-B2-flervalgsoppgaver_en-avspilling/Sett1/3_B2_flervalgs_en_avspilling_sett1.mp3",
+        "instruction": "Klikk på riktig svar"
     },
     {
         "type": "multiple",
@@ -151,7 +161,8 @@
         ],
         "correct_answer": "C: Mellom november og mars",
         "difficulty": "B2",
-        "sound": "/sound/B2-flervalgsoppgaver_en-avspilling/Sett1/4_B2_flervalgs_en_avspilling_sett1.mp3"
+        "sound": "/sound/3-B2-flervalgsoppgaver_en-avspilling/Sett1/4_B2_flervalgs_en_avspilling_sett1.mp3",
+        "instruction": "Klikk på riktig svar"
     },
     {
         "type": "multiple",
@@ -165,7 +176,8 @@
         ],
         "correct_answer": "B: Hvordan å unngå at skoler legges ned",
         "difficulty": "B2",
-        "sound": "/sound/B2-flervalgsoppgaver_en-avspilling/Sett1/5_B2_flervalgs_en_avspilling_sett1.mp3"
+        "sound": "/sound/3-B2-flervalgsoppgaver_en-avspilling/Sett1/5_B2_flervalgs_en_avspilling_sett1.mp3",
+        "instruction": "Klikk på riktig svar"
     },
     {
         "type": "multiple",
@@ -179,7 +191,8 @@
         ],
         "correct_answer": "C: Det er negativt",
         "difficulty": "B2",
-        "sound": "/sound/B2-flervalgsoppgaver_en-avspilling/Sett1/6_B2_flervalgs_en_avspilling_sett1.mp3"
+        "sound": "/sound/3-B2-flervalgsoppgaver_en-avspilling/Sett1/6_B2_flervalgs_en_avspilling_sett1.mp3",
+        "instruction": "Klikk på riktig svar"
     },
     {
         "type": "multiple",
@@ -193,7 +206,8 @@
         ],
         "correct_answer": "B: Det er positivt",
         "difficulty": "B2",
-        "sound": "/sound/B2-flervalgsoppgaver_en-avspilling/Sett1/7_B2_flervalgs_en_avspilling_sett1.mp3"
+        "sound": "/sound/3-B2-flervalgsoppgaver_en-avspilling/Sett1/7_B2_flervalgs_en_avspilling_sett1.mp3",
+        "instruction": "Klikk på riktig svar"
     },
     {
         "type": "multiple",
@@ -207,7 +221,8 @@
         ],
         "correct_answer": "A: Ønsker å vite mer",
         "difficulty": "B2",
-        "sound": "/sound/B2-flervalgsoppgaver_en-avspilling/Sett1/8_B2_flervalgs_en_avspilling_sett1.mp3"
+        "sound": "/sound/3-B2-flervalgsoppgaver_en-avspilling/Sett1/8_B2_flervalgs_en_avspilling_sett1.mp3",
+        "instruction": "Klikk på riktig svar"
     },
     {
         "type": "multiple",
@@ -221,7 +236,8 @@
         ],
         "correct_answer": "C: Det er negativt",
         "difficulty": "B2",
-        "sound": "/sound/B2-flervalgsoppgaver_en-avspilling/Sett1/9_B2_flervalgs_en_avspilling_sett1.mp3"
+        "sound": "/sound/3-B2-flervalgsoppgaver_en-avspilling/Sett1/9_B2_flervalgs_en_avspilling_sett1.mp3",
+        "instruction": "Klikk på riktig svar"
     },
     {
         "type": "dual_dropdown",
@@ -279,6 +295,7 @@
             }
         ],
         "difficulty": "B1",
-        "sound": "/sound/2-B1-B2-lukeoppgaver_en_avspilling/Sett1/1_B1-B2_lukeoppgaver_en_avspilling_sett1.mp3"
+        "sound": "/sound/2-B1-B2-lukeoppgaver_en_avspilling/Sett1/1_B1-B2_lukeoppgaver_en_avspilling_sett1.mp3",
+        "instruction": "Fyll inn svarene"
     }
 ]

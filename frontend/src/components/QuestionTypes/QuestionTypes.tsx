@@ -462,9 +462,9 @@ export function ImageClickAreaQuestion({
             }}
           >
             <svg width="30" height="30" viewBox="0 0 30 30">
-              <circle cx="15" cy="15" r="14" fill="rgba(239, 68, 68, 0.3)" stroke="#ef4444" strokeWidth="2" />
-              <line x1="8" y1="8" x2="22" y2="22" stroke="#ef4444" strokeWidth="3" strokeLinecap="round" />
-              <line x1="22" y1="8" x2="8" y2="22" stroke="#ef4444" strokeWidth="3" strokeLinecap="round" />
+              <circle cx="15" cy="15" r="14" fill="rgba(0, 0, 0, 0.3)" stroke="#000000" strokeWidth="2" />
+              <line x1="8" y1="8" x2="22" y2="22" stroke="#000000" strokeWidth="3" strokeLinecap="round" />
+              <line x1="22" y1="8" x2="8" y2="22" stroke="#000000" strokeWidth="3" strokeLinecap="round" />
             </svg>
           </div>
         )}
@@ -506,24 +506,31 @@ export function MultiDropdownQuestion({
   const [selected, setSelected] = useState<string[]>(userAnswer);
   const [submitted, setSubmitted] = useState(false);
 
-  // Reset state when question changes
+  // Reset state only when question changes, not when userAnswer updates
   useEffect(() => {
     setSelected(userAnswer);
     setSubmitted(false);
-  }, [questionId, userAnswer]);
+  }, [questionId]);
 
   const onChange = (value: string, index: number) => {
     const updated = [...selected];
     updated[index] = value;
     setSelected(updated);
-  };
 
-  const isCompleted = subQuestions.every((_, i) => selected[i] && selected[i].trim() !== "");
-
-  const submitAnswer = () => {
-    const packed = selected.map((val, i) => `${i}|${val}`).join("||");
-    setSubmitted(true);
+    // Always save the answer on every change
+    const packed = updated.map((val, i) => `${i}|${val || ""}`).join("||");
     handleClick(packed);
+
+    // Check if this completes all dropdowns
+    const isCompleted = subQuestions.every((_, i) => {
+      if (i === index) return value && value.trim() !== "";
+      return updated[i] && updated[i].trim() !== "";
+    });
+
+    // Mark as submitted when all dropdowns are filled
+    if (isCompleted && !submitted && !summary) {
+      setSubmitted(true);
+    }
   };
 
   return (
@@ -571,21 +578,6 @@ export function MultiDropdownQuestion({
         ))}
       </div>
 
-      {!summary && !submitted && (
-        <div className="text-center mt-8">
-          <button
-            onClick={submitAnswer}
-            disabled={!isCompleted}
-            className={`px-8 py-3 rounded-full font-semibold text-white text-lg shadow-md transition ${isCompleted
-              ? "bg-primary-500 hover:bg-primary-600"
-              : "bg-gray-400 cursor-not-allowed"
-              }`}
-          >
-            Fortsett
-          </button>
-        </div>
-      )}
-
       {/* Feedback after submission */}
       {submitted && showFeedback && (
         <div className="text-center mt-8">
@@ -622,28 +614,32 @@ export function DualDropdownQuestion({
   const [selected, setSelected] = useState<string[]>(userAnswer);
   const [submitted, setSubmitted] = useState(false);
 
-  // Reset state when question changes
+  // Reset state only when question changes, not when userAnswer updates
   useEffect(() => {
     setSelected(userAnswer);
     setSubmitted(false);
-  }, [questionId, userAnswer]);
+  }, [questionId]);
 
   const onChange = (value: string, personIndex: number, questionIndex: number) => {
     const updated = [...selected];
     const flatIndex = personIndex * 2 + questionIndex;
     updated[flatIndex] = value;
     setSelected(updated);
-  };
 
-  const isCompleted = subQuestions.every((_, i) =>
-    selected[i * 2] && selected[i * 2].trim() !== "" &&
-    selected[i * 2 + 1] && selected[i * 2 + 1].trim() !== ""
-  );
-
-  const submitAnswer = () => {
-    const packed = selected.map((val, i) => `${i}|${val}`).join("||");
-    setSubmitted(true);
+    // Always save the answer on every change
+    const packed = updated.map((val, i) => `${i}|${val || ""}`).join("||");
     handleClick(packed);
+
+    // Check if this completes all dropdowns
+    const isCompleted = subQuestions.every((_, i) =>
+      updated[i * 2] && updated[i * 2].trim() !== "" &&
+      updated[i * 2 + 1] && updated[i * 2 + 1].trim() !== ""
+    );
+
+    // Mark as submitted when all dropdowns are filled
+    if (isCompleted && !submitted && !summary) {
+      setSubmitted(true);
+    }
   };
 
   return (
@@ -718,21 +714,6 @@ export function DualDropdownQuestion({
           </tbody>
         </table>
       </div>
-
-      {!summary && !submitted && (
-        <div className="text-center mt-8">
-          <button
-            onClick={submitAnswer}
-            disabled={!isCompleted}
-            className={`px-8 py-3 rounded-full font-semibold text-white text-lg shadow-md transition ${isCompleted
-              ? "bg-primary-500 hover:bg-primary-600"
-              : "bg-gray-400 cursor-not-allowed"
-              }`}
-          >
-            Fortsett
-          </button>
-        </div>
-      )}
 
       {/* Feedback after submission */}
       {submitted && showFeedback && (

@@ -271,8 +271,8 @@ function SingleQuestion() {
 
         return (
           <MultiDropdownQuestion
-            question={isLytting ? "" : singleQuestion.question}
-            context={isLytting ? "" : singleQuestion.context}
+            question={singleQuestion.question}
+            context={singleQuestion.context}
             options={singleQuestion.options}
             subQuestions={singleQuestion.subQuestions as Array<{ label: string; correct_answer: string }>}
             userAnswer={
@@ -326,7 +326,7 @@ function SingleQuestion() {
 
         return (
           <DualDropdownQuestion
-            context={isLytting ? "" : (singleQuestion.context || "")}
+            context={singleQuestion.context || ""}
             questions={(singleQuestion as any).questions}
             optionSets={(singleQuestion as any).optionSets}
             subQuestions={singleQuestion.subQuestions as any}
@@ -444,6 +444,15 @@ function SingleQuestion() {
             Spørsmål {page} av {allQuestions.length}
           </p>
 
+          {/* Instruction banner for lytting mode */}
+          {isLytting && singleQuestion.instruction && (
+            <div className="bg-primary-50 border-2 border-primary-300 rounded-lg p-4 mb-6 text-center">
+              <p className="text-lg font-semibold text-primary-800">
+                {singleQuestion.instruction}
+              </p>
+            </div>
+          )}
+
           {/* Question Navigator - Hide for lytting mode */}
           {!isLytting && <QuestionNavigator />}
 
@@ -511,7 +520,7 @@ function SingleQuestion() {
                     onClick={handleLyttingNext}
                     className="px-6 py-2 rounded-lg font-semibold bg-primary-500 text-white hover:bg-primary-600 transition-all"
                   >
-                    {page === allQuestions.length ? "Fullfør" : "Hopp over →"}
+                    {page === allQuestions.length ? "Fullfør" : "Neste →"}
                   </button>
                 </div>
               </div>
