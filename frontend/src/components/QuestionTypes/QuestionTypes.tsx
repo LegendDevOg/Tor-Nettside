@@ -8,7 +8,6 @@ export function ImageQuestion({
   summary,
   imageSrc,
   sentence,
-  difficulty,
   showFeedback = false,
   userAnswer,
   questionId,
@@ -20,7 +19,7 @@ export function ImageQuestion({
   summary: boolean;
   imageSrc?: string | null;
   sentence?: string | null;
-  difficulty: string;
+  difficulty?: string;
   showFeedback?: boolean;
   userAnswer?: string;
   questionId?: number;
@@ -121,7 +120,6 @@ export function WordSelectionQuestion({
   correctWord,
   handleClick,
   summary,
-  difficulty,
   showFeedback = false,
   userAnswer,
   questionId,
@@ -131,7 +129,7 @@ export function WordSelectionQuestion({
   correctWord: string | string[];
   handleClick: (value: string) => void;
   summary: boolean;
-  difficulty: string;
+  difficulty?: string;
   showFeedback?: boolean;
   userAnswer?: string;
   questionId?: number;
@@ -239,7 +237,6 @@ export function SentenceDropdownQuestion({
   userAnswer = [],
   handleClick,
   summary,
-  difficulty,
   showFeedback = false,
   questionId,
 }: {
@@ -249,7 +246,7 @@ export function SentenceDropdownQuestion({
   userAnswer?: string[];
   handleClick: (val: string) => void;
   summary: boolean;
-  difficulty: string;
+  difficulty?: string;
   showFeedback?: boolean;
   questionId?: number;
 }) {
@@ -378,7 +375,7 @@ export function ImageClickAreaQuestion({
   correctArea: { x: number; y: number; radius: number };
   handleClick: (answerString: string) => void;
   summary: boolean;
-  difficulty: string;
+  difficulty?: string;
   userAnswer?: string;
   questionId?: number;
 }) {
@@ -488,7 +485,6 @@ export function MultiDropdownQuestion({
   userAnswer = [],
   handleClick,
   summary,
-  difficulty,
   showFeedback = false,
   questionId,
 }: {
@@ -499,7 +495,7 @@ export function MultiDropdownQuestion({
   userAnswer?: string[];
   handleClick: (val: string) => void;
   summary: boolean;
-  difficulty: string;
+  difficulty?: string;
   showFeedback?: boolean;
   questionId?: number;
 }) {
@@ -596,7 +592,6 @@ export function DualDropdownQuestion({
   userAnswer = [],
   handleClick,
   summary,
-  difficulty,
   showFeedback = false,
   questionId,
 }: {
@@ -607,7 +602,7 @@ export function DualDropdownQuestion({
   userAnswer?: string[];
   handleClick: (val: string) => void;
   summary: boolean;
-  difficulty: string;
+  difficulty?: string;
   showFeedback?: boolean;
   questionId?: number;
 }) {
