@@ -14,12 +14,15 @@ jobs:
         uses: actions/checkout@v3
 
       - name: Install dependencies
+        working-directory: ./frontend
         run: npm ci
 
       - name: Build project
+        working-directory: ./frontend
         run: npm run build
 
       - name: Deploy to Cloudflare Pages
+        working-directory: ./frontend
         run: npx wrangler pages deploy dist --project-name tor-nettside
         env:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
