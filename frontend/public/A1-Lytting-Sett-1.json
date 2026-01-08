@@ -10,7 +10,7 @@
             "radius": 80
         },
         "difficulty": "A1",
-        "instruction": "Klikk på bildet",
+        "instruction": "Lytt og klikk på riktig sted i bildet",
         "sound": "/sound/1-A1-A2klikkibildeogkalender/sett1/1_A1-A2_sett1.mp3"
     },
     {
@@ -24,7 +24,7 @@
             "radius": 80
         },
         "difficulty": "A1",
-        "instruction": "Klikk på bildet",
+        "instruction": "Lytt og klikk på riktig sted i bildet",
         "sound": "/sound/1-A1-A2klikkibildeogkalender/sett1/2_A1-A2_sett1.mp3"
     },
     {
@@ -38,7 +38,7 @@
             "radius": 80
         },
         "difficulty": "A1",
-        "instruction": "Klikk på bildet",
+        "instruction": "Lytt og klikk på riktig sted i bildet",
         "sound": "/sound/1-A1-A2klikkibildeogkalender/sett1/3_A1-A2_sett1.mp3"
     },
     {
@@ -52,7 +52,7 @@
             "radius": 80
         },
         "difficulty": "A1",
-        "instruction": "Klikk på bildet",
+        "instruction": "Lytt og klikk på riktig sted i bildet",
         "sound": "/sound/1-A1-A2klikkibildeogkalender/sett1/4_A1-A2_sett1.mp3"
     },
     {
@@ -66,7 +66,7 @@
             "radius": 80
         },
         "difficulty": "A1",
-        "instruction": "Klikk på bildet",
+        "instruction": "Lytt og klikk på riktig sted i bildet",
         "sound": "/sound/1-A1-A2klikkibildeogkalender/sett1/5_A1-A2_sett1.mp3"
     },
     {
@@ -80,7 +80,7 @@
             "radius": 60
         },
         "difficulty": "A1",
-        "instruction": "Klikk på bildet",
+        "instruction": "Lytt og klikk på riktig sted i bildet",
         "sound": "/sound/1-A1-A2klikkibildeogkalender/sett1/6_A1-A2_sett1.mp3"
     },
     {
@@ -327,7 +327,7 @@
             "radius": 80
         },
         "difficulty": "A1",
-        "instruction": "Klikk på bildet",
+        "instruction": "Lytt og klikk på riktig sted i bildet",
         "sound": "/sound/4-A2-klikkibilde/sett1/1_A2_klikk_sett1.mp3"
     },
     {
@@ -341,7 +341,7 @@
             "radius": 80
         },
         "difficulty": "A1",
-        "instruction": "Klikk på bildet",
+        "instruction": "Lytt og klikk på riktig sted i bildet",
         "sound": "/sound/4-A2-klikkibilde/sett1/2_A2_klikk_sett1.mp3"
     },
     {
@@ -355,7 +355,7 @@
             "radius": 80
         },
         "difficulty": "A1",
-        "instruction": "Klikk på bildet",
+        "instruction": "Lytt og klikk på riktig sted i bildet",
         "sound": "/sound/4-A2-klikkibilde/sett1/3_A2_klikk_sett1.mp3"
     },
     {
@@ -369,7 +369,7 @@
             "radius": 80
         },
         "difficulty": "A1",
-        "instruction": "Klikk på bildet",
+        "instruction": "Lytt og klikk på riktig sted i bildet",
         "sound": "/sound/4-A2-klikkibilde/sett1/4_A2_klikk_sett1.mp3"
     },
     {
@@ -383,7 +383,7 @@
             "radius": 80
         },
         "difficulty": "A1",
-        "instruction": "Klikk på bildet",
+        "instruction": "Lytt og klikk på riktig sted i bildet",
         "sound": "/sound/4-A2-klikkibilde/sett1/5_A2_klikk_sett1.mp3"
     },
     {
@@ -397,7 +397,7 @@
             "radius": 60
         },
         "difficulty": "A1",
-        "instruction": "Klikk på bildet",
+        "instruction": "Lytt og klikk på riktig sted i bildet",
         "sound": "/sound/4-A2-klikkibilde/sett1/6_A2_klikk_sett1.mp3"
     },
     {
@@ -411,7 +411,7 @@
             "radius": 60
         },
         "difficulty": "A1",
-        "instruction": "Klikk på bildet",
+        "instruction": "Lytt og klikk på riktig sted i bildet",
         "sound": "/sound/4-A2-klikkibilde/sett1/7_A2_klikk_sett1.mp3"
     },
     {
