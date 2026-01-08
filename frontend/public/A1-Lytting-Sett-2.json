@@ -425,7 +425,7 @@
         ],
         "correct_answer": "/images/lytting/A1-S2-oppg8-op4.png",
         "difficulty": "A1",
-        "sound": "/sound/5-A2_VelgRiktigBilde/sett2/1_A2_velg_riktig_bilde_sett2.mp3",
+        "sound": "/sound/5-A2-VelgRiktigBilde/sett2/1_A2_velg_riktig_bilde_sett2.mp3",
         "instruction": "30. Hva må Benjamin gjøre først?"
     },
     {
@@ -439,7 +439,7 @@
         ],
         "correct_answer": "/images/lytting/A1-S2-oppg9-op1.png",
         "difficulty": "A1",
-        "sound": "/sound/5-A2_VelgRiktigBilde/sett2/2_A2_velg_riktig_bilde_sett2.mp3",
+        "sound": "/sound/5-A2-VelgRiktigBilde/sett2/2_A2_velg_riktig_bilde_sett2.mp3",
         "instruction": "31. Hvilket hus ser Markus på?"
     },
     {
@@ -453,7 +453,7 @@
         ],
         "correct_answer": "/images/lytting/A1-S2-oppg10-op4.png",
         "difficulty": "A1",
-        "sound": "/sound/5-A2_VelgRiktigBilde/sett2/3_A2_velg_riktig_bilde_sett2.mp3",
+        "sound": "/sound/5-A2-VelgRiktigBilde/sett2/3_A2_velg_riktig_bilde_sett2.mp3",
         "instruction": "32. Hva skal mannen bruke?"
     },
     {
@@ -467,7 +467,7 @@
         ],
         "correct_answer": "/images/lytting/A1-S2-oppg11-op3.png",
         "difficulty": "A1",
-        "sound": "/sound/5-A2_VelgRiktigBilde/sett2/4_A2_velg_riktig_bilde_sett2.mp3",
+        "sound": "/sound/5-A2-VelgRiktigBilde/sett2/4_A2_velg_riktig_bilde_sett2.mp3",
         "instruction": "33. Når er sykkelen klar?"
     },
     {
@@ -481,7 +481,7 @@
         ],
         "correct_answer": "/images/lytting/A1-S2-oppg12-op1.png",
         "difficulty": "A1",
-        "sound": "/sound/5-A2_VelgRiktigBilde/sett2/5_A2_velg_riktig_bilde_sett2.mp3",
+        "sound": "/sound/5-A2-VelgRiktigBilde/sett2/5_A2_velg_riktig_bilde_sett2.mp3",
         "instruction": "34. Når er sparkesykkelen klar?"
     },
     {
@@ -495,7 +495,7 @@
         ],
         "correct_answer": "/images/lytting/A1-S2-oppg13-op1.png",
         "difficulty": "A1",
-        "sound": "/sound/5-A2_VelgRiktigBilde/sett2/6_A2_velg_riktig_bilde_sett2.mp3",
+        "sound": "/sound/5-A2-VelgRiktigBilde/sett2/6_A2_velg_riktig_bilde_sett2.mp3",
         "instruction": "35. Når møtes de?"
     }
 ]
