@@ -10,7 +10,7 @@
             "radius": 80
         },
         "difficulty": "A1",
-        "instruction": "Lytt og klikk på riktig sted i bildet",
+        "instruction": "1. Lytt og klikk på riktig sted i bildet",
         "sound": "/sound/1-A1-A2klikkibildeogkalender/sett1/1_A1-A2_sett1.mp3"
     },
     {
@@ -24,7 +24,7 @@
             "radius": 80
         },
         "difficulty": "A1",
-        "instruction": "Lytt og klikk på riktig sted i bildet",
+        "instruction": "2. Lytt og klikk på riktig sted i bildet",
         "sound": "/sound/1-A1-A2klikkibildeogkalender/sett1/2_A1-A2_sett1.mp3"
     },
     {
@@ -38,7 +38,7 @@
             "radius": 80
         },
         "difficulty": "A1",
-        "instruction": "Lytt og klikk på riktig sted i bildet",
+        "instruction": "3. Lytt og klikk på riktig sted i bildet",
         "sound": "/sound/1-A1-A2klikkibildeogkalender/sett1/3_A1-A2_sett1.mp3"
     },
     {
@@ -52,7 +52,7 @@
             "radius": 80
         },
         "difficulty": "A1",
-        "instruction": "Lytt og klikk på riktig sted i bildet",
+        "instruction": "4. Lytt og klikk på riktig sted i bildet",
         "sound": "/sound/1-A1-A2klikkibildeogkalender/sett1/4_A1-A2_sett1.mp3"
     },
     {
@@ -66,7 +66,7 @@
             "radius": 80
         },
         "difficulty": "A1",
-        "instruction": "Lytt og klikk på riktig sted i bildet",
+        "instruction": "5. Når får de besøk?",
         "sound": "/sound/1-A1-A2klikkibildeogkalender/sett1/5_A1-A2_sett1.mp3"
     },
     {
@@ -80,7 +80,7 @@
             "radius": 60
         },
         "difficulty": "A1",
-        "instruction": "Lytt og klikk på riktig sted i bildet",
+        "instruction": "6. Når skal kvinnen reise på ferie?",
         "sound": "/sound/1-A1-A2klikkibildeogkalender/sett1/6_A1-A2_sett1.mp3"
     },
     {
@@ -94,7 +94,7 @@
         ],
         "correct_answer": "/images/lytting/A1-S1-oppg1-op4.png",
         "difficulty": "A1",
-        "instruction": "Klikk på riktig bilde",
+        "instruction": "7. Klikk på personen med hvit skjorte og slips",
         "sound": "/sound/2-A1-A2velgRiktigBilde/sett1/1_A1-A2_sett1.mp3"
     },
     {
@@ -108,7 +108,7 @@
         ],
         "correct_answer": "/images/lytting/A1-S1-oppg2-op3.png",
         "difficulty": "A1",
-        "instruction": "Klikk på riktig bilde",
+        "instruction": "8. Hva mangler på hotellet?",
         "sound": "/sound/2-A1-A2velgRiktigBilde/sett1/2_A1-A2_sett1.mp3"
     },
     {
@@ -122,7 +122,7 @@
         ],
         "correct_answer": "/images/lytting/A1-S1-oppg3-op1.png",
         "difficulty": "A1",
-        "instruction": "Klikk på riktig bilde",
+        "instruction": "9. Lytt og klikk på riktig sted i bildet",
         "sound": "/sound/2-A1-A2velgRiktigBilde/sett1/3_A1-A2_sett1.mp3"
     },
     {
@@ -136,7 +136,7 @@
         ],
         "correct_answer": "/images/lytting/A1-S1-oppg4-op2.png",
         "difficulty": "A1",
-        "instruction": "Klikk på riktig bilde",
+        "instruction": "10. Lytt og klikk på riktig sted i bildet",
         "sound": "/sound/2-A1-A2velgRiktigBilde/sett1/4_A1-A2_sett1.mp3"
     },
     {
@@ -150,7 +150,7 @@
         ],
         "correct_answer": "/images/lytting/A1-S1-oppg5-op3.png",
         "difficulty": "A1",
-        "instruction": "Klikk på riktig bilde",
+        "instruction": "11. Hva bør du ta med deg?",
         "sound": "/sound/2-A1-A2velgRiktigBilde/sett1/5_A1-A2_sett1.mp3"
     },
     {
@@ -164,7 +164,7 @@
         ],
         "correct_answer": "/images/lytting/A1-S1-oppg6-op4.png",
         "difficulty": "A1",
-        "instruction": "Klikk på riktig bilde",
+        "instruction": "12. Hva skal mannen ha på seg?",
         "sound": "/sound/2-A1-A2velgRiktigBilde/sett1/6_A1-A2_sett1.mp3"
     },
     {
@@ -178,7 +178,7 @@
         ],
         "correct_answer": "/images/lytting/A1-S1-oppg7-op1.png",
         "difficulty": "A1",
-        "instruction": "Klikk på riktig bilde",
+        "instruction": "13. Hva kjøper paret?",
         "sound": "/sound/2-A1-A2velgRiktigBilde/sett1/7_A1-A2_sett1.mp3"
     },
     {
@@ -193,7 +193,7 @@
         ],
         "correct_answer": "C: 2999 kroner",
         "difficulty": "A1",
-        "instruction": "Klikk på riktig svar",
+        "instruction": "Flervalgsoppgaver. Lytt til oppgavene. Klikk på riktig svar.<br>14. Hvor mye koster vaskemaskinen nå?",
         "sound": "/sound/3-A1-A2flervalgsoppgaver/sett1/1_A1-A2_flerv_sett1.mp3"
     },
     {
@@ -208,7 +208,7 @@
         ],
         "correct_answer": "B: Klokka 16:30",
         "difficulty": "A1",
-        "instruction": "Klikk på riktig svar",
+        "instruction": "15. Når er mannen ferdig på jobb tirsdag?",
         "sound": "/sound/3-A1-A2flervalgsoppgaver/sett1/2_A1-A2_flerv_sett1.mp3"
     },
     {
@@ -223,7 +223,7 @@
         ],
         "correct_answer": "A: Hos vegvesenet",
         "difficulty": "A1",
-        "instruction": "Klikk på riktig svar",
+        "instruction": "16. Hvor er mannen?",
         "sound": "/sound/3-A1-A2flervalgsoppgaver/sett1/3_A1-A2_flerv_sett1.mp3"
     },
     {
@@ -238,7 +238,7 @@
         ],
         "correct_answer": "D: 120 000 kroner",
         "difficulty": "A1",
-        "instruction": "Klikk på riktig svar",
+        "instruction": "17. Hvor mye selges bilen for til slutt?",
         "sound": "/sound/3-A1-A2flervalgsoppgaver/sett1/4_A1-A2_flerv_sett1.mp3"
     },
     {
@@ -253,7 +253,7 @@
         ],
         "correct_answer": "B: Drar på ferie",
         "difficulty": "A1",
-        "instruction": "Klikk på riktig svar",
+        "instruction": "18. Hva gjør kvinnen etter studiet?",
         "sound": "/sound/3-A1-A2flervalgsoppgaver/sett1/5_A1-A2_flerv_sett1.mp3"
     },
     {
@@ -268,7 +268,7 @@
         ],
         "correct_answer": "B: Dårlig økonomi",
         "difficulty": "A1",
-        "instruction": "Klikk på riktig svar",
+        "instruction": "19. Hvorfor ble flybasene lagt ned?",
         "sound": "/sound/3-A1-A2flervalgsoppgaver/sett1/6_A1-A2_flerv_sett1.mp3"
     },
     {
@@ -283,7 +283,7 @@
         ],
         "correct_answer": "C: 4 poser",
         "difficulty": "A1",
-        "instruction": "Klikk på riktig svar",
+        "instruction": "20. Hvor mange poser kjøpte Jonas?",
         "sound": "/sound/3-A1-A2flervalgsoppgaver/sett1/7_A1-A2_flerv_sett1.mp3"
     },
     {
@@ -298,7 +298,7 @@
         ],
         "correct_answer": "B: 2 barn",
         "difficulty": "A1",
-        "instruction": "Klikk på riktig svar",
+        "instruction": "21. Hvor mange barn har Trond?",
         "sound": "/sound/3-A1-A2flervalgsoppgaver/sett1/8_A1-A2_flerv_sett1.mp3"
     },
     {
@@ -313,7 +313,7 @@
         ],
         "correct_answer": "C: 3 katter",
         "difficulty": "A1",
-        "instruction": "Klikk på riktig svar",
+        "instruction": "22. Hvor mange katter har Celine hatt totalt?",
         "sound": "/sound/3-A1-A2flervalgsoppgaver/sett1/9_A1-A2_flerv_sett1.mp3"
     },
     {
@@ -327,7 +327,7 @@
             "radius": 80
         },
         "difficulty": "A1",
-        "instruction": "Lytt og klikk på riktig sted i bildet",
+        "instruction": "23. Lytt og klikk på riktig sted i bildet",
         "sound": "/sound/4-A2-klikkibilde/sett1/1_A2_klikk_sett1.mp3"
     },
     {
@@ -341,7 +341,7 @@
             "radius": 80
         },
         "difficulty": "A1",
-        "instruction": "Lytt og klikk på riktig sted i bildet",
+        "instruction": "24. Lytt og klikk på riktig sted i bildet",
         "sound": "/sound/4-A2-klikkibilde/sett1/2_A2_klikk_sett1.mp3"
     },
     {
@@ -355,7 +355,7 @@
             "radius": 80
         },
         "difficulty": "A1",
-        "instruction": "Lytt og klikk på riktig sted i bildet",
+        "instruction": "25. Lytt og klikk på riktig sted i bildet",
         "sound": "/sound/4-A2-klikkibilde/sett1/3_A2_klikk_sett1.mp3"
     },
     {
@@ -369,7 +369,7 @@
             "radius": 80
         },
         "difficulty": "A1",
-        "instruction": "Lytt og klikk på riktig sted i bildet",
+        "instruction": "26. Lytt og klikk på riktig sted i bildet",
         "sound": "/sound/4-A2-klikkibilde/sett1/4_A2_klikk_sett1.mp3"
     },
     {
@@ -383,7 +383,7 @@
             "radius": 80
         },
         "difficulty": "A1",
-        "instruction": "Lytt og klikk på riktig sted i bildet",
+        "instruction": "27. Lytt og klikk på riktig sted i bildet",
         "sound": "/sound/4-A2-klikkibilde/sett1/5_A2_klikk_sett1.mp3"
     },
     {
@@ -397,7 +397,7 @@
             "radius": 60
         },
         "difficulty": "A1",
-        "instruction": "Lytt og klikk på riktig sted i bildet",
+        "instruction": "28. Hvilken måned liker kvinnen minst?",
         "sound": "/sound/4-A2-klikkibilde/sett1/6_A2_klikk_sett1.mp3"
     },
     {
@@ -411,7 +411,7 @@
             "radius": 60
         },
         "difficulty": "A1",
-        "instruction": "Lytt og klikk på riktig sted i bildet",
+        "instruction": "29. Når skal mannen kjøre opp for å få førerkortet sitt?",
         "sound": "/sound/4-A2-klikkibilde/sett1/7_A2_klikk_sett1.mp3"
     },
     {
@@ -425,7 +425,7 @@
         ],
         "correct_answer": "/images/lytting/A1-S1-oppg8-op3.png",
         "difficulty": "A1",
-        "instruction": "Klikk på riktig bilde",
+        "instruction": "30. Hvor må Bodil dra først?",
         "sound": "/sound/5-A2-VelgRiktigBilde/sett1/1_A2_velg_riktig_bilde_sett1.mp3"
     },
     {
@@ -439,7 +439,7 @@
         ],
         "correct_answer": "/images/lytting/A1-S1-oppg9-op4.png",
         "difficulty": "A1",
-        "instruction": "Klikk på riktig bilde",
+        "instruction": "31. Hvor er kvinnen?",
         "sound": "/sound/5-A2-VelgRiktigBilde/sett1/2_A2_velg_riktig_bilde_sett1.mp3"
     },
     {
@@ -453,7 +453,7 @@
         ],
         "correct_answer": "/images/lytting/A1-S1-oppg10-op1.png",
         "difficulty": "A1",
-        "instruction": "Klikk på riktig bilde",
+        "instruction": "32. Hva behøver ikke Nora å ta med seg?",
         "sound": "/sound/5-A2-VelgRiktigBilde/sett1/3_A2_velg_riktig_bilde_sett1.mp3"
     },
     {
@@ -467,7 +467,7 @@
         ],
         "correct_answer": "/images/lytting/A1-S1-oppg11-op2.png",
         "difficulty": "A1",
-        "instruction": "Klikk på riktig bilde",
+        "instruction": "33. Når går toget til Asker?",
         "sound": "/sound/5-A2-VelgRiktigBilde/sett1/4_A2_velg_riktig_bilde_sett1.mp3"
     },
     {
@@ -481,7 +481,7 @@
         ],
         "correct_answer": "/images/lytting/A1-S1-oppg12-op3.png",
         "difficulty": "A1",
-        "instruction": "Klikk på riktig bilde",
+        "instruction": "34. Når går toget til Stovner?",
         "sound": "/sound/5-A2-VelgRiktigBilde/sett1/5_A2_velg_riktig_bilde_sett1.mp3"
     },
     {
@@ -495,7 +495,7 @@
         ],
         "correct_answer": "/images/lytting/A1-S1-oppg13-op3.png",
         "difficulty": "A1",
-        "instruction": "Klikk på riktig bilde",
+        "instruction": "35. Når ønsker kvinnen å bestille bord?",
         "sound": "/sound/5-A2-VelgRiktigBilde/sett1/6_A2_velg_riktig_bilde_sett1.mp3"
     }
 ]
