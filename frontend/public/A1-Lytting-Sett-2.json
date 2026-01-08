@@ -11,7 +11,7 @@
         },
         "difficulty": "A1",
         "sound": "/sound/1-A1-A2klikkibildeogkalender/sett2/1_A1-A2_sett2.mp3",
-        "instruction": "Klikk på bildet"
+        "instruction": "1. Lytt og klikk på riktig sted i bildet"
     },
     {
         "type": "image-click",
@@ -25,7 +25,7 @@
         },
         "difficulty": "A1",
         "sound": "/sound/1-A1-A2klikkibildeogkalender/sett2/2_A1-A2_sett2.mp3",
-        "instruction": "Klikk på bildet"
+        "instruction": "2. Lytt og klikk på riktig sted i bildet"
     },
     {
         "type": "image-click",
@@ -39,7 +39,7 @@
         },
         "difficulty": "A1",
         "sound": "/sound/1-A1-A2klikkibildeogkalender/sett2/3_A1-A2_sett2.mp3",
-        "instruction": "Klikk på bildet"
+        "instruction": "3. Lytt og klikk på riktig sted i bildet"
     },
     {
         "type": "image-click",
@@ -53,7 +53,7 @@
         },
         "difficulty": "A1",
         "sound": "/sound/1-A1-A2klikkibildeogkalender/sett2/4_A1-A2_sett2.mp3",
-        "instruction": "Klikk på bildet"
+        "instruction": "4. Lytt og klikk på riktig sted i bildet"
     },
     {
         "type": "image-click",
@@ -67,7 +67,7 @@
         },
         "difficulty": "A1",
         "sound": "/sound/1-A1-A2klikkibildeogkalender/sett2/5_A1-A2_sett2.mp3",
-        "instruction": "Klikk på bildet"
+        "instruction": "5. Når kommer søppelbilen?"
     },
     {
         "type": "image-click",
@@ -81,7 +81,7 @@
         },
         "difficulty": "A1",
         "sound": "/sound/1-A1-A2klikkibildeogkalender/sett2/6_A1-A2_sett2.mp3",
-        "instruction": "Klikk på bildet"
+        "instruction": "6. Når pleier Solfrid å plukke sopp?"
     },
     {
         "type": "image",
@@ -95,7 +95,7 @@
         "correct_answer": "/images/lytting/A1-S2-oppg1-op2.png",
         "difficulty": "A1",
         "sound": "/sound/2-A1-A2velgRiktigBilde/sett2/1_A1-A2_sett2.mp3",
-        "instruction": "Klikk på riktig bilde"
+        "instruction": "7. Lytt og klikk på riktig bilde"
     },
     {
         "type": "image",
@@ -109,7 +109,7 @@
         "correct_answer": "/images/lytting/A1-S2-oppg2-op2.png",
         "difficulty": "A1",
         "sound": "/sound/2-A1-A2velgRiktigBilde/sett2/2_A1-A2_sett2.mp3",
-        "instruction": "Klikk på riktig bilde"
+        "instruction": "8. Hva skal Sara kjøpe?"
     },
     {
         "type": "image",
@@ -123,7 +123,7 @@
         "correct_answer": "/images/lytting/A1-S2-oppg3-op2.png",
         "difficulty": "A1",
         "sound": "/sound/2-A1-A2velgRiktigBilde/sett2/3_A1-A2_sett2.mp3",
-        "instruction": "Klikk på riktig bilde"
+        "instruction": "9. Lytt og klikk på riktig bilde"
     },
     {
         "type": "image",
@@ -137,7 +137,7 @@
         "correct_answer": "/images/lytting/A1-S2-oppg4-op2.png",
         "difficulty": "A1",
         "sound": "/sound/2-A1-A2velgRiktigBilde/sett2/4_A1-A2_sett2.mp3",
-        "instruction": "Klikk på riktig bilde"
+        "instruction": "10. Lytt og klikk på riktig bilde"
     },
     {
         "type": "image",
@@ -151,7 +151,7 @@
         "correct_answer": "/images/lytting/A1-S2-oppg5-op4.png",
         "difficulty": "A1",
         "sound": "/sound/2-A1-A2velgRiktigBilde/sett2/5_A1-A2_sett2.mp3",
-        "instruction": "Klikk på riktig bilde"
+        "instruction": "11. Hva bør du ta på deg?"
     },
     {
         "type": "image",
@@ -165,7 +165,7 @@
         "correct_answer": "/images/lytting/A1-S2-oppg6-op1.png",
         "difficulty": "A1",
         "sound": "/sound/2-A1-A2velgRiktigBilde/sett2/6_A1-A2_sett2.mp3",
-        "instruction": "Klikk på riktig bilde"
+        "instruction": "12. Hva skal kvinnen ha på seg i dag?"
     },
     {
         "type": "image",
@@ -179,7 +179,7 @@
         "correct_answer": "/images/lytting/A1-S2-oppg7-op4.png",
         "difficulty": "A1",
         "sound": "/sound/2-A1-A2velgRiktigBilde/sett2/7_A1-A2_sett2.mp3",
-        "instruction": "Klikk på riktig bilde"
+        "instruction": "13. Hvor legger kvinnen klærne sine?"
     },
     {
         "type": "multiple",
@@ -194,7 +194,7 @@
         "correct_answer": "3 billetter",
         "difficulty": "A1",
         "sound": "/sound/3-A1-A2flervalgsoppgaver/sett2/1_A1-A2_flerv_sett2.mp3",
-        "instruction": "Klikk på riktig svar"
+        "instruction": "Flervalgsoppgaver. Lytt til oppgavene. Klikk på riktig svar. <br> <br>14. Hvor mange billetter er ledig nå?"
     },
     {
         "type": "multiple",
@@ -209,7 +209,7 @@
         "correct_answer": "D: Klokka 10",
         "difficulty": "A1",
         "sound": "/sound/3-A1-A2flervalgsoppgaver/sett2/2_A1-A2_flerv_sett2.mp3",
-        "instruction": "Klikk på riktig svar"
+        "instruction": "15. Når tar kvinnen bussen på lørdag?"
     },
     {
         "type": "multiple",
@@ -224,7 +224,7 @@
         "correct_answer": "C: Hos frisøren",
         "difficulty": "A1",
         "sound": "/sound/3-A1-A2flervalgsoppgaver/sett2/3_A1-A2_flerv_sett2.mp3",
-        "instruction": "Klikk på riktig svar"
+        "instruction": "16. Hvor er mannen?"
     },
     {
         "type": "multiple",
@@ -239,7 +239,7 @@
         "correct_answer": "B: 349 kroner",
         "difficulty": "A1",
         "sound": "/sound/3-A1-A2flervalgsoppgaver/sett2/4_A1-A2_flerv_sett2.mp3",
-        "instruction": "Klikk på riktig svar"
+        "instruction": "17. Hvor mye koster mobilabonnementet til mannen i måneden?"
     },
     {
         "type": "multiple",
@@ -254,7 +254,7 @@
         "correct_answer": "C: Arbeide fysisk",
         "difficulty": "A1",
         "sound": "/sound/3-A1-A2flervalgsoppgaver/sett2/5_A1-A2_flerv_sett2.mp3",
-        "instruction": "Klikk på riktig svar"
+        "instruction": "18. Hva vil mannen?"
     },
     {
         "type": "multiple",
@@ -269,7 +269,7 @@
         "correct_answer": "D: 43 stillinger",
         "difficulty": "A1",
         "sound": "/sound/3-A1-A2flervalgsoppgaver/sett2/6_A1-A2_flerv_sett2.mp3",
-        "instruction": "Klikk på riktig svar"
+        "instruction": "19. Hvor mange stillinger er ledig?"
     },
     {
         "type": "multiple",
@@ -284,7 +284,7 @@
         "correct_answer": "A: 7 personer",
         "difficulty": "A1",
         "sound": "/sound/3-A1-A2flervalgsoppgaver/sett2/7_A1-A2_flerv_sett2.mp3",
-        "instruction": "Klikk på riktig svar"
+        "instruction": "20. Hvor mange av de inviterte er familie?"
     },
     {
         "type": "multiple",
@@ -299,7 +299,7 @@
         "correct_answer": "C: 4 skopar",
         "difficulty": "A1",
         "sound": "/sound/3-A1-A2flervalgsoppgaver/sett2/8_A1-A2_flerv_sett2.mp3",
-        "instruction": "Klikk på riktig svar"
+        "instruction": "21. Hvor mange skopar har Isabel?"
     },
     {
         "type": "multiple",
@@ -314,7 +314,7 @@
         "correct_answer": "B: 5 butikker",
         "difficulty": "A1",
         "sound": "/sound/3-A1-A2flervalgsoppgaver/sett2/9_A1-A2_flerv_sett2.mp3",
-        "instruction": "Klikk på riktig svar"
+        "instruction": "22. Hvor mange butikker finnes i bygda?"
     },
     {
         "type": "image-click",
@@ -328,7 +328,7 @@
         },
         "difficulty": "A1",
         "sound": "/sound/4-A2-klikkibilde/sett2/1_A2_klikk_sett2.mp3",
-        "instruction": "Klikk på bildet"
+        "instruction": "23. Lytt og klikk på riktig sted i bildet."
     },
     {
         "type": "image-click",
@@ -342,7 +342,7 @@
         },
         "difficulty": "A1",
         "sound": "/sound/4-A2-klikkibilde/sett2/2_A2_klikk_sett2.mp3",
-        "instruction": "Klikk på bildet"
+        "instruction": "24. Lytt og klikk på riktig sted i bildet."
     },
     {
         "type": "image-click",
@@ -356,7 +356,7 @@
         },
         "difficulty": "A1",
         "sound": "/sound/4-A2-klikkibilde/sett2/3_A2_klikk_sett2.mp3",
-        "instruction": "Klikk på bildet"
+        "instruction": "25. Lytt og klikk på riktig sted i bildet."
     },
     {
         "type": "image-click",
@@ -370,7 +370,7 @@
         },
         "difficulty": "A1",
         "sound": "/sound/4-A2-klikkibilde/sett2/4_A2_klikk_sett2.mp3",
-        "instruction": "Klikk på bildet"
+        "instruction": "26. Lytt og klikk på riktig sted i bildet."
     },
     {
         "type": "image-click",
@@ -384,7 +384,7 @@
         },
         "difficulty": "A1",
         "sound": "/sound/4-A2-klikkibilde/sett2/5_A2_klikk_sett2.mp3",
-        "instruction": "Klikk på bildet"
+        "instruction": "27. Lytt og klikk på riktig sted i bildet."
     },
     {
         "type": "image-click",
@@ -398,7 +398,7 @@
         },
         "difficulty": "A1",
         "sound": "/sound/4-A2-klikkibilde/sett2/6_A2_klikk_sett2.mp3",
-        "instruction": "Klikk på bildet"
+        "instruction": "28. Hvilken måned skal familien reise?"
     },
     {
         "type": "image-click",
@@ -412,7 +412,7 @@
         },
         "difficulty": "A1",
         "sound": "/sound/4-A2-klikkibilde/sett2/7_A2_klikk_sett2.mp3",
-        "instruction": "Klikk på bildet"
+        "instruction": "29. Når skal paret renovere leiligheten?"
     },
     {
         "type": "image",
@@ -426,7 +426,7 @@
         "correct_answer": "/images/lytting/A1-S2-oppg8-op4.png",
         "difficulty": "A1",
         "sound": "/sound/5-A2_VelgRiktigBilde/sett2/1_A2_velg_riktig_bilde_sett2.mp3",
-        "instruction": "Klikk på riktig bilde"
+        "instruction": "30. Hva må Benjamin gjøre først?"
     },
     {
         "type": "image",
@@ -440,7 +440,7 @@
         "correct_answer": "/images/lytting/A1-S2-oppg9-op1.png",
         "difficulty": "A1",
         "sound": "/sound/5-A2_VelgRiktigBilde/sett2/2_A2_velg_riktig_bilde_sett2.mp3",
-        "instruction": "Klikk på riktig bilde"
+        "instruction": "31. Hvilket hus ser Markus på?"
     },
     {
         "type": "image",
@@ -454,7 +454,7 @@
         "correct_answer": "/images/lytting/A1-S2-oppg10-op4.png",
         "difficulty": "A1",
         "sound": "/sound/5-A2_VelgRiktigBilde/sett2/3_A2_velg_riktig_bilde_sett2.mp3",
-        "instruction": "Klikk på riktig bilde"
+        "instruction": "32. Hva skal mannen bruke?"
     },
     {
         "type": "image",
@@ -468,7 +468,7 @@
         "correct_answer": "/images/lytting/A1-S2-oppg11-op3.png",
         "difficulty": "A1",
         "sound": "/sound/5-A2_VelgRiktigBilde/sett2/4_A2_velg_riktig_bilde_sett2.mp3",
-        "instruction": "Klikk på riktig bilde"
+        "instruction": "33. Når er sykkelen klar?"
     },
     {
         "type": "image",
@@ -482,7 +482,7 @@
         "correct_answer": "/images/lytting/A1-S2-oppg12-op1.png",
         "difficulty": "A1",
         "sound": "/sound/5-A2_VelgRiktigBilde/sett2/5_A2_velg_riktig_bilde_sett2.mp3",
-        "instruction": "Klikk på riktig bilde"
+        "instruction": "34. Når er sparkesykkelen klar?"
     },
     {
         "type": "image",
@@ -496,6 +496,6 @@
         "correct_answer": "/images/lytting/A1-S2-oppg13-op1.png",
         "difficulty": "A1",
         "sound": "/sound/5-A2_VelgRiktigBilde/sett2/6_A2_velg_riktig_bilde_sett2.mp3",
-        "instruction": "Klikk på riktig bilde"
+        "instruction": "35. Når møtes de?"
     }
 ]
