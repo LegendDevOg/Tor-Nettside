@@ -11,7 +11,7 @@
         },
         "difficulty": "A1",
         "sound": "/sound/1-A1-A2klikkibildeogkalender/sett3/1_A1-A2_sett3.mp3",
-        "instruction": "Klikk på bildet"
+        "instruction": "1. Lytt og klikk på riktig sted i bildet"
     },
     {
         "type": "image-click",
@@ -25,7 +25,7 @@
         },
         "difficulty": "A1",
         "sound": "/sound/1-A1-A2klikkibildeogkalender/sett3/2_A1-A2_sett3.mp3",
-        "instruction": "Klikk på bildet"
+        "instruction": "2. Lytt og klikk på riktig sted i bildet"
     },
     {
         "type": "image-click",
@@ -39,7 +39,7 @@
         },
         "difficulty": "A1",
         "sound": "/sound/1-A1-A2klikkibildeogkalender/sett3/3_A1-A2_sett3.mp3",
-        "instruction": "Klikk på bildet"
+        "instruction": "3. Lytt og klikk på riktig sted i bildet"
     },
     {
         "type": "image-click",
@@ -53,7 +53,7 @@
         },
         "difficulty": "A1",
         "sound": "/sound/1-A1-A2klikkibildeogkalender/sett3/4_A1-A2_sett3.mp3",
-        "instruction": "Klikk på bildet"
+        "instruction": "4. Lytt og klikk på riktig sted i bildet"
     },
     {
         "type": "image-click",
@@ -67,7 +67,7 @@
         },
         "difficulty": "A1",
         "sound": "/sound/1-A1-A2klikkibildeogkalender/sett3/5_A1-A2_sett3.mp3",
-        "instruction": "Klikk på bildet"
+        "instruction": "5. Når skal familien spise pizza?"
     },
     {
         "type": "image-click",
@@ -81,7 +81,7 @@
         },
         "difficulty": "A1",
         "sound": "/sound/1-A1-A2klikkibildeogkalender/sett3/6_A1-A2_sett3.mp3",
-        "instruction": "Klikk på bildet"
+        "instruction": "6. Når er Viktoria ferdig med studiet sitt?"
     },
     {
         "type": "image",
@@ -95,7 +95,7 @@
         "correct_answer": "/images/lytting/A1-S3-oppg1-op2.png",
         "difficulty": "A1",
         "sound": "/sound/2-A1-A2velgRiktigBilde/sett3/1_A1-A2_sett3.mp3",
-        "instruction": "Klikk på riktig bilde"
+        "instruction": "7. Klikk på riktig bilde"
     },
     {
         "type": "image",
@@ -109,7 +109,7 @@
         "correct_answer": "/images/lytting/A1-S3-oppg2-op3.png",
         "difficulty": "A1",
         "sound": "/sound/2-A1-A2velgRiktigBilde/sett3/2_A1-A2_sett3.mp3",
-        "instruction": "Klikk på riktig bilde"
+        "instruction": "8. Hva har de til middag?"
     },
     {
         "type": "image",
@@ -123,7 +123,7 @@
         "correct_answer": "/images/lytting/A1-S3-oppg3-op1.png",
         "difficulty": "A1",
         "sound": "/sound/2-A1-A2velgRiktigBilde/sett3/3_A1-A2_sett3.mp3",
-        "instruction": "Klikk på riktig bilde"
+        "instruction": "9. Klikk på riktig bilde"
     },
     {
         "type": "image",
@@ -137,7 +137,7 @@
         "correct_answer": "/images/lytting/A1-S3-oppg4-op4.png",
         "difficulty": "A1",
         "sound": "/sound/2-A1-A2velgRiktigBilde/sett3/4_A1-A2_sett3.mp3",
-        "instruction": "Klikk på riktig bilde"
+        "instruction": "10. Klikk på riktig bilde"
     },
     {
         "type": "image",
@@ -151,7 +151,7 @@
         "correct_answer": "/images/lytting/A1-S3-oppg5-op1.png",
         "difficulty": "A1",
         "sound": "/sound/2-A1-A2velgRiktigBilde/sett3/5_A1-A2_sett3.mp3",
-        "instruction": "Klikk på riktig bilde"
+        "instruction": "11. Hva skal Per hente?"
     },
     {
         "type": "image",
@@ -165,7 +165,7 @@
         "correct_answer": "/images/lytting/A1-S3-oppg6-op1.png",
         "difficulty": "A1",
         "sound": "/sound/2-A1-A2velgRiktigBilde/sett3/6_A1-A2_sett3.mp3",
-        "instruction": "Klikk på riktig bilde"
+        "instruction": "12. Hva manglet i ryggsekken?"
     },
     {
         "type": "image",
@@ -179,7 +179,7 @@
         "correct_answer": "/images/lytting/A1-S3-oppg7-op3.png",
         "difficulty": "A1",
         "sound": "/sound/2-A1-A2velgRiktigBilde/sett3/7_A1-A2_sett3.mp3",
-        "instruction": "Klikk på riktig bilde"
+        "instruction": "13. Hvilken genser har mannen lyst på?"
     },
     {
         "type": "multiple",
@@ -194,7 +194,7 @@
         "correct_answer": "B: 15 kroner",
         "difficulty": "A1",
         "sound": "/sound/3-A1-A2flervalgsoppgaver/sett3/1_A1-A2_flerv_sett3.mp3",
-        "instruction": "Klikk på riktig svar"
+        "instruction": "14. Flervalgsoppgaver. Lytt til oppgavene. Klikk på riktig svar. <br> <br>15. Hvor mye sparer man?"
     },
     {
         "type": "multiple",
@@ -209,7 +209,7 @@
         "correct_answer": "C: På torsdag er det en helligdag, me",
         "difficulty": "A1",
         "sound": "/sound/3-A1-A2flervalgsoppgaver/sett3/2_A1-A2_flerv_sett3.mp3",
-        "instruction": "Klikk på riktig svar"
+        "instruction": "15. Når åpner restauranten igjen?"
     },
     {
         "type": "multiple",
@@ -224,7 +224,7 @@
         "correct_answer": "C: Hos tannlegen",
         "difficulty": "A1",
         "sound": "/sound/3-A1-A2flervalgsoppgaver/sett3/3_A1-A2_flerv_sett3.mp3",
-        "instruction": "Klikk på riktig svar"
+        "instruction": "16. Hvor er kvinnen?"
     },
     {
         "type": "multiple",
@@ -239,7 +239,7 @@
         "correct_answer": "D: Fatøne",
         "difficulty": "A1",
         "sound": "/sound/3-A1-A2flervalgsoppgaver/sett3/4_A1-A2_flerv_sett3.mp3",
-        "instruction": "Klikk på riktig svar"
+        "instruction": "17. Hva er de enige om å kjøpe?"
     },
     {
         "type": "multiple",
@@ -254,7 +254,7 @@
         "correct_answer": "B: Være sunnere",
         "difficulty": "A1",
         "sound": "/sound/3-A1-A2flervalgsoppgaver/sett3/5_A1-A2_flerv_sett3.mp3",
-        "instruction": "Klikk på riktig svar"
+        "instruction": "18. Hva vil kvinnen?"
     },
     {
         "type": "multiple",
@@ -269,7 +269,7 @@
         "correct_answer": "C: 65 millioner kroner",
         "difficulty": "A1",
         "sound": "/sound/3-A1-A2flervalgsoppgaver/sett3/6_A1-A2_flerv_sett3.mp3",
-        "instruction": "Klikk på riktig svar"
+        "instruction": "19. Hvor mye penger tapes på sniking i året?"
     },
     {
         "type": "multiple",
@@ -284,22 +284,22 @@
         "correct_answer": "D: Fem bøker",
         "difficulty": "A1",
         "sound": "/sound/3-A1-A2flervalgsoppgaver/sett3/7_A1-A2_flerv_sett3.mp3",
-        "instruction": "Klikk på riktig svar"
+        "instruction": "20. Hvor mange bøker trenger Josef?"
     },
     {
         "type": "multiple",
         "question": "",
         "context": "",
         "options": [
-            "A: 3 søsken",
+            "A: 5 søsken",
             "B: 7 søsken",
             "C: 6 søsken",
             "D: 4 søsken"
         ],
-        "correct_answer": "A: 3 søsken",
+        "correct_answer": "A: 5 søsken",
         "difficulty": "A1",
         "sound": "/sound/3-A1-A2flervalgsoppgaver/sett3/8_A1-A2_flerv_sett3.mp3",
-        "instruction": "Klikk på riktig svar"
+        "instruction": "21. Hvor mange søsken har Katrine?"
     },
     {
         "type": "multiple",
@@ -313,8 +313,8 @@
         ],
         "correct_answer": "B: 6 medaljer",
         "difficulty": "A1",
-        "sound": "/sound/3-A1-A2flervalgsoppgaver/sett3/1_A1-A2_flerv_sett3.mp3",
-        "instruction": "Klikk på riktig svar"
+        "sound": "/sound/3-A1-A2flervalgsoppgaver/sett3/9_A1-A2_flerv_sett3.mp3",
+        "instruction": "22. Hvor mange medaljer vant Norge i år?"
     },
     {
         "type": "image-click",
@@ -328,7 +328,7 @@
         },
         "difficulty": "A1",
         "sound": "/sound/4-A2-klikkibilde/sett3/1_A2_klikk_sett3.mp3",
-        "instruction": "Klikk på bildet"
+        "instruction": "23. Lytt og klikk på riktig sted i bildet"
     },
     {
         "type": "image-click",
@@ -342,7 +342,7 @@
         },
         "difficulty": "A1",
         "sound": "/sound/4-A2-klikkibilde/sett3/2_A2_klikk_sett3.mp3",
-        "instruction": "Klikk på bildet"
+        "instruction": "24. Lytt og klikk på riktig sted i bildet"
     },
     {
         "type": "image-click",
@@ -356,7 +356,7 @@
         },
         "difficulty": "A1",
         "sound": "/sound/4-A2-klikkibilde/sett3/3_A2_klikk_sett3.mp3",
-        "instruction": "Klikk på bildet"
+        "instruction": "25. Klikk på mannen som klager."
     },
     {
         "type": "image-click",
@@ -370,7 +370,7 @@
         },
         "difficulty": "A1",
         "sound": "/sound/4-A2-klikkibilde/sett3/4_A2_klikk_sett3.mp3",
-        "instruction": "Klikk på bildet"
+        "instruction": "26. Lytt og klikk på riktig sted i bildet"
     },
     {
         "type": "image-click",
@@ -384,7 +384,7 @@
         },
         "difficulty": "A1",
         "sound": "/sound/4-A2-klikkibilde/sett3/5_A2_klikk_sett3.mp3",
-        "instruction": "Klikk på bildet"
+        "instruction": "27. Lytt og klikk på riktig sted i bildet"
     },
     {
         "type": "image-click",
@@ -398,7 +398,7 @@
         },
         "difficulty": "A1",
         "sound": "/sound/4-A2-klikkibilde/sett3/6_A2_klikk_sett3.mp3",
-        "instruction": "Klikk på bildet"
+        "instruction": "28. Når skal mannen dra i militæret?"
     },
     {
         "type": "image-click",
@@ -412,7 +412,7 @@
         },
         "difficulty": "A1",
         "sound": "/sound/4-A2-klikkibilde/sett3/7_A2_klikk_sett3.mp3",
-        "instruction": "Klikk på bildet"
+        "instruction": "29. Når skal kvinnen få det kontoret sitt?"
     },
     {
         "type": "image",
@@ -426,7 +426,7 @@
         "correct_answer": "/images/lytting/A1-S3-oppg8-op1.png",
         "difficulty": "A1",
         "sound": "/sound/5-A2_VelgRiktigBilde/sett3/2_A2_velg_riktig_bilde_sett3.mp3",
-        "instruction": "Klikk på riktig bilde"
+        "instruction": "30. Hva må Monica hente?"
     },
     {
         "type": "image",
@@ -440,7 +440,7 @@
         "correct_answer": "/images/lytting/A1-S3-oppg9-op3.png",
         "difficulty": "A1",
         "sound": "/sound/5-A2_VelgRiktigBilde/sett3/3_A2_velg_riktig_bilde_sett3.mp3",
-        "instruction": "Klikk på riktig bilde"
+        "instruction": "31. Hvilket kontor snakker Jenny om?"
     },
     {
         "type": "image",
@@ -454,7 +454,7 @@
         "correct_answer": "/images/lytting/A1-S3-oppg10-op2.png",
         "difficulty": "A1",
         "sound": "/sound/5-A2_VelgRiktigBilde/sett3/4_A2_velg_riktig_bilde_sett3.mp3",
-        "instruction": "Klikk på riktig bilde"
+        "instruction": "32. Hva kan kvinnen skaffe seg?"
     },
     {
         "type": "image",
@@ -468,7 +468,7 @@
         "correct_answer": "/images/lytting/A1-S3-oppg11-op1.png",
         "difficulty": "A1",
         "sound": "/sound/5-A2_VelgRiktigBilde/sett3/5_A2_velg_riktig_bilde_sett3.mp3",
-        "instruction": "Klikk på riktig bilde"
+        "instruction": "33. Når starter helmaraton?"
     },
     {
         "type": "image",
@@ -482,7 +482,7 @@
         "correct_answer": "/images/lytting/A1-S3-oppg12-op2.png",
         "difficulty": "A1",
         "sound": "/sound/5-A2_VelgRiktigBilde/sett3/6_A2_velg_riktig_bilde_sett3.mp3",
-        "instruction": "Klikk på riktig bilde"
+        "instruction": "34. Når starter halvmaraton?"
     },
     {
         "type": "image",
@@ -496,6 +496,6 @@
         "correct_answer": "/images/lytting/A1-S3-oppg13-op4.png",
         "difficulty": "A1",
         "sound": "/sound/5-A2_VelgRiktigBilde/sett3/7_A2_velg_riktig_bilde_sett3.mp3",
-        "instruction": "Klikk på riktig bilde"
+        "instruction": "35. Når drar kvinnen hjem fra arbeid?"
     }
 ]
