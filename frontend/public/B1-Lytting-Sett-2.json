@@ -12,7 +12,7 @@
         "correct_answer": "C: 3",
         "difficulty": "B1",
         "sound": "/sound/1-B1-flervalgsoppgaver/Sett2/1_B1_flervalgsoppgaver_sett2.mp3",
-        "instruction": "Klikk på riktig svar"
+        "instruction": "Klikk på riktig svar <br> 1. Hva er dette bildet av?"
     },
     {
         "type": "multiple",

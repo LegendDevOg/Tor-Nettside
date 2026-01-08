@@ -37,13 +37,9 @@ function Question({ id, handleClick, singleQuestion, summary, trueAnswer, userAn
 
     <section className="bg-white p-6 rounded-lg shadow-md max-w-3xl mx-auto">
 
-      <h1 className="text-4xl font-bold text-black-300 mb-6 text-center">
-        Flervalgsoppgave<span className="text-gray-800"></span>
-      </h1>
-
-      <h2 className="text-2xl font-bold text-black-300 mb-6 text-center">
+      {/* <h2 className="text-2xl font-bold text-black-300 mb-6 text-center">
         {singleQuestion.difficulty}<span className="text-gray-800"></span>
-      </h2>
+      </h2> */}
 
       {/* Context Message (if available) */}
       {context && context.trim() !== "" && (

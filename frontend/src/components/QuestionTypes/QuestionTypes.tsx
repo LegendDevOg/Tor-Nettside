@@ -46,9 +46,9 @@ export function ImageQuestion({
         Klikk på riktig bilde
       </h1>
 
-      <h2 className="text-2xl font-bold text-black-300 mb-8 text-center text-decoration-line: underline">
+      {/* <h2 className="text-2xl font-bold text-black-300 mb-8 text-center text-decoration-line: underline">
         {difficulty}
-      </h2>
+      </h2> */}
 
       {(sentence || question) && (
         <div className="border-2 border-gray-300 rounded-xl p-6 bg-white shadow-lg mb-8 max-w-3xl w-full">
@@ -160,9 +160,9 @@ export function WordSelectionQuestion({
         Klikk på svar
       </h1>
 
-      <h2 className="text-2xl font-bold text-black-300 mb-20 text-center text-decoration-line: underline">
+      {/* <h2 className="text-2xl font-bold text-black-300 mb-20 text-center text-decoration-line: underline">
         {difficulty}
-      </h2>
+      </h2> */}
 
       {question && <h3 className="text-gray-900 font-semibold mb-4 text-lg">{question}</h3>}
 
@@ -286,9 +286,9 @@ export function SentenceDropdownQuestion({
         Fyll inn ordene
       </h1>
 
-      <h2 className="text-2xl font-bold underline text-center text-primary-700 mb-10">
+      {/* <h2 className="text-2xl font-bold underline text-center text-primary-700 mb-10">
         {difficulty}
-      </h2>
+      </h2> */}
 
       {/* Sentence renderer */}
       <div className="text-gray-800 text-[1.15rem] leading-relaxed max-w-full">
@@ -539,9 +539,9 @@ export function MultiDropdownQuestion({
         {question}
       </h1>
 
-      <h2 className="text-2xl font-bold underline text-center text-primary-700 mb-6">
+      {/* <h2 className="text-2xl font-bold underline text-center text-primary-700 mb-6">
         {difficulty}
-      </h2>
+      </h2> */}
 
       {context && (
         <div className="bg-blue-50 border-l-4 border-blue-500 p-4 mb-8 rounded">
@@ -644,9 +644,9 @@ export function DualDropdownQuestion({
 
   return (
     <div className="bg-white p-8 rounded-lg shadow-md border border-gray-300 max-w-5xl mx-auto">
-      <h2 className="text-2xl font-bold underline text-center text-primary-700 mb-6">
+      {/* <h2 className="text-2xl font-bold underline text-center text-primary-700 mb-6">
         {difficulty}
-      </h2>
+      </h2> */}
 
       {context && (
         <div className="bg-blue-50 border-l-4 border-blue-500 p-4 mb-8 rounded">

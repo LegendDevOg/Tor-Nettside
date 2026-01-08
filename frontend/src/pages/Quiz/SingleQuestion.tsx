@@ -162,7 +162,7 @@ function SingleQuestion() {
               }
             }}
             summary={false}
-            difficulty={singleQuestion.difficulty || ""}
+            // difficulty={singleQuestion.difficulty || ""}
             userAnswer={userAnswer?.answer}
             questionId={page}
           />
@@ -177,7 +177,7 @@ function SingleQuestion() {
             summary={false}
             imageSrc={singleQuestion.image || null}
             sentence={isLytting ? null : (singleQuestion.sentence || null)}
-            difficulty={singleQuestion.difficulty || ""}
+            // difficulty={singleQuestion.difficulty || ""}
             showFeedback={isLytting}
             userAnswer={userAnswer?.answer}
             questionId={page}
@@ -191,7 +191,7 @@ function SingleQuestion() {
             correctWord={singleQuestion.correct_answer}
             handleClick={handleClick}
             summary={false}
-            difficulty={singleQuestion.difficulty || ""}
+            // difficulty={singleQuestion.difficulty || ""}
             showFeedback={isLytting}
             userAnswer={userAnswer?.answer}
             questionId={page}
@@ -255,7 +255,7 @@ function SingleQuestion() {
             }}
 
             summary={false}
-            difficulty={singleQuestion.difficulty || ""}
+            // difficulty={singleQuestion.difficulty || ""}
             showFeedback={isLytting}
             questionId={page}
           />
@@ -309,7 +309,7 @@ function SingleQuestion() {
               }
             }}
             summary={false}
-            difficulty={singleQuestion.difficulty || ""}
+            // difficulty={singleQuestion.difficulty || ""}
             showFeedback={isLytting}
             questionId={page}
           />
@@ -365,7 +365,7 @@ function SingleQuestion() {
               }
             }}
             summary={false}
-            difficulty={singleQuestion.difficulty || ""}
+            // difficulty={singleQuestion.difficulty || ""}
             showFeedback={isLytting}
             questionId={page}
           />
@@ -447,10 +447,11 @@ function SingleQuestion() {
           {/* Instruction banner for lytting mode */}
           {isLytting && singleQuestion.instruction && (
             <div className="bg-primary-50 border-2 border-primary-300 rounded-lg p-4 mb-6 text-center">
-              <p className="text-lg font-semibold text-primary-800">
-                {singleQuestion.instruction}
-              </p>
-            </div>
+              <p
+                className="text-lg font-semibold text-primary-800"
+                dangerouslySetInnerHTML={{ __html: singleQuestion.instruction }}
+              />
+             </div>
           )}
 
           {/* Question Navigator - Hide for lytting mode */}
