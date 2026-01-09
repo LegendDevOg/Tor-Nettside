@@ -203,8 +203,8 @@
         "options": [
             "A: Klokka 5:30",
             "B: Klokka 6:30",
-            "C: Klokka 11",
-            "D: Klokka 10"
+            "C: Klokka 11:00",
+            "D: Klokka 10:00"
         ],
         "correct_answer": "D: Klokka 10",
         "difficulty": "A1",
@@ -219,7 +219,7 @@
             "A: På kafé",
             "B: På restaurant",
             "C: Hos frisøren",
-            "D: Hos stomatøkenen"
+            "D: Hos skomakeren"
         ],
         "correct_answer": "C: Hos frisøren",
         "difficulty": "A1",
