@@ -12,7 +12,7 @@
         "correct_answer": "A: 99 prosent",
         "difficulty": "A2",
         "sound": "/sound/1_A2-B1_flervalgsoppgaver/Sett2/1_A2-B1_flerv_sett2.mp3",
-        "instruction": "Klikk på riktig svar"
+        "instruction": "1. Hvor mange mødre gir brystmelk til barna sine den første uka?"
     },
     {
         "type": "multiple",
@@ -24,10 +24,10 @@
             "C: 9 milliarder kroner",
             "D: 51 milliarder kroner"
         ],
-        "correct_answer": "C: 9 milliarder kroner",
+        "correct_answer": "A: 60 milliarder kroner",
         "difficulty": "A2",
         "sound": "/sound/1_A2-B1_flervalgsoppgaver/Sett2/2_A2-B1_flerv_sett2.mp3",
-        "instruction": "Klikk på riktig svar"
+        "instruction": "2. Hvor mye bistand ga Norge i 2023?"
     },
     {
         "type": "multiple",
@@ -42,14 +42,14 @@
         "correct_answer": "B: Man må ivareta barnas behov",
         "difficulty": "A2",
         "sound": "/sound/1_A2-B1_flervalgsoppgaver/Sett2/3_A2-B1_flerv_sett2.mp3",
-        "instruction": "Klikk på riktig svar"
+        "instruction": "3. Hva forteller teksten?"
     },
     {
         "type": "multiple",
         "question": "",
         "context": "",
         "options": [
-            "A: På landet",
+            "A: Utkanten av byen",
             "B: I byen",
             "C: To steder",
             "D: På sjøen"
@@ -57,44 +57,44 @@
         "correct_answer": "B: I byen",
         "difficulty": "A2",
         "sound": "/sound/1_A2-B1_flervalgsoppgaver/Sett2/4_A2-B1_flerv_sett2.mp3",
-        "instruction": "Klikk på riktig svar"
+        "instruction": "4. Hvor bor denne personen?"
     },
     {
         "type": "multiple",
         "question": "",
         "context": "",
         "options": [
-            "A: På landet",
-            "B: I byen",
-            "C: To steder",
-            "D: På sjøen"
-        ],
-        "correct_answer": "D: På sjøen",
-        "difficulty": "A2",
-        "sound": "/sound/1_A2-B1_flervalgsoppgaver/Sett2/5_A2-B1_flerv_sett2.mp3",
-        "instruction": "Klikk på riktig svar"
-    },
-    {
-        "type": "multiple",
-        "context": "",
-        "question": "",
-        "options": [
-            "A: På landet",
+            "A: Utkanten av byen",
             "B: I byen",
             "C: To steder",
             "D: På sjøen"
         ],
         "correct_answer": "C: To steder",
         "difficulty": "A2",
+        "sound": "/sound/1_A2-B1_flervalgsoppgaver/Sett2/5_A2-B1_flerv_sett2.mp3",
+        "instruction": "5. Hvor bor denne personen?"
+    },
+    {
+        "type": "multiple",
+        "context": "",
+        "question": "",
+        "options": [
+            "A: Utkanten av byen",
+            "B: I byen",
+            "C: To steder",
+            "D: På sjøen"
+        ],
+        "correct_answer": "A: Utkanten av byen",
+        "difficulty": "A2",
         "sound": "/sound/1_A2-B1_flervalgsoppgaver/Sett2/6_A2-B1_flerv_sett2.mp3",
-        "instruction": "Klikk på riktig svar"
+        "instruction": "6. Hvor bor denne personen?"
     },
     {
         "type": "multi_dropdown",
-        "question": "Hva likte personen best med jobben?",
-        "context": "Du får nå høre fire personer som snakker om jobber de har hatt. For hver person, skal du svare på spørsmålet \"Hva likte personen best med jobben?\" Du svarer ved å klikke på pilen og velge riktig svar. Svaralternativene kan brukes flere ganger. Du får først litt tid til å se på svaralternativene.",
+        "question": "Hva likte personen mest?",
+        "context": "Du får nå høre en person som snakker om fire selskap personen har jobbet for. For hvert selskap, skal du svare på spørsmålet \"Hva likte personen mest?\" Du svarer ved å klikke på pilen og velge riktig svar. Svaralternativene kan brukes flere ganger. Du får først litt tid til å se på svaralternativene.",
         "options": [
-            "Lønnen",
+            "lønnen",
             "arbeidsmiljøet",
             "beliggenheten",
             "arbeidsoppgavene",
@@ -104,7 +104,7 @@
         "subQuestions": [
             {
                 "label": "Jobb 1:",
-                "correct_answer": "Lønnen"
+                "correct_answer": "lønnen"
             },
             {
                 "label": "Jobb 2:",
