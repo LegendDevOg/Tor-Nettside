@@ -12,7 +12,7 @@
         "correct_answer": "C: 3",
         "difficulty": "B1",
         "sound": "/sound/1-B1-flervalgsoppgaver/Sett1/1_B1_flervalgsoppgaver_sett1.mp3",
-        "instruction": "Klikk på riktig svar"
+        "instruction": "Flervalgsoppgaver. Lytt til oppgavene. Klikk på riktig svar. <br> <br>1. Hvor mange byer har Jostein bodd i?"
     },
     {
         "type": "multiple",
@@ -27,7 +27,7 @@
         "correct_answer": "B: 20",
         "difficulty": "B1",
         "sound": "/sound/1-B1-flervalgsoppgaver/Sett1/2_B1_flervalgsoppgaver_sett1.mp3",
-        "instruction": "Klikk på riktig svar"
+        "instruction": "2. Hvor mange år har Fredrik jobbet ute i felt?"
     },
     {
         "type": "multiple",
@@ -42,7 +42,7 @@
         "correct_answer": "D: Gjennom internett",
         "difficulty": "B1",
         "sound": "/sound/1-B1-flervalgsoppgaver/Sett1/3_B1_flervalgsoppgaver_sett1.mp3",
-        "instruction": "Klikk på riktig svar"
+        "instruction": "3. Hvordan fant denne personen samboeren sin?"
     },
     {
         "type": "multiple",
@@ -57,7 +57,7 @@
         "correct_answer": "B: Ved en butikk",
         "difficulty": "B1",
         "sound": "/sound/1-B1-flervalgsoppgaver/Sett1/4_B1_flervalgsoppgaver_sett1.mp3",
-        "instruction": "Klikk på riktig svar"
+        "instruction": "4. Hvor fant Sandra inspirasjon til selskapet sitt?"
     },
     {
         "type": "multiple",
@@ -72,7 +72,7 @@
         "correct_answer": "D: I Ålesund",
         "difficulty": "B1",
         "sound": "/sound/1-B1-flervalgsoppgaver/Sett1/5_B1_flervalgsoppgaver_sett1.mp3",
-        "instruction": "Klikk på riktig svar"
+        "instruction": "5. Hvor befinner Vivian seg nå?"
     },
     {
         "type": "multiple",
@@ -80,14 +80,14 @@
         "context": "",
         "options": [
             "A: Dyre leiepriser",
-            "B: Forlenket deres",
+            "B: Forbruket deres",
             "C: Miljøet i nærområdet",
             "D: Forholdet til naboene"
         ],
         "correct_answer": "C: Miljøet i nærområdet",
         "difficulty": "B1",
         "sound": "/sound/1-B1-flervalgsoppgaver/Sett1/6_B1_flervalgsoppgaver_sett1.mp3",
-        "instruction": "Klikk på riktig svar"
+        "instruction": "6. Hva er hovedtemaet i samtalen?"
     },
     {
         "type": "multiple",
@@ -95,14 +95,14 @@
         "context": "",
         "options": [
             "A: De flytter ut",
-            "B: De kontakter skolen",
+            "B: De får hjelp av naboene",
             "C: De reiser mindre",
             "D: De kontakter avisen"
         ],
         "correct_answer": "A: De flytter ut",
         "difficulty": "B1",
         "sound": "/sound/1-B1-flervalgsoppgaver/Sett1/7_B1_flervalgsoppgaver_sett1.mp3",
-        "instruction": "Klikk på riktig svar"
+        "instruction": "7. Hvordan løser de problemet?"
     },
     {
         "type": "multiple",
@@ -117,7 +117,7 @@
         "correct_answer": "B: Norge er blitt et informasjonssamfunn",
         "difficulty": "B2",
         "sound": "/sound/3-B2-flervalgsoppgaver_en-avspilling/Sett1/1_B2_flervalgs_en_avspilling_sett1.mp3",
-        "instruction": "Klikk på riktig svar"
+        "instruction": "Flervalgsoppgaver. Lytt til oppgavene. Klikk på riktig svar <br> <br> 8. Hva hevdes?"
     },
     {
         "type": "multiple",
@@ -132,7 +132,7 @@
         "correct_answer": "C: Ordningen kan svekke økosystemene",
         "difficulty": "B2",
         "sound": "/sound/3-B2-flervalgsoppgaver_en-avspilling/Sett1/2_B2_flervalgs_en_avspilling_sett1.mp3",
-        "instruction": "Klikk på riktig svar"
+        "instruction": "9. Hva menes det om vann- og vindkraftutbygging?"
     },
     {
         "type": "multiple",
@@ -142,12 +142,12 @@
             "A: Foresatte sliter med å skaffe riktige klær til barna",
             "B: Ungdommen nøyer seg med billige klær",
             "C: Ungdommen er siste skrik",
-            "D: Økonomien til foreldre påvirker barn mest problemet"
+            "D: Økonomien til ungdommen er problemet"
         ],
-        "correct_answer": "D: Økonomien til foreldre påvirker barn mest problemet",
+        "correct_answer": "A: Foresatte sliter med å skaffe riktige klær til barna",
         "difficulty": "B2",
         "sound": "/sound/3-B2-flervalgsoppgaver_en-avspilling/Sett1/3_B2_flervalgs_en_avspilling_sett1.mp3",
-        "instruction": "Klikk på riktig svar"
+        "instruction": "10. Hva mener Ina Karlsen?"
     },
     {
         "type": "multiple",
@@ -155,14 +155,14 @@
         "context": "",
         "options": [
             "A: Om vinteren",
-            "B: Om våren",
+            "B: I mars",
             "C: Mellom november og mars",
             "D: Om sommeren"
         ],
         "correct_answer": "C: Mellom november og mars",
         "difficulty": "B2",
         "sound": "/sound/3-B2-flervalgsoppgaver_en-avspilling/Sett1/4_B2_flervalgs_en_avspilling_sett1.mp3",
-        "instruction": "Klikk på riktig svar"
+        "instruction": "4. Når er det færrest folk i Tromsø?"
     },
     {
         "type": "multiple",
@@ -172,12 +172,12 @@
             "A: Elever på skolen ble skadet ut",
             "B: Hvordan å unngå at skoler legges ned",
             "C: Å sende barn i bygdene",
-            "D: Hvordan man unngår mistrust av skuledirektomat"
+            "D: Hvordan man unngår misbruk av skattesystemet"
         ],
         "correct_answer": "B: Hvordan å unngå at skoler legges ned",
         "difficulty": "B2",
         "sound": "/sound/3-B2-flervalgsoppgaver_en-avspilling/Sett1/5_B2_flervalgs_en_avspilling_sett1.mp3",
-        "instruction": "Klikk på riktig svar"
+        "instruction": "5. Hva var problemstillingen i debatten?"
     },
     {
         "type": "multiple",
@@ -192,7 +192,7 @@
         "correct_answer": "C: Det er negativt",
         "difficulty": "B2",
         "sound": "/sound/3-B2-flervalgsoppgaver_en-avspilling/Sett1/6_B2_flervalgs_en_avspilling_sett1.mp3",
-        "instruction": "Klikk på riktig svar"
+        "instruction": "6. Hva mener bilisten om den nye endringen?"
     },
     {
         "type": "multiple",
@@ -207,7 +207,7 @@
         "correct_answer": "B: Det er positivt",
         "difficulty": "B2",
         "sound": "/sound/3-B2-flervalgsoppgaver_en-avspilling/Sett1/7_B2_flervalgs_en_avspilling_sett1.mp3",
-        "instruction": "Klikk på riktig svar"
+        "instruction": "7. Hva mener bilisten om den nye endringen?"
     },
     {
         "type": "multiple",
@@ -222,7 +222,7 @@
         "correct_answer": "A: Ønsker å vite mer",
         "difficulty": "B2",
         "sound": "/sound/3-B2-flervalgsoppgaver_en-avspilling/Sett1/8_B2_flervalgs_en_avspilling_sett1.mp3",
-        "instruction": "Klikk på riktig svar"
+        "instruction": "8. Hva mener bilisten om den nye endringen?"
     },
     {
         "type": "multiple",
@@ -237,7 +237,7 @@
         "correct_answer": "C: Det er negativt",
         "difficulty": "B2",
         "sound": "/sound/3-B2-flervalgsoppgaver_en-avspilling/Sett1/9_B2_flervalgs_en_avspilling_sett1.mp3",
-        "instruction": "Klikk på riktig svar"
+        "instruction": "9. Hva mener bilisten om den nye endringen?"
     },
     {
         "type": "dual_dropdown",
@@ -256,9 +256,9 @@
                 "Lærer"
             ],
             [
-                "Fortvilet for at pengene ikke strekker til",
-                "Irritert for å ikke ha tid til å spise lunsj",
-                "Handler gjerne mat på jobb",
+                "Fortvilet over at pengene ikke strekker til",
+                "Foretrekker å spise vegansk mat",
+                "Handler ofte mat på jobb",
                 "Lettet over å kunne få gratis mat på jobb",
                 "Kan gjerne hoppe over lunsj med tom mage",
                 "Kan hende at matpakken blir glemt i blant"
@@ -269,28 +269,28 @@
                 "label": "Person 1",
                 "correct_answers": [
                     "Hotellmedarbeider",
-                    "Fortvilet for at pengene ikke strekker til"
+                    "Lettet over å kunne få gratis mat på jobb"
                 ]
             },
             {
                 "label": "Person 2",
                 "correct_answers": [
                     "Bussjåfør",
-                    "Handler gjerne mat på jobb"
+                    "Kan hende at matpakken blir glemt i blant"
                 ]
             },
             {
                 "label": "Person 3",
                 "correct_answers": [
                     "Ufør",
-                    "Lettet over å kunne få gratis mat på jobb"
+                    "Fortvilet over at pengene ikke strekker til"
                 ]
             },
             {
                 "label": "Person 4",
                 "correct_answers": [
                     "Sykepleier",
-                    "Kan hende at matpakken blir glemt i blant"
+                    "Handler ofte mat på jobb"
                 ]
             }
         ],
