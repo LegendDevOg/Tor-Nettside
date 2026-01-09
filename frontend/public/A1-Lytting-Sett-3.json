@@ -67,7 +67,7 @@
         },
         "difficulty": "A1",
         "sound": "/sound/1-A1-A2klikkibildeogkalender/sett3/5_A1-A2_sett3.mp3",
-        "instruction": "5. Når skal familien spise pizza?"
+        "instruction": "5. Når skal familien lage og spise pizza?"
     },
     {
         "type": "image-click",
@@ -81,7 +81,7 @@
         },
         "difficulty": "A1",
         "sound": "/sound/1-A1-A2klikkibildeogkalender/sett3/6_A1-A2_sett3.mp3",
-        "instruction": "6. Når er Viktoria ferdig med studiet sitt?"
+        "instruction": "6. Når har Viktoria fått bachelorgraden sin?"
     },
     {
         "type": "image",
@@ -194,19 +194,19 @@
         "correct_answer": "B: 15 kroner",
         "difficulty": "A1",
         "sound": "/sound/3-A1-A2flervalgsoppgaver/sett3/1_A1-A2_flerv_sett3.mp3",
-        "instruction": "14. Flervalgsoppgaver. Lytt til oppgavene. Klikk på riktig svar. <br> <br>15. Hvor mye sparer man?"
+        "instruction": "Flervalgsoppgaver. Lytt til oppgavene. Klikk på riktig svar. <br> <br>14. Hvor mye sparer man?"
     },
     {
         "type": "multiple",
         "question": "",
         "context": "",
         "options": [
-            "A: Hei, kan jeg bestille en pizza?",
-            "B: For yrkesbåt er det stengd",
-            "C: På torsdag er det en helligdag, me",
+            "A: På mandag",
+            "B: På tirsdag",
+            "C: På onsdag",
             "D: På helligdag"
         ],
-        "correct_answer": "C: På torsdag er det en helligdag, me",
+        "correct_answer": "C: På onsdag",
         "difficulty": "A1",
         "sound": "/sound/3-A1-A2flervalgsoppgaver/sett3/2_A1-A2_flerv_sett3.mp3",
         "instruction": "15. Når åpner restauranten igjen?"
@@ -232,9 +232,9 @@
         "context": "",
         "options": [
             "A: Duken",
-            "B: Julenesyret",
+            "B: Juletrepynt",
             "C: Julenissen",
-            "D: Fatøne"
+            "D: Fatene"
         ],
         "correct_answer": "D: Fatøne",
         "difficulty": "A1",
@@ -246,7 +246,7 @@
         "question": "",
         "context": "",
         "options": [
-            "A: Gå med i valgt",
+            "A: Gå ned i vekt",
             "B: Være sunnere",
             "C: Spare penger",
             "D: Lese mer"
@@ -264,7 +264,7 @@
             "A: 240 000 kroner",
             "B: 70 millioner kroner",
             "C: 65 millioner kroner",
-            "D: 60 millioner kroner"
+            "D: 80 millioner kroner"
         ],
         "correct_answer": "C: 65 millioner kroner",
         "difficulty": "A1",
