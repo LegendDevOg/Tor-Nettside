@@ -9,10 +9,10 @@
             "C: 3",
             "D: 4"
         ],
-        "correct_answer": "C: 3",
+        "correct_answer": "C: 2",
         "difficulty": "B1",
         "sound": "/sound/1-B1-flervalgsoppgaver/Sett2/1_B1_flervalgsoppgaver_sett2.mp3",
-        "instruction": "Klikk på riktig svar <br> 1. Hva er dette bildet av?"
+        "instruction": "Flervalgsoppgaver. Lytt til oppgavene. Klikk på riktig svar. <br> <br>1. Hvor mange lag har Harald spilt for?"
     },
     {
         "type": "multiple",
@@ -27,22 +27,22 @@
         "correct_answer": "C: 3",
         "difficulty": "B1",
         "sound": "/sound/1-B1-flervalgsoppgaver/Sett2/2_B1_flervalgsoppgaver_sett2.mp3",
-        "instruction": "Klikk på riktig svar"
+        "instruction": "2. Hvor mange forskjellige stillinger har Sofie hatt?"
     },
     {
         "type": "multiple",
         "question": "",
         "context": "",
         "options": [
-            "A: Hun leverte sekunder for hånd",
+            "A: Hun leverte søknader for hånd",
             "B: Hun fant jobben på internett",
             "C: Hun dro på seminar",
             "D: Hun fikk et bra nettverk"
         ],
-        "correct_answer": "A: Hun leverte sekunder for hånd",
+        "correct_answer": "A: Hun leverte søknader for hånd",
         "difficulty": "B1",
         "sound": "/sound/1-B1-flervalgsoppgaver/Sett2/3_B1_flervalgsoppgaver_sett2.mp3",
-        "instruction": "Klikk på riktig svar"
+        "instruction": "3. Hvordan fikk denne personen en jobb?"
     },
     {
         "type": "multiple",
@@ -50,14 +50,14 @@
         "context": "",
         "options": [
             "A: Gjennom gokart",
-            "B: Gjennom fridtaksløfeter",
-            "C: Gjennom venninna",
+            "B: Gjennom fritidsaktiviteter",
+            "C: I et selskap",
             "D: Gjennom skolen"
         ],
-        "correct_answer": "C: Gjennom venninna",
+        "correct_answer": "C: I et selskap",
         "difficulty": "B1",
         "sound": "/sound/1-B1-flervalgsoppgaver/Sett2/4_B1_flervalgsoppgaver_sett2.mp3",
-        "instruction": "Klikk på riktig svar"
+        "instruction": "4. Hvordan traff Roger kjæresten sin?"
     },
     {
         "type": "multiple",
@@ -67,12 +67,12 @@
             "A: Gjennom kjæresten",
             "B: Gjennom surfing på havet",
             "C: Gjennom reising",
-            "D: Gjennom internett"
+            "D: På internett"
         ],
         "correct_answer": "D: Gjennom internett",
         "difficulty": "B1",
         "sound": "/sound/1-B1-flervalgsoppgaver/Sett2/5_B1_flervalgsoppgaver_sett2.mp3",
-        "instruction": "Klikk på riktig svar"
+        "instruction": "5. Hvor fant kvinnen drømmejobben sin?"
     },
     {
         "type": "multiple",
@@ -80,14 +80,14 @@
         "context": "",
         "options": [
             "A: Fremkomstmiddel",
-            "B: Veto av barnehage",
+            "B: Valg av barnehage",
             "C: Mangel av penger",
             "D: Miljøet i området"
         ],
-        "correct_answer": "A: Fremkomstmiddel",
+        "correct_answer": "B: Valg av barnehage",
         "difficulty": "B1",
         "sound": "/sound/1-B1-flervalgsoppgaver/Sett2/6_B1_flervalgsoppgaver_sett2.mp3",
-        "instruction": "Klikk på riktig svar"
+        "instruction": "6. Hva er hovedtemaet i samtalen?"
     },
     {
         "type": "multiple",
@@ -102,7 +102,7 @@
         "correct_answer": "D: Ikke bytte barnehage",
         "difficulty": "B1",
         "sound": "/sound/1-B1-flervalgsoppgaver/Sett2/7_B1_flervalgsoppgaver_sett2.mp3",
-        "instruction": "Klikk på riktig svar"
+        "instruction": "7. Hva bestemmer de seg for?"
     },
     {
         "type": "multiple",
@@ -111,20 +111,20 @@
         "options": [
             "A: AM Bank holdte på å gå konkurs",
             "B: Olsvik kritiserer oppkjøpet av AM Bank",
-            "C: Gravis Bank blir skjølt ut for tiden",
+            "C: Gravia Bank blir skjelt ut for tiden",
             "D: Politiet har alltid vært misfornøyd med AM Bank"
         ],
         "correct_answer": "C: Gravis Bank blir skjølt ut for tiden",
         "difficulty": "B2",
         "sound": "/sound/3-B2-flervalgsoppgaver_en-avspilling/Sett2/1_B2_flervalgs_en_avspilling_sett2.mp3",
-        "instruction": "Klikk på riktig svar"
+        "instruction": "Flervalgsoppgaver. Lytt til oppgavene. Klikk på riktig svar. Disse lytteoppgavene spilles kun én gang.<br> <br> 8. Hva er riktig?"
     },
     {
         "type": "multiple",
         "question": "",
         "context": "",
         "options": [
-            "A: Veid å gå i kjelleren for å hente melkesyre, blir man utsatt",
+            "A: Ved å gå i kjelleren for å hente melkesyre, blir man utslitt",
             "B: Det er riktig å presse kroppen til det ytterste",
             "C: Stan har ingen viljestyrke",
             "D: Med ekte holdning, vil man klare seg fint"
@@ -132,7 +132,7 @@
         "correct_answer": "D: Med ekte holdning, vil man klare seg fint",
         "difficulty": "B2",
         "sound": "/sound/3-B2-flervalgsoppgaver_en-avspilling/Sett2/2_B2_flervalgs_en_avspilling_sett2.mp3",
-        "instruction": "Klikk på riktig svar"
+        "instruction": "9. Hva mener Borgesen?"
     },
     {
         "type": "multiple",
@@ -140,14 +140,14 @@
         "context": "",
         "options": [
             "A: Sykefraværet vil bare øke fremover",
-            "B: Sykemelding løser ikke problemet",
-            "C: Sykefraværet bøørt de eldre koster mest",
-            "D: De beste medisinen er å være hjemme"
+            "B: Sykmelding løser ikke problemet",
+            "C: Sykefraværet blant de eldre koster mest",
+            "D: Den beste medisinen er å være hjemme"
         ],
-        "correct_answer": "B: Sykemelding løser ikke problemet",
+        "correct_answer": "B: Sykmelding løser ikke problemet",
         "difficulty": "B2",
         "sound": "/sound/3-B2-flervalgsoppgaver_en-avspilling/Sett2/3_B2_flervalgs_en_avspilling_sett2.mp3",
-        "instruction": "Klikk på riktig svar"
+        "instruction": "10. Hva mener Marit Josefsen?"
     },
     {
         "type": "multiple",
@@ -155,29 +155,29 @@
         "context": "",
         "options": [
             "A: Nedbemanningen fører til overarbeid",
-            "B: Fjerne asylsøkere kommer seg til Norge",
+            "B: Færre asylsøkere kommer seg til Norge",
             "C: Behandling av saker blir nedprioritert",
-            "D: Køigene fører til missnøye i UDI"
+            "D: Krigene fører til misnøye i UDI"
         ],
         "correct_answer": "A: Nedbemanning fører til overarbeid",
         "difficulty": "B2",
         "sound": "/sound/3-B2-flervalgsoppgaver_en-avspilling/Sett2/4_B2_flervalgs_en_avspilling_sett2.mp3",
-        "instruction": "Klikk på riktig svar"
+        "instruction": "11. Hva er problemet?"
     },
     {
         "type": "multiple",
         "question": "",
         "context": "",
         "options": [
-            "A: Uteplommen for flere unge slasser et på øl",
+            "A: Ungdommen får flere trygge plasser å gå til",
             "B: Det vil antageligvis være færre fritidstilbud for unge fremover",
-            "C: Ungdomsklubber legges ned som følge av løvndres forslelle",
+            "C: Ungdomsklubber holdes i live av foreldre",
             "D: Det er en økning av vold blant politiet"
         ],
         "correct_answer": "B: Det vil antageligvis være færre fritidstilbud for unge fremover",
         "difficulty": "B2",
         "sound": "/sound/3-B2-flervalgsoppgaver_en-avspilling/Sett2/5_B2_flervalgs_en_avspilling_sett2.mp3",
-        "instruction": "Klikk på riktig svar"
+        "instruction": "12. Hva skjer i Oslo for tiden?"
     },
     {
         "type": "multiple",
@@ -192,7 +192,8 @@
         "correct_answer": "B: Ønsker å innføre ordningen",
         "difficulty": "B2",
         "sound": "/sound/3-B2-flervalgsoppgaver_en-avspilling/Sett2/6_B2_flervalgs_en_avspilling_sett2.mp3",
-        "instruction": "Klikk på riktig svar"
+        "instruction": "I Norge er det krav å ha en master for å ta praktisk pedagogisk utdanning (PPU). Regjeringen vil midlertidig fjerne kravet om å ha master, slik at man kan ta PPU med kun bachelor og to års relevant arbeidserfaring fra skolen.
+Nå får du høre meninger blant politikere om denne ordningen.<br><br>13. Hva mener politikeren om den nye ordningen?"
     },
     {
         "type": "multiple",
@@ -207,7 +208,7 @@
         "correct_answer": "D: Foreslår andre løsninger",
         "difficulty": "B2",
         "sound": "/sound/3-B2-flervalgsoppgaver_en-avspilling/Sett2/7_B2_flervalgs_en_avspilling_sett2.mp3",
-        "instruction": "Klikk på riktig svar"
+        "instruction": "14. Hva mener politikeren om den nye ordningen?"
     },
     {
         "type": "multiple",
@@ -222,7 +223,7 @@
         "correct_answer": "B: Ønsker å innføre ordningen",
         "difficulty": "B2",
         "sound": "/sound/3-B2-flervalgsoppgaver_en-avspilling/Sett2/8_B2_flervalgs_en_avspilling_sett2.mp3",
-        "instruction": "Klikk på riktig svar"
+        "instruction": "15. Hva mener politikeren om den nye ordningen?"
     },
     {
         "type": "multiple",
@@ -237,7 +238,7 @@
         "correct_answer": "A: Ønsker å vite mer",
         "difficulty": "B2",
         "sound": "/sound/3-B2-flervalgsoppgaver_en-avspilling/Sett2/9_B2_flervalgs_en_avspilling_sett2.mp3",
-        "instruction": "Klikk på riktig svar"
+        "instruction": "16. Hva mener politikeren om den nye ordningen?"
     },
     {
         "type": "dual_dropdown",
@@ -260,7 +261,7 @@
                 "Tar seg fri fra jobben for å trene",
                 "Har ikke mulighet til å trene på lik linje med andre",
                 "Synes at kropp og sinn er viktig å ta vare på",
-                "Mener at flere må trene i samfunnet",
+                "Mener at treningssenter er veldig dyrt",
                 "Åpen for å ta av seg noen kilo og trene"
             ]
         ],
@@ -268,29 +269,29 @@
             {
                 "label": "Person 1",
                 "correct_answers": [
-                    "Fisker",
-                    "Er ikke så opptatt av trening"
+                    "Revisor",
+                    "Har ikke mulighet til å trene på lik linje med andre"
                 ]
             },
             {
                 "label": "Person 2",
                 "correct_answers": [
-                    "Ordfører",
-                    "Tar seg fri fra jobben for å trene"
+                    "Frisør",
+                    "Synes at kropp og sinn er viktig å ta vare på"
                 ]
             },
             {
                 "label": "Person 3",
                 "correct_answers": [
-                    "Flyvertinne",
-                    "Har ikke mulighet til å trene på lik linje med andre"
+                    "Fisker",
+                    "Åpen for å ta av seg noen kilo og trene"
                 ]
             },
             {
                 "label": "Person 4",
                 "correct_answers": [
-                    "Revisor",
-                    "Synes at kropp og sinn er viktig å ta vare på"
+                    "Flyvertinne",
+                    "Er ikke så opptatt av trening"
                 ]
             }
         ],
