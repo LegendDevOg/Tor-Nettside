@@ -12,7 +12,7 @@
         "correct_answer": "C: 6 prosent",
         "difficulty": "A2",
         "sound": "/sound/1_A2-B1_flervalgsoppgaver/Sett1/1_A2-B1_flerv_sett1.mp3",
-        "instruction": "Klikk på riktig svar"
+        "instruction": "1. Hvor mange har forlatt AP den siste uka?"
     },
     {
         "type": "multiple",
@@ -24,10 +24,10 @@
             "C: 15 prosent",
             "D: 12 prosent"
         ],
-        "correct_answer": "C: 15 prosent",
+        "correct_answer": "A: 10 prosent",
         "difficulty": "A2",
         "sound": "/sound/1_A2-B1_flervalgsoppgaver/Sett1/2_A2-B1_flerv_sett1.mp3",
-        "instruction": "Klikk på riktig svar"
+        "instruction": "2. Hva vil kravet til egenkapital være på neste år?"
     },
     {
         "type": "multiple",
@@ -42,7 +42,7 @@
         "correct_answer": "B: Kautokeino",
         "difficulty": "A2",
         "sound": "/sound/1_A2-B1_flervalgsoppgaver/Sett1/3_A2-B1_flerv_sett1.mp3",
-        "instruction": "Klikk på riktig svar"
+        "instruction": "3. Hvilken kommune ligger verst an økonomisk?"
     },
     {
         "type": "multiple",
@@ -57,7 +57,22 @@
         "correct_answer": "B: Tømrer",
         "difficulty": "A2",
         "sound": "/sound/1_A2-B1_flervalgsoppgaver/Sett1/4_A2-B1_flerv_sett1.mp3",
-        "instruction": "Klikk på riktig svar"
+        "instruction": "4. Hva slags jobb passer denne personen?"
+    },
+    {
+        "type": "multiple",
+        "question": "",
+        "context": "",
+        "options": [
+            "A: Lege",
+            "B: Tømrer",
+            "C: Lærer",
+            "D: Advokat"
+        ],
+        "correct_answer": "D: Advokat",
+        "difficulty": "A2",
+        "sound": "/sound/1_A2-B1_flervalgsoppgaver/Sett1/5_A2-B1_flerv_sett1.mp3",
+        "instruction": "5. Hva slags jobb passer denne personen?"
     },
     {
         "type": "multiple",
@@ -71,30 +86,15 @@
         ],
         "correct_answer": "A: Lege",
         "difficulty": "A2",
-        "sound": "/sound/1_A2-B1_flervalgsoppgaver/Sett1/5_A2-B1_flerv_sett1.mp3",
-        "instruction": "Klikk på riktig svar"
-    },
-    {
-        "type": "multiple",
-        "question": "",
-        "context": "",
-        "options": [
-            "A: Lege",
-            "B: Tømrer",
-            "C: Lærer",
-            "D: Advokat"
-        ],
-        "correct_answer": "C: Lærer",
-        "difficulty": "A2",
         "sound": "/sound/1_A2-B1_flervalgsoppgaver/Sett1/6_A2-B1_flerv_sett1.mp3",
-        "instruction": "Klikk på riktig svar"
+        "instruction": "6. Hva slags studie vil denne personen mest sannsynlig komme inn på?"
     },
     {
         "type": "multi_dropdown",
         "question": "Hva likte personen mest?",
-        "context": "Du får nå høre en kvinne som snakker om fire reiser hun har vært på. For hver reise, skal du svare på spørsmålet \"Hva likte kvinnen best?\" Du svarer ved å klikke på pilen og velge riktig svar. Svaralternativene kan brukes flere ganger. Du får først litt tid til å se på svaralternativene.",
+        "context": "Du får nå høre en person som snakker om fire byer personen har bodd i. For hver by, skal du svare på spørsmålet \"Hva likte kvinnen best?\" Du svarer ved å klikke på pilen og velge riktig svar. Svaralternativene kan brukes flere ganger. Du får først litt tid til å se på svaralternativene.",
         "options": [
-            "Leiligheten",
+            "leiligheten",
             "maten",
             "været",
             "naturen",
@@ -112,7 +112,7 @@
             },
             {
                 "label": "Person 3:",
-                "correct_answer": "Leiligheten"
+                "correct_answer": "leiligheten"
             },
             {
                 "label": "Person 4:",
