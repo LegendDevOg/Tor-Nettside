@@ -186,14 +186,14 @@
         "question": "",
         "context": "",
         "options": [
-            "A: 4769 kroner",
+            "A: 4799 kroner",
             "B: 3799 kroner",
             "C: 2999 kroner",
             "D: 5999 kroner"
         ],
         "correct_answer": "C: 2999 kroner",
         "difficulty": "A1",
-        "instruction": "Flervalgsoppgaver. Lytt til oppgavene. Klikk på riktig svar.<br>14. Hvor mye koster vaskemaskinen nå?",
+        "instruction": "Flervalgsoppgaver. Lytt til oppgavene. Klikk på riktig svar.<br><br>14. Hvor mye koster vaskemaskinen nå?",
         "sound": "/sound/3-A1-A2flervalgsoppgaver/sett1/1_A1-A2_flerv_sett1.mp3"
     },
     {
@@ -439,7 +439,7 @@
         ],
         "correct_answer": "/images/lytting/A1-S1-oppg9-op4.png",
         "difficulty": "A1",
-        "instruction": "31. Hvor er kvinnen?",
+        "instruction": "31. Hvor er mannen?",
         "sound": "/sound/5-A2-VelgRiktigBilde/sett1/2_A2_velg_riktig_bilde_sett1.mp3"
     },
     {
