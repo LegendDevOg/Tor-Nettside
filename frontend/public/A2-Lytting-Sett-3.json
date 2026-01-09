@@ -9,10 +9,10 @@
             "C: Aksel Kristiansen",
             "D: Fredrik Østnes"
         ],
-        "correct_answer": "A: Ina Undstad",
+        "correct_answer": "C: Aksel Kristiansen",
         "difficulty": "A2",
         "sound": "/sound/1_A2-B1_flervalgsoppgaver/Sett3/1_A2-B1_flerv_sett3.mp3",
-        "instruction": "Klikk på riktig svar"
+        "instruction": "1. Hvem er den rikeste personen?"
     },
     {
         "type": "multiple",
@@ -27,7 +27,7 @@
         "correct_answer": "D: 4",
         "difficulty": "A2",
         "sound": "/sound/1_A2-B1_flervalgsoppgaver/Sett3/2_A2-B1_flerv_sett3.mp3",
-        "instruction": "Klikk på riktig svar"
+        "instruction": "2. Hvor mange troféer fikk Erlend Hovland i Yorkshire?"
     },
     {
         "type": "multiple",
@@ -42,7 +42,22 @@
         "correct_answer": "D: Hun synes det er et bra tiltak",
         "difficulty": "A2",
         "sound": "/sound/1_A2-B1_flervalgsoppgaver/Sett3/3_A2-B1_flerv_sett3.mp3",
-        "instruction": "Klikk på riktig svar"
+        "instruction": "3. Hva synes Torill om tiltaket?"
+    },
+    {
+        "type": "multiple",
+        "question": "",
+        "context": "",
+        "options": [
+            "A: Sparsom",
+            "B: Søkkrik",
+            "C: Fattig",
+            "D: Økonomisk uansvarlig"
+        ],
+        "correct_answer": "B: Søkkrik",
+        "difficulty": "A2",
+        "sound": "/sound/1_A2-B1_flervalgsoppgaver/Sett3/4_A2-B1_flerv_sett3.mp3",
+        "instruction": "4. Hvordan kan du beskrive denne personen?"
     },
     {
         "type": "multiple",
@@ -56,8 +71,8 @@
         ],
         "correct_answer": "A: Sparsom",
         "difficulty": "A2",
-        "sound": "/sound/1_A2-B1_flervalgsoppgaver/Sett3/4_A2-B1_flerv_sett3.mp3",
-        "instruction": "Klikk på riktig svar"
+        "sound": "/sound/1_A2-B1_flervalgsoppgaver/Sett3/5_A2-B1_flerv_sett3.mp3",
+        "instruction": "5. Hvordan kan du beskrive denne personen?"
     },
     {
         "type": "multiple",
@@ -71,40 +86,25 @@
         ],
         "correct_answer": "C: Fattig",
         "difficulty": "A2",
-        "sound": "/sound/1_A2-B1_flervalgsoppgaver/Sett3/5_A2-B1_flerv_sett3.mp3",
-        "instruction": "Klikk på riktig svar"
-    },
-    {
-        "type": "multiple",
-        "question": "",
-        "context": "",
-        "options": [
-            "A: Sparsom",
-            "B: Søkkrik",
-            "C: Fattig",
-            "D: Økonomisk uansvarlig"
-        ],
-        "correct_answer": "A: Sparsom",
-        "difficulty": "A2",
         "sound": "/sound/1_A2-B1_flervalgsoppgaver/Sett3/6_A2-B1_flerv_sett3.mp3",
-        "instruction": "Klikk på riktig svar"
+        "instruction": "6. Hvordan kan du beskrive denne personen?"
     },
     {
         "type": "multi_dropdown",
         "question": "Hva likte personen best med reisen?",
-        "context": "Du får nå høre fire personer som snakker om fire reiser de har vært på. For hver reise, skal du svare på spørsmålet \"Hva likte personen best med reisen?\" Du svarer ved å klikke på pilen og velge riktig svar. Svaralternativene kan brukes flere ganger. Du får først litt tid til å se på svaralternativene.",
+        "context": "Du får nå høre personer som snakker om fire reiser. For hver reise, skal du svare på spørsmålet \"Hva likte personen mest?\" Du svarer ved å klikke på pilen og velge riktig svar. Svaralternativene kan brukes flere ganger. Du får først litt tid til å se på svaralternativene.",
         "options": [
-            "Været",
+            "været",
             "prisene",
             "kulturen",
-            "oppholdet",
+            "hotellet",
             "maten",
             "flyet"
         ],
         "subQuestions": [
             {
                 "label": "Reise 1:",
-                "correct_answer": "oppholdet"
+                "correct_answer": "hotellet"
             },
             {
                 "label": "Reise 2:",
