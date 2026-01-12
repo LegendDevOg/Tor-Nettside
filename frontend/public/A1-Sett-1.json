@@ -187,7 +187,7 @@
   {
     "type": "multiple",
     "context": "Hei Fredrik,\nEr alt bra med deg? Jeg har ikke sett deg på skolen i det siste.\nDe andre elevene er bekymret for hvordan det går med deg.\nJeg har heller ikke hørt noe fra foreldrene dine.\nHilsen Kvaløya vgs",
-    "question": "Hvem er meldinger fra?",
+    "question": "Hvem er meldingen fra?",
     "options": [
       "Frisøren",
       "Læreren",
