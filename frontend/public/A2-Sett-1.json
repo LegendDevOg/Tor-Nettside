@@ -9,7 +9,7 @@
   {
     "type": "word-selection",
     "question": "Klikk på ordet som her betyr omtrent det samme som \"spasere\"",
-    "sentence": "I Oslo sentrum er det travelt. Folk går frem og tilbake i de store gatene.\nI blant kan det være protester ved Stortinget, eller politi som rir på hestene gjennom sentrum.\nVed biblioteket er det ansatte som stabler bøker i høye hyller i salene. Det kan være en krevende jobb.",
+    "sentence": "I Oslo sentrum er det travelt. Folk går frem og tilbake i de store gatene.\nI blant kan det være protester ved Stortinget, eller politi som rir på hestene gjennom sentrum.\nVed biblioteket er det ansatte som stabler bøker i høye hyller i salen. Det kan være en krevende jobb.",
     "correct_answer": "går",
     "difficulty": "A2"
   },
