@@ -1,7 +1,7 @@
 [
   {
     "type": "multiple",
-  "context": "Mann dømt til fengsel\n\nEn mann ble i går dømt til seks års fengsel.\nHan har vært i fengsel i tre år tidligere, men nå skal han altså igjen sitte bak lås og slå.\nI fjord ble vedkommede tatt av politiet for ran av en dagligvarebutikk.\n\nDet blir en lang dom for mannen, men enda lenger for sønnen på syv år som ikke vil se faren sin før han har blitt tenåring.\nDet er dessverre en økning av kriminelle handlinger nasjonalt i Norge.\nRegjeringen har innført en rekke tiltak for å sette brems på utviklingen.\nGjerningsmannen erklærer skyld i saken og godtar dommen.",
+  "context": "Mann dømt til fengsel\n\nEn mann ble i går dømt til seks års fengsel.\nHan har vært i fengsel i tre år tidligere, men nå skal han altså igjen sitte bak lås og slå.\nI fjor ble vedkommede tatt av politiet for ran av en dagligvarebutikk.\n\nDet blir en lang dom for mannen, men enda lenger for sønnen på syv år som ikke vil se faren sin før han har blitt tenåring.\nDet er dessverre en økning av kriminelle handlinger nasjonalt i Norge.\nRegjeringen har innført en rekke tiltak for å sette brems på utviklingen.\nGjerningsmannen erklærer skyld i saken og godtar dommen.",
     "question": "Hva har skjedd?",
     "options": ["En mann ble i går dømt til tre års fengsel", "En mann skal ha slått på låsen i butikken", "En mann har blitt buret inne som følge av et ran", "Gjerningsmannen vil se sønnen igjen om syv år"],
     "correct_answer": "En mann har blitt buret inne som følge av et ran",
@@ -10,7 +10,7 @@
   },
   {
     "type": "multiple",
-  "context": "Mann dømt til fengsel\n\nEn mann ble i går dømt til seks års fengsel.\nHan har vært i fengsel i tre år tidligere, men nå skal han altså igjen sitte bak lås og slå.\nI fjord ble vedkommede tatt av politiet for ran av en dagligvarebutikk.\n\nDet blir en lang dom for mannen, men enda lenger for sønnen på syv år som ikke vil se faren sin før han har blitt tenåring.\nDet er dessverre en økning av kriminelle handlinger nasjonalt i Norge.\nRegjeringen har innført en rekke tiltak for å sette brems på utviklingen.\nGjerningsmannen erklærer skyld i saken og godtar dommen.",
+  "context": "Mann dømt til fengsel\n\nEn mann ble i går dømt til seks års fengsel.\nHan har vært i fengsel i tre år tidligere, men nå skal han altså igjen sitte bak lås og slå.\nI fjor ble vedkommede tatt av politiet for ran av en dagligvarebutikk.\n\nDet blir en lang dom for mannen, men enda lenger for sønnen på syv år som ikke vil se faren sin før han har blitt tenåring.\nDet er dessverre en økning av kriminelle handlinger nasjonalt i Norge.\nRegjeringen har innført en rekke tiltak for å sette brems på utviklingen.\nGjerningsmannen erklærer skyld i saken og godtar dommen.",
     "question": "Hva er riktig?",
     "options": ["Sønnen er også dømt til fengsel", "Politiet tok mannen på fersk gjerning i fjor", "Gjerningsmannen er feilaktig dømt til fengsel", "I fjor ble mannen dømt til seks års fengsel"],
     "correct_answer": "Politiet tok mannen på fersk gjerning i fjor",
@@ -50,13 +50,13 @@
   "question": "Fyll inn ordene i teksten",
   "sentenceParts":[
 "Å sove litt mer i helgene kan være bra for deg. Blant britene i studien som hadde underskudd på søvn,",
-"var det {0} klart en fordel å sove et par timer ekstra i løpet av helgen.",
-"Det er ikke bra for helsa å sove for lite. Det vet de fleste av oss godt.",
-"Men det er ikke så helt lett alltid å få den søvnen som trengs. I hvert fall ikke i løpet av de hektiske ukedagene.",
-"Spørsmålet er om det er mulig å ta igjen søvnen i helgen.",
+" var det {0} klart en fordel å sove et par timer ekstra i løpet av helgen.",
+" Det er ikke bra for helsa å sove for lite. Det vet de fleste av oss godt.",
+" Men det er ikke så helt lett alltid å få den søvnen som trengs. I hvert fall ikke i løpet av de hektiske ukedagene.",
+" Spørsmålet er om det er mulig å ta igjen søvnen i helgen.",
 "{1}, sove mer i helgen gjør jo mange. Men har det noen effekt?",
-"Ja, flere studier viser faktisk at det hjelper litt å sove lenge på lørdag morgen.",
-"I hvert fall når det kommer til hjerte- og karsykdommer."
+" Ja, flere studier viser faktisk at det hjelper litt å sove lenge på lørdag morgen.",
+" I hvert fall når det kommer til hjerte- og karsykdommer."
   ],
   "dropdownOptions":[
     ["helt", "særlig", "nemlig", "altså"],
@@ -70,15 +70,15 @@
   "question": "Fyll inn ordene i teksten",
   "sentenceParts":[
   "Vi har flere tusen milliarder i Oljefondet. Hvorfor betaler vi ikke mindre skatt?",
-"Forskere spør seg hvorfor alle oljepengene må brukes av staten.",
-"De siste årene har politikerne brukt nesten hele inntekten de henter fra Oljefondet hvert år på å øke de offentlige utgiftene.",
+" Forskere spør seg hvorfor alle oljepengene må brukes av staten.",
+" De siste årene har politikerne brukt nesten hele inntekten de henter fra Oljefondet hvert år på å øke de offentlige utgiftene.",
 "{0} noe har blitt brukt til å gi oss lavere skatt.",
-"Hvorfor har det blitt sånn? Forskere ved Høyskolen har sine mistanker.",
-"Det er en ganske merkelig utvikling vi har hatt, sier Karin Kleiven til avisen. Hun er postdoktor ved Høyskolen.",
-"Offentlige utgifter som andel av bruttonasjonalproduktet (BNP) {1} nå 62 prosent av fastlandsøkonomien i Norge.",
-"Sverige og Danmark bruker også mye penger på det offentlige. Men begge ligger likevel under 50 prosent.",
-"Høyresiden argumenterer gjerne for å gi skattelette.",
-"To kjente argumentet er at det stimulerer til økonomisk vekst og at det skaper arbeidsplasser. "
+" Hvorfor har det blitt sånn? Forskere ved Høyskolen har sine mistanker.",
+" Det er en ganske merkelig utvikling vi har hatt, sier Karin Kleiven til avisen. Hun er postdoktor ved Høyskolen.",
+" Offentlige utgifter som andel av bruttonasjonalproduktet (BNP) {1} nå 62 prosent av fastlandsøkonomien i Norge.",
+" Sverige og Danmark bruker også mye penger på det offentlige. Men begge ligger likevel under 50 prosent.",
+" Høyresiden argumenterer gjerne for å gi skattelette.",
+" To kjente argumentet er at det stimulerer til økonomisk vekst og at det skaper arbeidsplasser. "
   ],
   "dropdownOptions":[
     ["knapt", "endelig", "enda", "gjerne"],
