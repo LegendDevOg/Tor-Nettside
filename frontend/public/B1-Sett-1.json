@@ -29,7 +29,7 @@
 
   {
     "type": "multiple",
-  "context": "Til høsten innføres bompenger i Granken kommune.\nDe tre broene vil ta penger for passering begge veier.\nHele 46 kroner vil tappes fra bilistene i kommunen hver dag, minst.\nOrdføreren gjør tiltaket for å gjøre klimatiltak.\nLokalbefolkningen er rystet over dette og vurderer å gå i protester ved matbutikken.\nDet nye partiet Sosialistisk Venderst kom med denne endringen for noen dager siden.",
+  "context": "Til høsten innføres bompenger i Granken kommune.\nDe tre broene vil ta penger for passering begge veier.\nHele 46 kroner vil tappes fra bilistene i kommunen hver dag, minst.\nOrdføreren utfører tiltaket for å gjøre klimatiltak.\nLokalbefolkningen er rystet over dette og vurderer å gå i protester ved matbutikken.\nDet nye partiet Sosialistisk Venderst kom med denne endringen for noen dager siden.",
     "question": "Hvorfor er lokalbefolkningen rystet?",
     "options": ["Broene er for gamle", "Matbutikken har økt prisene", "De ønsker klimatiltak", "Det er dyrt å passere broene"],
     "correct_answer": "Det er dyrt å passere broene",
@@ -85,12 +85,12 @@
       "Organisert kriminalitet er løst i nabolandene", 
     "Barn og unge trenger en trygg plass å leke", 
     "Strøm må bli langt billigere", 
-    "Deres barn trenger får mat på bordet"],
+    "Deres barn trenger å få mat på bordet"],
     "correct_answer": "Barn og unge trenger en trygg plass å leke",
     "incorrect_answers": [
       "Organisert kriminalitet er løst i nabolandene", 
     "Strøm må bli langt billigere", 
-    "Deres barn trenger får mat på bordet"],
+    "Deres barn trenger å få mat på bordet"],
     "difficulty": "B1"
   },
   {
@@ -115,7 +115,7 @@
   "question": "Fyll inn ordene i teksten",
   "sentenceParts": [
     "Hvorfor ser vi så få eldre kvinner på treningssentre?",
-    "Gruppetrening er mer enn bare en form for aktivitet og et sentralt tiltak som kan bidra til å forbedre ",
+    " Gruppetrening er mer enn bare en form for aktivitet og et sentralt tiltak som kan bidra til å forbedre ",
     "både psykisk og fysisk helse. ", 
     "Vi lever i en tid der mennesker lever stadig lenger. Dette er utvilsomt en triumf for moderne medisin og samfunnsutvikling, ",
     "men dette {0} også nye utfordringer. Ensomhet og sosial isolasjon blant eldre er en økende tendens. ", 
@@ -136,16 +136,16 @@
   "type":"sentence-dropdown",
   "question": "Fyll inn ordene i teksten",
   "sentenceParts":[
-    "Hva skjer med oss hvis fuglene slutter å kvitre?",
+    "Hva skjer med oss hvis fuglene slutter å kvitre? ",
     "Fugler lager et fornøyelig spekter av lyder, men nå er det stillere enn før.",
-    "Hva gjør det med oss, musikken vi lager og fuglene selv?",
-    "Norges og verdens naturmangfold er under press, og flere arter enn noen gang er utrydningstruet.",
-    "Nå står hele 93 fuglearter i {0} for å forsvinne fra Norge.",
-    "Hovedårsaken til det er godt dokumentert: Vi mennesker tar stadig større plass.",
+    " Hva gjør det med oss, musikken vi lager og fuglene selv?",
+    " Norges og verdens naturmangfold er under press, og flere arter enn noen gang er utrydningstruet.",
+    " Nå står hele 93 fuglearter i {0} for å forsvinne fra Norge.",
+    " Hovedårsaken til det er godt dokumentert: Vi mennesker tar stadig større plass.",
     "– Det som skjer i norsk natur, er en del av en trend i hele verden.",
-    "Fuglebestandene blir mindre, og stadig flere arter er utrydningstruet.",
+    " Fuglebestandene blir mindre, og stadig flere arter er utrydningstruet.",
     "{1} sjøfugler og fugler som er tilpasset jordbruk og fjell,",
-    "opplever størst reduksjon i bestand, sier zoologiprofessor Arild Persen ved Naturmuseum i Bygdøy."
+    " opplever størst reduksjon i bestand, sier zoologiprofessor Arild Persen ved Naturmuseum i Bygdøy."
   ],
   "dropdownOptions":[
     ["fare", "nød", "gang", "vant"],
@@ -169,7 +169,7 @@
   },
   {
     "type": "multiple",
-    "context": "Erik:\n Jeg er veldig opptatt av å ha stell på pengeboka mi og budsjettet for hver måned.\nHvis det er noe jeg hater, så er det å låne penger av venner og familie. Jeg har gjort det én gang, og aldri mer.\nSønnen min er helt elendig med øknomien sin. Han sløser bort penger på ditt og datt og ber om penger hele tiden.\nJeg vil si at jeg er en gjerrig person. Jeg gir sjeldent bort penger til noen som helst, med mindre det er nødvendig.\nNoe jeg derimot kan bruke penger på, er biler. Jeg har kjøpt seks biler de siste ti årene. \nJeg bare elsker å sette meg inn i en bil med skinnseter og soltak. Det er en befriende følelse.\nStadig vekk får jeg tilbud om kredittkort, kona mi biter på, men jeg lar meg ikke lure!\n\nAstrid:\n Jeg tjener ganske godt vil jeg si. Når man har en lederstilling i et firma, så kommer det goder ut av det så klart.\nMen selv om man har god inntekt, så betyr det ikke at man er flink med økonomi, tvert imot, jeg bruker pengene på alt mulig rart.\nForrige uke kjøpte jeg en ny kajakk, uten å vite hvordan jeg bruker den. Jeg kjøper klær på nettet ukentlig og handler mat daglig.\nMannen min sier at jeg må bruke hodet når jeg kjøper ting, men jeg hører ikke etter.\nJeg har bestemt meg for å skjerpe meg fremover. Nå er det slutt på spontane harryturer til Sverige,\nmerkeklær og heisaturer til byen med venninner annenhver helg. Jeg skal heller prioritere mannen min,\nog kanskje endelig følge drømmen om å kjøpe et hus sammen på landet og få en familie.\n\nSabrina:\n Som student er det vanskelig å få pengene til å gå rundt. Det virker som om i det jeg mottar pengene, så fyker de ut\ni samme slengen! Jeg begriper det ikke. Jeg har så vidt råd til et brød! Det samme gjelder venner i studiet mitt, de er enig i at prisene i dag er skyhøye og at\nleien sluker bort over halvparten av de månedlige utbetalingene fra lånekassen. Men hvis man ser bort ifra dette så er jeg ganske\nsparsom vil jeg si. Jeg drar på byen kanskje én gang i måneden, drar på kino og shopper litt klær i blant, men ikke det store.\nNeste år skal jeg prøve å finne meg en deltidsjobb, slik at jeg kan ha litt mer på kontoen om dagene.\n\nAhmed:\n Jeg kjøpte min første bolig for ett år siden. Jeg har full jobb som sykepleier og har også et billån. Men jeg må si at det er tøft i blant.\nNå har jeg to jobber. Én helgejobb i tillegg som hjelpepleier. Jeg er glad i jobbene mine, og jeg trives egentlig å jobbe mye, men jeg vet at\ndenne livsstilen ikke vil være mulig å fortsette med i det lange løp.\nJeg kunne vurdert å selge bilen min, og i stedet ta buss, men det er jo 40 minutter å sykle til jobben min, så det blir litt vanskelig.\nNeste år skal jeg begynne å se etter andre jobber som er mer sentrale, slik at jeg kanskje kan gå til jobben min.\n\nSander:\n Jeg har egentlig aldri tenkt så mye på økonomi. Ting går rundt for meg. Jeg får betalt regniner, barna får barnehageplass og jeg\nfår kjørt den fine bilen min til jobb hver dag. Men jeg skal innrømme at etter jeg fikk arv fra foreldrene mine, så fikk jeg en god slunt i lommene mine.\nMan kan vel si at jeg har hatt en del flaks. Vi bor i et fint land, men jeg kjenner venner som har det veldig tøft med økonomien sin.\nDet jeg er aller mest glad for, er at jeg har en flott familie å dra hjem til og venner som jeg kan henge med i blant.",
+    "context": "Erik:\n Jeg er veldig opptatt av å ha stell på pengeboka mi og budsjettet for hver måned.\nHvis det er noe jeg hater, så er det å låne penger av venner og familie. Jeg har gjort det én gang, og aldri mer.\nSønnen min er helt elendig med øknomien sin. Han sløser bort penger på ditt og datt og ber om penger hele tiden.\nJeg vil si at jeg er en gjerrig person. Jeg gir sjeldent bort penger til noen som helst, med mindre det er nødvendig.\nNoe jeg derimot kan bruke penger på, er biler. Jeg har kjøpt seks biler de siste ti årene. \nJeg bare elsker å sette meg inn i en bil med skinnseter og soltak. Det er en befriende følelse.\nStadig vekk får jeg tilbud om kredittkort, kona mi biter på, men jeg lar meg ikke lure!\n\nAstrid:\n Jeg tjener ganske godt vil jeg si. Når man har en lederstilling i et firma, så kommer det goder ut av det så klart.\nMen selv om man har god inntekt, så betyr det ikke at man er flink med økonomi, tvert imot, jeg bruker pengene på alt mulig rart.\nForrige uke kjøpte jeg en ny kajakk, uten å vite hvordan jeg bruker den. Jeg kjøper klær på nettet ukentlig og handler mat daglig.\nMannen min sier at jeg må bruke hodet når jeg kjøper ting, men jeg hører ikke etter.\nJeg har bestemt meg for å skjerpe meg fremover. Nå er det slutt på spontane harryturer til Sverige,\nmerkeklær og heisaturer til byen med venninner annenhver helg. Jeg skal heller prioritere mannen min,og kanskje endelig følge drømmen om å kjøpe et hus sammen på landet og få en familie.\n\nSabrina:\n Som student er det vanskelig å få pengene til å gå rundt. Det virker som om i det jeg mottar pengene, så fyker de ut i samme slengen! Jeg begriper det ikke. Jeg har så vidt råd til et brød! \nDet samme gjelder venner i studiet mitt, de er enig i at prisene i dag er skyhøye og at leien sluker bort over halvparten av de månedlige utbetalingene fra lånekassen. \nMen hvis man ser bort ifra dette så er jeg ganske sparsom vil jeg si. Jeg drar på byen kanskje én gang i måneden, drar på kino og shopper litt klær i blant, men ikke det store.\nNeste år skal jeg prøve å finne meg en deltidsjobb, slik at jeg kan ha litt mer på kontoen om dagene.\n\nAhmed:\n Jeg kjøpte min første bolig for ett år siden. Jeg har full jobb som sykepleier og har også et billån. Men jeg må si at det er tøft i blant.\nNå har jeg to jobber. Én helgejobb i tillegg som hjelpepleier. Jeg er glad i jobbene mine, og jeg trives egentlig å jobbe mye, men jeg vet at denne livsstilen ikke vil være mulig å fortsette med i det lange løp.\nJeg kunne vurdert å selge bilen min, og i stedet ta buss, men det er jo 40 minutter å sykle til jobben min, så det blir litt vanskelig.\nNeste år skal jeg begynne å se etter andre jobber som er mer sentrale, slik at jeg kanskje kan gå til jobben min.\n\nSander:\n Jeg har egentlig aldri tenkt så mye på økonomi. Ting går rundt for meg. Jeg får betalt regniner, barna får barnehageplass og jeg\nfår kjørt den fine bilen min til jobb hver dag. Men jeg skal innrømme at etter jeg fikk arv fra foreldrene mine, så fikk jeg en god slunt i lommene mine.\nMan kan vel si at jeg har hatt en del flaks. Vi bor i et fint land, men jeg kjenner venner som har det veldig tøft med økonomien sin.\nDet jeg er aller mest glad for, er at jeg har en flott familie å dra hjem til og venner som jeg kan henge med i blant.",
     "question": "Hvem er ubemerksom når det kommer til økonomi?",
     "options": ["Erik", 
     "Astrid", 
