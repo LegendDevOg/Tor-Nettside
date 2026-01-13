@@ -292,18 +292,18 @@
 },
 {
     "type": "multiple",
-    "context": "Jaktsesong",
-    "question": "5. Hvilken dag åpner svømmebassenget tidligst?",
+    "context": "Mandag til Onsdag: 7-20\nTorsdag: 8-21\nFredag: 10-18\nLørdag og Søndag: 12-18",
+    "question": "Hvilken dag åpner svømmebassenget tidligst?",
     "options": [
         "Fredag",
         "Lørdag",
         "Tirsdag",
         "Torsdag"
     ],
-    "correct_answer": "Fredag",
+    "correct_answer": "Tirsdag",
     "incorrect_answers": [
         "Lørdag",
-        "Tirsdag",
+        "Fredag",
         "Torsdag"
     ],
     "difficulty": "A1"
