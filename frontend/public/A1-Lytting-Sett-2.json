@@ -33,9 +33,9 @@
         "context": "",
         "image": "/images/lytting/iskoyte.png",
         "correctArea": {
-            "x": 217,
-            "y": 669,
-            "radius": 80
+            "x": 415,
+            "y": 664,
+            "radius": 100
         },
         "difficulty": "A1",
         "sound": "/sound/1-A1-A2klikkibildeogkalender/sett2/3_A1-A2_sett2.mp3",
@@ -75,9 +75,9 @@
         "context": "",
         "image": "/images/lytting/calendar.png",
         "correctArea": {
-            "x": 1397,
-            "y": 460,
-            "radius": 60
+            "x": 597,
+            "y": 755,
+            "radius": 100
         },
         "difficulty": "A1",
         "sound": "/sound/1-A1-A2klikkibildeogkalender/sett2/6_A1-A2_sett2.mp3",
@@ -380,7 +380,7 @@
         "correctArea": {
             "x": 1443,
             "y": 516,
-            "radius": 80
+            "radius": 100
         },
         "difficulty": "A1",
         "sound": "/sound/4-A2-klikkibilde/sett2/5_A2_klikk_sett2.mp3",

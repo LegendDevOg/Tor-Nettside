@@ -61,9 +61,9 @@
         "context": "",
         "image": "/images/lytting/uke-kalender.png",
         "correctArea": {
-            "x": 1300,
-            "y": 540,
-            "radius": 80
+            "x": 1314,
+            "y": 700,
+            "radius": 100
         },
         "difficulty": "A1",
         "instruction": "5. Når får de besøk?",
@@ -77,7 +77,7 @@
         "correctArea": {
             "x": 981,
             "y": 703,
-            "radius": 60
+            "radius": 100
         },
         "difficulty": "A1",
         "instruction": "6. Når skal kvinnen reise på ferie?",
@@ -324,7 +324,7 @@
         "correctArea": {
             "x": 1562,
             "y": 773,
-            "radius": 80
+            "radius": 100
         },
         "difficulty": "A1",
         "instruction": "23. Lytt og klikk på riktig sted i bildet",
@@ -338,7 +338,7 @@
         "correctArea": {
             "x": 1145,
             "y": 528,
-            "radius": 80
+            "radius": 100
         },
         "difficulty": "A1",
         "instruction": "24. Lytt og klikk på riktig sted i bildet",
@@ -352,7 +352,7 @@
         "correctArea": {
             "x": 1191,
             "y": 710,
-            "radius": 80
+            "radius": 100
         },
         "difficulty": "A1",
         "instruction": "25. Lytt og klikk på riktig sted i bildet",
@@ -366,7 +366,7 @@
         "correctArea": {
             "x": 1309,
             "y": 464,
-            "radius": 80
+            "radius": 100
         },
         "difficulty": "A1",
         "instruction": "26. Lytt og klikk på riktig sted i bildet",
@@ -380,7 +380,7 @@
         "correctArea": {
             "x": 517,
             "y": 575,
-            "radius": 80
+            "radius": 100
         },
         "difficulty": "A1",
         "instruction": "27. Lytt og klikk på riktig sted i bildet",
@@ -394,7 +394,7 @@
         "correctArea": {
             "x": 604,
             "y": 190,
-            "radius": 60
+            "radius": 100
         },
         "difficulty": "A1",
         "instruction": "28. Hvilken måned liker kvinnen minst?",
@@ -408,7 +408,7 @@
         "correctArea": {
             "x": 1003,
             "y": 457,
-            "radius": 60
+            "radius": 100
         },
         "difficulty": "A1",
         "instruction": "29. Når skal mannen kjøre opp for å få førerkortet sitt?",

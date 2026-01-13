@@ -94,7 +94,6 @@ function ImageClickResult({ question, userSelected, actualIndex }: {
 
 function Success() {
   const {
-    trueAnswer,
     resetQuestion,
     setTimeStamp,
     question: allQuestion,
@@ -103,16 +102,61 @@ function Success() {
 
   const navigate = useNavigate();
   const [currentPage, setCurrentPage] = useState(1);
-  const score = Math.floor((trueAnswer * 100) / allQuestion.length);
+  
+  // Check if this is a listening quiz (questions have sound property and empty question text)
+  const isLyttingQuiz = allQuestion.length > 0 && allQuestion[0]?.sound && allQuestion[0]?.question === "";
+  
+  // Calculate score by counting actual correct answers
+  const correctAnswersCount = allQuestion.filter((question, index) => {
+    const questionIdentifier = isLyttingQuiz ? `question_${index + 1}` : question.question;
+    const userSelected = userAnswer.find((ans) => ans.question === questionIdentifier);
+    const hasAnswer = userSelected && userSelected.answer;
+    
+    if (!hasAnswer) return false;
+    
+    // Check if answer is correct based on question type
+    if (question.type === "sentence-dropdown") {
+      const selected = userSelected?.answer
+        ?.split("||")
+        .map((a) => a.split("|")[1]);
+      return selected?.every((ans, i) => ans === question.correct_answer[i]) || false;
+    } else if (question.type === "multi_dropdown") {
+      const selected = userSelected?.answer
+        ?.split("||")
+        .map((a) => a.split("|")[1]);
+      return (
+        question.subQuestions &&
+        selected?.every(
+          (ans, i) => ans === question.subQuestions?.[i]?.correct_answer
+        )
+      ) || false;
+    } else if ((question as any).type === "dual_dropdown") {
+      const selected = userSelected?.answer
+        ?.split("||")
+        .map((a) => a.split("|")[1]);
+      return (
+        question.subQuestions &&
+        selected?.every((ans, i) => {
+          const personIndex = Math.floor(i / 2);
+          const questionIndex = i % 2;
+          return ans === (question.subQuestions as any)?.[personIndex]?.correct_answers?.[questionIndex];
+        })
+      ) || false;
+    } else if (question.type === "image-click") {
+      const [, , correctness] = (userSelected?.answer || "").split("|");
+      return correctness === "correct";
+    } else {
+      return userSelected?.answer === question.correct_answer;
+    }
+  }).length;
+  
+  const score = Math.floor((correctAnswersCount * 100) / allQuestion.length);
   const indxColor = score >= 60 ? "#22c55e" : score >= 30 ? "#f59e0b" : "#de5858";
   const showButton = score >= 60;
   const text =
     score < 60
       ? "You got less than 60%. Practice sets 1, 2 and 3 for this level before moving on to the next level."
       : "You got more than 60%. If you want, continue to the next Level.";
-
-  // Check if this is a listening quiz (questions have sound property and empty question text)
-  const isLyttingQuiz = allQuestion.length > 0 && allQuestion[0]?.sound && allQuestion[0]?.question === "";
 
   useEffect(() => {
     setTimeStamp(0);

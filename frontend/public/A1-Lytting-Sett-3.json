@@ -7,7 +7,7 @@
         "correctArea": {
             "x": 672,
             "y": 655,
-            "radius": 80
+            "radius": 100
         },
         "difficulty": "A1",
         "sound": "/sound/1-A1-A2klikkibildeogkalender/sett3/1_A1-A2_sett3.mp3",
@@ -21,7 +21,7 @@
         "correctArea": {
             "x": 1543,
             "y": 325,
-            "radius": 80
+            "radius": 100
         },
         "difficulty": "A1",
         "sound": "/sound/1-A1-A2klikkibildeogkalender/sett3/2_A1-A2_sett3.mp3",
@@ -35,7 +35,7 @@
         "correctArea": {
             "x": 672,
             "y": 655,
-            "radius": 80
+            "radius": 100
         },
         "difficulty": "A1",
         "sound": "/sound/1-A1-A2klikkibildeogkalender/sett3/3_A1-A2_sett3.mp3",
@@ -49,7 +49,7 @@
         "correctArea": {
             "x": 946,
             "y": 554,
-            "radius": 80
+            "radius": 100
         },
         "difficulty": "A1",
         "sound": "/sound/1-A1-A2klikkibildeogkalender/sett3/4_A1-A2_sett3.mp3",
@@ -63,7 +63,7 @@
         "correctArea": {
             "x": 1293,
             "y": 537,
-            "radius": 80
+            "radius": 100
         },
         "difficulty": "A1",
         "sound": "/sound/1-A1-A2klikkibildeogkalender/sett3/5_A1-A2_sett3.mp3",
@@ -75,9 +75,9 @@
         "context": "",
         "image": "/images/lytting/calendar.png",
         "correctArea": {
-            "x": 599,
-            "y": 443,
-            "radius": 60
+            "x": 998,
+            "y": 471,
+            "radius": 100
         },
         "difficulty": "A1",
         "sound": "/sound/1-A1-A2klikkibildeogkalender/sett3/6_A1-A2_sett3.mp3",
@@ -324,7 +324,7 @@
         "correctArea": {
             "x": 946,
             "y": 427,
-            "radius": 80
+            "radius": 100
         },
         "difficulty": "A1",
         "sound": "/sound/4-A2-klikkibilde/sett3/1_A2_klikk_sett3.mp3",
@@ -338,7 +338,7 @@
         "correctArea": {
             "x": 1219,
             "y": 382,
-            "radius": 80
+            "radius": 100
         },
         "difficulty": "A1",
         "sound": "/sound/4-A2-klikkibilde/sett3/2_A2_klikk_sett3.mp3",
@@ -352,7 +352,7 @@
         "correctArea": {
             "x": 959,
             "y": 251,
-            "radius": 80
+            "radius": 100
         },
         "difficulty": "A1",
         "sound": "/sound/4-A2-klikkibilde/sett3/3_A2_klikk_sett3.mp3",
@@ -366,7 +366,7 @@
         "correctArea": {
             "x": 917,
             "y": 700,
-            "radius": 80
+            "radius": 100
         },
         "difficulty": "A1",
         "sound": "/sound/4-A2-klikkibilde/sett3/4_A2_klikk_sett3.mp3",
@@ -380,7 +380,7 @@
         "correctArea": {
             "x": 894,
             "y": 578,
-            "radius": 80
+            "radius": 100
         },
         "difficulty": "A1",
         "sound": "/sound/4-A2-klikkibilde/sett3/5_A2_klikk_sett3.mp3",
@@ -394,7 +394,7 @@
         "correctArea": {
             "x": 599,
             "y": 187,
-            "radius": 60
+            "radius": 100
         },
         "difficulty": "A1",
         "sound": "/sound/4-A2-klikkibilde/sett3/6_A2_klikk_sett3.mp3",
@@ -408,7 +408,7 @@
         "correctArea": {
             "x": 1388,
             "y": 758,
-            "radius": 60
+            "radius": 100
         },
         "difficulty": "A1",
         "sound": "/sound/4-A2-klikkibilde/sett3/7_A2_klikk_sett3.mp3",

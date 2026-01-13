@@ -185,15 +185,14 @@
         "context": "",
         "options": [
             "A: Ønsker å vite mer",
-            "B: Ønsker å innføre forsaget",
-            "C: Er negativ til forsaget",
+            "B: Ønsker å innføre forslaget",
+            "C: Er negativ til forslaget",
             "D: Foreslår andre løsninger"
         ],
-        "correct_answer": "C: Er negativ til forsaget",
+        "correct_answer": "C: Er negativ til forslaget",
         "difficulty": "B2",
         "sound": "/sound/3-B2-flervalgsoppgaver_en-avspilling/Sett3/6_B2_flervalgs_en_avspilling_sett3.mp3",
-        "instruction": "Sykefraværet i Norge har aldri vært høyere på 15 år. Samtidig har vi den beste sykelønnsordningen i verden. Venstre har kommet med forslag om å redusere sykelønn fra 100 til 80 prosent.
-Nå får du høre meninger fra arbeiderne om denne ordningen.<br><br>13. Hva mener arbeideren om den nye ordningen?"
+        "instruction": "Sykefraværet i Norge har aldri vært høyere på 15 år. Samtidig har vi den beste sykelønnsordningen i verden. Venstre har kommet med forslag om å redusere sykelønn fra 100 til 80 prosent.<br><br>Nå får du høre meninger fra arbeiderne om denne ordningen.<br><br>13. Hva mener arbeideren om den nye ordningen?"
     },
     {
         "type": "multiple",
@@ -216,8 +215,8 @@ Nå får du høre meninger fra arbeiderne om denne ordningen.<br><br>13. Hva men
         "context": "",
         "options": [
             "A: Ønsker å vite mer",
-            "B: Ønsker å innføre forsaget",
-            "C: Er negativ til forsaget",
+            "B: Ønsker å innføre forslaget",
+            "C: Er negativ til forslaget",
             "D: Foreslår andre løsninger"
         ],
         "correct_answer": "B: Ønsker å innføre forslaget",
@@ -231,8 +230,8 @@ Nå får du høre meninger fra arbeiderne om denne ordningen.<br><br>13. Hva men
         "context": "",
         "options": [
             "A: Ønsker å vite mer",
-            "B: Ønsker å innføre forsaget",
-            "C: Er negativ til forsaget",
+            "B: Ønsker å innføre forslaget",
+            "C: Er negativ til forslaget",
             "D: Foreslår andre løsninger"
         ],
         "correct_answer": "B: Ønsker å innføre forslaget",
@@ -296,7 +295,7 @@ Nå får du høre meninger fra arbeiderne om denne ordningen.<br><br>13. Hva men
             }
         ],
         "difficulty": "B1",
-        "sound": "/sound/2-B1-tema-serier/Sett3/1_B1_tema-serier-sett3.mp3",
+        "sound": "/sound/2-B1-B2-lukeoppgaver_en_avspilling/Sett3/1_B1-B2_lukeoppgaver_en_avspilling_sett3.mp3",
         "instruction": "Fyll inn svarene"
     }
 ]
