@@ -44,12 +44,12 @@
     "sentence": "Det er snø ute og Vignesh går tur ute med en rød jakke.",
     "question": "Klikk på Vignesh.",
     "options": [
-      "/images/bilde/oppg6-op1.png",
-      "/images/bilde/oppg6-op2.png",
-      "/images/bilde/oppg6-op3.png",
-      "/images/bilde/oppg6-op4.png"
+      "/images/A1-A2_lese_6-16/sett1/v2oppg1-op1.png",
+      "/images/A1-A2_lese_6-16/sett1/v2oppg1-op2.png",
+      "/images/A1-A2_lese_6-16/sett1/v2oppg1-op3.png",
+      "/images/A1-A2_lese_6-16/sett1/v2oppg1-op4.png"
     ],
-    "correct_answer": "/images/bilde/oppg6-op3.png",
+    "correct_answer": "/images/A1-A2_lese_6-16/sett1/v2oppg1-op3.png",
     "difficulty": "A1"
   },
 
@@ -58,12 +58,12 @@
     "sentence": "Fire personer jobber sammen. En kvinne skal pensjonere seg i morgen.",
     "question": "Klikke på kvinnen med hvitt hår.",
     "options": [
-      "/images/bilde/oppg6-op1.png",
-      "/images/bilde/oppg6-op2.png",
-      "/images/bilde/oppg6-op3.png",
-      "/images/bilde/oppg6-op4.png"
+      "/images/A1-A2_lese_6-16/sett1/v2oppg6-op1.png",
+      "/images/A1-A2_lese_6-16/sett1/v2oppg6-op2.png",
+      "/images/A1-A2_lese_6-16/sett1/v2oppg6-op3.png",
+      "/images/A1-A2_lese_6-16/sett1/v2oppg6-op4.png"
     ],
-    "correct_answer": "/images/bilde/oppg6-op4.png",
+    "correct_answer": "/images/A1-A2_lese_6-16/sett1/v2oppg6-op4.png",
     "difficulty": "A1"
   },
 
@@ -72,12 +72,12 @@
     "sentence": "Sondre er ferdig med militæret. Han har deltidsjobb som vaktmester. \nMoren hans, Trine, jobber som lege på sykehuset. Faren hans jobber som fisker. \nSondre ønsker å studere for å bli tannlege neste år.",
     "question": "Hvilket yrke har moren til Sondre?",
     "options": [
-      "/images/bilde/oppg11-op1.png",
-      "/images/bilde/oppg11-op2.png",
-      "/images/bilde/oppg11-op3.png",
-      "/images/bilde/oppg11-op4.png"
+      "/images/A1-A2_lese_6-16/sett1/v2oppg11_1-op1.png",
+      "/images/A1-A2_lese_6-16/sett1/v2oppg11_1-op2.png",
+      "/images/A1-A2_lese_6-16/sett1/v2oppg11_1-op3.png",
+      "/images/A1-A2_lese_6-16/sett1/v2oppg11_1-op4.png"
     ],
-    "correct_answer": "/images/bilde/oppg11-op3.png",
+    "correct_answer": "/images/A1-A2_lese_6-16/sett1/v2oppg11_1-op3.png",
     "difficulty": "A1"
   },
 
@@ -86,100 +86,100 @@
     "sentence": "Monika jobber i kassa på matbutikken. Hun har to barn. \nVennen til Monika, Gabriel, jobber som fisker. Ektemannen til Monika er vaktmester. \nSønnen til Monika ønsker å bli lege, men han går på ungdomsskolen nå.",
     "question": "Hvilket yrke har Gabriel?",
     "options": [
-      "/images/bilde/oppg11-op1.png",
-      "/images/bilde/oppg11-op2.png",
-      "/images/bilde/oppg11-op3.png",
-      "/images/bilde/oppg11-op4.png"
+      "/images/A1-A2_lese_6-16/sett1/v2oppg11_1-op1.png",
+      "/images/A1-A2_lese_6-16/sett1/v2oppg11_1-op2.png",
+      "/images/A1-A2_lese_6-16/sett1/v2oppg11_1-op3.png",
+      "/images/A1-A2_lese_6-16/sett1/v2oppg11_1-op4.png"
     ],
-    "correct_answer": "/images/bilde/oppg11-op2.png",
+    "correct_answer": "/images/A1-A2_lese_6-16/sett1/v2oppg11_1-op2.png",
     "difficulty": "A1"
   },
   {
     "type": "image",
     "question": "Stian må gå på butikken og handle inn middag for i dag. Klikk på riktig handleliste.",
     "options": [
-      "/images/tekst/oppg15-op1.png",
-      "/images/tekst/oppg15-op2.png",
-      "/images/tekst/oppg15-op3.png",
-      "/images/tekst/oppg15-op4.png"
+      "/images/A1-A2_lese_6-16/sett1/v2oppg15-op1.png",
+      "/images/A1-A2_lese_6-16/sett1/v2oppg15-op2.png",
+      "/images/A1-A2_lese_6-16/sett1/v2oppg15-op3.png",
+      "/images/A1-A2_lese_6-16/sett1/v2oppg15-op4.png"
     ],
-    "correct_answer": "/images/tekst/oppg15-op3.png",
+    "correct_answer": "/images/A1-A2_lese_6-16/sett1/v2oppg15-op3.png",
     "difficulty": "A1"
   },
   {
     "type": "image",
     "question": "Hvem fikk en presang av bestemoren sin?",
     "options": [
-      "/images/tekst/oppg16-op1.png",
-      "/images/tekst/oppg16-op2.png",
-      "/images/tekst/oppg16-op3.png",
-      "/images/tekst/oppg16-op4.png"
+      "/images/A1-A2_lese_6-16/sett1/v2oppg9-op1.png",
+      "/images/A1-A2_lese_6-16/sett1/v2oppg9-op2.png",
+      "/images/A1-A2_lese_6-16/sett1/v2oppg9-op3.png",
+      "/images/A1-A2_lese_6-16/sett1/v2oppg9-op4.png"
     ],
-    "correct_answer": "/images/tekst/oppg16-op4.png",
+    "correct_answer": "/images/A1-A2_lese_6-16/sett1/v2oppg9-op4.png",
     "difficulty": "A1"
   },
   {
     "type": "image",
     "question": "Hvem skal dra til utlandet?",
     "options": [
-      "/images/tekst/oppg17-op1.png",
-      "/images/tekst/oppg17-op2.png",
-      "/images/tekst/oppg17-op3.png",
-      "/images/tekst/oppg17-op4.png"
+      "/images/A1-A2_lese_6-16/sett1/v2oppg10-op1.png",
+      "/images/A1-A2_lese_6-16/sett1/v2oppg10-op2.png",
+      "/images/A1-A2_lese_6-16/sett1/v2oppg10-op3.png",
+      "/images/A1-A2_lese_6-16/sett1/v2oppg10-op4.png"
     ],
-    "correct_answer": "/images/tekst/oppg17-op2.png",
+    "correct_answer": "/images/A1-A2_lese_6-16/sett1/v2oppg10-op2.png",
     "difficulty": "A1"
   },
   {
     "type": "image",
     "question": "Hvilken tekst passer til bildet?",
     "options": [
-      "/images/tekst/oppg18-op1.png",
-      "/images/tekst/oppg18-op2.png",
-      "/images/tekst/oppg18-op3.png",
-      "/images/tekst/oppg18-op4.png"
+      "/images/A1-A2_lese_6-16/sett1/v2oppg18-op1.png",
+      "/images/A1-A2_lese_6-16/sett1/v2oppg18-op2.png",
+      "/images/A1-A2_lese_6-16/sett1/v2oppg18-op3.png",
+      "/images/A1-A2_lese_6-16/sett1/v2oppg18-op4.png"
     ],
-    "image": "/images/tekst/oppg18-image.png",
-    "correct_answer": "/images/tekst/oppg18-op2.png",
+    "image": "/images/A1-A2_lese_6-16/sett1/v2oppg18-image.png",
+    "correct_answer": "/images/A1-A2_lese_6-16/sett1/v2oppg18-op2.png",
     "difficulty": "A1"
   },
   {
     "type": "image",
     "question": "Hvilken tekst passer til bildet?",
     "options": [
-      "/images/tekst/oppg19-op1.png",
-      "/images/tekst/oppg19-op2.png",
-      "/images/tekst/oppg19-op3.png",
-      "/images/tekst/oppg19-op4.png"
+      "/images/A1-A2_lese_6-16/sett1/v2oppg19-op1.png",
+      "/images/A1-A2_lese_6-16/sett1/v2oppg19-op2.png",
+      "/images/A1-A2_lese_6-16/sett1/v2oppg19-op3.png",
+      "/images/A1-A2_lese_6-16/sett1/v2oppg19-op4.png"
     ],
-    "image": "/images/tekst/oppg19-image.png",
-    "correct_answer": "/images/tekst/oppg19-op2.png",
+    "image": "/images/A1-A2_lese_6-16/sett1/v2oppg19-image.png",
+    "correct_answer": "/images/A1-A2_lese_6-16/sett1/v2oppg19-op2.png",
     "difficulty": "A1"
   },
   {
     "type": "image",
     "question": "Hvilken tekst passer til bildet?",
     "options": [
-      "/images/tekst/oppg20-op1.png",
-      "/images/tekst/oppg20-op2.png",
-      "/images/tekst/oppg20-op3.png",
-      "/images/tekst/oppg20-op4.png"
+      "/images/A1-A2_lese_6-16/sett1/v2oppg20-op1.png",
+      "/images/A1-A2_lese_6-16/sett1/v2oppg20-op2.png",
+      "/images/A1-A2_lese_6-16/sett1/v2oppg20-op3.png",
+      "/images/A1-A2_lese_6-16/sett1/v2oppg20-op4.png"
     ],
-    "image": "/images/tekst/oppg20-image.png",
-    "correct_answer": "/images/tekst/oppg20-op2.png",
+    "image": "/images/A1-A2_lese_6-16/sett1/v2oppg20-image.png",
+    "correct_answer": "/images/A1-A2_lese_6-16/sett1/v2oppg20-op2.png",
     "difficulty": "A1"
   },
   {
     "type": "image",
     "question": "Hvilken tekst passer til bildet?",
     "options": [
-      "/images/tekst/oppg21-op1.png",
-      "/images/tekst/oppg21-op2.png",
-      "/images/tekst/oppg21-op3.png",
-      "/images/tekst/oppg21-op4.png"
+      "/images/A1-A2_lese_6-16/sett1/v2oppg21-op1.png",
+      "/images/A1-A2_lese_6-16/sett1/v2oppg21-op2.png",
+      "/images/A1-A2_lese_6-16/sett1/v2oppg21-op3.png",
+      "/images/A1-A2_lese_6-16/sett1/v2oppg21-op4.png"
     ],
-    "image": "/images/tekst/oppg21-image.png",
-    "correct_answer": "/images/tekst/oppg21-op3.png",
+    "image": "/images/A1-A2_lese_6-16/sett1/v2oppg21-image.png",
+    "correct_answer": "/images/A1-A2_lese_6-16/sett1/v2oppg21-op3.png",
     "difficulty": "A1"
   },
   {
