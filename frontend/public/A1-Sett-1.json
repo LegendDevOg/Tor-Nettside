@@ -175,13 +175,13 @@
     "type": "image",
     "question": "Hvilken tekst passer til bildet?",
     "options": [
-      "/images/A1-A2_lese_6-16/sett1/v2oppg14_1-op1.png",
-      "/images/A1-A2_lese_6-16/sett1/v2oppg14_1-op2.png",
-      "/images/A1-A2_lese_6-16/sett1/v2oppg14_1-op3.png",
-      "/images/A1-A2_lese_6-16/sett1/v2oppg14_1-op4.png"
+      "/images/A1-A2_lese_6-16/sett1/v2oppg14-op1.png",
+      "/images/A1-A2_lese_6-16/sett1/v2oppg14-op2.png",
+      "/images/A1-A2_lese_6-16/sett1/v2oppg14-op3.png",
+      "/images/A1-A2_lese_6-16/sett1/v2oppg14-op4.png"
     ],
-    "image": "/images/A1-A2_lese_6-16/sett1/v2oppg14_1-image.png",
-    "correct_answer": "/images/A1-A2_lese_6-16/sett1/v2oppg14_1-op1.png",
+    "image": "/images/A1-A2_lese_6-16/sett1/v2oppg14-image.png",
+    "correct_answer": "/images/A1-A2_lese_6-16/sett1/v2oppg14-op1.png",
     "difficulty": "A1"
   },
   {
