@@ -46,12 +46,12 @@
     "sentence": "Det er varmt og fint vær. Det er litt skyer på himmelen. Jonas har på seg shorts.",
     "question": "Klikk på Jonas!",
     "options": [
-      "/images/bilde/oppg1-op1.png",
-      "/images/bilde/oppg1-op2.png",
-      "/images/bilde/oppg1-op3.png",
-      "/images/bilde/oppg1-op4.png"
+      "/images/A1-A2_lese_6-16/sett1/v2oppg1-op1.png",
+      "/images/A1-A2_lese_6-16/sett1/v2oppg1-op2.png",
+      "/images/A1-A2_lese_6-16/sett1/v2oppg1-op3.png",
+      "/images/A1-A2_lese_6-16/sett1/v2oppg1-op4.png"
     ],
-    "correct_answer": "/images/bilde/oppg1-op1.png",
+    "correct_answer": "/images/A1-A2_lese_6-16/sett1/v2oppg1-op1.png",
     "difficulty": "A1-A2"
   },
 
@@ -60,12 +60,12 @@
     "sentence": "Fire personer går på norskkurs sammen. I dag har en mann på seg en hvit t-skjorte. ",
     "question": "Klikk på mannen.",
     "options": [
-      "/images/bilde/oppg6-op1.png",
-      "/images/bilde/oppg6-op2.png",
-      "/images/bilde/oppg6-op3.png",
-      "/images/bilde/oppg6-op4.png"
+      "/images/A1-A2_lese_6-16/sett1/v2oppg6-op1.png",
+      "/images/A1-A2_lese_6-16/sett1/v2oppg6-op2.png",
+      "/images/A1-A2_lese_6-16/sett1/v2oppg6-op3.png",
+      "/images/A1-A2_lese_6-16/sett1/v2oppg6-op4.png"
     ],
-    "correct_answer": "/images/bilde/oppg6-op2.png",
+    "correct_answer": "/A1-A2_lese_6-16/sett1/bilde/v2oppg6-op2.png",
     "difficulty": "A1-A2"
   },
 
@@ -74,12 +74,12 @@
     "sentence": "Stine går på Universitetet. Hun studerer medisin for å bli lege. \nVennen hennes, Børre er kokk og jobber på en restaurant. \nFaren hennes er kokk, og onkelen er vasker. Men Stine ønsker seg en jobb der hun tjener mer penger.",
     "question": "Hvilket yrke har vennen til Stine?",
     "options": [
-      "/images/bilde/oppg7-op1.png",
-      "/images/bilde/oppg7-op2.png",
-      "/images/bilde/oppg7-op3.png",
-      "/images/bilde/oppg7-op4.png"
+      "/images/A1-A2_lese_6-16/sett1/v2oppg7-op1.png",
+      "/images/A1-A2_lese_6-16/sett1/v2oppg7-op2.png",
+      "/images/A1-A2_lese_6-16/sett1/v2oppg7-op3.png",
+      "/images/A1-A2_lese_6-16/sett1/v2oppg7-op4.png"
     ],
-    "correct_answer": "/images/bilde/oppg7-op2.png",
+    "correct_answer": "/images/A1-A2_lese_6-16/sett1/v2oppg7-op2.png",
     "difficulty": "A1-A2"
   },
 
@@ -88,100 +88,100 @@
     "sentence": "Stine går på Universitetet. Hun studerer medisin for å bli lege. \nVennen hennes, Børre er kokk og jobber på en restaurant. \nFaren hennes er kokk, og onkelen er vasker. Men Stine ønsker seg en jobb der hun tjener mer penger.",
     "question": "Hvilket yrke har onkelen til Stine?",
     "options": [
-      "/images/bilde/oppg7-op1.png",
-      "/images/bilde/oppg7-op2.png",
-      "/images/bilde/oppg7-op3.png",
-      "/images/bilde/oppg7-op4.png"
+      "/images/A1-A2_lese_6-16/sett1/v2oppg7-op1.png",
+      "/images/A1-A2_lese_6-16/sett1/v2oppg7-op2.png",
+      "/images/A1-A2_lese_6-16/sett1/v2oppg7-op3.png",
+      "/images/A1-A2_lese_6-16/sett1/v2oppg7-op4.png"
     ],
-    "correct_answer": "/images/bilde/oppg7-op4.png",
+    "correct_answer": "/images/A1-A2_lese_6-16/sett1/v2oppg7-op4.png",
     "difficulty": "A1-A2"
   },
     {
     "type": "image",
     "sentence": "Klara skal ha besøk av venner og familie og vil ha noe godt og søtt til kaffen. Klikk på riktig handleliste.",
     "options": [
-      "/images/tekst/oppg8-op1.png",
-      "/images/tekst/oppg8-op2.png",
-      "/images/tekst/oppg8-op3.png",
-      "/images/tekst/oppg8-op4.png"
+      "/images/A1-A2_lese_6-16/sett1/v2oppg8-op1.png",
+      "/images/A1-A2_lese_6-16/sett1/v2oppg8-op2.png",
+      "/images/A1-A2_lese_6-16/sett1/v2oppg8-op3.png",
+      "/images/A1-A2_lese_6-16/sett1/v2oppg8-op4.png"
     ],
-    "correct_answer": "/images/tekst/oppg8-op2.png",
+    "correct_answer": "/images/A1-A2_lese_6-16/sett1/v2oppg8-op2.png",
     "difficulty": "A1"
   },
   {
     "type": "image",
     "sentence": "Hvem har ikke penger?",
     "options": [
-      "/images/tekst/oppg9-op1.png",
-      "/images/tekst/oppg9-op2.png",
-      "/images/tekst/oppg9-op3.png",
-      "/images/tekst/oppg9-op4.png"
+      "/images/A1-A2_lese_6-16/sett1/v2oppg9-op1.png",
+      "/images/A1-A2_lese_6-16/sett1/v2oppg9-op2.png",
+      "/images/A1-A2_lese_6-16/sett1/v2oppg9-op3.png",
+      "/images/A1-A2_lese_6-16/sett1/v2oppg9-op4.png"
     ],
-    "correct_answer": "/images/tekst/oppg9-op1.png",
+    "correct_answer": "/images/A1-A2_lese_6-16/sett1/v2oppg9-op1.png",
     "difficulty": "A1"
   },
   {
     "type": "image",
     "question": "Hvem har blitt syk?",
     "options": [
-      "/images/tekst/oppg10-op1.png",
-      "/images/tekst/oppg10-op2.png",
-      "/images/tekst/oppg10-op3.png",
-      "/images/tekst/oppg10-op4.png"
+      "/images/A1-A2_lese_6-16/sett1/v2oppg10-op1.png",
+      "/images/A1-A2_lese_6-16/sett1/v2oppg10-op2.png",
+      "/images/A1-A2_lese_6-16/sett1/v2oppg10-op3.png",
+      "/images/A1-A2_lese_6-16/sett1/v2oppg10-op4.png"
     ],
-    "correct_answer": "/images/tekst/oppg10-op3.png",
+    "correct_answer": "/images/A1-A2_lese_6-16/sett1/v2oppg10-op3.png",
     "difficulty": "A1"
   },
   {
     "type": "image",
     "question": "Hvilken tekst passer til bildet?",
     "options": [
-      "/images/tekst/oppg11-op1.png",
-      "/images/tekst/oppg11-op2.png",
-      "/images/tekst/oppg11-op3.png",
-      "/images/tekst/oppg11-op4.png"
+      "/images/A1-A2_lese_6-16/sett1/v2oppg11-op1.png",
+      "/images/A1-A2_lese_6-16/sett1/v2oppg11-op2.png",
+      "/images/A1-A2_lese_6-16/sett1/v2oppg11-op3.png",
+      "/images/A1-A2_lese_6-16/sett1/v2oppg11-op4.png"
     ],
-    "image": "/images/tekst/oppg11-image.png",
-    "correct_answer": "/images/tekst/oppg11-op3.png",
+    "image": "/images/A1-A2_lese_6-16/sett1/v2oppg11-image.png",
+    "correct_answer": "/images/A1-A2_lese_6-16/sett1/v2oppg11-op3.png",
     "difficulty": "A1"
   },
   {
     "type": "image",
     "question": "Hvilken tekst passer til bildet?",
     "options": [
-      "/images/tekst/oppg12-op1.png",
-      "/images/tekst/oppg12-op2.png",
-      "/images/tekst/oppg12-op3.png",
-      "/images/tekst/oppg12-op4.png"
+      "/images/A1-A2_lese_6-16/sett1/v2oppg12-op1.png",
+      "/images/A1-A2_lese_6-16/sett1/v2oppg12-op2.png",
+      "/images/A1-A2_lese_6-16/sett1/v2oppg12-op3.png",
+      "/images/A1-A2_lese_6-16/sett1/v2oppg12-op4.png"
     ],
-    "image": "/images/tekst/oppg12-image.png",
-    "correct_answer": "/images/tekst/oppg12-op3.png",
+    "image": "/images/A1-A2_lese_6-16/sett1/v2oppg12-image.png",
+    "correct_answer": "/images/A1-A2_lese_6-16/sett1/v2oppg12-op3.png",
     "difficulty": "A1"
   },
   {
     "type": "image",
     "question": "Hvilken tekst passer til bildet?",
     "options": [
-      "/images/tekst/oppg13-op1.png",
-      "/images/tekst/oppg13-op2.png",
-      "/images/tekst/oppg13-op3.png",
-      "/images/tekst/oppg13-op4.png"
+      "/images/A1-A2_lese_6-16/sett1/v2oppg13-op1.png",
+      "/images/A1-A2_lese_6-16/sett1/v2oppg13-op2.png",
+      "/images/A1-A2_lese_6-16/sett1/v2oppg13-op3.png",
+      "/images/A1-A2_lese_6-16/sett1/v2oppg13-op4.png"
     ],
-    "image": "/images/tekst/oppg13-image.png",
-    "correct_answer": "/images/tekst/oppg13-op3.png",
+    "image": "/images/A1-A2_lese_6-16/sett1/v2oppg13-image.png",
+    "correct_answer": "/images/A1-A2_lese_6-16/sett1/v2oppg13-op3.png",
     "difficulty": "A1"
   },
   {
     "type": "image",
     "question": "Hvilken tekst passer til bildet?",
     "options": [
-      "/images/tekst/oppg14-op1.png",
-      "/images/tekst/oppg14-op2.png",
-      "/images/tekst/oppg14-op3.png",
-      "/images/tekst/oppg14-op4.png"
+      "/images/A1-A2_lese_6-16/sett1/v2oppg14-op1.png",
+      "/images/A1-A2_lese_6-16/sett1/v2oppg14-op2.png",
+      "/images/A1-A2_lese_6-16/sett1/v2oppg14-op3.png",
+      "/images/A1-A2_lese_6-16/sett1/v2oppg14-op4.png"
     ],
-    "image": "/images/tekst/oppg14-image.png",
-    "correct_answer": "/images/tekst/oppg14-op1.png",
+    "image": "/images/A1-A2_lese_6-16/sett1/v2oppg14-image.png",
+    "correct_answer": "/images/A1-A2_lese_6-16/sett1/v2oppg14-op1.png",
     "difficulty": "A1"
   },
   {
