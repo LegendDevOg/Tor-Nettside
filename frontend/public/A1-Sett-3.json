@@ -27,7 +27,7 @@
   "type": "image-click",
   "question": "Hvilken dato har de hviledag?",
   "context": "I siste uken i oktober har fotballaget trening på mandag til torsdag.\nHviledag på fredag, og på lørdag har de kamp.",
-  "image": "kalender.png",
+  "image": "kalender2.png",
   "correctArea": { "x": 553, "y": 366, "radius": 45 },
   "difficulty": "A1-A2"
 },
