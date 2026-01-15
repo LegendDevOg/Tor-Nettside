@@ -1,4 +1,12 @@
 import { useState, useRef, useEffect } from "react";
+
+// Normalize strings for comparison (trim whitespace and normalize spaces)
+const normalizeAnswer = (answer: string | string[] | null | undefined): string => {
+  if (!answer) return "";
+  if (Array.isArray(answer)) return answer.join('|').trim().replace(/\s+/g, ' ');
+  return answer.trim().replace(/\s+/g, ' ');
+};
+
 // Image Selection Component
 export function ImageQuestion({
   question,
@@ -68,7 +76,7 @@ export function ImageQuestion({
             />
           </div>
           {/* Options - Now aligned below the image */}
-          <div className="grid grid-cols-1 gap-4 mt-6 w-full">
+          <div className="grid grid-cols-1 gap-4 mt-6 w-full max-w-md mx-auto">
             {options.map((option, index) => (
               <div
                 key={index}
@@ -87,15 +95,15 @@ export function ImageQuestion({
         </>
       ) : (
         /* Default Layout When No Image - 4 images in a row on larger screens */
-        <div className="grid grid-cols-2 lg:grid-cols-4 gap-6 w-full px-2">
+        <div className="grid grid-cols-2 lg:grid-cols-4 gap-6 w-full px-2 max-w-4xl mx-auto">
           {options.map((option, index) => (
-            <div key={index} className="relative">
+            <div key={index} className="relative max-w-[200px] mx-auto">
               <img
                 src={option}
                 alt={`Option ${index}`}
                 className={`w-full h-auto object-contain rounded-lg transition-all duration-200 ease-in-out shadow-md
-                  ${summary && correctAnswer === option ? "border-4 border-success-500" :
-                    selectedImage === option ? "border-4 border-primary-500" : "border-2 border-gray-200"}
+                  ${summary && normalizeAnswer(correctAnswer) === normalizeAnswer(option) ? "border-4 border-success-500" :
+                    normalizeAnswer(selectedImage) === normalizeAnswer(option) ? "border-4 border-primary-500" : "border-2 border-gray-200"}
                   ${!summary ? "cursor-pointer hover:scale-105 hover:shadow-xl" : "cursor-default"}`}
                 onClick={() => !summary && handleImageClick(option)}
               />
@@ -175,8 +183,8 @@ export function WordSelectionQuestion({
             <span
               key={index}
               className={`whitespace-nowrap transition-transform duration-150 ease-in-out px-[2px] rounded inline-block
-                ${summary && correctWord === cleanedWord ? "bg-success-200 font-bold" : ""}
-                ${selectedWord === cleanedWord ? "bg-primary-200 font-bold" : ""}
+                ${summary && normalizeAnswer(correctWord) === normalizeAnswer(cleanedWord) ? "bg-success-200 font-bold" : ""}
+                ${normalizeAnswer(selectedWord) === normalizeAnswer(cleanedWord) ? "bg-primary-200 font-bold" : ""}
                 ${!summary ? "cursor-pointer hover:text-primary-600 hover:scale-110" : "cursor-default"}`}
               onClick={() => !summary && handleWordClick(cleanedWord)}
             >
@@ -218,7 +226,7 @@ export function ParagraphSelectionQuestion({ question, paragraphs, correctParagr
         {paragraphs.map((paragraph, index) => (
           <p
             key={index}
-            className={`cursor-pointer p-2 rounded-lg ${summary && correctParagraph === paragraph ? "bg-success-200" : ""}`}
+            className={`cursor-pointer p-2 rounded-lg ${summary && normalizeAnswer(correctParagraph) === normalizeAnswer(paragraph) ? "bg-success-200" : ""}`}
             onClick={() => !summary && handleClick(paragraph)}
           >
             {paragraph}
@@ -468,7 +476,7 @@ export function ImageClickAreaQuestion({
       </div>
 
       {!summary && !clickedPosition && question && (
-        <p className="text-xs text-gray-500 text-center">Klikk på riktig person i bildet.</p>
+        <p className="text-xs text-gray-500 text-center">Klikk på riktig sted i bildet.</p>
       )}
       {!summary && clickedPosition && (
         <p className="text-sm font-medium text-primary-600 text-center">✓ Svar registrert</p>

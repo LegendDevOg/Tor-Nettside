@@ -17,6 +17,13 @@ import {
   DualDropdownQuestion
 } from "../../components/QuestionTypes/QuestionTypes";
 
+// Normalize strings for comparison (trim whitespace and normalize spaces)
+const normalizeAnswer = (answer: string | string[] | null | undefined): string => {
+  if (!answer) return "";
+  if (Array.isArray(answer)) return answer.join('|').trim().replace(/\s+/g, ' ');
+  return answer.trim().replace(/\s+/g, ' ');
+};
+
 function SingleQuestion() {
   const navigate = useNavigate();
   const { category, id, set } = useParams(); // Get category (lesing/lytting), difficulty, and set
@@ -109,15 +116,14 @@ function SingleQuestion() {
 
   if (!singleQuestion) return <p>Loading... {filename}</p>;
 
-  // Use page number as identifier for listening mode (questions have empty text)
-  // For reading mode, use question text as before
-  const questionIdentifier = isLytting ? `question_${page}` : singleQuestion.question;
+  // Use page number as unique identifier for all questions
+  const questionIdentifier = `question_${page}`;
   const userAnswer = allUserAnswers.find((ans) => ans.question === questionIdentifier);
 
   const handleClick = (value: string) => {
     addAnswer({ question: questionIdentifier, answer: value });
 
-    if (value === singleQuestion.correct_answer) {
+    if (normalizeAnswer(value) === normalizeAnswer(singleQuestion.correct_answer)) {
       trueAction();
     } else {
       falseAction();
@@ -492,7 +498,7 @@ function SingleQuestion() {
 
           {/* Audio Progress Bar - Only for lytting mode */}
           {isLytting && (
-            <div className="fixed bottom-0 left-0 right-0 bg-white shadow-lg border-t border-gray-200 p-4">
+            <div className="fixed bottom-12 left-0 right-0 bg-white shadow-lg border-t border-gray-200 p-4">
               <div className="max-w-4xl mx-auto">
                 <div className="flex items-center gap-3 mb-3">
                   <div className="flex-1 bg-gray-200 rounded-full h-3 overflow-hidden">

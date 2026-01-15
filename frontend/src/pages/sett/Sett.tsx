@@ -33,21 +33,21 @@ function Sett() {
             <div className="flex space-x-12 w-full max-w-sm">
               <button
                 onClick={() => handleStart("Sett-1")}
-                className="rounded-full bg-primary-500 py-3 px-6 font-semibold text-white text-lg shadow-lg hover:bg-primary-600 transition"
+                className="rounded-full bg-primary-500 py-3 px-6 font-semibold text-white text-lg shadow-lg hover:bg-primary-600 transition whitespace-nowrap"
               >
                 Sett 1
               </button>
 
               <button
                 onClick={() => handleStart("Sett-2")}
-                className="rounded-full bg-primary-500 py-3 px-6 font-semibold text-white text-lg shadow-lg hover:bg-primary-600 transition"
+                className="rounded-full bg-primary-500 py-3 px-6 font-semibold text-white text-lg shadow-lg hover:bg-primary-600 transition whitespace-nowrap"
               >
                 Sett 2
               </button>
 
               <button
                 onClick={() => handleStart("Sett-3")}
-                className="rounded-full bg-primary-500 py-3 px-6 font-semibold text-white text-lg shadow-lg hover:bg-primary-600 transition"
+                className="rounded-full bg-primary-500 py-3 px-6 font-semibold text-white text-lg shadow-lg hover:bg-primary-600 transition whitespace-nowrap"
               >
                 Sett 3
               </button>

@@ -33,19 +33,19 @@ function Quiz() {
             <div className="flex space-x-12 w-full max-w-sm">
               <button
                 onClick={() => handleBegin("A1")}  // Navigate to /vannskelig/A1
-                className="w-full flex items-center justify-center rounded-full bg-primary-500 py-3 px-6 font-semibold text-white text-lg shadow-lg hover:bg-primary-600 transition">
+                className="w-full flex items-center justify-center rounded-full bg-primary-500 py-3 px-6 font-semibold text-white text-lg shadow-lg hover:bg-primary-600 transition whitespace-nowrap">
                 A1-A2
               </button>
 
               <button
                 onClick={() => handleBegin("A2")}  // Navigate to /vannskelig/A2
-                className="w-full flex items-center justify-center rounded-full bg-primary-500 py-3 px-6 font-semibold text-white text-lg shadow-lg hover:bg-primary-600 transition">
+                className="w-full flex items-center justify-center rounded-full bg-primary-500 py-3 px-6 font-semibold text-white text-lg shadow-lg hover:bg-primary-600 transition whitespace-nowrap">
                 A2-B1
               </button>
 
               <button
                 onClick={() => handleBegin("B1")}  // Navigate to /vannskelig/B1
-                className="w-full flex items-center justify-center rounded-full bg-primary-500 py-3 px-6 font-semibold text-white text-lg shadow-lg hover:bg-primary-600 transition">
+                className="w-full flex items-center justify-center rounded-full bg-primary-500 py-3 px-6 font-semibold text-white text-lg shadow-lg hover:bg-primary-600 transition whitespace-nowrap">
                 B1-B2
               </button>
             </div>

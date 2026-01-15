@@ -6,6 +6,13 @@ import Question from "../../components/Questions/Questions";
 import Header from "../../components/Header/Header";
 import ScaledContent from "../../components/ScaledContent/ScaledContent";
 
+// Normalize strings for comparison (trim whitespace and normalize spaces)
+const normalizeAnswer = (answer: string | string[] | null | undefined): string => {
+  if (!answer) return "";
+  if (Array.isArray(answer)) return answer.join('|').trim().replace(/\s+/g, ' ');
+  return answer.trim().replace(/\s+/g, ' ');
+};
+
 // Separate component for image-click results to avoid conditional hooks
 function ImageClickResult({ question, userSelected, actualIndex }: {
   question: any;
@@ -103,12 +110,9 @@ function Success() {
   const navigate = useNavigate();
   const [currentPage, setCurrentPage] = useState(1);
   
-  // Check if this is a listening quiz (questions have sound property and empty question text)
-  const isLyttingQuiz = allQuestion.length > 0 && allQuestion[0]?.sound && allQuestion[0]?.question === "";
-  
   // Calculate score by counting actual correct answers
   const correctAnswersCount = allQuestion.filter((question, index) => {
-    const questionIdentifier = isLyttingQuiz ? `question_${index + 1}` : question.question;
+    const questionIdentifier = `question_${index + 1}`;
     const userSelected = userAnswer.find((ans) => ans.question === questionIdentifier);
     const hasAnswer = userSelected && userSelected.answer;
     
@@ -146,7 +150,7 @@ function Success() {
       const [, , correctness] = (userSelected?.answer || "").split("|");
       return correctness === "correct";
     } else {
-      return userSelected?.answer === question.correct_answer;
+      return normalizeAnswer(userSelected?.answer) === normalizeAnswer(question.correct_answer);
     }
   }).length;
   
@@ -155,8 +159,8 @@ function Success() {
   const showButton = score >= 60;
   const text =
     score < 60
-      ? "You got less than 60%. Practice sets 1, 2 and 3 for this level before moving on to the next level."
-      : "You got more than 60%. If you want, continue to the next Level.";
+      ? "You got less than 60%, with practice you'll improve!"
+      : "Bra jobba! You got more than 60%!";
 
   useEffect(() => {
     setTimeStamp(0);
@@ -212,7 +216,7 @@ function Success() {
             onClick={handleClick}
             className="w-full max-w-md mx-auto text-white bg-primary-500 rounded-full py-3 px-8 hover:bg-primary-600 transition-all text-base font-semibold shadow-lg hover:shadow-xl transform hover:scale-105"
           >
-            {showButton ? "Continue to A2-B1 Test" : "Go back to A1-A2 sets"}
+            Back to Homepage
           </button>
 
           {/* Question Overview Grid */}
@@ -223,7 +227,7 @@ function Success() {
             <div className="grid grid-cols-5 sm:grid-cols-8 md:grid-cols-10 gap-3 max-w-3xl mx-auto">
               {allQuestion.map((question, index) => {
                 // Use same identifier logic as in SingleQuestion
-                const questionIdentifier = isLyttingQuiz ? `question_${index + 1}` : question.question;
+                const questionIdentifier = `question_${index + 1}`;
                 const userSelected = userAnswer.find((ans) => ans.question === questionIdentifier);
                 const hasAnswer = userSelected && userSelected.answer;
                 let isCorrect = false;
@@ -261,7 +265,7 @@ function Success() {
                     const [, , correctness] = (userSelected?.answer || "").split("|");
                     isCorrect = correctness === "correct";
                   } else {
-                    isCorrect = userSelected?.answer === question.correct_answer;
+                    isCorrect = normalizeAnswer(userSelected?.answer) === normalizeAnswer(question.correct_answer);
                   }
                 }
 
@@ -316,7 +320,7 @@ function Success() {
           {allQuestion.filter((_, i) => i === currentPage - 1).map((question) => {
             const actualIndex = currentPage - 1;
             // Use same identifier logic as in SingleQuestion
-            const questionIdentifier = isLyttingQuiz ? `question_${currentPage}` : question.question;
+            const questionIdentifier = `question_${currentPage}`;
             const userSelected = userAnswer.find((ans) => ans.question === questionIdentifier);
             const isWordSelection = question.type === "word-selection";
             const isImageSelection = question.type === "image";
@@ -575,7 +579,7 @@ function Success() {
                   <div className="flex items-center gap-2">
                     <span className="font-semibold text-gray-600">Your Answer:</span>
                     <span
-                      className={`px-3 py-1 rounded-lg font-medium ${userSelected?.answer === question.correct_answer
+                      className={`px-3 py-1 rounded-lg font-medium ${normalizeAnswer(userSelected?.answer) === normalizeAnswer(question.correct_answer)
                         ? "bg-success-100 text-success-700"
                         : "bg-danger-100 text-danger-700"
                         }`}
@@ -602,8 +606,8 @@ function Success() {
 
                 <div className="flex flex-wrap justify-center gap-6 mt-4">
                   {(question.options ?? []).map((option, index) => {
-                    const isCorrect = option === question.correct_answer;
-                    const isUserSelected = option === userSelected?.answer;
+                    const isCorrect = normalizeAnswer(option) === normalizeAnswer(question.correct_answer);
+                    const isUserSelected = normalizeAnswer(option) === normalizeAnswer(userSelected?.answer);
 
                     return (
                       <img
@@ -628,12 +632,12 @@ function Success() {
                     <span
                       className={`px-3 py-1 rounded-lg font-medium ${!userSelected?.answer
                         ? "bg-danger-100 text-danger-700"
-                        : userSelected?.answer === question.correct_answer
+                        : normalizeAnswer(userSelected?.answer) === normalizeAnswer(question.correct_answer)
                           ? "bg-success-100 text-success-700"
                           : "bg-danger-100 text-danger-700"
                         }`}
                     >
-                      {!userSelected?.answer ? "⚠ No answer" : userSelected?.answer === question.correct_answer ? "Correct" : "Wrong"}
+                      {!userSelected?.answer ? "⚠ No answer" : normalizeAnswer(userSelected?.answer) === normalizeAnswer(question.correct_answer) ? "Correct" : "Wrong"}
                     </span>
                   </div>
                 </div>

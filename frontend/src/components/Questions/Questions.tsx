@@ -17,6 +17,12 @@ interface QuestionProps {
   showFeedback?: boolean;
 }
 
+// Normalize strings for comparison (trim whitespace and normalize spaces)
+const normalizeAnswer = (answer: string | null | undefined): string => {
+  if (!answer) return "";
+  return answer.trim().replace(/\s+/g, ' ');
+};
+
 function Question({ id, handleClick, singleQuestion, summary, trueAnswer, userAnswer, showFeedback = false }: QuestionProps) {
   const { question, options, context } = singleQuestion;
   const [selectedAnswer, setSelectedAnswer] = useState<string | null>(userAnswer);
@@ -77,14 +83,14 @@ function Question({ id, handleClick, singleQuestion, summary, trueAnswer, userAn
           let hover = ""
 
           if (summary) {
-            if (opt === trueAnswer) {
+            if (normalizeAnswer(opt) === normalizeAnswer(trueAnswer as string)) {
               bgColor = "bg-success-500 text-white"; // ✅ Correct answer in green
-            } else if (opt === userAnswer && opt !== trueAnswer) {
+            } else if (normalizeAnswer(opt) === normalizeAnswer(userAnswer) && normalizeAnswer(opt) !== normalizeAnswer(trueAnswer as string)) {
               bgColor = "bg-danger-500 text-white"; // ❌ Wrong answer in red
             }
           } else if (showFeedback && selectedAnswer) {
             // Show feedback in listening mode after selection
-            if (opt === selectedAnswer) {
+            if (normalizeAnswer(opt) === normalizeAnswer(selectedAnswer)) {
               bgColor = "bg-primary-400 text-white border-2 border-primary-600"; // Highlight selected answer
             }
           } else {
@@ -118,12 +124,12 @@ function Question({ id, handleClick, singleQuestion, summary, trueAnswer, userAn
             <span
               className={`px-3 py-1 rounded-lg font-medium ${!userAnswer
                 ? "bg-danger-100 text-danger-700"
-                : userAnswer === trueAnswer
+                : normalizeAnswer(userAnswer) === normalizeAnswer(trueAnswer as string)
                   ? "bg-success-100 text-success-700"
                   : "bg-danger-100 text-danger-700"
-                }`}
+              }`}
             >
-              {!userAnswer ? "⚠ No answer" : userAnswer === trueAnswer ? "Correct" : "Wrong"}
+              {!userAnswer ? "⚠ No answer" : normalizeAnswer(userAnswer) === normalizeAnswer(trueAnswer as string) ? "Correct" : "Wrong"}
             </span>
           </div>
         </div>

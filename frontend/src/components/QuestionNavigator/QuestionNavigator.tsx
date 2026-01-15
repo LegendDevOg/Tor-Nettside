@@ -5,8 +5,8 @@ function QuestionNavigator() {
 
   // Check if a question has been answered
   const isAnswered = (questionIndex: number) => {
-    const question = allQuestions[questionIndex];
-    return allUserAnswers.some((ans) => ans.question === question?.question);
+    const questionIdentifier = `question_${questionIndex + 1}`;
+    return allUserAnswers.some((ans) => ans.question === questionIdentifier);
   };
 
   return (
