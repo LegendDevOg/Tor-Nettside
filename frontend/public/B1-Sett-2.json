@@ -1,350 +1,238 @@
 [
   {
     "type": "multiple",
-    "context": "Teleoperatøren Telavitt har blitt anklaget for å ha overfakturert kunder.\nForbrukerkretsen sier at Telavitt systematisk har sendt overprisede fakturaer over en lang tid.\nDe mest ubetydelige gebyrene viser seg å ha tredobbel pris som konkurrentene har.\n\nØkonom Trond Olson sier at dette er på grensen til å være bedrageri.\nNår man må betale et behandlingsgebyr på 449 kroner så bør det ringe bjeller.\nSjefen for Telavitt, Gabriel, ønsker ikke å uttale seg om saken.\nNå etterforskes selskapet av Økopolitiet.\n\nKonkurrentene har hele 30 prosent lavere priser enn Telavitt.",
+  "context": "Teleoperatøren Telavitt har blitt anklaget for å ha overfakturert kunder.\nForbrukerkretsen sier at Telavitt systematisk har sendt overprisede fakturaer over en lang tid.\nDe mest ubetydelige gebyrene viser seg å ha tredobbel pris som konkurrentene har.\n\nØkonom Trond Olson sier at dette er på grensen til å være bedrageri.\nNår man må betale et behandlingsgebyr på 449 kroner så bør det ringe bjeller.\nSjefen for Telavitt, Gabriel, ønsker ikke å uttale seg om saken.\nNå etterforskes selskapet av Økopolitiet.\n\nKonkurrentene har hele 30 prosent lavere priser enn Telavitt.",
     "question": "Hva er problemet?",
-    "options": [
-      "Telavitt får for mange fakturaer",
-      "Trond Olson har begått bedrageri ",
-      "Økopolitiet har løst saken allerede",
-      "Kunder har betalt for mye"
-    ],
+    "options": ["Telavitt får for mange fakturaer", "Trond Olson har begått bedrageri ", "Økopolitiet har løst saken allerede", "Kunder har betalt for mye"],
     "correct_answer": "Kunder har betalt for mye",
-    "incorrect_answers": [
-      "Telavitt får for mange fakturaer",
-      "Økopolitiet har løst saken allerede",
-      "Trond Olson har begått bedrageri"
-    ],
+    "incorrect_answers": ["Telavitt får for mange fakturaer", "Økopolitiet har løst saken allerede", "Trond Olson har begått bedrageri"],
     "difficulty": "A2"
   },
   {
     "type": "multiple",
-    "context": "Teleoperatøren Telavitt har blitt anklaget for å ha overfakturert kunder.\nForbrukerkretsen sier at Telavitt systematisk har sendt overprisede fakturaer over en lang tid.\nDe mest ubetydelige gebyrene viser seg å ha tredobbel pris som konkurrentene har.\n\nØkonom Trond Olson sier at dette er på grensen til å være bedrageri.\nNår man må betale et behandlingsgebyr på 449 kroner så bør det ringe bjeller.\nSjefen for Telavitt, Gabriel, ønsker ikke å uttale seg om saken.\nNå etterforskes selskapet av Økopolitiet.\n\nKonkurrentene har hele 30 prosent lavere priser enn Telavitt.",
+  "context": "Teleoperatøren Telavitt har blitt anklaget for å ha overfakturert kunder.\nForbrukerkretsen sier at Telavitt systematisk har sendt overprisede fakturaer over en lang tid.\nDe mest ubetydelige gebyrene viser seg å ha tredobbel pris som konkurrentene har.\n\nØkonom Trond Olson sier at dette er på grensen til å være bedrageri.\nNår man må betale et behandlingsgebyr på 449 kroner så bør det ringe bjeller.\nSjefen for Telavitt, Gabriel, ønsker ikke å uttale seg om saken.\nNå etterforskes selskapet av Økopolitiet.\n\nKonkurrentene har hele 30 prosent lavere priser enn Telavitt.",
     "question": "Hva kan Økopolitiet gjøre?",
-    "options": [
-      "Dømme selskapet for bedrageri",
-      "Anke saken i Telavitts favør",
-      "Sende nye fakturaer til kundene",
-      "Arrestere Trond Olson for bedrageri"
-    ],
+    "options": ["Dømme selskapet for bedrageri", "Anke saken i Telavitts favør", "Sende nye fakturaer til kundene", "Arrestere Trond Olson for bedrageri"],
     "correct_answer": "Dømme selskapet for bedrageri",
-    "incorrect_answers": [
-      "Anke saken i Telavitts favør",
-      "Sende nye fakturaer til kundene",
-      "Arrestere Trond Olson for bedrageri"
-    ],
+    "incorrect_answers": ["Anke saken i Telavitts favør", "Sende nye fakturaer til kundene", "Arrestere Trond Olson for bedrageri"],
     "difficulty": "A2"
   },
   {
     "type": "multiple",
-    "context": "Til høsten innføres bompenger i Granken kommune.\nDe tre broene vil ta penger for passering begge veier.\nHele 46 kroner vil tappes fra bilistene i kommunen hver dag, minst.\nOrdføreren gjør tiltaket for å gjøre klimatiltak.\nLokalbefolkningen er rystet over dette og vurderer å gå i protester ved matbutikken.\nDet nye partiet Sosialistisk Venderst kom med denne endringen for noen dager siden.",
+  "context": "Til høsten innføres bompenger i Granken kommune.\nDe tre broene vil ta penger for passering begge veier.\nHele 46 kroner vil tappes fra bilistene i kommunen hver dag, minst.\nOrdføreren gjør tiltaket for å gjøre klimatiltak.\nLokalbefolkningen er rystet over dette og vurderer å gå i protester ved matbutikken.\nDet nye partiet Sosialistisk Venderst kom med denne endringen for noen dager siden.",
     "question": "Hva skjedde for noen dager siden?",
-    "options": [
-      "Det kom betalingsplikt for å kjøre over broene",
-      "Sosialistisk Venderst ble bilister",
-      "Lokalbefolkningen gikk i protester ved matbutikken",
-      "Klimatiltak som ville fjerne alle tre broene"
-    ],
+    "options": ["Det kom betalingsplikt for å kjøre over broene", "Sosialistisk Venderst ble bilister", "Lokalbefolkningen gikk i protester ved matbutikken", "Klimatiltak som ville fjerne alle tre broene"],
     "correct_answer": "Det kom betalingsplikt for å kjøre over broene",
-    "incorrect_answers": [
-      "Lokalbefolkningen gikk i protester ved matbutikken",
-      "Sosialistisk Venderst ble bilister",
-      "Klimatiltak som ville fjerne alle tre broene"
-    ],
+    "incorrect_answers": ["Lokalbefolkningen gikk i protester ved matbutikken", "Sosialistisk Venderst ble bilister", "Klimatiltak som ville fjerne alle tre broene"],
     "difficulty": "A2"
   },
+
   {
     "type": "multiple",
-    "context": "Gromstind fotballag har treninger ved Fallangen kunstgressbane.\nNeste uke vil det pågå et marked på kunstgresset, og dermed blir treningene avlyst.\nTreneren sier at de er luta lei av at banen brukes av kommunen til slike formål og at en fotballbane kun skal brukes til å nemlig spille fotball.\nOrdføreren sier at fotballbanen er for alle, og at de bare må finne seg i det.\nAdvokaten Tonje Ulland sier at det i følge reglementet ikke er lov å bruke fotballbanen på kort varsel til et slikt formål.\nDermed vil treneren gå til sak mot kommunen.",
+  "context": "Gromstind fotballag har treninger ved Fallangen kunstgressbane.\nNeste uke vil det pågå et marked på kunstgresset, og dermed blir treningene avlyst.\nTreneren sier at de er luta lei av at banen brukes av kommunen til slike formål og at en fotballbane kun skal brukes til å nemlig spille fotball.\nOrdføreren sier at fotballbanen er for alle, og at de bare må finne seg i det.\nAdvokaten Tonje Ulland sier at det i følge reglementet ikke er lov å bruke fotballbanen på kort varsel til et slikt formål.\nDermed vil treneren gå til sak mot kommunen.",
     "question": "Hva forstår vi av teksten?",
-    "options": [
-      "Gromstind har marked neste uke",
-      "Fotballspillerne kan ikke trene som vanlig neste uke",
-      "Ordføreren klager på advokaten",
-      "Tonje finner seg i saken"
-    ],
+    "options": ["Gromstind har marked neste uke", "Fotballspillerne kan ikke trene som vanlig neste uke", "Ordføreren klager på advokaten", "Tonje finner seg i saken"],
     "correct_answer": "Fotballspillerne kan ikke trene som vanlig neste uke",
-    "incorrect_answers": [
-      "Gromstind har marked neste uke",
-      "Ordføreren klager på advokaten",
-      "Tonje finner seg i saken"
-    ],
+    "incorrect_answers": ["Gromstind har marked neste uke", "Ordføreren klager på advokaten", "Tonje finner seg i saken"],
     "difficulty": "A2"
   },
   {
     "type": "multiple",
-    "context": "Gressklipperen Kutter 2000 har tatt markedet med storm.\nDenne råtassen har en justerbar klippehøyde i to trinn (20-50 mm).\nKundeomtalene er strålende, Kevin som kjøpte den forrige uke er henrykt over opplevelsen av et slikt funn og kaller det et genitrekk.\nSesongen for å klippe plenen starter på våren, og varer til slutten av september.\nMen selve salget har allerede startet nå i mars, løp og kjøp!",
+  "context": "Gressklipperen Kutter 2000 har tatt markedet med storm.\nDenne råtassen har en justerbar klippehøyde i to trinn (20-50 mm).\nKundeomtalene er strålende, Kevin som kjøpte den forrige uke er henrykt over opplevelsen av et slikt funn og kaller det et genitrekk.\nSesongen for å klippe plenen starter på våren, og varer til slutten av september.\nMen selve salget har allerede startet nå i mars, løp og kjøp!",
     "question": "Hva forstår vi av teksten?",
-    "options": [
-      "Gressklipperen fungerer kun på sommeren",
-      "Man kan justere høyden to ganger",
-      "Kevin er passe fornøyd",
-      "Man kan klippe gresset hele året"
-    ],
+    "options": ["Gressklipperen fungerer kun på sommeren", "Man kan justere høyden to ganger", "Kevin er passe fornøyd", "Man kan klippe gresset hele året"],
     "correct_answer": "Man kan justere høyden to ganger",
-    "incorrect_answers": [
-      "Kevin er passe fornøyd",
-      "Gressklipperen fungerer kun på sommeren",
-      "Man kan klippe gresset hele året"
-    ],
+    "incorrect_answers": ["Kevin er passe fornøyd", "Gressklipperen fungerer kun på sommeren", "Man kan klippe gresset hele året"],
     "difficulty": "A2"
   },
   {
     "type": "multiple",
-    "context": "Forskerne ble rørt da de oppdaget hvor \"havets torpedo\" hadde svømt.\nMakrellstørja kan svømme jorda rundt på ett år hvis den vil.\nFisken er svært populær i Japan.\nFra oktober 2020 til 2022 satte forskerne 25 satelittmerker på fiskene.\nDette er verdens største tunfisk som kan bli tre meter lang og veie 500 kilo.\nVi har aldri sett så mye av denne fisken som nå, sier skipper Hilstand.\nDen kraftige økningen i bestanden kan bli et problem.\nMan finner 20 kilo makrell og sild i magene på størjene.",
+  "context": "Forskerne ble rørt da de oppdaget hvor \"havets torpedo\" hadde svømt.\nMakrellstørja kan svømme jorda rundt på ett år hvis den vil.\nFisken er svært populær i Japan.\nFra oktober 2020 til 2022 satte forskerne 25 satelittmerker på fiskene.\nDette er verdens største tunfisk som kan bli tre meter lang og veie 500 kilo.\nVi har aldri sett så mye av denne fisken som nå, sier skipper Hilstand.\nDen kraftige økningen i bestanden kan bli et problem.\nMan finner 20 kilo makrell og sild i magene på størjene.",
     "question": "Hva er rett, ifølge teksten?",
     "options": [
-      "Det er en kraftig økning av makrell og sild",
-      "Bare i Japan blir størja 500 kilo",
-      "Det er ikke bra at størja spiser opp all småfisken",
-      "Da forskerne svømte ble de rørt av 'havets torpedo'"
-    ],
+      "Det er en kraftig økning av makrell og sild", 
+    "Bare i Japan blir størja 500 kilo", 
+    "Det er ikke bra at størja spiser opp all småfisken", 
+    "Da forskerne svømte ble de rørt av 'havets torpedo'"],
     "correct_answer": "Det er ikke bra at størja spiser opp all småfisken",
     "incorrect_answers": [
-      "Det er en kraftig økning av makrell og sild",
-      "Bare i Japan blir størja 500 kilo",
-      "Da forskerne svømte ble de rørt av 'havets torpedo'"
-    ],
+      "Det er en kraftig økning av makrell og sild", 
+    "Bare i Japan blir størja 500 kilo", 
+    "Da forskerne svømte ble de rørt av 'havets torpedo'"],
     "difficulty": "A2"
   },
   {
     "type": "multiple",
-    "context": "Det nye statsbudsjettet som ble lagt frem forrige uke blir møtt med sterk kritikk.\nFinansministeren, Per Karlsen, lover billigere barnehage og lavere avgift på vann og avløp, det er vel og bra.\nDet folk klager på er at statsbudsjettet ikke løser i økonomien til folk flest.\nEt skattelette på kun 400 kroner gjør at man får råd til en liten handletur på nærbutikken.\nKarlsen sier at tvert imot, så vil dette budsjettet styrke handlekraften til folk fremover.\n\nVensterpartiet leder Mona Jensen kaller budsjettet en bløff og bare talljuks.\nHun mener at ved å blant annet senke avgiften på flybilletter utenlands, så vil dette gjøre at vi bruker mer penger.\nDet høres bra ut å kunne bruke penger, men det gjør at rentekuttet mest sannsynlig blir utsatt.\n\nSom følge av dette sank aksjene til Oslo Børs med hele 3 prosent på bare ei uke.\nØkonom Vegard Dagny er sterkt bekymret over budsjettet som ble lagt fram.\nHan sier at ved å bruke så himla mye penger som nå, blant annet 25 prosent fra oljefondet,\nså vil Norge ødelegge for fremtidige generasjoner ved å ha et overforbruk.\n\nJensen fortalte til slutt at de som sitter med boliglån og flytende rente er taperne i alt det her.\nDet blir tøffe tider fremover med høye renter og høyere inflasjon.",
+  "context": "Det nye statsbudsjettet som ble lagt frem forrige uke blir møtt med sterk kritikk.\nFinansministeren, Per Karlsen, lover billigere barnehage og lavere avgift på vann og avløp, det er vel og bra.\nDet folk klager på er at statsbudsjettet ikke løser i økonomien til folk flest.\nEt skattelette på kun 400 kroner gjør at man får råd til en liten handletur på nærbutikken.\nKarlsen sier at tvert imot, så vil dette budsjettet styrke handlekraften til folk fremover.\n\nVensterpartiet leder Mona Jensen kaller budsjettet en bløff og bare talljuks.\nHun mener at ved å blant annet senke avgiften på flybilletter utenlands, så vil dette gjøre at vi bruker mer penger.\nDet høres bra ut å kunne bruke penger, men det gjør at rentekuttet mest sannsynlig blir utsatt.\n\nSom følge av dette sank aksjene til Oslo Børs med hele 3 prosent på bare ei uke.\nØkonom Vegard Dagny er sterkt bekymret over budsjettet som ble lagt fram.\nHan sier at ved å bruke så himla mye penger som nå, blant annet 25 prosent fra oljefondet,\nså vil Norge ødelegge for fremtidige generasjoner ved å ha et overforbruk.\n\nJensen fortalte til slutt at de som sitter med boliglån og flytende rente er taperne i alt det her.\nDet blir tøffe tider fremover med høye renter og høyere inflasjon.",
     "question": "Hva er hensikten med denne teksten?",
     "options": [
-      "Å diskutere oljefondet",
-      "Å se på pengebruken til velgerne",
-      "Å se på hva Karlsen sine planer er",
-      "Å forstå hvorfor Norge blir lurt med bløff"
-    ],
+      "Å diskutere oljefondet", 
+    "Å se på pengebruken til velgerne", 
+    "Å se på hva Karlsen sine planer er", 
+    "Å forstå hvorfor Norge blir lurt med bløff"],
     "correct_answer": "Å se på hva Karlsen sine planer er",
     "incorrect_answers": [
-      "Å diskutere oljefondet",
-      "Å se på pengebruken til velgerne",
-      "Å forstå hvorfor Norge blir lurt med bløff"
-    ],
+      "Å diskutere oljefondet", 
+    "Å se på pengebruken til velgerne", 
+    "Å forstå hvorfor Norge blir lurt med bløff"],
     "difficulty": "A2"
   },
   {
     "type": "multiple",
-    "context": "Det nye statsbudsjettet som ble lagt frem forrige uke blir møtt med sterk kritikk.\nFinansministeren, Per Karlsen, lover billigere barnehage og lavere avgift på vann og avløp, det er vel og bra.\nDet folk klager på er at statsbudsjettet ikke løser i økonomien til folk flest.\nEt skattelette på kun 400 kroner gjør at man får råd til en liten handletur på nærbutikken.\nKarlsen sier at tvert imot, så vil dette budsjettet styrke handlekraften til folk fremover.\n\nVensterpartiet leder Mona Jensen kaller budsjettet en bløff og bare talljuks.\nHun mener at ved å blant annet senke avgiften på flybilletter utenlands, så vil dette gjøre at vi bruker mer penger.\nDet høres bra ut å kunne bruke penger, men det gjør at rentekuttet mest sannsynlig blir utsatt.\n\nSom følge av dette sank aksjene til Oslo Børs med hele 3 prosent på bare ei uke.\nØkonom Vegard Dagny er sterkt bekymret over budsjettet som ble lagt fram.\nHan sier at ved å bruke så himla mye penger som nå, blant annet 25 prosent fra oljefondet,\nså vil Norge ødelegge for fremtidige generasjoner ved å ha et overforbruk.\n\nJensen fortalte til slutt at de som sitter med boliglån og flytende rente er taperne i alt det her.\nDet blir tøffe tider fremover med høye renter og høyere inflasjon.",
+  "context": "Det nye statsbudsjettet som ble lagt frem forrige uke blir møtt med sterk kritikk.\nFinansministeren, Per Karlsen, lover billigere barnehage og lavere avgift på vann og avløp, det er vel og bra.\nDet folk klager på er at statsbudsjettet ikke løser i økonomien til folk flest.\nEt skattelette på kun 400 kroner gjør at man får råd til en liten handletur på nærbutikken.\nKarlsen sier at tvert imot, så vil dette budsjettet styrke handlekraften til folk fremover.\n\nVensterpartiet leder Mona Jensen kaller budsjettet en bløff og bare talljuks.\nHun mener at ved å blant annet senke avgiften på flybilletter utenlands, så vil dette gjøre at vi bruker mer penger.\nDet høres bra ut å kunne bruke penger, men det gjør at rentekuttet mest sannsynlig blir utsatt.\n\nSom følge av dette sank aksjene til Oslo Børs med hele 3 prosent på bare ei uke.\nØkonom Vegard Dagny er sterkt bekymret over budsjettet som ble lagt fram.\nHan sier at ved å bruke så himla mye penger som nå, blant annet 25 prosent fra oljefondet,\nså vil Norge ødelegge for fremtidige generasjoner ved å ha et overforbruk.\n\nJensen fortalte til slutt at de som sitter med boliglån og flytende rente er taperne i alt det her.\nDet blir tøffe tider fremover med høye renter og høyere inflasjon.",
     "question": "Hva mener Mona Jensen?",
     "options": [
-      "At det kan bli dyrt å ha lån i banken fremover",
-      "At et rentekutt vil koste mer penger",
-      "At det vil koste mer penger å fly",
-      "At Oslo Børs er i en krise"
-    ],
+      "At det kan bli dyrt å ha lån i banken fremover", 
+    "At et rentekutt vil koste mer penger", 
+    "At det vil koste mer penger å fly", 
+    "At Oslo Børs er i en krise"],
     "correct_answer": "At det kan bli dyrt å ha lån i banken fremover",
     "incorrect_answers": [
-      "At et rentekutt vil koste mer penger",
-      "At det vil koste mer penger å fly",
-      "At Oslo Børs er i en krise"
-    ],
+      "At et rentekutt vil koste mer penger", 
+    "At det vil koste mer penger å fly", 
+    "At Oslo Børs er i en krise"],
     "difficulty": "A2"
   },
   {
     "type": "multiple",
-    "context": "Det nye statsbudsjettet som ble lagt frem forrige uke blir møtt med sterk kritikk.\nFinansministeren, Per Karlsen, lover billigere barnehage og lavere avgift på vann og avløp, det er vel og bra.\nDet folk klager på er at statsbudsjettet ikke løser i økonomien til folk flest.\nEt skattelette på kun 400 kroner gjør at man får råd til en liten handletur på nærbutikken.\nKarlsen sier at tvert imot, så vil dette budsjettet styrke handlekraften til folk fremover.\n\nVensterpartiet leder Mona Jensen kaller budsjettet en bløff og bare talljuks.\nHun mener at ved å blant annet senke avgiften på flybilletter utenlands, så vil dette gjøre at vi bruker mer penger.\nDet høres bra ut å kunne bruke penger, men det gjør at rentekuttet mest sannsynlig blir utsatt.\n\nSom følge av dette sank aksjene til Oslo Børs med hele 3 prosent på bare ei uke.\nØkonom Vegard Dagny er sterkt bekymret over budsjettet som ble lagt fram.\nHan sier at ved å bruke så himla mye penger som nå, blant annet 25 prosent fra oljefondet,\nså vil Norge ødelegge for fremtidige generasjoner ved å ha et overforbruk.\n\nJensen fortalte til slutt at de som sitter med boliglån og flytende rente er taperne i alt det her.\nDet blir tøffe tider fremover med høye renter og høyere inflasjon.",
+  "context": "Det nye statsbudsjettet som ble lagt frem forrige uke blir møtt med sterk kritikk.\nFinansministeren, Per Karlsen, lover billigere barnehage og lavere avgift på vann og avløp, det er vel og bra.\nDet folk klager på er at statsbudsjettet ikke løser i økonomien til folk flest.\nEt skattelette på kun 400 kroner gjør at man får råd til en liten handletur på nærbutikken.\nKarlsen sier at tvert imot, så vil dette budsjettet styrke handlekraften til folk fremover.\n\nVensterpartiet leder Mona Jensen kaller budsjettet en bløff og bare talljuks.\nHun mener at ved å blant annet senke avgiften på flybilletter utenlands, så vil dette gjøre at vi bruker mer penger.\nDet høres bra ut å kunne bruke penger, men det gjør at rentekuttet mest sannsynlig blir utsatt.\n\nSom følge av dette sank aksjene til Oslo Børs med hele 3 prosent på bare ei uke.\nØkonom Vegard Dagny er sterkt bekymret over budsjettet som ble lagt fram.\nHan sier at ved å bruke så himla mye penger som nå, blant annet 25 prosent fra oljefondet,\nså vil Norge ødelegge for fremtidige generasjoner ved å ha et overforbruk.\n\nJensen fortalte til slutt at de som sitter med boliglån og flytende rente er taperne i alt det her.\nDet blir tøffe tider fremover med høye renter og høyere inflasjon.",
     "question": "Hvilket utsagn er sant?",
     "options": [
-      "400 kroner er det man sitter igjen med etter skatt",
-      "Folk flest har høyere kjøpekraft fremover",
-      "25 prosent av oljefondet blir brukt",
-      "Flytende rente er ikke lurt"
-    ],
+      "400 kroner er det man sitter igjen med etter skatt", 
+    "Folk flest har høyere kjøpekraft fremover", 
+    "25 prosent av oljefondet blir brukt", 
+    "Flytende rente er ikke lurt"],
     "correct_answer": "Folk flest har høyere kjøpekraft fremover",
     "incorrect_answers": [
-      "400 kroner er det man sitter igjen med etter skatt",
-      "25 prosent av oljefondet blir brukt",
-      "Flytende rente er ikke lurt"
-    ],
+      "400 kroner er det man sitter igjen med etter skatt", 
+    "25 prosent av oljefondet blir brukt", 
+    "Flytende rente er ikke lurt"],
     "difficulty": "A2"
   },
   {
-    "type": "sentence-dropdown",
-    "question": "Fyll inn ordene i teksten",
-    "sentenceParts": [
-      "Forskere fant bakteriefest i mikrobølgeovner.",
-      "Du trodde kanskje at det var vanskelig for bakterier å overleve i mikrobølgeovnen, siden den stadig varmes opp.",
-      "Det ser ikke ut til å {0}. En tallerken med et stykke iskald lasagne settes i mikrobølgeovnen.",
-      "Etter noen minutter kommer det ut en rykende varm lasagne på en kald tallerken. Hvordan er det mulig?",
-      "Mikrobølgeovnen bruker elektromagnetiske bølger. De får molekyler – for eksempel vannmolekyler –",
-      "til å vibrere og varme lasagnen, men ikke tallerkenen.",
-      "I utgangspunktet drepes ikke bakteriene i mikrobølgeovnen, med mindre bakteriene utsettes for høy nok temperatur.",
-      "{1} kan mikrobølgeovnen din huse en bakteriefest hvis den ikke rengjøres regelmessig."
-    ],
-    "dropdownOptions": [
-      [
-        "stemme",
-        "løse",
-        "granske",
-        "mangle"
-      ],
-      [
-        "derfor",
-        "men",
-        "så",
-        "såpass"
-      ]
-    ],
-    "correct_answer": [
-      "stemme",
-      "derfor"
-    ],
-    "difficulty": "B1"
-  },
-  {
-    "type": "sentence-dropdown",
-    "question": "Fyll inn ordene i teksten",
-    "sentenceParts": [
-      "Hvordan påvirker influensere deg, {0}?",
-      "Influensere anerkjennes for evnen til å påvirke. Men det kan være vanskelig å forstå hvordan påvirkningen faktisk foregår.",
-      "I løpet av det siste tiåret har influenserindustrien utviklet seg til å bli en etablert bransje verden over,",
-      "spesielt innenfor nisjer som mote, skjønnhet og livsstil.",
-      "Helt siden de første etablerte seg og raskt ble til et anerkjent fenomen for omkring et tiår siden,",
-      "har influensere vært mest kjent for livsstilen de selger, spesielt på plattformer som Fleksigram, LabLube og FlikFlok.",
-      "Selgere av «ideelle» livsstiler",
-      "Tidligere forskning har pekt på at influensere er mer opptatt av å fremme livsstilen sin enn av å selge et spesifikt produkt.",
-      "Fremfor å dele detaljert produktorientert innhold, {1} influenserne ofte produkter og tjenester i sitt allerede",
-      "etablerte innhold, et innhold som ofte er basert på dagliglivet deres. "
-    ],
-    "dropdownOptions": [
-      [
-        "egentlig",
-        "særlig",
-        "ganske",
-        "gjensidig"
-      ],
-      [
-        "innlemmer",
-        "fører",
-        "uteblir",
-        "vanskeliggjør"
-      ]
-    ],
-    "correct_answer": [
-      "egentlig",
-      "innlemmer"
-    ],
-    "difficulty": "B1"
-  },
+  "type": "sentence-dropdown",
+  "question": "Fyll inn ordene i teksten",
+  "sentenceParts": [
+    "Forskere fant bakteriefest i mikrobølgeovner.",
+    " Du trodde kanskje at det var vanskelig for bakterier å overleve i mikrobølgeovnen, siden den stadig varmes opp.",
+    " Det ser ikke ut til å {0}. En tallerken med et stykke iskald lasagne settes i mikrobølgeovnen.", 
+    " Etter noen minutter kommer det ut en rykende varm lasagne på en kald tallerken. Hvordan er det mulig?",
+    " Mikrobølgeovnen bruker elektromagnetiske bølger. De får molekyler – for eksempel vannmolekyler –",
+    " til å vibrere og varme lasagnen, men ikke tallerkenen.",
+    " I utgangspunktet drepes ikke bakteriene i mikrobølgeovnen, med mindre bakteriene utsettes for høy nok temperatur.",
+    "{1} kan mikrobølgeovnen din huse en bakteriefest hvis den ikke rengjøres regelmessig."
+
+  ],
+  "dropdownOptions": [
+    ["stemme", "løse", "granske", "mangle"],
+    ["derfor", "men", "så", "såpass"]
+  ],
+  "correct_answer": ["stemme", "derfor"],
+  "difficulty": "B1"
+},
+{
+  "type":"sentence-dropdown",
+  "question": "Fyll inn ordene i teksten",
+  "sentenceParts":[
+"Hvordan påvirker influensere deg, {0}?",
+" Influensere anerkjennes for evnen til å påvirke. Men det kan være vanskelig å forstå hvordan påvirkningen faktisk foregår.",
+" I løpet av det siste tiåret har influenserindustrien utviklet seg til å bli en etablert bransje verden over,", 
+" spesielt innenfor nisjer som mote, skjønnhet og livsstil.", 
+" Helt siden de første etablerte seg og raskt ble til et anerkjent fenomen for omkring et tiår siden,", 
+" har influensere vært mest kjent for livsstilen de selger, spesielt på plattformer som Fleksigram, LabLube og FlikFlok.",
+" Selgere av «ideelle» livsstiler.",
+" Tidligere forskning har pekt på at influensere er mer opptatt av å fremme livsstilen sin enn av å selge et spesifikt produkt.", 
+" Fremfor å dele detaljert produktorientert innhold, {1} influenserne ofte produkter og tjenester i sitt allerede", 
+" etablerte innhold, et innhold som ofte er basert på dagliglivet deres. "
+  ],
+  "dropdownOptions":[
+    ["egentlig", "særlig", "ganske", "gjensidig"],
+    ["innlemmer", "fører", "uteblir", "vanskeliggjør"]
+  ],
+  "correct_answer": ["egentlig", "innlemmer"],
+  "difficulty": "B1"
+},
   {
     "type": "multiple",
     "context": "Nord-Norge har blitt stadig mer populær opp igjennom årene.\nTuristene strømmer inn som bare det. Det er vel og bra. Men. Nå er det et stigende behov for boplasser i kalde nord.\nVondt blir verre når nærmere en tredjedel av boligene er kortidsleid av turister.\nBåde studenter og enkeltpersoner sliter med å finne husly når de leter på markedet.\nKommunene vurderer å innføre turistskatt for å gjøre kortidsleie mindre gunstig.",
     "question": "Velg riktig alternativ",
-    "options": [
-      "Det er ikke nok boplasser for turister i Nord-Norge",
-      "Kommunene får ikke tak i utleierne, og ber om hjelp",
-      "Det er vanskelig å finne en plass å bo for enkeltpersoner",
-      "Turistskatt vil gjøre det mindre gunstig for studenter"
-    ],
+    "options": ["Det er ikke nok boplasser for turister i Nord-Norge", 
+    "Kommunene får ikke tak i utleierne, og ber om hjelp", 
+    "Det er vanskelig å finne en plass å bo for enkeltpersoner", 
+    "Turistskatt vil gjøre det mindre gunstig for studenter"],
     "correct_answer": "Det er vanskelig å finne en plass å bo for enkeltpersoner",
-    "incorrect_answers": [
-      "Turistskatt vil gjøre det mindre gunstig for studenter",
-      "Kommunene får ikke tak i utleierne, og ber om hjelp",
-      "Det er ikke nok boplasser for turister i Nord-Norge"
-    ],
+    "incorrect_answers": ["Turistskatt vil gjøre det mindre gunstig for studenter", 
+    "Kommunene får ikke tak i utleierne, og ber om hjelp", "Det er ikke nok boplasser for turister i Nord-Norge"],
     "difficulty": "B1"
   },
-  {
+   {
     "type": "multiple",
     "context": "Anne:\n Jeg er veldig nøye med hva jeg spiser. Når jeg går inn i butikken så er jeg svært opptatt av at maten ikke er ultraprosessert. Dette betyr at maten er prosessert altfor mye. Jeg begriper ikke folk som makter å sprette en boks fiskeboller når man ser at utløpsdatoen er 5 år frem i tid! Det må jo være noe merkelig sprøytet inn i den hermetikkboksen.\nDet jeg spiser er grønnsaker, ferskt kjøtt, poteter og ris. Jeg kan gjerne bruke flere timer på kjøkkenet for å forberede middagen.\nJeg er ikke en slapping som bare varmer opp mat i mikrobølgeovnen.\nJeg spiser sjokolade bare når jeg er på tur på fjellet, da kan jeg kose meg med god samvittighet.\nKosthold er noe jeg prioriterer høyt i hverdagen for å si det sånn!\n\nTrond:\n Jeg vil si at jeg er en gjennomsnittlig nordmann. Jeg spiser kjøttkaker i brunsaus i ny og ne. Jeg slenger inn en grandis i ovnen når jeg føler for det, og er relativt slapp med å lage mat. 30 minutter på kjøkkenet er det som er min grense, maks.\nBåde kona og barna mine er fornøyd med taco på fredager og pizza på lørdager, og kanskje noe nytt på søndager.\nI hverdagen ønsker jeg bare å hive i meg maten og dra på fjellet rett etterpå, eller kanskje bare se på TV.\nNår jeg er ute med venner på byen kjøper jeg gjerne en kebab eller noe, det har jeg ikke noe imot.\nPå butikken pleier jeg bare å ta det på sparket, jeg finner ut hva jeg skal ha til middag der og da egentlig.\n\nRenate:\n Som veganer er jeg naturlignok opptatt av hva jeg får i meg om dagene. Jeg kan ikke bare kjøpe en burger liksom.\nDet som er fint, er at det er færre ting jeg kan spise i butikken. Ikke kjøtt, ikke melk, ikke egg. Så da ender jeg opp med å spise andre gode ting, som bønder, spaghetti, mais, potetgull! Det er ikke så ille som du tror! Mange av venninnene mine er også veganere, så jeg er ikke alene.\nProblemet er bare når jeg drar hjem til familien min på middag. Da må jeg få min egen rett hver gang. Familien skjønner ikke hvorfor jeg gjør det.\nMen jeg bryr meg ikke om hva andre mener. Jeg er bekymret over alle dyrene som blir drept og misbrukt. Jeg kunne aldri ha spist en gris som er blitt foret med alt mulig rart bare for å feite den opp! Det er bare feil i mine øyne.\nDen eneste ulempen er at det er lite utvalg av ferdigretter, derfor må jeg lage maten selv nesten hver gang.\n\nSivert:\n Som kokk er jeg naturligvis opptatt av å få i meg god mat. Perfeksjon er noe som kjennetegner meg. Men jeg vil si at mitt kosthold ikke er sunt nødvendigvis. Nesten hver dag spiser jeg store retter til både middag og lunsj. Da spiser jeg alt fra lasagne til indrefilet med ovnsbakte poteter.\nKona mi er bekymret over vekta mi. Jeg har stresset en del på jobb, og derfor spiser jeg mellom måltidene for å roe meg ned.\nI tillegg røyker jeg i pausene på arbeid, så jeg har ikke de beste vanene heller.\nMen jeg er så glad i mat at jeg ikke tror at jeg kan slutte å spise så god mat. Da vil jeg bli depresiv tror jeg.\nDet verste jeg vet er å spise kjedelige middager med overkokte poteter og kokt fisk. Det er bare døden.\n\nUnni:\n Jeg er ikke så glad i å spise mat egentlig. Jeg kan gjerne hoppe over et måltid fordi jeg ikke har matlyst.\nLegen har fortalt meg at jeg må få i meg mer om dagene, men jeg bare makter ikke å få i meg mer.\nHvis venner inviterer meg på middag kommer jeg så klart, jeg spiser også. Men det ligger som oftest rester igjen på tallerkenet.\nJeg føler meg som et barn i blant, kjæresten min sier at jeg må fullføre måltiden han har laget, men jeg sier alltid nei.\nNoe jeg elsker å spise derimot er sjokolade! Men jeg vet at det ikke er så sunt å bare spise dette.",
     "question": "Hvem holder seg unna meieriprodukter?",
-    "options": [
-      "Anne",
-      "Renate",
-      "Trond",
-      "Unni",
-      "Sivert"
-    ],
+    "options": ["Anne", 
+    "Renate", 
+    "Trond", 
+    "Unni",
+    "Sivert"],
     "correct_answer": "Renate",
-    "incorrect_answers": [
-      "Anne",
-      "Trond",
-      "Unni",
-      "Sivert"
-    ],
+    "incorrect_answers": ["Anne", 
+    "Trond", "Unni", "Sivert"],
     "difficulty": "B1"
   },
   {
     "type": "multiple",
     "context": "Anne:\n Jeg er veldig nøye med hva jeg spiser. Når jeg går inn i butikken så er jeg svært opptatt av at maten ikke er ultraprosessert. Dette betyr at maten er prosessert altfor mye. Jeg begriper ikke folk som makter å sprette en boks fiskeboller når man ser at utløpsdatoen er 5 år frem i tid! Det må jo være noe merkelig sprøytet inn i den hermetikkboksen.\nDet jeg spiser er grønnsaker, ferskt kjøtt, poteter og ris. Jeg kan gjerne bruke flere timer på kjøkkenet for å forberede middagen.\nJeg er ikke en slapping som bare varmer opp mat i mikrobølgeovnen.\nJeg spiser sjokolade bare når jeg er på tur på fjellet, da kan jeg kose meg med god samvittighet.\nKosthold er noe jeg prioriterer høyt i hverdagen for å si det sånn!\n\nTrond:\n Jeg vil si at jeg er en gjennomsnittlig nordmann. Jeg spiser kjøttkaker i brunsaus i ny og ne. Jeg slenger inn en grandis i ovnen når jeg føler for det, og er relativt slapp med å lage mat. 30 minutter på kjøkkenet er det som er min grense, maks.\nBåde kona og barna mine er fornøyd med taco på fredager og pizza på lørdager, og kanskje noe nytt på søndager.\nI hverdagen ønsker jeg bare å hive i meg maten og dra på fjellet rett etterpå, eller kanskje bare se på TV.\nNår jeg er ute med venner på byen kjøper jeg gjerne en kebab eller noe, det har jeg ikke noe imot.\nPå butikken pleier jeg bare å ta det på sparket, jeg finner ut hva jeg skal ha til middag der og da egentlig.\n\nRenate:\n Som veganer er jeg naturlignok opptatt av hva jeg får i meg om dagene. Jeg kan ikke bare kjøpe en burger liksom.\nDet som er fint, er at det er færre ting jeg kan spise i butikken. Ikke kjøtt, ikke melk, ikke egg. Så da ender jeg opp med å spise andre gode ting, som bønder, spaghetti, mais, potetgull! Det er ikke så ille som du tror! Mange av venninnene mine er også veganere, så jeg er ikke alene.\nProblemet er bare når jeg drar hjem til familien min på middag. Da må jeg få min egen rett hver gang. Familien skjønner ikke hvorfor jeg gjør det.\nMen jeg bryr meg ikke om hva andre mener. Jeg er bekymret over alle dyrene som blir drept og misbrukt. Jeg kunne aldri ha spist en gris som er blitt foret med alt mulig rart bare for å feite den opp! Det er bare feil i mine øyne.\nDen eneste ulempen er at det er lite utvalg av ferdigretter, derfor må jeg lage maten selv nesten hver gang.\n\nSivert:\n Som kokk er jeg naturligvis opptatt av å få i meg god mat. Perfeksjon er noe som kjennetegner meg. Men jeg vil si at mitt kosthold ikke er sunt nødvendigvis. Nesten hver dag spiser jeg store retter til både middag og lunsj. Da spiser jeg alt fra lasagne til indrefilet med ovnsbakte poteter.\nKona mi er bekymret over vekta mi. Jeg har stresset en del på jobb, og derfor spiser jeg mellom måltidene for å roe meg ned.\nI tillegg røyker jeg i pausene på arbeid, så jeg har ikke de beste vanene heller.\nMen jeg er så glad i mat at jeg ikke tror at jeg kan slutte å spise så god mat. Da vil jeg bli depresiv tror jeg.\nDet verste jeg vet er å spise kjedelige middager med overkokte poteter og kokt fisk. Det er bare døden.\n\nUnni:\n Jeg er ikke så glad i å spise mat egentlig. Jeg kan gjerne hoppe over et måltid fordi jeg ikke har matlyst.\nLegen har fortalt meg at jeg må få i meg mer om dagene, men jeg bare makter ikke å få i meg mer.\nHvis venner inviterer meg på middag kommer jeg så klart, jeg spiser også. Men det ligger som oftest rester igjen på tallerkenet.\nJeg føler meg som et barn i blant, kjæresten min sier at jeg må fullføre måltiden han har laget, men jeg sier alltid nei.\nNoe jeg elsker å spise derimot er sjokolade! Men jeg vet at det ikke er så sunt å bare spise dette.",
     "question": "Hvem går inn i butikken uten en plan?",
-    "options": [
-      "Anne",
-      "Renate",
-      "Trond",
-      "Unni",
-      "Sivert"
-    ],
+    "options": ["Anne", 
+    "Renate", 
+    "Trond", 
+    "Unni",
+    "Sivert"],
     "correct_answer": "Trond",
-    "incorrect_answers": [
-      "Anne",
-      "Renate",
-      "Unni",
-      "Sivert"
-    ],
+    "incorrect_answers": ["Anne", 
+    "Renate", "Unni", "Sivert"],
     "difficulty": "B1"
   },
   {
     "type": "multiple",
     "context": "Anne:\n Jeg er veldig nøye med hva jeg spiser. Når jeg går inn i butikken så er jeg svært opptatt av at maten ikke er ultraprosessert. Dette betyr at maten er prosessert altfor mye. Jeg begriper ikke folk som makter å sprette en boks fiskeboller når man ser at utløpsdatoen er 5 år frem i tid! Det må jo være noe merkelig sprøytet inn i den hermetikkboksen.\nDet jeg spiser er grønnsaker, ferskt kjøtt, poteter og ris. Jeg kan gjerne bruke flere timer på kjøkkenet for å forberede middagen.\nJeg er ikke en slapping som bare varmer opp mat i mikrobølgeovnen.\nJeg spiser sjokolade bare når jeg er på tur på fjellet, da kan jeg kose meg med god samvittighet.\nKosthold er noe jeg prioriterer høyt i hverdagen for å si det sånn!\n\nTrond:\n Jeg vil si at jeg er en gjennomsnittlig nordmann. Jeg spiser kjøttkaker i brunsaus i ny og ne. Jeg slenger inn en grandis i ovnen når jeg føler for det, og er relativt slapp med å lage mat. 30 minutter på kjøkkenet er det som er min grense, maks.\nBåde kona og barna mine er fornøyd med taco på fredager og pizza på lørdager, og kanskje noe nytt på søndager.\nI hverdagen ønsker jeg bare å hive i meg maten og dra på fjellet rett etterpå, eller kanskje bare se på TV.\nNår jeg er ute med venner på byen kjøper jeg gjerne en kebab eller noe, det har jeg ikke noe imot.\nPå butikken pleier jeg bare å ta det på sparket, jeg finner ut hva jeg skal ha til middag der og da egentlig.\n\nRenate:\n Som veganer er jeg naturlignok opptatt av hva jeg får i meg om dagene. Jeg kan ikke bare kjøpe en burger liksom.\nDet som er fint, er at det er færre ting jeg kan spise i butikken. Ikke kjøtt, ikke melk, ikke egg. Så da ender jeg opp med å spise andre gode ting, som bønder, spaghetti, mais, potetgull! Det er ikke så ille som du tror! Mange av venninnene mine er også veganere, så jeg er ikke alene.\nProblemet er bare når jeg drar hjem til familien min på middag. Da må jeg få min egen rett hver gang. Familien skjønner ikke hvorfor jeg gjør det.\nMen jeg bryr meg ikke om hva andre mener. Jeg er bekymret over alle dyrene som blir drept og misbrukt. Jeg kunne aldri ha spist en gris som er blitt foret med alt mulig rart bare for å feite den opp! Det er bare feil i mine øyne.\nDen eneste ulempen er at det er lite utvalg av ferdigretter, derfor må jeg lage maten selv nesten hver gang.\n\nSivert:\n Som kokk er jeg naturligvis opptatt av å få i meg god mat. Perfeksjon er noe som kjennetegner meg. Men jeg vil si at mitt kosthold ikke er sunt nødvendigvis. Nesten hver dag spiser jeg store retter til både middag og lunsj. Da spiser jeg alt fra lasagne til indrefilet med ovnsbakte poteter.\nKona mi er bekymret over vekta mi. Jeg har stresset en del på jobb, og derfor spiser jeg mellom måltidene for å roe meg ned.\nI tillegg røyker jeg i pausene på arbeid, så jeg har ikke de beste vanene heller.\nMen jeg er så glad i mat at jeg ikke tror at jeg kan slutte å spise så god mat. Da vil jeg bli depresiv tror jeg.\nDet verste jeg vet er å spise kjedelige middager med overkokte poteter og kokt fisk. Det er bare døden.\n\nUnni:\n Jeg er ikke så glad i å spise mat egentlig. Jeg kan gjerne hoppe over et måltid fordi jeg ikke har matlyst.\nLegen har fortalt meg at jeg må få i meg mer om dagene, men jeg bare makter ikke å få i meg mer.\nHvis venner inviterer meg på middag kommer jeg så klart, jeg spiser også. Men det ligger som oftest rester igjen på tallerkenet.\nJeg føler meg som et barn i blant, kjæresten min sier at jeg må fullføre måltiden han har laget, men jeg sier alltid nei.\nNoe jeg elsker å spise derimot er sjokolade! Men jeg vet at det ikke er så sunt å bare spise dette.",
     "question": "Hvem har behov for å legge på seg litt?",
-    "options": [
-      "Anne",
-      "Renate",
-      "Trond",
-      "Unni",
-      "Sivert"
-    ],
+    "options": ["Anne", 
+    "Renate", 
+    "Trond", 
+    "Unni",
+    "Sivert"],
     "correct_answer": "Unni",
-    "incorrect_answers": [
-      "Anne",
-      "Trond",
-      "Renate",
-      "Sivert"
-    ],
+    "incorrect_answers": ["Anne", 
+    "Trond", "Renate", "Sivert"],
     "difficulty": "B1"
   },
-  {
+    {
     "type": "multiple",
     "context": "Anne:\n Jeg er veldig nøye med hva jeg spiser. Når jeg går inn i butikken så er jeg svært opptatt av at maten ikke er ultraprosessert. Dette betyr at maten er prosessert altfor mye. Jeg begriper ikke folk som makter å sprette en boks fiskeboller når man ser at utløpsdatoen er 5 år frem i tid! Det må jo være noe merkelig sprøytet inn i den hermetikkboksen.\nDet jeg spiser er grønnsaker, ferskt kjøtt, poteter og ris. Jeg kan gjerne bruke flere timer på kjøkkenet for å forberede middagen.\nJeg er ikke en slapping som bare varmer opp mat i mikrobølgeovnen.\nJeg spiser sjokolade bare når jeg er på tur på fjellet, da kan jeg kose meg med god samvittighet.\nKosthold er noe jeg prioriterer høyt i hverdagen for å si det sånn!\n\nTrond:\n Jeg vil si at jeg er en gjennomsnittlig nordmann. Jeg spiser kjøttkaker i brunsaus i ny og ne. Jeg slenger inn en grandis i ovnen når jeg føler for det, og er relativt slapp med å lage mat. 30 minutter på kjøkkenet er det som er min grense, maks.\nBåde kona og barna mine er fornøyd med taco på fredager og pizza på lørdager, og kanskje noe nytt på søndager.\nI hverdagen ønsker jeg bare å hive i meg maten og dra på fjellet rett etterpå, eller kanskje bare se på TV.\nNår jeg er ute med venner på byen kjøper jeg gjerne en kebab eller noe, det har jeg ikke noe imot.\nPå butikken pleier jeg bare å ta det på sparket, jeg finner ut hva jeg skal ha til middag der og da egentlig.\n\nRenate:\n Som veganer er jeg naturlignok opptatt av hva jeg får i meg om dagene. Jeg kan ikke bare kjøpe en burger liksom.\nDet som er fint, er at det er færre ting jeg kan spise i butikken. Ikke kjøtt, ikke melk, ikke egg. Så da ender jeg opp med å spise andre gode ting, som bønder, spaghetti, mais, potetgull! Det er ikke så ille som du tror! Mange av venninnene mine er også veganere, så jeg er ikke alene.\nProblemet er bare når jeg drar hjem til familien min på middag. Da må jeg få min egen rett hver gang. Familien skjønner ikke hvorfor jeg gjør det.\nMen jeg bryr meg ikke om hva andre mener. Jeg er bekymret over alle dyrene som blir drept og misbrukt. Jeg kunne aldri ha spist en gris som er blitt foret med alt mulig rart bare for å feite den opp! Det er bare feil i mine øyne.\nDen eneste ulempen er at det er lite utvalg av ferdigretter, derfor må jeg lage maten selv nesten hver gang.\n\nSivert:\n Som kokk er jeg naturligvis opptatt av å få i meg god mat. Perfeksjon er noe som kjennetegner meg. Men jeg vil si at mitt kosthold ikke er sunt nødvendigvis. Nesten hver dag spiser jeg store retter til både middag og lunsj. Da spiser jeg alt fra lasagne til indrefilet med ovnsbakte poteter.\nKona mi er bekymret over vekta mi. Jeg har stresset en del på jobb, og derfor spiser jeg mellom måltidene for å roe meg ned.\nI tillegg røyker jeg i pausene på arbeid, så jeg har ikke de beste vanene heller.\nMen jeg er så glad i mat at jeg ikke tror at jeg kan slutte å spise så god mat. Da vil jeg bli depresiv tror jeg.\nDet verste jeg vet er å spise kjedelige middager med overkokte poteter og kokt fisk. Det er bare døden.\n\nUnni:\n Jeg er ikke så glad i å spise mat egentlig. Jeg kan gjerne hoppe over et måltid fordi jeg ikke har matlyst.\nLegen har fortalt meg at jeg må få i meg mer om dagene, men jeg bare makter ikke å få i meg mer.\nHvis venner inviterer meg på middag kommer jeg så klart, jeg spiser også. Men det ligger som oftest rester igjen på tallerkenet.\nJeg føler meg som et barn i blant, kjæresten min sier at jeg må fullføre måltiden han har laget, men jeg sier alltid nei.\nNoe jeg elsker å spise derimot er sjokolade! Men jeg vet at det ikke er så sunt å bare spise dette.",
     "question": "Hvem føler seg som typisk norsk?",
-    "options": [
-      "Anne",
-      "Renate",
-      "Trond",
-      "Unni",
-      "Sivert"
-    ],
+    "options": ["Anne", 
+    "Renate", 
+    "Trond", 
+    "Unni",
+    "Sivert"],
     "correct_answer": "Trond",
-    "incorrect_answers": [
-      "Anne",
-      "Unni",
-      "Renate",
-      "Sivert"
-    ],
+    "incorrect_answers": ["Anne", 
+    "Unni", "Renate", "Sivert"],
     "difficulty": "B1"
   },
   {
     "type": "multiple",
     "context": "Anne:\n Jeg er veldig nøye med hva jeg spiser. Når jeg går inn i butikken så er jeg svært opptatt av at maten ikke er ultraprosessert. Dette betyr at maten er prosessert altfor mye. Jeg begriper ikke folk som makter å sprette en boks fiskeboller når man ser at utløpsdatoen er 5 år frem i tid! Det må jo være noe merkelig sprøytet inn i den hermetikkboksen.\nDet jeg spiser er grønnsaker, ferskt kjøtt, poteter og ris. Jeg kan gjerne bruke flere timer på kjøkkenet for å forberede middagen.\nJeg er ikke en slapping som bare varmer opp mat i mikrobølgeovnen.\nJeg spiser sjokolade bare når jeg er på tur på fjellet, da kan jeg kose meg med god samvittighet.\nKosthold er noe jeg prioriterer høyt i hverdagen for å si det sånn!\n\nTrond:\n Jeg vil si at jeg er en gjennomsnittlig nordmann. Jeg spiser kjøttkaker i brunsaus i ny og ne. Jeg slenger inn en grandis i ovnen når jeg føler for det, og er relativt slapp med å lage mat. 30 minutter på kjøkkenet er det som er min grense, maks.\nBåde kona og barna mine er fornøyd med taco på fredager og pizza på lørdager, og kanskje noe nytt på søndager.\nI hverdagen ønsker jeg bare å hive i meg maten og dra på fjellet rett etterpå, eller kanskje bare se på TV.\nNår jeg er ute med venner på byen kjøper jeg gjerne en kebab eller noe, det har jeg ikke noe imot.\nPå butikken pleier jeg bare å ta det på sparket, jeg finner ut hva jeg skal ha til middag der og da egentlig.\n\nRenate:\n Som veganer er jeg naturlignok opptatt av hva jeg får i meg om dagene. Jeg kan ikke bare kjøpe en burger liksom.\nDet som er fint, er at det er færre ting jeg kan spise i butikken. Ikke kjøtt, ikke melk, ikke egg. Så da ender jeg opp med å spise andre gode ting, som bønder, spaghetti, mais, potetgull! Det er ikke så ille som du tror! Mange av venninnene mine er også veganere, så jeg er ikke alene.\nProblemet er bare når jeg drar hjem til familien min på middag. Da må jeg få min egen rett hver gang. Familien skjønner ikke hvorfor jeg gjør det.\nMen jeg bryr meg ikke om hva andre mener. Jeg er bekymret over alle dyrene som blir drept og misbrukt. Jeg kunne aldri ha spist en gris som er blitt foret med alt mulig rart bare for å feite den opp! Det er bare feil i mine øyne.\nDen eneste ulempen er at det er lite utvalg av ferdigretter, derfor må jeg lage maten selv nesten hver gang.\n\nSivert:\n Som kokk er jeg naturligvis opptatt av å få i meg god mat. Perfeksjon er noe som kjennetegner meg. Men jeg vil si at mitt kosthold ikke er sunt nødvendigvis. Nesten hver dag spiser jeg store retter til både middag og lunsj. Da spiser jeg alt fra lasagne til indrefilet med ovnsbakte poteter.\nKona mi er bekymret over vekta mi. Jeg har stresset en del på jobb, og derfor spiser jeg mellom måltidene for å roe meg ned.\nI tillegg røyker jeg i pausene på arbeid, så jeg har ikke de beste vanene heller.\nMen jeg er så glad i mat at jeg ikke tror at jeg kan slutte å spise så god mat. Da vil jeg bli depresiv tror jeg.\nDet verste jeg vet er å spise kjedelige middager med overkokte poteter og kokt fisk. Det er bare døden.\n\nUnni:\n Jeg er ikke så glad i å spise mat egentlig. Jeg kan gjerne hoppe over et måltid fordi jeg ikke har matlyst.\nLegen har fortalt meg at jeg må få i meg mer om dagene, men jeg bare makter ikke å få i meg mer.\nHvis venner inviterer meg på middag kommer jeg så klart, jeg spiser også. Men det ligger som oftest rester igjen på tallerkenet.\nJeg føler meg som et barn i blant, kjæresten min sier at jeg må fullføre måltiden han har laget, men jeg sier alltid nei.\nNoe jeg elsker å spise derimot er sjokolade! Men jeg vet at det ikke er så sunt å bare spise dette.",
     "question": "Hvem ville ha lest av etikettene til alle produktene?",
-    "options": [
-      "Anne",
-      "Renate",
-      "Trond",
-      "Unni",
-      "Sivert"
-    ],
+    "options": ["Anne", 
+    "Renate", 
+    "Trond", 
+    "Unni",
+    "Sivert"],
     "correct_answer": "Anne",
-    "incorrect_answers": [
-      "Trond",
-      "Unni",
-      "Renate",
-      "Sivert"
-    ],
+    "incorrect_answers": ["Trond", 
+    "Unni", "Renate", "Sivert"],
     "difficulty": "B1"
   }
 ]

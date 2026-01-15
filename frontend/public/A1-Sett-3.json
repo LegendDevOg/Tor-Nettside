@@ -27,16 +27,16 @@
   "type": "image-click",
   "question": "Hvilken dato har de hviledag?",
   "context": "I siste uken i oktober har fotballaget trening på mandag til torsdag.\nHviledag på fredag, og på lørdag har de kamp.",
-  "image": "kalender.png",
-  "correctArea": { "x": 553, "y": 366, "radius": 45 },
+  "image": "kalender2.png",
+  "correctArea": { "x": 1310, "y": 855, "radius": 90 },
   "difficulty": "A1-A2"
 },
 {
   "type": "image-click",
   "question": "Hvilken dato vasker Ekteparet Olsen huset sitt?",
   "context": "Første uken i oktober vasker ekteparet Olsen huset sitt.\nMandag til fredag har de jobb. På lørdag er de på hytta.\nMen på søndag har de tid til å vaske.",
-  "image": "kalender.png",
-  "correctArea": { "x": 745, "y": 126, "radius": 45 },
+  "image": "kalender2.png",
+  "correctArea": { "x": 1775, "y": 275, "radius": 90 },
   "difficulty": "A1-A2"
 },  
 {
