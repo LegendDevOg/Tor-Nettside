@@ -156,7 +156,6 @@ function Success() {
   
   const score = Math.floor((correctAnswersCount * 100) / allQuestion.length);
   const indxColor = score >= 60 ? "#22c55e" : score >= 30 ? "#f59e0b" : "#de5858";
-  const showButton = score >= 60;
   const text =
     score < 60
       ? "You got less than 60%, with practice you'll improve!"

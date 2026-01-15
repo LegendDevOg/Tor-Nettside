@@ -457,7 +457,7 @@ function SingleQuestion() {
                 className="text-lg font-semibold text-primary-800"
                 dangerouslySetInnerHTML={{ __html: singleQuestion.instruction }}
               />
-             </div>
+            </div>
           )}
 
           {/* Question Navigator - Hide for lytting mode */}
