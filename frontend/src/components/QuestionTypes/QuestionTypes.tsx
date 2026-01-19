@@ -376,6 +376,8 @@ export function ImageClickAreaQuestion({
   summary,
   userAnswer,
   questionId,
+  showContinueButton = false,
+  onContinue,
 }: {
   question: string;
   context?: string;
@@ -386,10 +388,13 @@ export function ImageClickAreaQuestion({
   difficulty?: string;
   userAnswer?: string;
   questionId?: number;
+  showContinueButton?: boolean;
+  onContinue?: () => void;
 }) {
   const imgRef = useRef<HTMLImageElement>(null);
   const [clickedPosition, setClickedPosition] = useState<{ x: number; y: number } | null>(null);
   const [imageSize, setImageSize] = useState({ width: 1, height: 1 });
+  const [hasAnswered, setHasAnswered] = useState(false);
 
   // Update image size when loaded
   useEffect(() => {
@@ -412,14 +417,16 @@ export function ImageClickAreaQuestion({
       const [x, y] = userAnswer.split("|");
       if (x && y) {
         setClickedPosition({ x: parseFloat(x), y: parseFloat(y) });
+        setHasAnswered(true);
       }
     } else {
       setClickedPosition(null);
+      setHasAnswered(false);
     }
   }, [questionId, userAnswer]);
 
   const onImageClick = (e: React.MouseEvent<HTMLImageElement>) => {
-    if (summary || !imgRef.current) return;
+    if (summary || !imgRef.current || hasAnswered) return;
 
     const rect = imgRef.current.getBoundingClientRect();
     const scaleX = imgRef.current.naturalWidth / rect.width;
@@ -438,6 +445,7 @@ export function ImageClickAreaQuestion({
 
     // Show the click immediately
     setClickedPosition({ x: clickX, y: clickY });
+    setHasAnswered(true);
 
     // Lagre som "x|y|correct/wrong"
     handleClick(`${Math.round(clickX)}|${Math.round(clickY)}|${correct ? "correct" : "wrong"}`);
@@ -452,7 +460,7 @@ export function ImageClickAreaQuestion({
           ref={imgRef}
           src={image.startsWith('/') ? image : `/images/${image}`}
           onClick={onImageClick}
-          className="w-full h-auto object-contain rounded-lg cursor-pointer"
+          className={`w-full h-auto object-contain rounded-lg ${!hasAnswered && !summary ? 'cursor-pointer' : 'cursor-default'}`}
           alt="question"
         />
 
@@ -475,11 +483,19 @@ export function ImageClickAreaQuestion({
         )}
       </div>
 
-      {!summary && !clickedPosition && question && (
+      {!summary && !hasAnswered && question && (
         <p className="text-xs text-gray-500 text-center">Klikk på riktig sted i bildet.</p>
       )}
-      {!summary && clickedPosition && (
+      {!summary && hasAnswered && !showContinueButton && (
         <p className="text-sm font-medium text-primary-600 text-center">✓ Svar registrert</p>
+      )}
+      {!summary && hasAnswered && showContinueButton && onContinue && (
+        <button
+          onClick={onContinue}
+          className="px-6 py-2 rounded-full font-semibold text-white text-lg shadow-md transition bg-primary-500 hover:bg-primary-600 mt-4"
+        >
+          Fortsett
+        </button>
       )}
     </div>
   );

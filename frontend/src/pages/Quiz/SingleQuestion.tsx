@@ -160,17 +160,19 @@ function SingleQuestion() {
 
               correctness === "correct" ? trueAction() : falseAction();
 
-              // For lytting mode, don't auto-advance - wait for audio to end
-              // For lesing mode, advance immediately
-              if (!isLytting) {
-                nextPage();
-                navigate(page === allQuestions.length ? "/finish" : `/question/${category}/${id}/${set}`);
-              }
+              // Don't auto-advance for either mode
+              // Lytting mode waits for audio to end
+              // Lesing mode waits for user to click continue button
             }}
             summary={false}
             // difficulty={singleQuestion.difficulty || ""}
             userAnswer={userAnswer?.answer}
             questionId={page}
+            showContinueButton={!isLytting}
+            onContinue={() => {
+              nextPage();
+              navigate(page === allQuestions.length ? "/finish" : `/question/${category}/${id}/${set}`);
+            }}
           />
         );
       case "image":
