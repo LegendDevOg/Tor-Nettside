@@ -467,7 +467,7 @@ function SingleQuestion() {
 
           {/* Navigation Buttons - Hide for lytting mode */}
           {!isLytting && (
-            <div className="flex justify-between items-center mb-6 gap-4">
+            <div className="flex justify-between items-center mb-12 gap-4">
               <button
                 onClick={handlePrevious}
                 disabled={page === 1}
